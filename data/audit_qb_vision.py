@@ -335,3 +335,22 @@ def main() -> None:
         )
         if args.sleep > 0:
             time.sleep(args.sleep)
+
+    fails = [x for x in results if not (x.get("verdict") or {}).get("pass")]
+    print(
+        json.dumps(
+            {
+                "done": len(results),
+                "pass": sum(1 for x in results if (x.get("verdict") or {}).get("pass")),
+                "fail": len(fails),
+                "out": str(out_path),
+                "fail_eids": [x.get("eid") for x in fails[:40]],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()
