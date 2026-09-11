@@ -1,0 +1,54 @@
+{
+  "schema_version": "state_ir_v1",
+  "diagram_type": "state",
+  "layout": "auto",
+  "title": "fig_6_4_7",
+  "states": [
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "transitions": [
+    {
+      "from": "S0",
+      "to": "S0",
+      "label": "0/0"
+    },
+    {
+      "from": "S0",
+      "to": "S1",
+      "label": "1/0"
+    },
+    {
+      "from": "S1",
+      "to": "S0",
+      "label": "0/0"
+    },
+    {
+      "from": "S1",
+      "to": "S2",
+      "label": "1/0"
+    },
+    {
+      "from": "S2",
+      "to": "S0",
+      "label": "0/0"
+    },
+    {
+      "from": "S2",
+      "to": "S3",
+      "label": "1/1"
+    },
+    {
+      "from": "S3",
+      "to": "S0",
+      "label": "0/0"
+    },
+    {
+      "from": "S3",
+      "to": "S3",
+      "label": "1/1"
+    }
+  ]
+}

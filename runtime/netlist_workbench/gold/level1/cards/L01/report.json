@@ -1,0 +1,126 @@
+{
+  "id": "L01",
+  "fig_id": "2.5.2",
+  "caption": "举重裁判逻辑图 Y=A·(B+C)",
+  "image": "../../textbook_figures/logic_dag/fig_2_5_2.jpg",
+  "combinational": true,
+  "sim_ok": true,
+  "sim_reason": "ok",
+  "sim_rows": 8,
+  "sim_samples": [
+    {
+      "inputs": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 0,
+        "B": 0,
+        "C": 1
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 0,
+        "B": 1,
+        "C": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 0,
+        "B": 1,
+        "C": 1
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 1,
+        "B": 0,
+        "C": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 1,
+        "B": 0,
+        "C": 1
+      },
+      "outputs": {
+        "Y": 1
+      }
+    },
+    {
+      "inputs": {
+        "A": 1,
+        "B": 1,
+        "C": 0
+      },
+      "outputs": {
+        "Y": 1
+      }
+    },
+    {
+      "inputs": {
+        "A": 1,
+        "B": 1,
+        "C": 1
+      },
+      "outputs": {
+        "Y": 1
+      }
+    }
+  ],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": true,
+  "self_grade": "SELF_OK",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=8"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=2 ir_gates=2"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=3157"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "multi_gates": 0,
+  "fallback_splits": 0,
+  "notes": "Y=A*(B+C)"
+}

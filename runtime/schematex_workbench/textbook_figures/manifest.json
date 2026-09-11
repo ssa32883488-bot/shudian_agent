@@ -1,0 +1,1358 @@
+{
+  "generated_at": "2026-08-29T13:24:17.294Z",
+  "kinds": {
+    "logic_dag": {
+      "count": 82,
+      "schematex_header": "logic",
+      "items": [
+        {
+          "fig_id": "2.5.2",
+          "caption": "描述图2.5.1电路逻辑功能的逻辑图",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_5_2.jpg",
+          "source_hash": "d4d5230cfe3f79486c5866159d4179f604ae8cd3472bc8b1b6a79051e343c025.jpg"
+        },
+        {
+          "fig_id": "2.5.4",
+          "caption": "例2.5.3的逻辑图",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_5_4.jpg",
+          "source_hash": "3cdc828a80cc61497d1814b88230dbdf1e1159e4b4a67f5a1bb636152b7388e6.jpg"
+        },
+        {
+          "fig_id": "2.5.5",
+          "caption": "例2.5.4的逻辑图",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_5_5.jpg",
+          "source_hash": "525fd3b018cf075c0793242544068331b971208bedff58e1483d392b61c43cfd.jpg"
+        },
+        {
+          "fig_id": "2.8.2",
+          "caption": "根据式(2.8.2)得到的逻辑电路图",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_8_2.jpg",
+          "source_hash": "e54e2cf054e3623fd8ff8b78d002ba7fa35860d68b9c2c792781939bbb2b004e.jpg"
+        },
+        {
+          "fig_id": "2.8.4",
+          "caption": "根据式(2.8.3)得到的逻辑电路图",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_8_4.jpg",
+          "source_hash": "d596482eec7fa2076f8496d14682916f8c4735ce7a38f0dd6c3b577eebb1fbdf.jpg"
+        },
+        {
+          "fig_id": "2.9.2",
+          "caption": "按照式(2.9.2)接成的逻辑电路",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_9_2.jpg",
+          "source_hash": "98ac086640bc097e188197bf19bec290a3109d7d0924c1766b85a5348a377966.jpg"
+        },
+        {
+          "fig_id": "2.9.3",
+          "caption": "按照式(2.9.3)接成的逻辑电路",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_9_3.jpg",
+          "source_hash": "1779bafb463c7a45bcda00ab89411f6b22468d4deaa058005214ac0f33601173.jpg"
+        },
+        {
+          "fig_id": "2.9.4",
+          "caption": "按照式(2.9.5)接成的逻辑电路",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_9_4.jpg",
+          "source_hash": "e2a59c6d0b8c98e1518180d79b87d4ef83ce1275f28b579d13291039918b6dff.jpg"
+        },
+        {
+          "fig_id": "2.9.5",
+          "caption": "按照式(2.9.6)接成的逻辑电路",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "logic_dag/fig_2_9_5.jpg",
+          "source_hash": "6d1accf15e3cd4b9d968e850354164e37c199c7759532a9d10f29dd46c693c94.jpg"
+        },
+        {
+          "fig_id": "3.4.34",
+          "caption": "OC 门输出并联的接法及逻辑图",
+          "chapter": "05_第03章_门电路.md",
+          "file": "logic_dag/fig_3_4_34.jpg",
+          "source_hash": "0a49cfd15f1c67273e416e5ae86ca3798daf907c955f503506aedd86b909c301.jpg"
+        },
+        {
+          "fig_id": "4.1.1",
+          "caption": "组合逻辑电路实例",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_1_1.jpg",
+          "source_hash": "c580ee467d2ebea42e990062fbacbd4dc343095a4951c46d65dc080e7b01be5a.jpg"
+        },
+        {
+          "fig_id": "4.3.1",
+          "caption": "组合逻辑电路的基本设计过程",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_3_1.jpg",
+          "source_hash": "057e37adba1c86cf1eca96da77c737778479cf0531fd4214424774210b9e7578.jpg"
+        },
+        {
+          "fig_id": "4.3.3",
+          "caption": "例4.3.1的逻辑图之一",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_3_3.jpg",
+          "source_hash": "bdeab0c69ad672d3738ca50386bcd051fac96e1ec792e20a6d9c8fe20cc8d62b.jpg"
+        },
+        {
+          "fig_id": "4.3.4",
+          "caption": "例4.3.1的逻辑图之二",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_3_4.jpg",
+          "source_hash": "90e503b47ed55f2198fcb9d9d9dc913df8f8cdb4da8e0cb8df49504b79d11bc3.jpg"
+        },
+        {
+          "fig_id": "4.3.6",
+          "caption": "例4.3.1的逻辑图之三",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_3_6.jpg",
+          "source_hash": "bd3b0f09770a2d31df3d96d1f717cd9e23c062159ba5877d8ee196bd05aafe4e.jpg"
+        },
+        {
+          "fig_id": "4.4.2",
+          "caption": "3 位二进制编码器",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_2.jpg",
+          "source_hash": "2e7b37c375cc2c94b19f597b358473af86312695e9ca1148bc03aa415bfd4abd.jpg"
+        },
+        {
+          "fig_id": "4.4.3",
+          "caption": "8 线-3 线优先编码器 74HC148",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_3.jpg",
+          "source_hash": "c2fc46ddd951f1b401142fca716c97de4e01a0f8a444e92e89a5840d0448bd93.jpg"
+        },
+        {
+          "fig_id": "4.4.4",
+          "caption": "二-十进制优先编码器 74HC147",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_4.jpg",
+          "source_hash": "33a25fe36e2d1655850a8a32c7baf0047d126690f480ccdebae62aaecfcb59c7.jpg"
+        },
+        {
+          "fig_id": "4.4.7",
+          "caption": "用与非门组成的 3 线-8 线译码器 74HC138",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_7.jpg",
+          "source_hash": "10ef829e6f519656a986985946171e403740f924c0ff3e66414e0513648f7dec.jpg"
+        },
+        {
+          "fig_id": "4.4.9",
+          "caption": "二-十进制译码器 74HC42",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_9.jpg",
+          "source_hash": "eaf2495d9713f442dec3f0073cbcd08ae32b3db84a7ed4a870ec6e94990877e3.jpg"
+        },
+        {
+          "fig_id": "4.4.19",
+          "caption": "二选一数据选择器",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_19.jpg",
+          "source_hash": "ec6be40f2b4804593678db9b3b81d9f890cae5b785057af99ff9917e1f3e2808.jpg"
+        },
+        {
+          "fig_id": "4.4.20",
+          "caption": "双 4 选 1 数据选择器 74HC153",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_20.jpg",
+          "source_hash": "dbca1c7b26565cddbb663c064c2a3a272d96c4c66ae086adb2d42085e77ebe0b.jpg"
+        },
+        {
+          "fig_id": "4.4.21",
+          "caption": "半加器",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_21.jpg",
+          "source_hash": "314a475d1bef772eb71576388feef4bfbbd0c104d8fca48e759ee86146fbf670.jpg"
+        },
+        {
+          "fig_id": "4.4.23",
+          "caption": "双全加器 74LS183",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_23.jpg",
+          "source_hash": "f0cbd2a74be1f7992539931896483d7ae15fbf5a5345834ac024ab44ce54977d.jpg"
+        },
+        {
+          "fig_id": "4.5.1",
+          "caption": "用两片 74HC148 接成的 16 线-4 线优先编码器",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_5_1.jpg",
+          "source_hash": "9563d94065fbb96145c749220e630b788b4d5ee0abb46579c599b7d6d04ac213.jpg"
+        },
+        {
+          "fig_id": "4.5.2",
+          "caption": "用两片 74HCI38 接成的 4 线 -16 线译码器",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_5_2.jpg",
+          "source_hash": "fee4b6880ab6bc0b659a65a6ebb405ac87cb395683664bece92e1e060ff9b7bb.jpg"
+        },
+        {
+          "fig_id": "4.5.4",
+          "caption": "所示, 则数据选择器的输出就是式 (4.5.4) 所要求的逻辑函数 Z。",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_5_4.jpg",
+          "source_hash": "20ad605cd67023cb5cd3a4640f84148e720eb83c426e3bb2b8da1af4f799ef68.jpg"
+        },
+        {
+          "fig_id": "4.7.1",
+          "caption": "所示的 2 选 1 数据选择器为例, 若用 Verilog HDL 对它作行为描述, 则可写成下面的程序模块。",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_7_1.jpg",
+          "source_hash": "6c4b7ab4c066a79d2a441e00fc73ed9704e460d1b4aa74beeb51816cae2230f6.jpg"
+        },
+        {
+          "fig_id": "4.7.2",
+          "caption": "2选1数据选择器的电路原理图",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_7_2.jpg",
+          "source_hash": "16c06988ad6e5f9276b8d77959d6ba81f6fe8dea086e8dd37931354ba75d1697.jpg"
+        },
+        {
+          "fig_id": "4.7.4",
+          "caption": "例 4.7.1 中的 1 位全加器电路",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_7_4.jpg",
+          "source_hash": "cb02491cda5ff2800380669584e26b1538a249a384d961e0eb37d0ee5c19a4f0.jpg"
+        },
+        {
+          "fig_id": "4.9.2",
+          "caption": "2 线-4 线译码器中的竞争-冒险现象",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_9_2.jpg",
+          "source_hash": "14b1da62cbf40d9b3379df5dabfb836e672b5a85e1465506b65b95edd3fe54a3.jpg"
+        },
+        {
+          "fig_id": "4.4.3",
+          "caption": "。允许附加必要的门电路。",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_3_e598df57.jpg",
+          "source_hash": "e598df5703c2e7a8c5291f992e324ccf8d77a23848b8aa9ad346c4c5552138d2.jpg"
+        },
+        {
+          "fig_id": "4.4.7",
+          "caption": "）和门电路产生如下多输出逻辑函数的逻辑图。",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_4_7_8a9277ca.jpg",
+          "source_hash": "8a9277ca0d2e6423cf38866a654e6b750f0901bac84876320162046bd7c62c16.jpg"
+        },
+        {
+          "fig_id": "4.5.5",
+          "caption": ") 产生逻辑函数",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "logic_dag/fig_4_5_5.jpg",
+          "source_hash": "f8ba0cc64870dc29b6591341379f71193524ac99f7b8ee23b81c72da1e6ff024.jpg"
+        },
+        {
+          "fig_id": "5.2.1",
+          "caption": "用或非门组成的锁存器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_2_1.jpg",
+          "source_hash": "5083f64a3adc1e4d62ae1d2aa3b7d74f867e15c4ba040eb013e9c090b334aa76.jpg"
+        },
+        {
+          "fig_id": "5.2.2",
+          "caption": "用与非门组成的 SR 锁存器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_2_2.jpg",
+          "source_hash": "046c8fd64f734b249c1ab20c4dd7f783c0a8ff97e6f5eb02efffd44ab23380b8.jpg"
+        },
+        {
+          "fig_id": "5.3.1",
+          "caption": "电平触发 SR 触发器（门控 SR 锁存器）",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_1.jpg",
+          "source_hash": "4c3fb17722826c36f287dd5607a6b2f3aa2b160d0c2048b483072f7c15773dd9.jpg"
+        },
+        {
+          "fig_id": "5.3.2",
+          "caption": "带异步置位、复位端的电平触发 SR 触发器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_2.jpg",
+          "source_hash": "f039543dbb26cd2de813d50c2d94ed1a3c7441c884e619a99830df3c1e706134.jpg"
+        },
+        {
+          "fig_id": "5.3.4",
+          "caption": "电平触发 D 触发器 (D 型锁存器)",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_4.jpg",
+          "source_hash": "ff704741286ec10719a3962831f0f16b34d5253b56864723c530f6b83fe4bac9.jpg"
+        },
+        {
+          "fig_id": "5.3.5",
+          "caption": "利用 CMOS 传输门组成的电平触发 D 触发器（透明 D 型锁存器）",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_5.jpg",
+          "source_hash": "fd8e5af49a266a9bf35a3189956c2bd75ef6698d0a4e82e37ed00f43459aca7c.jpg"
+        },
+        {
+          "fig_id": "5.3.7",
+          "caption": "用两个电平触发 D 触发器组成的边沿触发器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_7.jpg",
+          "source_hash": "0168d76535936fbacbfc35910919d5a957ada8fdbea647b497d69942be95f8b0.jpg"
+        },
+        {
+          "fig_id": "5.3.8",
+          "caption": "带有异步置位、复位端的 CMOS 边沿触发 D 触发器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_8.jpg",
+          "source_hash": "1174d66f5f3ee28a86f7966fbfa15ad11cbc425e6744b26c20bc75cf7b191fc9.jpg"
+        },
+        {
+          "fig_id": "5.3.10",
+          "caption": "脉冲触发的 SR 触发器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_10.jpg",
+          "source_hash": "472746887607abab3f122827bf0bdba7a802b16e5d1831cf08a79595c4c1d61d.jpg"
+        },
+        {
+          "fig_id": "5.3.12",
+          "caption": "正脉冲触发的 JK 触发器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_12.jpg",
+          "source_hash": "36dd432c03e6f9ede1f6d1d2468347cabc738e2b93a86c20b094ea0d72b1d418.jpg"
+        },
+        {
+          "fig_id": "5.3.13",
+          "caption": "具有多输入端的主从JK触发器（a）电路结构 （b）逻辑符号",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_13.jpg",
+          "source_hash": "69355ac6fec7cfa477556a7c00f292f5c9de89d73600d09d2b93ac6e90a7f5dd.jpg"
+        },
+        {
+          "fig_id": "5.3.16",
+          "caption": "$T$ 触发器的图形逻辑符号",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_16.jpg",
+          "source_hash": "d80d5417ea0d0af4a650d8e768cfbe1ace2c601bc19d88f2ef6f6e548b1c8853.jpg"
+        },
+        {
+          "fig_id": "5.3.17",
+          "caption": "将 JK 触发器用作 SR、T 触发器",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_17.jpg",
+          "source_hash": "54d46fa1ce0192ad7a20f7e285e820e42b17ffd804ea25f11b3d57f7e683ee57.jpg"
+        },
+        {
+          "fig_id": "5.3.18",
+          "caption": "用两个电平触发 D 触发器构成的边沿触发 JK 触发器 (CC4027)",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_18.jpg",
+          "source_hash": "39119ef5bbf1056e110865b4903edaa754e6029739518ffc00be5402180a881b.jpg"
+        },
+        {
+          "fig_id": "5.3.19",
+          "caption": "边沿触发 D 触发器动态特性的分析",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_3_19.jpg",
+          "source_hash": "9d0fd24ed85a19c741b417a7a636bacfe2f54d57229e157a4fa42947cd29336e.jpg"
+        },
+        {
+          "fig_id": "5.4.1",
+          "caption": "74LS75的逻辑图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_4_1.jpg",
+          "source_hash": "a972ad1411b4f31e78323021f7129dcd41b9a248a5a6f7965b23726b3be29ab4.jpg"
+        },
+        {
+          "fig_id": "5.4.2",
+          "caption": "74HC175 的逻辑图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_5_4_2.jpg",
+          "source_hash": "f90cc5108c97f54af950a03cf05232c3726c017446f03a21585c11a61d219c25.jpg"
+        },
+        {
+          "fig_id": "4.4.7",
+          "caption": ") 组成 4096×4 位的 RAM。",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "logic_dag/fig_4_4_7_adf690ee.jpg",
+          "source_hash": "adf690ee9a30f6d306a9814b37c3299c58180c129234205f84bb6ffd1fa57e22.jpg"
+        },
+        {
+          "fig_id": "6.2.1",
+          "caption": "例6.2.1的时序逻辑电路",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_2_1.jpg",
+          "source_hash": "060f3115f5515c4ab5986ded16f861042cb03d07e7f9f18d57bb7a42d1c48019.jpg"
+        },
+        {
+          "fig_id": "6.2.3",
+          "caption": "例6.2.3的时序逻辑电路",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_2_3.jpg",
+          "source_hash": "4754111cda78bfb18247f7e73de37c9e60d51821fb9c0fb60331b8bb66954478.jpg"
+        },
+        {
+          "fig_id": "6.2.10",
+          "caption": "例 6.2.4 的异步时序逻辑电路",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_2_10.jpg",
+          "source_hash": "1f27a11c22b4d4d07252776c11b62b3e794edd43ed1dac8fcbd11be899c422dd.jpg"
+        },
+        {
+          "fig_id": "6.3.1",
+          "caption": "用 D 触发器构成的移位寄存器",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_1.jpg",
+          "source_hash": "914e9f5d0684a8ecc11469ef1910148b99c607b8d4b68081df93039f2e5e6f2e.jpg"
+        },
+        {
+          "fig_id": "6.3.3",
+          "caption": "用 JK 触发器构成的移位寄存器",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_3.jpg",
+          "source_hash": "b4bb5b7ca539f472c86d2f28b2a3778b399ad55cdfc1447afce544e53486baf5.jpg"
+        },
+        {
+          "fig_id": "6.3.4",
+          "caption": "双向移位寄存器 74HC194A 的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_4.jpg",
+          "source_hash": "2e1d2b3f0ad2d3edc061c91b0fce6d681db2d9c95da53a254430ce15d4ae7c6e.jpg"
+        },
+        {
+          "fig_id": "6.3.8",
+          "caption": "所示电路就是按式(6.3.1)接成的 4 位二进制同步加法计数器。由图可见, 各触发器的驱动方程为",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_8.jpg",
+          "source_hash": "ba5fc24674e4d9aea6dbbb3b41944bf728ed769cea3b24f33e0d44ca9a5bb89f.jpg"
+        },
+        {
+          "fig_id": "6.3.8",
+          "caption": "用 $T$ 触发器构成的同步二进制加法计数器",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_8_01faea9b.jpg",
+          "source_hash": "01faea9ba5eeb528fd0acd71e8e128837c774783f5c8ff48d0c1faf3dc8dc965.jpg"
+        },
+        {
+          "fig_id": "6.3.11",
+          "caption": "4 位同步二进制计数器 74161 的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_11.jpg",
+          "source_hash": "83a8cbe92453bea702c141f94312505544567cf9e5da134c50a9333ce16cb24a.jpg"
+        },
+        {
+          "fig_id": "6.3.13",
+          "caption": "用 T 触发器接成的同步二进制减法计数器",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_13.jpg",
+          "source_hash": "448ba52b0e4e95c7cb1714ddcd3952962036a1644e8b8fc944879a0522821e04.jpg"
+        },
+        {
+          "fig_id": "6.3.14",
+          "caption": "单时钟同步十六进制加/减计数器 74LS191 的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_14.jpg",
+          "source_hash": "93d973474c444d49bdfcc28eda4e790432ea86ff56ebb03b1dd57f213f45f4cb.jpg"
+        },
+        {
+          "fig_id": "6.3.16",
+          "caption": "双时钟同步十六进制加/减计数器 74LS193 的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_16.jpg",
+          "source_hash": "c5fa53341c699391f7ae013092a392a7b1a0023e4fe35fa71c413e996a6aabc7.jpg"
+        },
+        {
+          "fig_id": "6.3.19",
+          "caption": "同步十进制加法计数器 74160 的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_19.jpg",
+          "source_hash": "da304777282e51f978e3c1923e101ae1ee6790d639ae257527533395d511e679.jpg"
+        },
+        {
+          "fig_id": "6.3.50",
+          "caption": "用计数器和译码器构成的顺序脉冲发生器",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_50.jpg",
+          "source_hash": "0bcb0ee511d199bab4a00de3b107cc6fff200f39978fecdf162de067379e27d5.jpg"
+        },
+        {
+          "fig_id": "6.3.52",
+          "caption": "用扭环形计数器和译码器构成的顺序脉冲发生器",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_52.jpg",
+          "source_hash": "85eff97cf61c2a499acfef839edaf919e464770351c699fb655ef697895fa742.jpg"
+        },
+        {
+          "fig_id": "6.3.53",
+          "caption": "用计数器和数据选择器组成的序列信号发生器",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_53.jpg",
+          "source_hash": "bd09197bc3831129ebfc61842e9d3206b702e9eca7a66be447a7922ba7979cda.jpg"
+        },
+        {
+          "fig_id": "6.3.54",
+          "caption": "中的反馈逻辑电路就是按式(6.3.16)接成的。",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_54.jpg",
+          "source_hash": "ddc6bcc0a143d5e8d6845739dd9a0e5aa36d2eee230a235403e1576e4f472284.jpg"
+        },
+        {
+          "fig_id": "6.4.1",
+          "caption": "同步时序逻辑电路的设计过程",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_1.jpg",
+          "source_hash": "51e7eedfc3d5f2bf12121c7f0748ee6aa9c0a52280295278ebf6014536b72f13.jpg"
+        },
+        {
+          "fig_id": "6.4.5",
+          "caption": "所示。",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_5.jpg",
+          "source_hash": "bef8afcc7861c0a9209b8e1d367f73c1d76e176ad855c1e6f55d5a7a63723263.jpg"
+        },
+        {
+          "fig_id": "6.4.11",
+          "caption": "用 JK 触发器设计的例 6.4.2 电路",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_11.jpg",
+          "source_hash": "c796101d109c4fa236654e2ff22c1734f8510718f4f5ba7ee6c251003c7a2080.jpg"
+        },
+        {
+          "fig_id": "6.4.13",
+          "caption": "用 $D$ 触发器设计的例6.4.2电路",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_13.jpg",
+          "source_hash": "46f014e792ab6e398fd123e1b43d5d2751819024b1ad39d44abc590617fb010d.jpg"
+        },
+        {
+          "fig_id": "6.4.17",
+          "caption": "例6.4.3的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_17.jpg",
+          "source_hash": "32dbf5ba510155fd459e2eb03ed9a1660ed5095a4729d6c2a81f94473db1cbe2.jpg"
+        },
+        {
+          "fig_id": "6.4.23",
+          "caption": "例6.4.4的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_23.jpg",
+          "source_hash": "792bf761f1e7ef372162c19541ddcaddbf99583d0842191f47fc4ea192a76072.jpg"
+        },
+        {
+          "fig_id": "6.4.29",
+          "caption": "例6.4.5的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_29.jpg",
+          "source_hash": "93235197b4d2184601cadf5422343750b30d26a607131047b1d2029d5231955d.jpg"
+        },
+        {
+          "fig_id": "6.4.35",
+          "caption": "异步十进制减法计数器的逻辑图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_4_35.jpg",
+          "source_hash": "6d6de35ef73591919b377e2733dbac51b3bebdec1fbf8a7e0bb8c2ed1f6d9ff6.jpg"
+        },
+        {
+          "fig_id": "6.3.19",
+          "caption": "和表 6.3.4。",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_19_5ee6c5c8.jpg",
+          "source_hash": "5ee6c5c82bf55a0eb7e06959f8ea53f99b86056a5be932962a358672c1ebae88.jpg"
+        },
+        {
+          "fig_id": "6.3.22",
+          "caption": "，它的功能表与表6.3.5相同。可以附加必要的门电路。",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "logic_dag/fig_6_3_22.jpg",
+          "source_hash": "031c9fb41950835df0b50382cceaf7e5d75cfe9c0cfa5e2de0b0cd525b5b5248.jpg"
+        },
+        {
+          "fig_id": "7.2.1",
+          "caption": "的施密特触发电路中可以看出， $\\mathrm{T}_{2}$ 饱和导通时输出端 $v_{0}$ 的低电平近似地等于 $V_{\\mathrm{CC}}R_{\\mathrm{E}} / (R_{2} + R_{\\mathrm{E}})$ ，不是接近于0的逻辑低电平。因此，在将图7.2.1的施密特触发电路用于逻辑电路时，还需要在电路的输出端附加电平变换电路，将输出的低电平变换为标准的逻辑低电平。",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "logic_dag/fig_7_2_1.jpg",
+          "source_hash": "1f0de4818a229d5e12fe392128780fabfa001f5d72690d4afc0e554c11ee039d.jpg"
+        },
+        {
+          "fig_id": "7.3.9",
+          "caption": "集成单稳态电路 74121 简化的逻辑图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "logic_dag/fig_7_3_9.jpg",
+          "source_hash": "5dea0f71cd3c38a96dd23d2aebdd63a344e434ee4232e5e419532fac56c67f35.jpg"
+        },
+        {
+          "fig_id": "8.6.10",
+          "caption": "双积分型 A/D 转换器的控制逻辑电路",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "logic_dag/fig_8_6_10.jpg",
+          "source_hash": "89bd1210a3e43f73f560d7523d717894a0f040c03cc5470802d3e8e3b58143d6.jpg"
+        }
+      ]
+    },
+    "timing_wave": {
+      "count": 23,
+      "schematex_header": "timing",
+      "items": [
+        {
+          "fig_id": "2.5.3",
+          "caption": "描述图 2.5.1 电路逻辑功能的波形图",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "timing_wave/fig_2_5_3.jpg",
+          "source_hash": "fd57c10b280833b08e86ffaa71cb78cfb6ed2d50823ba991984972ab8caa5a5d.jpg"
+        },
+        {
+          "fig_id": "2.5.6",
+          "caption": "例2.5.5的波形图",
+          "chapter": "04_第02章_逻辑代数基础.md",
+          "file": "timing_wave/fig_2_5_6.jpg",
+          "source_hash": "c8a2784c5667a0e4103c500d9c97c9912dcd6b3ad61fe299c460e4ac64221aae.jpg"
+        },
+        {
+          "fig_id": "3.4.21",
+          "caption": "TTL 反相器的动态电压波形",
+          "chapter": "05_第03章_门电路.md",
+          "file": "timing_wave/fig_3_4_21.jpg",
+          "source_hash": "f5b95222e1acbf0f534ce6ec2b1b51e7ff5a39933571cc09c5fdad61af8389bb.jpg"
+        },
+        {
+          "fig_id": "5.2.3",
+          "caption": "例 5.2.1 的电路和电压波形",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "timing_wave/fig_5_2_3.jpg",
+          "source_hash": "07f504022c81ede8ca7f8a5701829f3f8c5165599512ce6d76083a6d0d2a5298.jpg"
+        },
+        {
+          "fig_id": "5.3.3",
+          "caption": "例5.3.1的电压波形图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "timing_wave/fig_5_3_3.jpg",
+          "source_hash": "983a412f4c5fdff458b7bc0c00679423e8794415548e37aa0189fca0354b86fe.jpg"
+        },
+        {
+          "fig_id": "5.3.6",
+          "caption": "例 5.3.2 的电压波形",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "timing_wave/fig_5_3_6.jpg",
+          "source_hash": "b2f43b8bb67914b176f8ddaed35dabef495a28ba1a5334ad55bd11b6a10b02aa.jpg"
+        },
+        {
+          "fig_id": "5.3.9",
+          "caption": "例5.3.3的电压波形图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "timing_wave/fig_5_3_9.jpg",
+          "source_hash": "a7845616d6535e286e352f14ca4a40bbcec0d070ee518e01a3be45bc83eb2a72.jpg"
+        },
+        {
+          "fig_id": "5.3.11",
+          "caption": "例 5.3.4 的电压波形",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "timing_wave/fig_5_3_11.jpg",
+          "source_hash": "7537cda515cd651853dbbe6b96c1a0ae31dcb9746e82884342acce6397175def.jpg"
+        },
+        {
+          "fig_id": "5.3.14",
+          "caption": "例5.3.5的电压波形图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "timing_wave/fig_5_3_14.jpg",
+          "source_hash": "08e5ea46ecf2d9fc46732b25a65f50081a7c96074b874394618018d6f5206f69.jpg"
+        },
+        {
+          "fig_id": "5.3.15",
+          "caption": "例 5.3.6 的电压波形图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "timing_wave/fig_5_3_15.jpg",
+          "source_hash": "b540c8dc07ce58682b4990659988ccecf65cc2b87c5436b9c8468e2c6aee6d1e.jpg"
+        },
+        {
+          "fig_id": "6.3.2",
+          "caption": "图6.3.1电路的电压波形",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "timing_wave/fig_6_3_2.jpg",
+          "source_hash": "df5f5bf0b2b80144509ddce9f0092bdb0f7f0f16464c224a75a2ecaf7e8dea51.jpg"
+        },
+        {
+          "fig_id": "6.3.7",
+          "caption": "例6.3.1电路的波形图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "timing_wave/fig_6_3_7.jpg",
+          "source_hash": "77dcbbe57f2241abfa4f8698e60def40126a529a947b0fae5355bafa68169caa.jpg"
+        },
+        {
+          "fig_id": "7.3.2",
+          "caption": "图 7.3.1 电路的电压波形图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_3_2.jpg",
+          "source_hash": "4e0df5ed33f1df08643daf1e6bf0a7791895559182f907066b058bc645455a2d.jpg"
+        },
+        {
+          "fig_id": "7.3.6",
+          "caption": "图 7.3.5 电路的电压波形图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_3_6.jpg",
+          "source_hash": "b27432c15583a2f3807817539baa6be4a1cb85cf02845ea532df8c9c57941f77.jpg"
+        },
+        {
+          "fig_id": "7.3.10",
+          "caption": "集成单稳态电路 74121 的工作波形图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_3_10.jpg",
+          "source_hash": "27e41aa606ad23cfd228e91eb5de475f442054581358d6234e1345351f45192e.jpg"
+        },
+        {
+          "fig_id": "7.4.6",
+          "caption": "所示的非对称型多谐振荡电路。但需注意的是，在输入电压低于 $V_{\\mathrm{TH}}$ 时反相器的输入电流不能忽略不计，所以电容充、放电时的等效电路略显复杂一些，而且输出电压波形的占空比不等于 $50\\%$ 。",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_4_6.jpg",
+          "source_hash": "db77d07c48854d84842b8741699150a2077d0c2f0849fa23ea2693ca21665e69.jpg"
+        },
+        {
+          "fig_id": "7.4.9",
+          "caption": "图 7.4.6 电路的工作波形图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_4_9.jpg",
+          "source_hash": "5975f2238d95e1fbab3c6b543bbe58b2b68142fd5ffe10d48b60d6da574cf788.jpg"
+        },
+        {
+          "fig_id": "7.4.11",
+          "caption": "图 7.4.10 电路的工作波形图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_4_11.jpg",
+          "source_hash": "97fe9d60d4591099d121378faf3a46a789dca9eb0829d42f9416748b138e5a93.jpg"
+        },
+        {
+          "fig_id": "7.5.5",
+          "caption": "图7.5.4电路的电压波形图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_5_5.jpg",
+          "source_hash": "7ca369de9c84089b2dae940b3e186365169062a647f0c0cd7b87ceb893337dbb.jpg"
+        },
+        {
+          "fig_id": "7.5.7",
+          "caption": "图 7.5.6 电路的电压波形图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "timing_wave/fig_7_5_7.jpg",
+          "source_hash": "df740500809ab0f82767cfef1307e8e1a95197f019fb115e0179fa7b0b9df41b.jpg"
+        },
+        {
+          "fig_id": "8.6.9",
+          "caption": "双积分型 A/D 转换器的电压波形图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "timing_wave/fig_8_6_9.jpg",
+          "source_hash": "6707d847197683028611cec3c3eab1634230a3160dcc6bcea32085bb01cd88c5.jpg"
+        },
+        {
+          "fig_id": "8.6.13",
+          "caption": "图 8.6.12 电路中各点的电压波形",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "timing_wave/fig_8_6_13.jpg",
+          "source_hash": "083e6c68fccf60529562c810d706e40fe2e58747d48e95829fc2f530d3b4001a.jpg"
+        },
+        {
+          "fig_id": "8.2.5",
+          "caption": "。同步十进制计数器74HC160的功能表同表6.3.4。表P8.8给出了RAM的16个地址单元中所存的数据。高6位地址 $A_{9}\\sim A_{4}$ 始终为0，在表中没有列出。RAM的输出数据只用了低4位，作为AD7520的输入。因RAM的高4位数据没有使用，故表中也未列出。",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "timing_wave/fig_8_2_5.jpg",
+          "source_hash": "5961ec52dd9ee8930c3d3584e82cd86bed1a828df86db0d8070cff3a7fc957dc.jpg"
+        }
+      ]
+    },
+    "state_machine": {
+      "count": 26,
+      "schematex_header": "state",
+      "items": [
+        {
+          "fig_id": "6.2.2",
+          "caption": "图6.2.1电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_2_2.jpg",
+          "source_hash": "9c8228b0125b9c6ab0b178d583958aebf4e7c7edf82630b0ff799373c33ba26b.jpg"
+        },
+        {
+          "fig_id": "6.2.4",
+          "caption": "图 6.2.3 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_2_4.jpg",
+          "source_hash": "c711245a19fe3a212f687357b8b69964cc986d168c0d935dfe78c0d51c60a40f.jpg"
+        },
+        {
+          "fig_id": "6.2.11",
+          "caption": "图6.2.10电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_2_11.jpg",
+          "source_hash": "f1ab928ad9bc4ed5926e094e10f17f5c8269343380b655ad26c0b4b4bd40143a.jpg"
+        },
+        {
+          "fig_id": "6.3.9",
+          "caption": "图 6.3.8 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_9.jpg",
+          "source_hash": "d6047ef22f1185dd678fdda9e65cbe9a1f7e133e9562bec77c5922d5ce94487f.jpg"
+        },
+        {
+          "fig_id": "6.3.18",
+          "caption": "图 6.3.17 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_18.jpg",
+          "source_hash": "29befefe2683dae0a98bd8652d4b9ba762ac90ad06162a7983f991c9821e1517.jpg"
+        },
+        {
+          "fig_id": "6.3.21",
+          "caption": "图6.3.20电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_21.jpg",
+          "source_hash": "f2488abb73cb7761f152ca1f6f1c42f060ce17ea7c00755b23f6e4b42078006f.jpg"
+        },
+        {
+          "fig_id": "6.3.32",
+          "caption": "图 6.3.31 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_32.jpg",
+          "source_hash": "b4cf377d3bd80e620c420858f80480a6f4bee45ee611dea28210d15c1ec63ecb.jpg"
+        },
+        {
+          "fig_id": "6.3.35",
+          "caption": "图6.3.34电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_35.jpg",
+          "source_hash": "db919e08e74219b962c6401a8e198dde1452c800a924aef2ed748fd966ed7c5a.jpg"
+        },
+        {
+          "fig_id": "6.3.41",
+          "caption": "图6.3.40电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_41.jpg",
+          "source_hash": "c42bb8abc889b16b59cddfaa2ab86d8c31c6dcb17f0b0006eef9463a31e4e140.jpg"
+        },
+        {
+          "fig_id": "6.3.43",
+          "caption": "图6.3.44电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_43.jpg",
+          "source_hash": "9a1de38fb398c49ad3a3934709795c876b011b130060c27ae9bd3d685536e957.jpg"
+        },
+        {
+          "fig_id": "6.3.46",
+          "caption": "图 6.3.45 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_46.jpg",
+          "source_hash": "61a4195d9aaf057b2e24b9104c14913a1e3cee118d21cf173fde534311edc7b1.jpg"
+        },
+        {
+          "fig_id": "6.3.48",
+          "caption": "图6.3.47电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_48.jpg",
+          "source_hash": "bb117315e7d47e35c5c7e25df2901bb64b0b1e8110048400a2f0775207949ce3.jpg"
+        },
+        {
+          "fig_id": "6.4.2",
+          "caption": "例6.4.1的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_2.jpg",
+          "source_hash": "3f49e3bdf3bb44938a21d069a6de9328d7d31ed5627a12863fb6f520dd13650f.jpg"
+        },
+        {
+          "fig_id": "6.4.6",
+          "caption": "图6.4.5电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_6.jpg",
+          "source_hash": "452283e190e64195a9f9c225e99cea5a1110556914496833c27b405f7a42870c.jpg"
+        },
+        {
+          "fig_id": "6.4.7",
+          "caption": "例6.4.2的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_7.jpg",
+          "source_hash": "46d5664e48d1db76caef37f50f385e770b0eaba21efc88f924eed14eeb2e228a.jpg"
+        },
+        {
+          "fig_id": "6.4.8",
+          "caption": "化简后的例6.4.2的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_8.jpg",
+          "source_hash": "f2d4b7136575c8aac49f665787ce492d364582c64cc0f64c90cebb69873a265a.jpg"
+        },
+        {
+          "fig_id": "6.4.12",
+          "caption": "图6.4.11电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_12.jpg",
+          "source_hash": "58eaff0626ab8392f4cdc4d98de31456ecae0127dc56de91572cbcd1e30c3b7b.jpg"
+        },
+        {
+          "fig_id": "6.4.14",
+          "caption": "例6.4.3的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_14.jpg",
+          "source_hash": "5f9c0dadd0920d71005b11acf7d35138203b09650e355426670c36b78e47a21a.jpg"
+        },
+        {
+          "fig_id": "6.4.18",
+          "caption": "图 6.4.17 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_18.jpg",
+          "source_hash": "894815d4fafea7d1a2c81bd8a8ba18bf463c94c24786722e65bc6b24cb245c3e.jpg"
+        },
+        {
+          "fig_id": "6.4.19",
+          "caption": "例6.4.4的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_19.jpg",
+          "source_hash": "d7f7fd52ccb31091170c19c48d24b6eb1938097ed8e217ae2671ec3793935d7c.jpg"
+        },
+        {
+          "fig_id": "6.4.24",
+          "caption": "图6.4.23电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_24.jpg",
+          "source_hash": "a85a98198a77c6f1d00c9971d2bf7c7f178b4c57713e186925f10589bc8344ca.jpg"
+        },
+        {
+          "fig_id": "6.4.26",
+          "caption": "例6.4.5电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_26.jpg",
+          "source_hash": "76c489c2804ed779948a27d04cc9a3a7c66838a60a79597f97a6e881619dd304.jpg"
+        },
+        {
+          "fig_id": "6.4.30",
+          "caption": "例 6.4.6 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_30.jpg",
+          "source_hash": "896c40f27644a1406664f8249fe3582813c84a4e344d058e66a6457b764235c6.jpg"
+        },
+        {
+          "fig_id": "6.4.36",
+          "caption": "图 6.4.35 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_4_36.jpg",
+          "source_hash": "8949e090cdc81f386dac5bc42f35771e5976c7758f3c7ac42fc3199ff1b2b07c.jpg"
+        },
+        {
+          "fig_id": "6.6.2",
+          "caption": "图 6.6.1 电路的状态转换图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_6_2.jpg",
+          "source_hash": "c8f01a4903253743c916660983754e0636602f9b475ee1f65b3de68496cdd471.jpg"
+        },
+        {
+          "fig_id": "6.3.29",
+          "caption": "。",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "state_machine/fig_6_3_29.jpg",
+          "source_hash": "dc6c3a94251826b7520a044cd8d934ea9e48d0cfc88ce66d096719422ae0f3f5.jpg"
+        }
+      ]
+    },
+    "circuit_netlist": {
+      "count": 21,
+      "schematex_header": "circuit",
+      "items": [
+        {
+          "fig_id": "3.1.1",
+          "caption": "用来获得高、低电平的基本开关电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_1_1.jpg",
+          "source_hash": "545cd093645a3c052b079697b4d29feea03c5f8416c81e0aaa5ad6a26b71c64f.jpg"
+        },
+        {
+          "fig_id": "3.2.1",
+          "caption": "二极管开关电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_2_1.jpg",
+          "source_hash": "7de1a6b0d104c3ab82b8bc6a895ef78e542dfdda8af306f0437df627dc5a89d0.jpg"
+        },
+        {
+          "fig_id": "3.2.5",
+          "caption": "二极管与门",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_2_5.jpg",
+          "source_hash": "88a51eb81e93481a8b4be02657e5b9ef013d9f8b4fb56fcc9d4be3ad1eca3718.jpg"
+        },
+        {
+          "fig_id": "3.2.6",
+          "caption": "二极管或门",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_2_6.jpg",
+          "source_hash": "c290d51dac0d31d2827184704aaa6e4f331ab2b88c9667f879c788d07d9e0403.jpg"
+        },
+        {
+          "fig_id": "3.1.1",
+          "caption": "(a) 中的开关 S, 便得到了图 3.3.4 所示的 MOS 管开关电路。",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_1_1_fd2cd266.jpg",
+          "source_hash": "fd2cd266d30763106419fe45ee6b35a2ea0be671b5d4626f152ae06b47931368.jpg"
+        },
+        {
+          "fig_id": "3.3.4",
+          "caption": "MOS 管的基本开关电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_3_4.jpg",
+          "source_hash": "d4eb77d18aa7617dd9ce12bc1114efbcd2e39fab4af8cb1817aec575f4ec2283.jpg"
+        },
+        {
+          "fig_id": "3.3.5",
+          "caption": "MOS 管的开关等效电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_3_5.jpg",
+          "source_hash": "1cf3819998b2cefce776149edd69e9a0007bf8f28473782becfbf9315f282516.jpg"
+        },
+        {
+          "fig_id": "3.3.8",
+          "caption": "用 P 沟道增强型 MOS 管接成的开关电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_3_8.jpg",
+          "source_hash": "577aaf2b98a0bd4f16e4a0c23d9f54c37a6cb46f18ec47fce65a4776aa86306a.jpg"
+        },
+        {
+          "fig_id": "3.4.3",
+          "caption": "双极型三极管的基本开关电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_4_3.jpg",
+          "source_hash": "d45133eec190233e47a08d567dd5d68ee5f413de4dd49ca88cb74ddf69721434.jpg"
+        },
+        {
+          "fig_id": "3.4.5",
+          "caption": "双极型三极管的开关等效电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_4_5.jpg",
+          "source_hash": "0440785bddf9674ceff0e2ae4be482482f2a05b17e3912e9eaaf8ed15180d4f0.jpg"
+        },
+        {
+          "fig_id": "3.4.6",
+          "caption": "双极型三极管反相器的等效电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_4_6.jpg",
+          "source_hash": "f289ec8b22b85e0544be94de8f7034477ce41c4ef93a97a3240e45f1b2b3376a.jpg"
+        },
+        {
+          "fig_id": "3.4.13",
+          "caption": "TTL 反相器高电平输出等效电路",
+          "chapter": "05_第03章_门电路.md",
+          "file": "circuit_netlist/fig_3_4_13.jpg",
+          "source_hash": "2d797e4475262821fb4a514b775e9f3b66f7de334f7d7f097d305041e0bd3c59.jpg"
+        },
+        {
+          "fig_id": "4.4.6",
+          "caption": "用二极管与门阵列组成的 3 线-8 线译码器",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "circuit_netlist/fig_4_4_6.jpg",
+          "source_hash": "73ba048926f740ccb739e7b9b294cebcb67be4a81c27b1127b96cedb6b0299b7.jpg"
+        },
+        {
+          "fig_id": "7.3.3",
+          "caption": "图 7.3.1 电路中电容 C 充电的等效电路",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "circuit_netlist/fig_7_3_3.jpg",
+          "source_hash": "4a36746ab8b74c530d7342e3bfe5ab670f18ed9b96b9bfc1d3832056cbc34207.jpg"
+        },
+        {
+          "fig_id": "7.4.3",
+          "caption": "计算 TTL 反相器静态工作点的等效电路",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "circuit_netlist/fig_7_4_3.jpg",
+          "source_hash": "1e2956ae963a65a1d6e2a3053a38c8f0557dff9f122a413b93baaa69a47625d8.jpg"
+        },
+        {
+          "fig_id": "7.4.4",
+          "caption": "图 7.4.1 电路中电容的充、放电等效电路",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "circuit_netlist/fig_7_4_4.jpg",
+          "source_hash": "03a25599528938446d89802e92493b246f4d6be004997a3a08329514b90a3e9f.jpg"
+        },
+        {
+          "fig_id": "7.4.8",
+          "caption": "图 7.4.6 电路中电容的充、放电等效电路",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "circuit_netlist/fig_7_4_8.jpg",
+          "source_hash": "c6cc9dab47bb7c40f7b32beebb881f861b471ccc9b4fb54dcb46b8e6617ea3c2.jpg"
+        },
+        {
+          "fig_id": "7.4.14",
+          "caption": "图 7.4.12(b) 电路中电容 C 的充、放电等效电路",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "circuit_netlist/fig_7_4_14.jpg",
+          "source_hash": "b56ed5e55d68f7699218477b9af2c7313d2c9a0c4e8d1648f27adcf18f4b53f6.jpg"
+        },
+        {
+          "fig_id": "7.4.6",
+          "caption": "所示非对称式多谐振荡电路中的 $G_{1}$ 和 $G_{2}$ 改用 TTL 反相器，并将 $R_{p}$ 短路，试画出电容 C 充、放电时的等效电路，并求出计算电路振荡频率的公式。",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "circuit_netlist/fig_7_4_6.jpg",
+          "source_hash": "c53c55b0b61f541f2cec1ad0ad7b164bedf9e32ff903c1deb2e7f0d97b9d0ebf.jpg"
+        },
+        {
+          "fig_id": "8.2.4",
+          "caption": "计算倒 T 形电阻网络支路电流的等效电路",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "circuit_netlist/fig_8_2_4.jpg",
+          "source_hash": "c7bcb54ba3b8fc634205a0f1f2ece363d7544862a3aca8548949314a81ec2f3b.jpg"
+        },
+        {
+          "fig_id": "8.2.6",
+          "caption": "AD7520 中的 CMOS 模拟开关电路",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "circuit_netlist/fig_8_2_6.jpg",
+          "source_hash": "c888b9d878967d0556122a373091852c7f1f805eeb59754c0085f58693a97ee4.jpg"
+        }
+      ]
+    },
+    "block_struct": {
+      "count": 15,
+      "schematex_header": "blockdiagram",
+      "items": [
+        {
+          "fig_id": "4.1.2",
+          "caption": "组合逻辑电路的框图",
+          "chapter": "06_第04章_组合逻辑电路.md",
+          "file": "block_struct/fig_4_1_2.jpg",
+          "source_hash": "794d919174eb2b179c3a25ffd6fcbad6c0a0cad59fd03dd4325ff6d23d3ec75c.jpg"
+        },
+        {
+          "fig_id": "5.5.1",
+          "caption": "SRAM 的结构框图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "block_struct/fig_5_5_1.jpg",
+          "source_hash": "3f5ff486d09a52e7ccd9cd60a25fd1806f1b1813f971fd88b4542469e492b28e.jpg"
+        },
+        {
+          "fig_id": "5.5.2",
+          "caption": "1024×4 位 SRAM 的结构框图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "block_struct/fig_5_5_2.jpg",
+          "source_hash": "30135dbcbc0b3aa076c784204e2d53a2cb7ec32a7d27488ebb5787b72ae93984.jpg"
+        },
+        {
+          "fig_id": "5.5.5",
+          "caption": "$1\\mathrm{M}\\times 1$ 位DRAM的结构框图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "block_struct/fig_5_5_5.jpg",
+          "source_hash": "97f2dfb36e25f1017df62fd75a1c9eda6d90c893fe0cda1fceff1e255f1a332c.jpg"
+        },
+        {
+          "fig_id": "5.5.6",
+          "caption": "ROM的电路结构框图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "block_struct/fig_5_5_6.jpg",
+          "source_hash": "ebcb97264eb28d567f5233445c5c5bafe6055f0d57569ca46af97a3b1da76c99.jpg"
+        },
+        {
+          "fig_id": "5.5.7",
+          "caption": "二极管 ROM 的电路结构图",
+          "chapter": "07_第05章_半导体存储电路.md",
+          "file": "block_struct/fig_5_5_7.jpg",
+          "source_hash": "b40f214fc8bb17ca88955aec1da76886d67509e31c97da4a50b55e085d098599.jpg"
+        },
+        {
+          "fig_id": "6.1.2",
+          "caption": "时序逻辑电路的结构框图",
+          "chapter": "08_第06章_时序逻辑电路.md",
+          "file": "block_struct/fig_6_1_2.jpg",
+          "source_hash": "f1e27956fb668caac37c2db723e73b0644bd81b107501df3152482d67b39019a.jpg"
+        },
+        {
+          "fig_id": "7.5.1",
+          "caption": "555 定时器的电路结构图",
+          "chapter": "09_第07章_脉冲波形的产生和整形电路.md",
+          "file": "block_struct/fig_7_5_1.jpg",
+          "source_hash": "5dd5d6fbb81a77558dabc09aee11492148deb2e5588fb90c250c9f30836b6b1e.jpg"
+        },
+        {
+          "fig_id": "8.2.10",
+          "caption": "DAC0808 的电路结构框图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "block_struct/fig_8_2_10.jpg",
+          "source_hash": "9ee04b7d5c2c60164d98cab233719f2b2a0595076de6d2a15782e4aa8081c346.jpg"
+        },
+        {
+          "fig_id": "8.6.6",
+          "caption": "逐次逼近型 A/D 转换器的电路结构框图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "block_struct/fig_8_6_6.jpg",
+          "source_hash": "2e8d7271c8b84aa8c8a55a7bb0b179728695a396ac0de01377ae0f5896741c65.jpg"
+        },
+        {
+          "fig_id": "8.6.8",
+          "caption": "双积分型 A/D 转换器的结构框图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "block_struct/fig_8_6_8.jpg",
+          "source_hash": "a53a138bc1584337178ff6a09b86c347782c8523ebd1743fe7967dbefe3d6657.jpg"
+        },
+        {
+          "fig_id": "8.6.15",
+          "caption": "V-F 变换型 A/D 转换器的电路结构框图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "block_struct/fig_8_6_15.jpg",
+          "source_hash": "d77ff2591df3c2719da61d9f4807caa65d7c665a68f3f5d901ea776f9533375c.jpg"
+        },
+        {
+          "fig_id": "8.6.16",
+          "caption": "积分器型电荷平衡式 V-F 变换器的电路结构框图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "block_struct/fig_8_6_16.jpg",
+          "source_hash": "c363afc990f202a1468c500e960aa2418c74ded2417c0019c87260f58ee5545e.jpg"
+        },
+        {
+          "fig_id": "8.6.17",
+          "caption": "AD650 的电路结构框图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "block_struct/fig_8_6_17.jpg",
+          "source_hash": "1ef2ffcebdc8574fd3065749f5187a6c766f5128c611daabb5981511393084ed.jpg"
+        },
+        {
+          "fig_id": "8.6.18",
+          "caption": "LM331 的电路结构框图",
+          "chapter": "10_第08章_数模和模数转换.md",
+          "file": "block_struct/fig_8_6_18.jpg",
+          "source_hash": "126b8571dcd0d4c0637686f8d05bc3a2d1f79f4742f9bf03d3bc6c80821feaeb.jpg"
+        }
+      ]
+    }
+  },
+  "reject_count": 146,
+  "unknown_count": 628,
+  "unknown_sample": [
+    {
+      "fig_id": "1.4.1",
+      "caption": "可以看出,这时有两种拨法:第一种拨法是往回拨5格,10-5=5,拨回到了5点;另一种拨法是往前拨7格,10+7=17。由于表盘的最大数只有12,超过12以后的“进位”将自动消失,于是就只剩下减去12以后的余数了,即17-12=5,也将表针拨回到了5点。这个例子说明,10-5的减法运算可以用10+7的加法运算代替。因为5和7相加正好等于产生进位的模数12,所以我们称7为-5对模12的补数,也称为补码(Complement)。",
+      "chapter": "03_第01章_数制和码制.md"
+    },
+    {
+      "fig_id": "1.4.1",
+      "caption": "说明补码运算原理的例子",
+      "chapter": "03_第01章_数制和码制.md"
+    },
+    {
+      "fig_id": "1.4.2",
+      "caption": "给出了 4 位二进制数补码运算的一个例子。由图可见，1011-0111=0100 的减法运算，在舍弃进位的条件下，可以用 $1011+1001=0100$ 的加法运算代替。因为 4 位二进制数的进位基数是 16(10000)，所以 1001(9) 恰好是 -0111(-7) 对模 16 的补码。",
+      "chapter": "03_第01章_数制和码制.md"
+    },
+    {
+      "fig_id": "1.4.2",
+      "caption": "4位二进制数补码运算的例子",
+      "chapter": "03_第01章_数制和码制.md"
+    },
+    {
+      "fig_id": "1.4.2",
+      "caption": "所示的图形加以说明。",
+      "chapter": "03_第01章_数制和码制.md"
+    },
+    {
+      "fig_id": "2.2.1",
+      "caption": "中给出了三个指示灯的控制电路。在图(a)电路中，只有当两个开关同时闭合时，指示灯才会亮；在图(b)电路中，只要有任何一个开关闭合，指示灯就亮；而在图(c)电路中，开关断开时灯亮，开关闭合时灯反而不亮。",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.2.1",
+      "caption": "用于说明与、或、非定义的电路",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.2.1",
+      "caption": "中的三个电路代表了三种不同的因果关系:",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.5.1",
+      "caption": "所示是一个举重裁判电路，可以用一个逻辑函数描述它的逻辑功能。",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.5.1",
+      "caption": "举重裁判电路",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.5.1",
+      "caption": "所示的电路中，根据对电路功能的要求和与、或的逻辑定义，“ $B$ 和 $C$ 中至少有一个合上”可以表示为 $(B + C)$ ，“同时还要求合上 $A$ ”，则应写作 $A\\cdot (B + C)$ 。因此得到输出的逻辑函数式为",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.6.4",
+      "caption": "(a) 和 (b) 中画出了两个最小项相邻的几种可能情况。例如，图 (a) 中 $A^{\\prime}BC(m_{3})$ 和 $ABC(m_{7})$ 相邻，故可合并为",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.6.4",
+      "caption": "最小项相邻的几种情况",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.6.4",
+      "caption": "(d)中， $A^{\\prime}BC^{\\prime}D(m_{5})$ 、 $A^{\\prime}BCD(m_{7})$ 、 $ABC^{\\prime}D(m_{13})$ 和 $ABCD(m_{15})$ 相邻，故可合并。合并后得到",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.6.4",
+      "caption": "(e) 中，上边两行的八个最小项是相邻的，可将它们合并为一项 $A'$ 。其他的",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.6.5",
+      "caption": "(a)和(b)可见,有两种可取的合并最小项的方案。如果按图2.6.5(a)的方案合并最小项,则得到",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.6.5",
+      "caption": "(b)的方案合并最小项得到",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.6.6",
+      "caption": "中可以看到， $A$ 和 $D^{\\prime}$ 中重复包含了 $m_{8}, m_{10}, m_{12}$ 和 $m_{14}$ 这4个最小项。但据 $A + A = A$ 可知，在合并最小项的过程中允许重复使用函数式中的最小项，以利于得到更简单的化简结果。",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.7.1",
+      "caption": "给出的一个实例。图中的水箱由大、小两台水泵 $\\mathrm{M_L}$ 和 $\\mathrm{M_S}$ 供水。水箱中设置了3个水位检测元件 $A,B,C$ 。水位低于检测元件时，检测元件给出低电平；水位高于检测元件时，检测元件给出高电平。",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.7.1",
+      "caption": "用于说明具有约束的逻辑函数的实例",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.8.3",
+      "caption": "所示的方式合并最小项，即找出 $Y_{1}, Y_{2}, Y_{3}$ 之间存在的共用项并加以利用，就可以得到如式(2.8.3)所示的另一种化简结果，即",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.9.1",
+      "caption": "按照式(2.9.1)",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "2.9.4",
+      "caption": "的电路。",
+      "chapter": "04_第02章_逻辑代数基础.md"
+    },
+    {
+      "fig_id": "3.1.2",
+      "caption": "所示。今后除非特殊说明, 本书中一律采用正逻辑。",
+      "chapter": "05_第03章_门电路.md"
+    },
+    {
+      "fig_id": "3.1.2",
+      "caption": "所示。正因为如此，在数字电路中无论是对元、器件参数精度的要求还是对供电电源稳定度的要求，",
+      "chapter": "05_第03章_门电路.md"
+    },
+    {
+      "fig_id": "3.1.2",
+      "caption": "正逻辑与负逻辑表示法",
+      "chapter": "05_第03章_门电路.md"
+    },
+    {
+      "fig_id": "3.2.4",
+      "caption": "所示。由于外加电压由反向突然变为正向时,要等到PN结内部建立起足够的电荷梯度后才开始有扩散电流形成,因而正向导通电流的建立要稍",
+      "chapter": "05_第03章_门电路.md"
+    },
+    {
+      "fig_id": "3.2.4",
+      "caption": "二极管的动态电流波形",
+      "chapter": "05_第03章_门电路.md"
+    },
+    {
+      "fig_id": "3.2.4",
+      "caption": "所示。随着存储电荷的消散，反向电流迅速衰减并趋近于稳态时的反向饱和电流。瞬态反向电流的大小和持续时间的长短取决于正向导通时电流的大小、反向电压和外电路电阻的阻值，而且与二极管本身的特性有关。",
+      "chapter": "05_第03章_门电路.md"
+    },
+    {
+      "fig_id": "3.2.5",
+      "caption": "所示是有两个输入端的与门电路，图中A、B为两个输入变量，Y为输出变量。",
+      "chapter": "05_第03章_门电路.md"
+    }
+  ]
+}

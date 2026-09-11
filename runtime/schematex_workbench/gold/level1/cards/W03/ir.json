@@ -1,0 +1,24 @@
+{
+  "schema_version": "wave_ir_v1",
+  "diagram_type": "waveform",
+  "title": "fig_5_2_3_wave_approx",
+  "signals": [
+    {
+      "name": "SDn",
+      "wave": "011111110111"
+    },
+    {
+      "name": "RDn",
+      "wave": "111101111111"
+    },
+    {
+      "name": "Q",
+      "wave": "001111000111"
+    },
+    {
+      "name": "Qn",
+      "wave": "110000111000"
+    }
+  ],
+  "notes": "原 JPG 仅电路；波形为示意"
+}

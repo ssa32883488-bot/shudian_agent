@@ -1,0 +1,224 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "C03": {
+      "ports": {
+        "R": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "G": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "Z": {
+          "direction": "output",
+          "bits": [
+            11
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_AND3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              8
+            ],
+            "A": [
+              2
+            ],
+            "B": [
+              6
+            ],
+            "C": [
+              7
+            ]
+          }
+        },
+        "c4": {
+          "type": "$_AND3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              9
+            ],
+            "A": [
+              5
+            ],
+            "B": [
+              3
+            ],
+            "C": [
+              7
+            ]
+          }
+        },
+        "c5": {
+          "type": "$_AND3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              10
+            ],
+            "A": [
+              5
+            ],
+            "B": [
+              6
+            ],
+            "C": [
+              4
+            ]
+          }
+        },
+        "c6": {
+          "type": "$_NOR3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              11
+            ],
+            "A": [
+              8
+            ],
+            "B": [
+              9
+            ],
+            "C": [
+              10
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "R": {
+          "bits": [
+            2
+          ]
+        },
+        "A": {
+          "bits": [
+            3
+          ]
+        },
+        "G": {
+          "bits": [
+            4
+          ]
+        },
+        "nR": {
+          "bits": [
+            5
+          ]
+        },
+        "nA": {
+          "bits": [
+            6
+          ]
+        },
+        "nG": {
+          "bits": [
+            7
+          ]
+        },
+        "a1": {
+          "bits": [
+            8
+          ]
+        },
+        "a2": {
+          "bits": [
+            9
+          ]
+        },
+        "a3": {
+          "bits": [
+            10
+          ]
+        },
+        "Z": {
+          "bits": [
+            11
+          ]
+        }
+      }
+    }
+  }
+}

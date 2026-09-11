@@ -1,0 +1,9 @@
+﻿Let's break down the circuit to confirm:
+1.  **Top AND3 gate**:
+    -   Inputs: `R` direct, `A` inverted to `A'`, `G` inverted to `G'` 鈫?term = `R A' G'`
+2.  **Middle AND3 gate**:
+    -   Inputs: `R` inverted to `R'`, `A` direct, `G` inverted to `G'` 鈫?term = `R' A G'`
+3.  **Bottom AND3 gate**:
+    -   Inputs: `R` inverted to `R'`, `A` inverted to `A'`, `G` direct 鈫?term = `R' A' G`
+
+All 3 outputs feed into a final 3-input NOR3 gate to produce output `Z`. This exactly matches the terms you listed, so this is the correct set of AND3 terms top-to-bottom, followed by the NOR3 final gate.

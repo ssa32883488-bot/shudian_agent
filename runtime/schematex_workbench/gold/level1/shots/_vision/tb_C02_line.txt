@@ -1,0 +1,5 @@
+﻿Based on the circuit diagram provided, here are the inputs for the middle three NAND gates from top to bottom:
+
+1.  **Top Middle NAND:** Inputs are (R', A)
+2.  **True Middle NAND:** Inputs are (R, A', G)
+3.  **Bottom Middle NAND:** Inputs are (R, G')

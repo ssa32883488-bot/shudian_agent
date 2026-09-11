@@ -1,0 +1,88 @@
+{"from": "二进制算术运算", "to": "ASCII代码", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch01:1.4→1.5"}
+{"from": "二进制算术运算", "to": "反码、补码和补码运算", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑代数中的三种基本运算", "to": "基本公式", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "基本公式", "to": "代入定理", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "代入定理", "to": "逻辑函数", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch02:2.4→2.5"}
+{"from": "逻辑函数", "to": "卡诺图", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch02:2.5→2.6"}
+{"from": "卡诺图", "to": "无关项在化简逻辑函数中", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch02:2.6→2.7"}
+{"from": "无关项在化简逻辑函数中", "to": "多输出逻辑函数的化简", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch02:2.7→2.8"}
+{"from": "多输出逻辑函数的化简", "to": "逻辑函数形式的变换", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch02:2.8→2.9"}
+{"from": "卡诺图", "to": "奎恩-麦克拉斯基化简法 (Q-M 法)", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑代数中的三种基本运算", "to": "异或与同或", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑函数", "to": "逻辑函数的描述方法", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "与或非门", "to": "二极管与门", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch03:3→3.2"}
+{"from": "二极管与门", "to": "CMOS反相器", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch03:3.2→3.3"}
+{"from": "CMOS反相器", "to": "双极型三极管的开关特性", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch03:3.3→3.4"}
+{"from": "双极型三极管的开关特性", "to": "ECL 集成电路", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch03:3.4→3.5"}
+{"from": "ECL 集成电路", "to": "Bi-CMOS 电路", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch03:3.5→3.6"}
+{"from": "Bi-CMOS 电路", "to": "不同逻辑电平电路间的接口", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch03:3.6→3.7"}
+{"from": "CMOS反相器", "to": "三态输出", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "CMOS反相器", "to": "漏极开路输出(OD)", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "组合逻辑电路设计", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路设计", "to": "加法器", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch04:4.3→4.4"}
+{"from": "加法器", "to": "层次化和模块化", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch04:4.4→4.5"}
+{"from": "层次化和模块化", "to": "可编程逻辑器件", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch04:4.5→4.6"}
+{"from": "可编程逻辑器件", "to": "硬件描述语言", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch04:4.6→4.7"}
+{"from": "硬件描述语言", "to": "竞争-冒险现象", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch04:4.7→4.9"}
+{"from": "竞争-冒险现象", "to": "检查竞争-冒险现象", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "SR 锁存器", "to": "触发器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "触发器", "to": "寄存器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "寄存器", "to": "存储器", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch05:5.4→5.5"}
+{"from": "存储器", "to": "存储器容量的扩展", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "触发器", "to": "触发器按逻辑功能的分类", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "同步时序与异步时序", "to": "同步时序逻辑电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "同步时序逻辑电路", "to": "计数器", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch06:6.2→6.3"}
+{"from": "计数器", "to": "复杂时序逻辑电路的设计", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch06:6.3→6.4"}
+{"from": "复杂时序逻辑电路的设计", "to": "可以实现时序逻辑电路的可编程逻辑器件", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch06:6.4→6.5"}
+{"from": "可以实现时序逻辑电路的可编程逻辑器件", "to": "时序逻辑电路中的竞争-冒险现象", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch06:6.5→6.6"}
+{"from": "定时器的输入电路", "to": "施密特触发电路", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch07:3.555→7.2"}
+{"from": "施密特触发电路", "to": "单稳态电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "单稳态电路", "to": "多谐振荡电路", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch07:7.3→7.4"}
+{"from": "多谐振荡电路", "to": "555定时器的电路结构与功能", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch07:7.4→7.5"}
+{"from": "开关树型 D/A 转换器", "to": "D/A转换器的转换精度", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch08:8.2→8.3"}
+{"from": "D/A转换器的转换精度", "to": "A/D 转换", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch08:8.3→8.4"}
+{"from": "A/D 转换", "to": "取样-保持电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "取样-保持电路", "to": "逐次逼近型A/D转换器", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch08:8.5→8.6"}
+{"from": "逐次逼近型A/D转换器", "to": "A/D转换器的转换精度", "type": "PRE_REQUISITE_OF", "confidence": "medium", "evidence": "section_order:ch08:8.6→8.7"}
+{"from": "反码、补码和补码运算", "to": "逻辑代数中的三种基本运算", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "基本公式", "to": "反演定理", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "基本公式", "to": "对偶定理", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑代数中的三种基本运算", "to": "逻辑函数", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑函数的描述方法", "to": "逻辑函数的两种标准形式", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑函数的两种标准形式", "to": "最小项与最大项", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑函数的两种标准形式", "to": "公式化简", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "基本公式", "to": "公式化简", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "公式化简", "to": "卡诺图", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑函数的两种标准形式", "to": "卡诺图", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "卡诺图", "to": "约束项、任意项和逻辑函数式中的无关项", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "约束项、任意项和逻辑函数式中的无关项", "to": "无关项在化简逻辑函数中", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "卡诺图", "to": "多输出逻辑函数的化简", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "卡诺图", "to": "逻辑函数形式的变换", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "MOS 管的开关特性", "to": "CMOS反相器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "二极管与门", "to": "CMOS 电路和 TTL 电路的接口", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "CMOS 电路和 TTL 电路的接口", "to": "集电极开路输出(OC)", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "逻辑代数中的三种基本运算", "to": "组合逻辑电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "卡诺图", "to": "组合逻辑电路设计", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "编码器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "译码器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "数据选择器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "加法器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "数值比较器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "竞争-冒险现象", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路设计", "to": "硬件描述语言", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "SR 锁存器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "触发器", "to": "存储器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "组合逻辑电路", "to": "时序逻辑与组合逻辑的区别", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "触发器", "to": "同步时序与异步时序", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "同步时序与异步时序", "to": "异步时序逻辑电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "触发器", "to": "移位寄存器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "触发器", "to": "计数器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "同步时序逻辑电路", "to": "时序逻辑电路的自启动设计", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "同步时序逻辑电路", "to": "复杂时序逻辑电路的设计", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "硬件描述语言", "to": "用硬件描述语言 Verilog HDL 描述时序逻辑电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "触发器", "to": "施密特触发电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "施密特触发电路", "to": "多谐振荡电路", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "加法器", "to": "D/A 转换器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "D/A 转换器", "to": "权电阻网络 D/A 转换器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "D/A 转换器", "to": "倒 T 形电阻网络 D/A 转换器", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}
+{"from": "D/A 转换器", "to": "A/D 转换", "type": "PRE_REQUISITE_OF", "confidence": "high", "evidence": "curated"}

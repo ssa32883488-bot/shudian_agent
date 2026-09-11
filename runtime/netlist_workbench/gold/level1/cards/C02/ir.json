@@ -1,0 +1,73 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "ex_4_3_1_nand",
+  "inputs": [
+    "R",
+    "A",
+    "G"
+  ],
+  "gates": {
+    "nR": {
+      "type": "NOT",
+      "inputs": [
+        "R"
+      ]
+    },
+    "nA": {
+      "type": "NOT",
+      "inputs": [
+        "A"
+      ]
+    },
+    "nG": {
+      "type": "NOT",
+      "inputs": [
+        "G"
+      ]
+    },
+    "n1": {
+      "type": "NAND",
+      "inputs": [
+        "R",
+        "A"
+      ]
+    },
+    "n2": {
+      "type": "NAND",
+      "inputs": [
+        "A",
+        "G"
+      ]
+    },
+    "n3": {
+      "type": "NAND",
+      "inputs": [
+        "R",
+        "G"
+      ]
+    },
+    "n4": {
+      "type": "NAND",
+      "inputs": [
+        "nR",
+        "nA",
+        "nG"
+      ]
+    },
+    "Z": {
+      "type": "NAND",
+      "inputs": [
+        "n1",
+        "n2",
+        "n3",
+        "n4"
+      ]
+    }
+  },
+  "outputs": {
+    "Z": "Z"
+  },
+  "notes": "课本：n4 三输入与非、Z 四输入与非；与 C01 同函数"
+}

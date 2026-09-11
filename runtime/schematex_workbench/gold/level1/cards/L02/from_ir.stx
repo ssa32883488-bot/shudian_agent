@@ -1,0 +1,13 @@
+logic "ex_2_5_3" style: iec
+input A, B, C
+output Y
+nB = NOT(B)
+t_bc = AND(nB, C)
+t_sum = OR(A, t_bc)
+t_nand = NOT(t_sum)
+nA = NOT(A)
+nC = NOT(C)
+t_ab = AND(nA, B)
+t_abc = AND(t_ab, nC)
+t_or = OR(t_nand, t_abc)
+Y = OR(t_or, C)

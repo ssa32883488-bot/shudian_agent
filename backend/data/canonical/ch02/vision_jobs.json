@@ -1,0 +1,464 @@
+[
+  {
+    "key": "图2.2.1(a)|images/a2fc5020ce3ae729813c2f357a2f050521c5e5965b37c6d9a36879e6b0bdfebc.jpg",
+    "figure_id": "图2.2.1(a)",
+    "caption": "用于说明与、或、非定义的电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a2fc5020ce3ae729813c2f357a2f050521c5e5965b37c6d9a36879e6b0bdfebc.jpg"
+  },
+  {
+    "key": "图2.2.1(b)|images/7df8cfc2a74d38854f365d223fa41ca6bfb25214f480a2421f8062fa55d89f20.jpg",
+    "figure_id": "图2.2.1(b)",
+    "caption": "用于说明与、或、非定义的电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7df8cfc2a74d38854f365d223fa41ca6bfb25214f480a2421f8062fa55d89f20.jpg"
+  },
+  {
+    "key": "图2.2.1(c)|images/05a329851db8052fe7993e2a055853ddd0b8d277a4f027b2d3b9e6879d7b0dae.jpg",
+    "figure_id": "图2.2.1(c)",
+    "caption": "用于说明与、或、非定义的电路 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\05a329851db8052fe7993e2a055853ddd0b8d277a4f027b2d3b9e6879d7b0dae.jpg"
+  },
+  {
+    "key": "图2.2.2|images/a0766d8ed3c61208fb79fb90fbd4b443871bcf528b0de6fe3e916e3949747cea.jpg",
+    "figure_id": "图2.2.2",
+    "caption": "与、或、非的图形符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a0766d8ed3c61208fb79fb90fbd4b443871bcf528b0de6fe3e916e3949747cea.jpg"
+  },
+  {
+    "key": "图2.2.3|images/5e5b89f29b232b6e256d2704380e871f6fa5a189de742bed1fe205f4b84e896d.jpg",
+    "figure_id": "图2.2.3",
+    "caption": "复合逻辑的图形符号和运算符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5e5b89f29b232b6e256d2704380e871f6fa5a189de742bed1fe205f4b84e896d.jpg"
+  },
+  {
+    "key": "图2.5.1|images/2ec7bafe6c78b632a91cacc044bc7c776e53d53755772ec0b6244e6f06a8f4c1.jpg",
+    "figure_id": "图2.5.1",
+    "caption": "举重裁判电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2ec7bafe6c78b632a91cacc044bc7c776e53d53755772ec0b6244e6f06a8f4c1.jpg"
+  },
+  {
+    "key": "图2.5.2|images/d4d5230cfe3f79486c5866159d4179f604ae8cd3472bc8b1b6a79051e343c025.jpg",
+    "figure_id": "图2.5.2",
+    "caption": "描述图2.5.1电路逻辑功能的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d4d5230cfe3f79486c5866159d4179f604ae8cd3472bc8b1b6a79051e343c025.jpg"
+  },
+  {
+    "key": "图2.5.3|images/fd57c10b280833b08e86ffaa71cb78cfb6ed2d50823ba991984972ab8caa5a5d.jpg",
+    "figure_id": "图2.5.3",
+    "caption": "描述图 2.5.1 电路逻辑功能的波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fd57c10b280833b08e86ffaa71cb78cfb6ed2d50823ba991984972ab8caa5a5d.jpg"
+  },
+  {
+    "key": "图2.5.4|images/3cdc828a80cc61497d1814b88230dbdf1e1159e4b4a67f5a1bb636152b7388e6.jpg",
+    "figure_id": "图2.5.4",
+    "caption": "例2.5.3的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3cdc828a80cc61497d1814b88230dbdf1e1159e4b4a67f5a1bb636152b7388e6.jpg"
+  },
+  {
+    "key": "图2.5.5|images/525fd3b018cf075c0793242544068331b971208bedff58e1483d392b61c43cfd.jpg",
+    "figure_id": "图2.5.5",
+    "caption": "例2.5.4的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\525fd3b018cf075c0793242544068331b971208bedff58e1483d392b61c43cfd.jpg"
+  },
+  {
+    "key": "图2.5.6|images/c8a2784c5667a0e4103c500d9c97c9912dcd6b3ad61fe299c460e4ac64221aae.jpg",
+    "figure_id": "图2.5.6",
+    "caption": "例2.5.5的波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c8a2784c5667a0e4103c500d9c97c9912dcd6b3ad61fe299c460e4ac64221aae.jpg"
+  },
+  {
+    "key": "图2.6.1|images/8ddfd8c067b03e7249c306e627cdf8f8afee6c225d3ccb2578e586a5a8762bb4.jpg",
+    "figure_id": "图2.6.1",
+    "caption": "二到五变量最小项的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8ddfd8c067b03e7249c306e627cdf8f8afee6c225d3ccb2578e586a5a8762bb4.jpg"
+  },
+  {
+    "key": "图2.6.2|images/49392bea931a9555853228bb5e9c028040fbb0d35b3b3ddbc4cf790207834442.jpg",
+    "figure_id": "图2.6.2",
+    "caption": "例2.6.8的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\49392bea931a9555853228bb5e9c028040fbb0d35b3b3ddbc4cf790207834442.jpg"
+  },
+  {
+    "key": "图2.6.3|images/6f470e357c56ab91019e14c663be2b46b7f149e2a17e488943c6bf14e8f35d85.jpg",
+    "figure_id": "图2.6.3",
+    "caption": "例2.6.9的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6f470e357c56ab91019e14c663be2b46b7f149e2a17e488943c6bf14e8f35d85.jpg"
+  },
+  {
+    "key": "图2.6.4(a)|images/163a56243e6b1b37f37794ac699ef9e706ffb0a95b709c50de4b595bebb8e2d0.jpg",
+    "figure_id": "图2.6.4(a)",
+    "caption": "最小项相邻的几种情况 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\163a56243e6b1b37f37794ac699ef9e706ffb0a95b709c50de4b595bebb8e2d0.jpg"
+  },
+  {
+    "key": "图2.6.4(b)|images/9b28aa32453e1c522e786c4fef2aa37b86e698e1cfda9599adfe7133132c29c1.jpg",
+    "figure_id": "图2.6.4(b)",
+    "caption": "最小项相邻的几种情况 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9b28aa32453e1c522e786c4fef2aa37b86e698e1cfda9599adfe7133132c29c1.jpg"
+  },
+  {
+    "key": "图2.6.4(c)|images/c29eaca1b52ef29a43b7963807ce967e15ce82ddbe855ec4316536a02cdf86e2.jpg",
+    "figure_id": "图2.6.4(c)",
+    "caption": "最小项相邻的几种情况 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c29eaca1b52ef29a43b7963807ce967e15ce82ddbe855ec4316536a02cdf86e2.jpg"
+  },
+  {
+    "key": "图2.6.4(d)|images/9264b5cf377533f50c5ac360b6f821d2c141223d207fbe9963ec5719a9f7725c.jpg",
+    "figure_id": "图2.6.4(d)",
+    "caption": "最小项相邻的几种情况 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9264b5cf377533f50c5ac360b6f821d2c141223d207fbe9963ec5719a9f7725c.jpg"
+  },
+  {
+    "key": "图2.6.4(e)|images/ae426005887ee4857088f14aa5fb1c21a692f35256fadb5425e568a0a6d8b00c.jpg",
+    "figure_id": "图2.6.4(e)",
+    "caption": "最小项相邻的几种情况 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ae426005887ee4857088f14aa5fb1c21a692f35256fadb5425e568a0a6d8b00c.jpg"
+  },
+  {
+    "key": "图2.6.5(a)|images/8ba11bab586972c14b92fde604cd36db985aa5f812a7bccb05e70c1b2e2f5d90.jpg",
+    "figure_id": "图2.6.5(a)",
+    "caption": "例 2.6.10 的卡诺图 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8ba11bab586972c14b92fde604cd36db985aa5f812a7bccb05e70c1b2e2f5d90.jpg"
+  },
+  {
+    "key": "图2.6.5(b)|images/24a7738d47731e68c614774dc760ef9024f48146df5545cc730eeb693727d358.jpg",
+    "figure_id": "图2.6.5(b)",
+    "caption": "例 2.6.10 的卡诺图 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\24a7738d47731e68c614774dc760ef9024f48146df5545cc730eeb693727d358.jpg"
+  },
+  {
+    "key": "图2.6.6|images/d149710b475adec671f90ab152d31a55539f1f442578fb2d47f61ea27103d8d9.jpg",
+    "figure_id": "图2.6.6",
+    "caption": "例2.6.11的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d149710b475adec671f90ab152d31a55539f1f442578fb2d47f61ea27103d8d9.jpg"
+  },
+  {
+    "key": "图2.7.1|images/dcc4c98d0af4563278a7620270501d5f8d9ee899ab30b95ff1d446fdf6c12d93.jpg",
+    "figure_id": "图2.7.1",
+    "caption": "用于说明具有约束的逻辑函数的实例",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dcc4c98d0af4563278a7620270501d5f8d9ee899ab30b95ff1d446fdf6c12d93.jpg"
+  },
+  {
+    "key": "图2.7.2|images/c6cc6f3d8044ea0967a3a321a6db15f81d019133ecbaff1026f7e5eab8aa2387.jpg",
+    "figure_id": "图2.7.2",
+    "caption": "例2.7.1的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c6cc6f3d8044ea0967a3a321a6db15f81d019133ecbaff1026f7e5eab8aa2387.jpg"
+  },
+  {
+    "key": "图2.7.3|images/dae496fc62e48f30638c208330efaa4c753d79d231ac697c66804d5a041f4f0d.jpg",
+    "figure_id": "图2.7.3",
+    "caption": "例2.7.2的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dae496fc62e48f30638c208330efaa4c753d79d231ac697c66804d5a041f4f0d.jpg"
+  },
+  {
+    "key": "图2.8.1(a)|images/7e852eafc891342d001485d3a46aee44e4581459d22b5ccca326cfa7ef6a976b.jpg",
+    "figure_id": "图2.8.1(a)",
+    "caption": "用于化简式(2.8.1)逻辑函数的卡诺图 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7e852eafc891342d001485d3a46aee44e4581459d22b5ccca326cfa7ef6a976b.jpg"
+  },
+  {
+    "key": "图2.8.1(b)|images/29b1c6218663df389c9c7ad2234b701e0913b32f120d946b6c392c67ae6777be.jpg",
+    "figure_id": "图2.8.1(b)",
+    "caption": "用于化简式(2.8.1)逻辑函数的卡诺图 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\29b1c6218663df389c9c7ad2234b701e0913b32f120d946b6c392c67ae6777be.jpg"
+  },
+  {
+    "key": "图2.8.1(c)|images/d1486bf0122c53aa4c1bf6d2969d54b4c95f62f12c43a45110f3cac8d36ee899.jpg",
+    "figure_id": "图2.8.1(c)",
+    "caption": "用于化简式(2.8.1)逻辑函数的卡诺图 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d1486bf0122c53aa4c1bf6d2969d54b4c95f62f12c43a45110f3cac8d36ee899.jpg"
+  },
+  {
+    "key": "图2.8.2|images/e54e2cf054e3623fd8ff8b78d002ba7fa35860d68b9c2c792781939bbb2b004e.jpg",
+    "figure_id": "图2.8.2",
+    "caption": "根据式(2.8.2)得到的逻辑电路图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e54e2cf054e3623fd8ff8b78d002ba7fa35860d68b9c2c792781939bbb2b004e.jpg"
+  },
+  {
+    "key": "图2.8.3|images/f5dd1dc9c1a4b43a6d7478216c8f6b683b27a6f40a354144407c9560e0bd7067.jpg",
+    "figure_id": "图2.8.3",
+    "caption": "利用公共项化简式(2.8.1)逻辑函数的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f5dd1dc9c1a4b43a6d7478216c8f6b683b27a6f40a354144407c9560e0bd7067.jpg"
+  },
+  {
+    "key": "图2.8.4|images/d596482eec7fa2076f8496d14682916f8c4735ce7a38f0dd6c3b577eebb1fbdf.jpg",
+    "figure_id": "图2.8.4",
+    "caption": "根据式(2.8.3)得到的逻辑电路图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d596482eec7fa2076f8496d14682916f8c4735ce7a38f0dd6c3b577eebb1fbdf.jpg"
+  },
+  {
+    "key": "图2.9.1|images/86ec6a754e726277fdf7d9abca7541063579cbedf999f7a647fb1d44efd5d3e1.jpg",
+    "figure_id": "图2.9.1",
+    "caption": "按照式(2.9.1)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\86ec6a754e726277fdf7d9abca7541063579cbedf999f7a647fb1d44efd5d3e1.jpg"
+  },
+  {
+    "key": "图2.9.2|images/98ac086640bc097e188197bf19bec290a3109d7d0924c1766b85a5348a377966.jpg",
+    "figure_id": "图2.9.2",
+    "caption": "按照式(2.9.2)接成的逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\98ac086640bc097e188197bf19bec290a3109d7d0924c1766b85a5348a377966.jpg"
+  },
+  {
+    "key": "图2.9.3|images/1779bafb463c7a45bcda00ab89411f6b22468d4deaa058005214ac0f33601173.jpg",
+    "figure_id": "图2.9.3",
+    "caption": "按照式(2.9.3)接成的逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1779bafb463c7a45bcda00ab89411f6b22468d4deaa058005214ac0f33601173.jpg"
+  },
+  {
+    "key": "图2.9.4|images/e2a59c6d0b8c98e1518180d79b87d4ef83ce1275f28b579d13291039918b6dff.jpg",
+    "figure_id": "图2.9.4",
+    "caption": "按照式(2.9.5)接成的逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e2a59c6d0b8c98e1518180d79b87d4ef83ce1275f28b579d13291039918b6dff.jpg"
+  },
+  {
+    "key": "图2.9.5_0|images/6d1accf15e3cd4b9d968e850354164e37c199c7759532a9d10f29dd46c693c94.jpg",
+    "figure_id": "图2.9.5",
+    "caption": "按照式(2.9.6)接成的逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6d1accf15e3cd4b9d968e850354164e37c199c7759532a9d10f29dd46c693c94.jpg"
+  },
+  {
+    "key": "图2.9.5_1|images/91e89cbdfa903587bd5630dbe35c7d26af6902c839852a1548cc20afe6506c54.jpg",
+    "figure_id": "图2.9.5",
+    "caption": "按照式(2.9.6)接成的逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\91e89cbdfa903587bd5630dbe35c7d26af6902c839852a1548cc20afe6506c54.jpg"
+  },
+  {
+    "key": "图P2.6(a)|images/0e9fe75769d743d99f92bb454659685f7f9530a445b623467b6641ec29c36d33.jpg",
+    "figure_id": "图P2.6(a)",
+    "caption": "图P2.6 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0e9fe75769d743d99f92bb454659685f7f9530a445b623467b6641ec29c36d33.jpg"
+  },
+  {
+    "key": "图P2.6(b)|images/ad5950e3aa20545d2186a35893ecf04664844cb8227fd54d12490a16f3d2f80a.jpg",
+    "figure_id": "图P2.6(b)",
+    "caption": "图P2.6 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ad5950e3aa20545d2186a35893ecf04664844cb8227fd54d12490a16f3d2f80a.jpg"
+  },
+  {
+    "key": "图P2.7(a)|images/88a9692b334b7f26abde84d780cf2b8707b6413ad040d094654517b63516eac4.jpg",
+    "figure_id": "图P2.7(a)",
+    "caption": "图P2.7 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\88a9692b334b7f26abde84d780cf2b8707b6413ad040d094654517b63516eac4.jpg"
+  },
+  {
+    "key": "图P2.7(b)|images/7d66c572670b51c50b582f1c5ef3e4fa00442ab30681117092a29d44e7affd4f.jpg",
+    "figure_id": "图P2.7(b)",
+    "caption": "图P2.7 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7d66c572670b51c50b582f1c5ef3e4fa00442ab30681117092a29d44e7affd4f.jpg"
+  },
+  {
+    "key": "图P2.8|images/c3222e8d4333dec5dfb73708fa572a9cffa5472fc9c3e383ca445f01ab18632b.jpg",
+    "figure_id": "图P2.8",
+    "caption": "图P2.8",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c3222e8d4333dec5dfb73708fa572a9cffa5472fc9c3e383ca445f01ab18632b.jpg"
+  },
+  {
+    "key": "图P2.9|images/f15c574af5b395c46655c3e1eab9c460e170cc6611e2c38334cb9ed26add375f.jpg",
+    "figure_id": "图P2.9",
+    "caption": "图 P2.9",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f15c574af5b395c46655c3e1eab9c460e170cc6611e2c38334cb9ed26add375f.jpg"
+  },
+  {
+    "key": "图P2.14(a)|images/97d7debc79a4291bdcb26e2a6cda4ab9dd3a92dce616924552cf12e5dab768e6.jpg",
+    "figure_id": "图P2.14(a)",
+    "caption": "图P2.14 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\97d7debc79a4291bdcb26e2a6cda4ab9dd3a92dce616924552cf12e5dab768e6.jpg"
+  },
+  {
+    "key": "图P2.14(b)|images/2f47e575c2ebc37153c84327c3431828bce9a73cea75637db49308d0ebb1d15c.jpg",
+    "figure_id": "图P2.14(b)",
+    "caption": "图P2.14 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2f47e575c2ebc37153c84327c3431828bce9a73cea75637db49308d0ebb1d15c.jpg"
+  },
+  {
+    "key": "图P2.14(c)|images/27c69fe18ee4f84c9bcf935daa8ec3247c3728a9315a2e22da1d767b7413ed9b.jpg",
+    "figure_id": "图P2.14(c)",
+    "caption": "图P2.14 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\27c69fe18ee4f84c9bcf935daa8ec3247c3728a9315a2e22da1d767b7413ed9b.jpg"
+  },
+  {
+    "key": "图P2.18(a)|images/f80d7847b637f2395ab27f1312ea230dd9414021882dad3700ff6af2ca77964c.jpg",
+    "figure_id": "图P2.18(a)",
+    "caption": "图 P2.18 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f80d7847b637f2395ab27f1312ea230dd9414021882dad3700ff6af2ca77964c.jpg"
+  },
+  {
+    "key": "图P2.18(b)|images/f3ee67c4cb4461ba8c0b34e0ce76f65225c80ffd684067cf44d6828e9bdbbdd5.jpg",
+    "figure_id": "图P2.18(b)",
+    "caption": "图 P2.18 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f3ee67c4cb4461ba8c0b34e0ce76f65225c80ffd684067cf44d6828e9bdbbdd5.jpg"
+  },
+  {
+    "key": "图P2.18(c)|images/fa8ba3ccbc89fe626083571c5c3eccbff12f6cd71281d451f0ea82620db349cb.jpg",
+    "figure_id": "图P2.18(c)",
+    "caption": "图 P2.18 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fa8ba3ccbc89fe626083571c5c3eccbff12f6cd71281d451f0ea82620db349cb.jpg"
+  },
+  {
+    "key": "图P2.18(d)|images/6eb778dd1d02f09787ce4ceb8de0ed3d4d250f61f80ddcc3d0ba4880d09d5ad5.jpg",
+    "figure_id": "图P2.18(d)",
+    "caption": "图 P2.18 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6eb778dd1d02f09787ce4ceb8de0ed3d4d250f61f80ddcc3d0ba4880d09d5ad5.jpg"
+  },
+  {
+    "key": "图P2.22(a)|images/5d375a1be67f34b9eb5194f2ea95a413c18b9d941b6d65e47827f6a848c9dadb.jpg",
+    "figure_id": "图P2.22(a)",
+    "caption": "图P2.22 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5d375a1be67f34b9eb5194f2ea95a413c18b9d941b6d65e47827f6a848c9dadb.jpg"
+  },
+  {
+    "key": "图P2.22(b)|images/4ea0ae243db7e28e2b3fac5b4a8313d1568fd15f710594102fd9c58ea0800724.jpg",
+    "figure_id": "图P2.22(b)",
+    "caption": "图P2.22 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4ea0ae243db7e28e2b3fac5b4a8313d1568fd15f710594102fd9c58ea0800724.jpg"
+  },
+  {
+    "key": "图P2.22(c)|images/88ab4db8bfc352c9ebd0d8e83c61e87c6822a1483781f69d0abc75ffd63d8b8f.jpg",
+    "figure_id": "图P2.22(c)",
+    "caption": "图P2.22 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\88ab4db8bfc352c9ebd0d8e83c61e87c6822a1483781f69d0abc75ffd63d8b8f.jpg"
+  },
+  {
+    "key": "图P2.22(d)|images/cfe692eee10570495ba01602042c59f2ec80e721985c58ef94406c60231435c2.jpg",
+    "figure_id": "图P2.22(d)",
+    "caption": "图P2.22 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cfe692eee10570495ba01602042c59f2ec80e721985c58ef94406c60231435c2.jpg"
+  },
+  {
+    "key": "图P2.22(e)|images/a4416ca1f65793bf103579d4112289e023c8c902001fef264661d2909d43ecf5.jpg",
+    "figure_id": "图P2.22(e)",
+    "caption": "图P2.22 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a4416ca1f65793bf103579d4112289e023c8c902001fef264661d2909d43ecf5.jpg"
+  },
+  {
+    "key": "图P2.22(f)|images/4715bfec93b22e8c7992f99344afa6106ba718627da504674965ae7374e09385.jpg",
+    "figure_id": "图P2.22(f)",
+    "caption": "图P2.22 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4715bfec93b22e8c7992f99344afa6106ba718627da504674965ae7374e09385.jpg"
+  },
+  {
+    "key": "图P2.22(g)|images/14012597bfbbd29a89bb5f0426471ce4f8fae06e2e42f98d8f2b241ab6fe12ac.jpg",
+    "figure_id": "图P2.22(g)",
+    "caption": "图P2.22 子图(g)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\14012597bfbbd29a89bb5f0426471ce4f8fae06e2e42f98d8f2b241ab6fe12ac.jpg"
+  },
+  {
+    "key": "图P2.22(h)|images/a1e9319501aad4e6333530c36d2e403526c70af2f4febd0ca7e479e451015e9e.jpg",
+    "figure_id": "图P2.22(h)",
+    "caption": "图P2.22 子图(h)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a1e9319501aad4e6333530c36d2e403526c70af2f4febd0ca7e479e451015e9e.jpg"
+  },
+  {
+    "key": "图P2.22|images/e4d3b2b2afc7aee783a70fda16aeb1b575e11216f63041ba604e96d71e4ce21f.jpg",
+    "figure_id": "图P2.22",
+    "caption": "图P2.22",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e4d3b2b2afc7aee783a70fda16aeb1b575e11216f63041ba604e96d71e4ce21f.jpg"
+  },
+  {
+    "key": "图2(a)|images/d2ce123602c0f7785d02d16c7cacbadba6c37c92b9b2f7b5a597419512a85e56.jpg",
+    "figure_id": "图2(a)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\d2ce123602c0f7785d02d16c7cacbadba6c37c92b9b2f7b5a597419512a85e56.jpg"
+  },
+  {
+    "key": "图2(b)|images/ffd23f2636542df067d950bbf9f281d0ce10418a05ce59970d1623d085686228.jpg",
+    "figure_id": "图2(b)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\ffd23f2636542df067d950bbf9f281d0ce10418a05ce59970d1623d085686228.jpg"
+  },
+  {
+    "key": "图2(c)|images/69b3fd6c1fe6386abba610987ed6f31b0a20d5ae735ed7a890c6dac13d7f441a.jpg",
+    "figure_id": "图2(c)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\69b3fd6c1fe6386abba610987ed6f31b0a20d5ae735ed7a890c6dac13d7f441a.jpg"
+  },
+  {
+    "key": "图2(d)|images/33c57a538a48c8f95b0a09a2cbe469e307ea6ecbbcf79a18346cdb339b6e92dd.jpg",
+    "figure_id": "图2(d)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\33c57a538a48c8f95b0a09a2cbe469e307ea6ecbbcf79a18346cdb339b6e92dd.jpg"
+  },
+  {
+    "key": "图2(e)|images/f7ce794928040d12994382df532dcbbeb3b30fe561885e6a4cb88a367d28b05b.jpg",
+    "figure_id": "图2(e)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\f7ce794928040d12994382df532dcbbeb3b30fe561885e6a4cb88a367d28b05b.jpg"
+  },
+  {
+    "key": "图2(f)|images/724b7cda29ff1fd33eb420554de9e1f4d34a23b111224a301cc9bbdf7f801ced.jpg",
+    "figure_id": "图2(f)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\724b7cda29ff1fd33eb420554de9e1f4d34a23b111224a301cc9bbdf7f801ced.jpg"
+  },
+  {
+    "key": "图2(g)|images/d14b5c1155f973b1d0bac1e1de96179e50f4eae20b5f220f045813480ac6440c.jpg",
+    "figure_id": "图2(g)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(g)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\d14b5c1155f973b1d0bac1e1de96179e50f4eae20b5f220f045813480ac6440c.jpg"
+  },
+  {
+    "key": "图2(h)|images/bd0b16e317bec6b0b1c2dc53d5c41616c104e1e243a81237a6466a17894413c5.jpg",
+    "figure_id": "图2(h)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(h)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\bd0b16e317bec6b0b1c2dc53d5c41616c104e1e243a81237a6466a17894413c5.jpg"
+  },
+  {
+    "key": "图2(i)|images/51641ed1a16636acbc67188eb528eb121ce2f7e23d43bf04072dd59b850c5b02.jpg",
+    "figure_id": "图2(i)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(i)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\51641ed1a16636acbc67188eb528eb121ce2f7e23d43bf04072dd59b850c5b02.jpg"
+  },
+  {
+    "key": "图2(j)|images/29f73581079d6c9ea2cef30c1d44a7555fd328713beddd7bfbbe3ff8148c06d6.jpg",
+    "figure_id": "图2(j)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(j)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\29f73581079d6c9ea2cef30c1d44a7555fd328713beddd7bfbbe3ff8148c06d6.jpg"
+  },
+  {
+    "key": "图2(11)|images/58d4ee2ef13e4bf4c52c098c064120fe1ef65078a313c357ae473459cd4c4286.jpg",
+    "figure_id": "图2(11)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(11)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\58d4ee2ef13e4bf4c52c098c064120fe1ef65078a313c357ae473459cd4c4286.jpg"
+  },
+  {
+    "key": "图2(12)|images/9a47567032c5eccb377d2621ab123a2b1da7c16db280a2059886fd794c8d56f7.jpg",
+    "figure_id": "图2(12)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(12)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\9a47567032c5eccb377d2621ab123a2b1da7c16db280a2059886fd794c8d56f7.jpg"
+  },
+  {
+    "key": "图2(13)|images/47cfdb37256d53c5a66136cb09adfb384963a482e084f566c39e58f91eaf4c80.jpg",
+    "figure_id": "图2(13)",
+    "caption": "-2-1 用于说明约束项概念的实例 子图(13)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\47cfdb37256d53c5a66136cb09adfb384963a482e084f566c39e58f91eaf4c80.jpg"
+  },
+  {
+    "key": "图2_0|images/442d0f24118324e689e5b79c25fced736598033ed35adcab21b4a3894382d9b4.jpg",
+    "figure_id": "图2",
+    "caption": "图2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\442d0f24118324e689e5b79c25fced736598033ed35adcab21b4a3894382d9b4.jpg"
+  },
+  {
+    "key": "图2_1|images/67ece744a7cd0161b1a01190044e9038bad590a401f44d1f489f017898ccc715.jpg",
+    "figure_id": "图2",
+    "caption": "图2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\67ece744a7cd0161b1a01190044e9038bad590a401f44d1f489f017898ccc715.jpg"
+  },
+  {
+    "key": "图2_2|images/0370a451385370b4f096f3422693002bd555c13471df32d4ac5bb74385520b82.jpg",
+    "figure_id": "图2",
+    "caption": "图2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\0370a451385370b4f096f3422693002bd555c13471df32d4ac5bb74385520b82.jpg"
+  },
+  {
+    "key": "图2_3|images/5334d4bfff031a83dd1b837297846c5a4d14b10b2f976cb80717b22313cbb728.jpg",
+    "figure_id": "图2",
+    "caption": "图2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\5334d4bfff031a83dd1b837297846c5a4d14b10b2f976cb80717b22313cbb728.jpg"
+  },
+  {
+    "key": "图2_4|images/7ee226252f2c6c969fe092e581caedd95764939823c9c166610e9076d415bdaa.jpg",
+    "figure_id": "图2",
+    "caption": "图2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\7ee226252f2c6c969fe092e581caedd95764939823c9c166610e9076d415bdaa.jpg"
+  }
+]

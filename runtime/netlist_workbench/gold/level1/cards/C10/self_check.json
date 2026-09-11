@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "grade": "SELF_OK",
+  "checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=128"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=15 ir_gates=15"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=12788"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "meta": {
+    "preferMulti": true,
+    "multiMax": 4,
+    "gateMeta": [
+      {
+        "id": "nA0",
+        "base": "NOT",
+        "arity": 1,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "nA1",
+        "base": "NOT",
+        "arity": 1,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "nSn",
+        "base": "NOT",
+        "arity": 1,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "m0a",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "m0",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "m1a",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "m1",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "m2a",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "m2",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "m3a",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "m3",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "s01",
+        "base": "OR",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "s23",
+        "base": "OR",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "sum",
+        "base": "OR",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "Y",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      }
+    ],
+    "cellCount": 15,
+    "multiGates": 0,
+    "fallbackSplits": []
+  },
+  "combinational": true
+}

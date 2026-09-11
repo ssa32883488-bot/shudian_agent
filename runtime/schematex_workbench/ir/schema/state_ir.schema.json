@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shudian.local/ir/state_ir.schema.json",
+  "title": "StateDiagramIR",
+  "description": "圆形/跑道布局状态转换图语义（专用 renderer，不走 Schematex UML）",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "diagram_type", "states", "transitions"],
+  "properties": {
+    "schema_version": { "const": "state_ir_v1" },
+    "diagram_type": { "const": "state" },
+    "title": { "type": "string" },
+    "show_title": { "type": "boolean", "default": false },
+    "states": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "initial": { "type": ["string", "null"] },
+    "transitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "to"],
+        "properties": {
+          "from": { "type": "string" },
+          "to": { "type": "string" },
+          "label": { "type": "string", "description": "如 /0 或 输入/输出" },
+          "style": { "type": "string", "enum": ["solid", "dashed"], "default": "solid" },
+          "forbidden": { "type": "boolean", "default": false, "description": "课本叉号标记的无效转移" }
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "enum": ["auto", "ring", "racetrack", "square", "triangle", "free"],
+      "default": "auto"
+    },
+    "positions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": { "type": "number" }
+      }
+    },
+    "legend": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "state_label": { "type": "string", "description": "如 Q3Q2Q1" },
+        "edge_label": { "type": "string", "description": "如 /Y 或 X/Y" },
+        "style": { "type": "string", "enum": ["circle", "text"], "default": "circle" },
+        "position": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": { "type": "number" }
+        }
+      }
+    }
+  }
+}

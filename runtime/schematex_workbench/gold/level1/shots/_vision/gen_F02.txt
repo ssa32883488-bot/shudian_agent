@@ -1,0 +1,16 @@
+﻿Based on the circuit diagram provided, here is the evaluation:
+
+**Pass**
+
+**Explanation:**
+The image displays a classic **Active-Low SR Latch (Set-Reset Latch)** constructed using two cross-coupled NAND gates. This is a standard textbook configuration.
+
+*   **Inputs:** $SD'$ (Set Direct) and $RD'$ (Reset Direct) are active-low inputs.
+*   **Structure:** The output of the top NAND gate ($Q$) feeds into the bottom NAND gate, and the output of the bottom NAND gate ($Q'$) feeds into the top NAND gate. This feedback loop creates the latching behavior.
+*   **Logic:**
+    *   If $SD' = 0$ and $RD' = 1$, the latch sets ($Q=1$).
+    *   If $SD' = 1$ and $RD' = 0$, the latch resets ($Q=0$).
+    *   If $SD' = 1$ and $RD' = 1$, the state is held (memory).
+    *   If $SD' = 0$ and $RD' = 0$, both outputs go high (invalid state for a latch).
+
+This matches the standard "SR Latch with NAND Gates" schematic found in almost all digital logic textbooks.

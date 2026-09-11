@@ -1,0 +1,72 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "y2a",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y2b",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Y2",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y1a",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y1b",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Y1",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y0a",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y0b",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Y0",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    }
+  ],
+  "cellCount": 9,
+  "multiGates": 0,
+  "fallbackSplits": []
+}

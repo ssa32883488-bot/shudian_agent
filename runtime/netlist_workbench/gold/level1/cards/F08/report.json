@@ -1,0 +1,40 @@
+{
+  "id": "F08",
+  "fig_id": "6.3.1",
+  "caption": "D触发器移位寄存器",
+  "image": "../../textbook_figures/logic_dag/fig_6_3_1.jpg",
+  "combinational": false,
+  "sim_ok": false,
+  "sim_reason": "sequential_unsupported",
+  "sim_rows": 0,
+  "sim_samples": [],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": false,
+  "self_grade": "SELF_FAIL",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": false,
+      "detail": "sequential_unsupported"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=4 ir_gates=4"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=6804"
+    }
+  ],
+  "multi_gates": 0,
+  "fallback_splits": 0,
+  "notes": "图6.3.1：串行入 D_I、串行出 D_O；各级有 Q' 端"
+}

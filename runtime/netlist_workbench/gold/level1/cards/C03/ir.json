@@ -1,0 +1,67 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "ex_4_3_1_nor",
+  "inputs": [
+    "R",
+    "A",
+    "G"
+  ],
+  "gates": {
+    "nR": {
+      "type": "NOT",
+      "inputs": [
+        "R"
+      ]
+    },
+    "nA": {
+      "type": "NOT",
+      "inputs": [
+        "A"
+      ]
+    },
+    "nG": {
+      "type": "NOT",
+      "inputs": [
+        "G"
+      ]
+    },
+    "a1": {
+      "type": "AND",
+      "inputs": [
+        "R",
+        "nA",
+        "nG"
+      ]
+    },
+    "a2": {
+      "type": "AND",
+      "inputs": [
+        "nR",
+        "A",
+        "nG"
+      ]
+    },
+    "a3": {
+      "type": "AND",
+      "inputs": [
+        "nR",
+        "nA",
+        "G"
+      ]
+    },
+    "Z": {
+      "type": "NOR",
+      "inputs": [
+        "a1",
+        "a2",
+        "a3"
+      ]
+    }
+  },
+  "outputs": {
+    "Z": "Z"
+  },
+  "notes": "课本：三输入与 + 三输入或非；Z=!(exactly-one)"
+}

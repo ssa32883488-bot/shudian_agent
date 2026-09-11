@@ -1,0 +1,37 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "G3",
+      "base": "NAND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "G4",
+      "base": "NAND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "G1",
+      "base": "NAND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "G2",
+      "base": "NAND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    }
+  ],
+  "cellCount": 4,
+  "multiGates": 0,
+  "fallbackSplits": []
+}

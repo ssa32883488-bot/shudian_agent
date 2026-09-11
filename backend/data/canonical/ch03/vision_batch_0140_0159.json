@@ -1,0 +1,12 @@
+{
+  "图3.7.5(c)|images/9c50f741aff70b264cdf949b3f3f343cd40db8f8618a73cfbb2abbb99617fd0f.jpg": "接口电路74LVC1G07：虚线框内为漏极开路缓冲器（三角内嵌菱形OD标志），输出经上拉电阻RL接电源，器件底部接地。",
+  "图3.7.5(d)|images/b73d3afc0430ac9e3af5c2b37b4875a9e3c95dc12ddf466a5dac9e673e3a12bd.jpg": "负载电路74ALVC00：虚线框内为与非门，电源接VCC=1.8V，其一输入端并接至该电源端，芯片底部接地。",
+  "图3.7.6(a)|images/cbc777decaa0fe38a51fd1306fa5c1a0455817445f051f1fc097ab7f79df1e78.jpg": "驱动门74ALVC00：虚线框内二输入与非门，电源VCC=2.5V，输出向右引出，上下分别接电源与地。",
+  "图3.7.6(b)|images/68bc2e2ddbeb67d321c0ede9745b22d363765db646f9c2fe57151858d2228d96.jpg": "双电源总线接口74AVC1T45：左域VCCA=2.5V接端口A与方向控制C（图中C接地），右域VCCB=3.3V接端口B；两侧各含多级反相器构成双向电平转换通道。",
+  "图P3.2_0|images/1786ef2d8e934e447a67c8f037684cbda2e474d4eed2dc37da24590902a6f515.jpg": "左列为二输入与非门Y1、或非门Y2、同或门Y3（输入均A、B）；右侧给出A、B随时间t变化的错相矩形脉冲波形。",
+  "图P3.2_1|images/4c450f90c252b0f43daf1ddcfca6263e8158cbe62f0387cbb643108e38c75efc.jpg": "数字集成电路分类树：按工艺分MOS（CMOS 4000/74HC等、NMOS、PMOS）、双极型（TTL 74S/LS等、ECL）、Bi-CMOS；按输出结构分互补/推拉、OD/OC、三态。",
+  "图P3.2_2|images/b8fa5483904b775ccb2064df61a87ecb3813011cb9a81f22cdd819ed240bb039.jpg": "按逻辑功能分类：逻辑门电路（与/或/非/与非/或非/与或非/异或），①常用组合逻辑模块，②常用时序逻辑模块。",
+  "图P3.2_3|images/c8688f229a7f7475791d63eb1aac8b99e56c7ff87489a20d4cb85988f43b1e88.jpg": "三列电平标尺对照：5V/CMOS、5V/TTL、3.3V低压TTL，分别标出VDD/VCC、VOH、VIH、VT、VIL、VOL；CMOS的VT约2.5V，TTL约1.5V。",
+  "图P3.2_4|images/c2a4b7e2fc2241c9039cf19ea8212502b8bf0979eb90c23b2a702c8088e1c490.jpg": "低压逻辑电平标尺：VDD分别为2.5V、1.8V、1.5V时的VOH/VIH/VT/VIL/VOL数值，显示门限随电源按比例降低。",
+  "图P3.4|images/bf886c7635f9c568cee8833ce559d5a6d2f34b40a4931e17cad05fb68fc714f4.jpg": "电路：A经两级反相器后与B一同进入二输入与非门得Y；右侧A、B为矩形脉冲，A下降沿与B上升沿在虚线处对齐，用于分析竞争冒险。"
+}

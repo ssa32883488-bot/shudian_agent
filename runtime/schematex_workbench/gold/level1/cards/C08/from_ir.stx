@@ -1,0 +1,16 @@
+logic "decoder_74hc138_approx" style: iec
+input A0, A1, A2, S1, S2n, S3n
+output Y0n, Y7n, D
+nS1 = NOT(S1)
+enA = AND(nS1, S2n)
+S = AND(enA, S3n)
+nA0 = NOT(A0)
+nA1 = NOT(A1)
+nA2 = NOT(A2)
+D = DECODER(A0, A1, A2)
+y0a = AND(nA0, nA1)
+y0b = AND(y0a, nA2)
+Y0n = NAND(S, y0b)
+y7a = AND(A0, A1)
+y7b = AND(y7a, A2)
+Y7n = NAND(S, y7b)

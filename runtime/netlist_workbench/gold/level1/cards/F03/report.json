@@ -1,0 +1,40 @@
+{
+  "id": "F03",
+  "fig_id": "5.3.1",
+  "caption": "电平触发SR触发器",
+  "image": "../../textbook_figures/logic_dag/fig_5_3_1.jpg",
+  "combinational": true,
+  "sim_ok": false,
+  "sim_reason": "cyclic_combinational",
+  "sim_rows": 0,
+  "sim_samples": [],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": false,
+  "self_grade": "SELF_FAIL",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": false,
+      "detail": "cyclic_combinational"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=4 ir_gates=4"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=5515"
+    }
+  ],
+  "multi_gates": 0,
+  "fallback_splits": 0,
+  "notes": ""
+}

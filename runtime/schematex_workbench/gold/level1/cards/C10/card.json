@@ -1,0 +1,18 @@
+{
+  "id": "C10",
+  "bucket": "combinational",
+  "fig_id": "4.4.20",
+  "caption": "双4选1数据选择器74HC153",
+  "image": "../../textbook_figures/logic_dag/fig_4_4_20.jpg",
+  "image_exists": true,
+  "tier_guess": "B",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_msi_v1",
+  "reviewed_at": "2026-09-02T04:30:21.032Z",
+  "notes": "主路径 netlistsvg；gold.tbx 已弃用"
+}

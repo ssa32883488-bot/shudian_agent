@@ -1,0 +1,5 @@
+logic "half_adder" style: iec
+input A, B
+output S, CO
+S = XOR(A, B)
+CO = AND(A, B)

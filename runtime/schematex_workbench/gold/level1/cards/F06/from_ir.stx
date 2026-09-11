@@ -1,0 +1,17 @@
+logic "ex_6_2_1_jk" style: iec
+input CLK
+output Y, Q1, Q2, Q3
+FF1 = JKFF(FB, ONE, CLK)
+nQ1 = NOT(FF1)
+ONE = OR(CLK, nCLK)
+nCLK = NOT(CLK)
+NAND_mid = NAND(nQ1, FB)
+FF2 = JKFF(FF1, NAND_mid, CLK)
+AND_j3 = AND(FF1, FF2)
+nQ3 = NOT(FF3)
+FF3 = JKFF(AND_j3, nQ3, CLK)
+FB = NAND(FF2, FF3)
+Y = NOT(FB)
+Q1 <- FF1
+Q2 <- FF2
+Q3 <- FF3

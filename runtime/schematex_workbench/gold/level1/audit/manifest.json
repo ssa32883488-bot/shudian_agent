@@ -1,0 +1,452 @@
+[
+  {
+    "id": "C01",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.3.3",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C02",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.3.4",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C03",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.3.6",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C04",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.4.2",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C05",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.4.19",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C06",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.4.21",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C07",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.7.4",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C08",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.4.7",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C09",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.4.9",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "C10",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.4.20",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F01",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.2.1",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F02",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.2.2",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F03",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.1",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F04",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.4",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F05",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.7",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F06",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.2.1",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F07",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.2.3",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F08",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.3.1",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F09",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.3.8",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "F10",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.4.17",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L01",
+    "grade": "TEXTBOOK_OK",
+    "fig": "2.5.2",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L02",
+    "grade": "TOPOLOGY_OK",
+    "fig": "2.5.4",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L03",
+    "grade": "TOPOLOGY_OK",
+    "fig": "2.5.5",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L04",
+    "grade": "TOPOLOGY_OK",
+    "fig": "2.8.2",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L05",
+    "grade": "TOPOLOGY_OK",
+    "fig": "2.8.4",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L06",
+    "grade": "TEXTBOOK_OK",
+    "fig": "2.9.2",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L07",
+    "grade": "TEXTBOOK_OK",
+    "fig": "2.9.3",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L08",
+    "grade": "TOPOLOGY_OK",
+    "fig": "2.9.4",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L09",
+    "grade": "TOPOLOGY_OK",
+    "fig": "2.9.5",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "L10",
+    "grade": "TEXTBOOK_OK",
+    "fig": "4.1.1",
+    "rendered": true,
+    "hasTb": true,
+    "err": "",
+    "engine": "tbx"
+  },
+  {
+    "id": "S01",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.2.2",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S02",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.2.4",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S03",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.2.11",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S04",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.3.9",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S05",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.4.2",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S06",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.4.7",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S07",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.4.8",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S08",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.4.14",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S09",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.4.19",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "S10",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.4.26",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_state_textbook"
+  },
+  {
+    "id": "W01",
+    "grade": "TEXTBOOK_OK",
+    "fig": "2.5.3",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W02",
+    "grade": "TEXTBOOK_OK",
+    "fig": "2.5.6",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W03",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.2.3",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W04",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.3",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W05",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.6",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W06",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.9",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W07",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.11",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W08",
+    "grade": "TEXTBOOK_OK",
+    "fig": "5.3.14",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W09",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.3.2",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  },
+  {
+    "id": "W10",
+    "grade": "TEXTBOOK_OK",
+    "fig": "6.3.7",
+    "rendered": false,
+    "hasTb": false,
+    "err": "",
+    "engine": "svg_timing_textbook"
+  }
+]

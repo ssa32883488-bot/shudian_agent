@@ -1,0 +1,22 @@
+{
+  "图3.4.29|images/eae31f9fad58f60996fcb058443949fdc8f4160941e30bfd8c16e026c8c65044.jpg": "TTL或非门晶体管级电路：A/B各经多发射极管T1、T1'与分相管T2、T2'（集电极、发射极分别并联），驱动推挽输出T4/T5得Y；输入端有钳位二极管。",
+  "图3.4.30|images/b21a329256ee437efa259c56c046f2a80f89f3f42df7f34b6c9ec3a7a3ed40f3.jpg": "TTL与或非门：双发射极管T1接A/B、T1'接C/D，分相管T2与T2'集电极/发射极并联后驱动推挽T4/T5，实现Y=(AB+CD)'。",
+  "图3.4.31|images/e27a0d26f68a273611eb5be7d737e31358a450c5b7ece52ff1ccf5ac72f82b36.jpg": "TTL异或门内部电路：多发射极T1与T2–T7组成异或逻辑，右侧推挽T8/T9输出Y；虚线分隔逻辑级与输出级，A/B有钳位二极管。",
+  "图3.4.32|images/7ba1972fc0c9111f44dd7960c3b26d55046a1b7ea9e0f5549f674663ccb8a6ed.jpg": "两推挽输出级G1、G2输出Y1与Y2直接并联：G1的T4经D2拉高、G2的T5灌电流入地，曲线箭头示出VCC经R4→T4→D2→短接线→T5的大电流通路。",
+  "图3.4.33|images/7d57dfb065af3800b53662cb0dbde06d71af1c80aceb19c08465a4cae5c30861.jpg": "集电极开路TTL与非门：左为T1–T2–T5电路（T5集电极直接作Y，无内部上拉）；右为带菱形下划线OC标志的与非门符号。",
+  "图3.4.34|images/0a49cfd15f1c67273e416e5ae86ca3798daf907c955f503506aedd86b909c301.jpg": "两OC与非门G1(A,B)、G2(C,D)输出集电极并联，经RL上拉至VCC2得Y；右图符号标“线与”，Y=Y1·Y2=(AB)'·(CD)'。",
+  "图3.4.35(a)|images/e327fde6ef18c29cf0dcb8c68b6c373d6ef889bcf4eec86bf13a5da8550f5149.jpg": "与输入并联负载示意：VIL驱动三个二输入与非门（每门两输入短接），标m'IIL=3IIL，大括号标等效负载数m'。",
+  "图3.4.35(b)|images/ac6a6988b0a00af14dffa61473955efb141e75771646cc0f276de24f281eed2b.jpg": "与输入并联低电平电流：VIL驱动三个二输入或非门（每门两输入短接），标m'IIL=6IIL，总等效负载m'=6。",
+  "图3.4.35(c)|images/c5a545cc93d084fcedcc07830cd291d5be7b2ceb66530be9c2b2b5b14dcf35a3.jpg": "与输入并联高电平电流：VIH经总线驱动三个二输入与非门（输入均短接），标mIIH=6IIH，箭头示电流流入负载。",
+  "图3.4.36|images/5c8ec7572f7c2f75fc6cf3bf5cde28c4cdab9237356c8203a45b4711d3adc904.jpg": "或输入端并联高电平电流：VIH驱动三个二输入或非门（每门输入短接），标mIIH=6IIH，大括号标负载数m。",
+  "图3.4.37|images/c36dfda2d2d81d694a7c09a3fae88c25e3694cfdd45073a8b459cb558152b965.jpg": "例3.4.5：OC与非门G1(A,B)、G2(C,D)线与后经RL接VCC，再驱动三个三输入与非门G3–G5（各输入短接作反相负载）。",
+  "图3.4.38(a)|images/53c4d5063b02d370911fa39758db315735916292a0ecfe15b87f106bebe15a3b.jpg": "三态与非门电路(a)：EN经两反相器至节点P，接T1第三发射极与二极管D；推挽T4/T5输出Y；右为带▽三态标志、EN高有效符号。",
+  "图3.4.38(b)|images/6a8af919569fa4edd61684cdf037eea0b4e2ec40cb5028ad503028edf134cb81.jpg": "三态与非门电路(b)：EN'经单反相器至P，接T1第三发射极与二极管D控制高阻；右为带▽标志、EN'低有效的三态与非符号。",
+  "图3.4.39|images/eb12743aeec76bedead98544d0f9df734e0282f0d480ced93b5defa73f39fd67.jpg": "抗饱和肖特基三极管：左为NPN基–集间并SBD（约0.3V），VBE≈0.7V、VCE≈0.4V；右为基极弯钩形肖特基三极管符号。",
+  "图3.4.40|images/642290568f066dd11d764d2513359d4202edd4ec721598a9ae0ee687c47d2ee9.jpg": "74S00肖特基TTL与非门：肖特基多发射极T1与分相T2，达林顿上管T3/T4与下管T5推挽，T6有源泄放；电阻标2.8kΩ、900Ω、50Ω等。",
+  "图3.4.41|images/fab22dd40bd33016ddd1dbcbbb605f90c058fc7a91a854c0c8be85e77d619798.jpg": "74S反相器电压传输特性：横轴vI/V（0–1.6），纵轴vO/V（0–3）；vI低时vO约3.3V，约1.0–1.3V陡降后vO近0。",
+  "图3.4.42|images/8c47808342c94987ba5b10349d06f6306e4719193268c8e0f711e45461001f75.jpg": "74LS00低功耗肖特基与非门：D1/D2二极管与输入，肖特基管T2–T6推挽输出，含有源泄放T6及D3/D4；电阻如R1=20kΩ、R4=120Ω。",
+  "图3.5.1|images/635ad841d6b814a3d35c7d3c1a46dac8c5db8b7237118340d9e8e4b085b1c8f7.jpg": "ECL或/或非门：电流开关T1–T5（VEE=-5.2V）、基准T6与射随输出T7/T8；右符号Y=A+B+C+D、Y'=(A+B+C+D)'。",
+  "图3.5.2|images/42861ef81f0c9fb3ee26d684f4e1789c923bdc6eccb3084c395d77515a840c6b.jpg": "ECL电压传输特性（VCC=0、VEE=-5.2V）：或非vO1与或vO2互补曲线，阈值约-1.3V，高低电平约-0.9V与-1.75V。",
+  "图3.6.1(a)|images/5b01ba8f3c56237ed169dd8e22fccf5228d6bf8a93d88b312577303ed032bd99.jpg": "BiCMOS反相器(a)：CMOS管T1(PMOS)/T2(NMOS)驱动推挽NPN T3/T4，R1、R2泄放基极电荷，输出vO接负载电容CL。"
+}

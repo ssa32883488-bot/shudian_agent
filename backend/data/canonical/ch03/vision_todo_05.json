@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图3.4.29|images/eae31f9fad58f60996fcb058443949fdc8f4160941e30bfd8c16e026c8c65044.jpg",
+    "figure_id": "图3.4.29",
+    "caption": "TTL 或非门电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\eae31f9fad58f60996fcb058443949fdc8f4160941e30bfd8c16e026c8c65044.jpg"
+  },
+  {
+    "key": "图3.4.30|images/b21a329256ee437efa259c56c046f2a80f89f3f42df7f34b6c9ec3a7a3ed40f3.jpg",
+    "figure_id": "图3.4.30",
+    "caption": "TTL 与或非门",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b21a329256ee437efa259c56c046f2a80f89f3f42df7f34b6c9ec3a7a3ed40f3.jpg"
+  },
+  {
+    "key": "图3.4.31|images/e27a0d26f68a273611eb5be7d737e31358a450c5b7ece52ff1ccf5ac72f82b36.jpg",
+    "figure_id": "图3.4.31",
+    "caption": "TTL异或门",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e27a0d26f68a273611eb5be7d737e31358a450c5b7ece52ff1ccf5ac72f82b36.jpg"
+  },
+  {
+    "key": "图3.4.32|images/7ba1972fc0c9111f44dd7960c3b26d55046a1b7ea9e0f5549f674663ccb8a6ed.jpg",
+    "figure_id": "图3.4.32",
+    "caption": "推拉式输出级并联的情况",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7ba1972fc0c9111f44dd7960c3b26d55046a1b7ea9e0f5549f674663ccb8a6ed.jpg"
+  },
+  {
+    "key": "图3.4.33|images/7d57dfb065af3800b53662cb0dbde06d71af1c80aceb19c08465a4cae5c30861.jpg",
+    "figure_id": "图3.4.33",
+    "caption": "集电极开路输出 TTL 与非门的电路和图形符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7d57dfb065af3800b53662cb0dbde06d71af1c80aceb19c08465a4cae5c30861.jpg"
+  },
+  {
+    "key": "图3.4.34|images/0a49cfd15f1c67273e416e5ae86ca3798daf907c955f503506aedd86b909c301.jpg",
+    "figure_id": "图3.4.34",
+    "caption": "OC 门输出并联的接法及逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0a49cfd15f1c67273e416e5ae86ca3798daf907c955f503506aedd86b909c301.jpg"
+  },
+  {
+    "key": "图3.4.35(a)|images/e327fde6ef18c29cf0dcb8c68b6c373d6ef889bcf4eec86bf13a5da8550f5149.jpg",
+    "figure_id": "图3.4.35(a)",
+    "caption": "与输入端并联时的总输入电流 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e327fde6ef18c29cf0dcb8c68b6c373d6ef889bcf4eec86bf13a5da8550f5149.jpg"
+  },
+  {
+    "key": "图3.4.35(b)|images/ac6a6988b0a00af14dffa61473955efb141e75771646cc0f276de24f281eed2b.jpg",
+    "figure_id": "图3.4.35(b)",
+    "caption": "与输入端并联时的总输入电流 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ac6a6988b0a00af14dffa61473955efb141e75771646cc0f276de24f281eed2b.jpg"
+  },
+  {
+    "key": "图3.4.35(c)|images/c5a545cc93d084fcedcc07830cd291d5be7b2ceb66530be9c2b2b5b14dcf35a3.jpg",
+    "figure_id": "图3.4.35(c)",
+    "caption": "与输入端并联时的总输入电流 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c5a545cc93d084fcedcc07830cd291d5be7b2ceb66530be9c2b2b5b14dcf35a3.jpg"
+  },
+  {
+    "key": "图3.4.36|images/5c8ec7572f7c2f75fc6cf3bf5cde28c4cdab9237356c8203a45b4711d3adc904.jpg",
+    "figure_id": "图3.4.36",
+    "caption": "或输入端并联时的总输入电流",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5c8ec7572f7c2f75fc6cf3bf5cde28c4cdab9237356c8203a45b4711d3adc904.jpg"
+  },
+  {
+    "key": "图3.4.37|images/c36dfda2d2d81d694a7c09a3fae88c25e3694cfdd45073a8b459cb558152b965.jpg",
+    "figure_id": "图3.4.37",
+    "caption": "例 3.4.5 的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c36dfda2d2d81d694a7c09a3fae88c25e3694cfdd45073a8b459cb558152b965.jpg"
+  },
+  {
+    "key": "图3.4.38(a)|images/53c4d5063b02d370911fa39758db315735916292a0ecfe15b87f106bebe15a3b.jpg",
+    "figure_id": "图3.4.38(a)",
+    "caption": "三态输出门的电路图和图形符号 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\53c4d5063b02d370911fa39758db315735916292a0ecfe15b87f106bebe15a3b.jpg"
+  },
+  {
+    "key": "图3.4.38(b)|images/6a8af919569fa4edd61684cdf037eea0b4e2ec40cb5028ad503028edf134cb81.jpg",
+    "figure_id": "图3.4.38(b)",
+    "caption": "三态输出门的电路图和图形符号 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6a8af919569fa4edd61684cdf037eea0b4e2ec40cb5028ad503028edf134cb81.jpg"
+  },
+  {
+    "key": "图3.4.39|images/eb12743aeec76bedead98544d0f9df734e0282f0d480ced93b5defa73f39fd67.jpg",
+    "figure_id": "图3.4.39",
+    "caption": "抗饱和三极管",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\eb12743aeec76bedead98544d0f9df734e0282f0d480ced93b5defa73f39fd67.jpg"
+  },
+  {
+    "key": "图3.4.40|images/642290568f066dd11d764d2513359d4202edd4ec721598a9ae0ee687c47d2ee9.jpg",
+    "figure_id": "图3.4.40",
+    "caption": "74S 系列与非门 (74S00) 的电路结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\642290568f066dd11d764d2513359d4202edd4ec721598a9ae0ee687c47d2ee9.jpg"
+  },
+  {
+    "key": "图3.4.41|images/fab22dd40bd33016ddd1dbcbbb605f90c058fc7a91a854c0c8be85e77d619798.jpg",
+    "figure_id": "图3.4.41",
+    "caption": "74S 系列反相器的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fab22dd40bd33016ddd1dbcbbb605f90c058fc7a91a854c0c8be85e77d619798.jpg"
+  },
+  {
+    "key": "图3.4.42|images/8c47808342c94987ba5b10349d06f6306e4719193268c8e0f711e45461001f75.jpg",
+    "figure_id": "图3.4.42",
+    "caption": "74LS 系列与非门 (74LS00) 的电路结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8c47808342c94987ba5b10349d06f6306e4719193268c8e0f711e45461001f75.jpg"
+  },
+  {
+    "key": "图3.5.1|images/635ad841d6b814a3d35c7d3c1a46dac8c5db8b7237118340d9e8e4b085b1c8f7.jpg",
+    "figure_id": "图3.5.1",
+    "caption": "ECL 或/或非门的电路及逻辑符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\635ad841d6b814a3d35c7d3c1a46dac8c5db8b7237118340d9e8e4b085b1c8f7.jpg"
+  },
+  {
+    "key": "图3.5.2|images/42861ef81f0c9fb3ee26d684f4e1789c923bdc6eccb3084c395d77515a840c6b.jpg",
+    "figure_id": "图3.5.2",
+    "caption": "ECL 或/或非门的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\42861ef81f0c9fb3ee26d684f4e1789c923bdc6eccb3084c395d77515a840c6b.jpg"
+  },
+  {
+    "key": "图3.6.1(a)|images/5b01ba8f3c56237ed169dd8e22fccf5228d6bf8a93d88b312577303ed032bd99.jpg",
+    "figure_id": "图3.6.1(a)",
+    "caption": "Bi-CMOS 反相器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5b01ba8f3c56237ed169dd8e22fccf5228d6bf8a93d88b312577303ed032bd99.jpg"
+  },
+  {
+    "key": "图3.6.1(b)|images/7bea2520c8b777ba7c371cf92f88fc4de38e3b17a675b7359611fbbe2f5342d9.jpg",
+    "figure_id": "图3.6.1(b)",
+    "caption": "Bi-CMOS 反相器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7bea2520c8b777ba7c371cf92f88fc4de38e3b17a675b7359611fbbe2f5342d9.jpg"
+  },
+  {
+    "key": "图3.6.2|images/fcddb7dbbeef70be5d5b6508f71b8bc83e8df8aac1e57ea05b4b668c18264698.jpg",
+    "figure_id": "图3.6.2",
+    "caption": "Bi-CMOS与非门电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fcddb7dbbeef70be5d5b6508f71b8bc83e8df8aac1e57ea05b4b668c18264698.jpg"
+  },
+  {
+    "key": "图3.6.3|images/96b4ac630686e2de525e123181cefe51a17b15b88b03a5235e0ac9307e07ef50.jpg",
+    "figure_id": "图3.6.3",
+    "caption": "Bi-CMOS 或非门电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\96b4ac630686e2de525e123181cefe51a17b15b88b03a5235e0ac9307e07ef50.jpg"
+  },
+  {
+    "key": "图3.7.1|images/cd4703a4a666a913c92c8a9193c7685f563e2195b0cddda9cbd1ebd66d7b3d2d.jpg",
+    "figure_id": "图3.7.1",
+    "caption": "驱动门与负载门的连接",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cd4703a4a666a913c92c8a9193c7685f563e2195b0cddda9cbd1ebd66d7b3d2d.jpg"
+  },
+  {
+    "key": "图3.7.2|images/115d1576f59b614b29145895c2ea705e72642b940b15d16b063d3d749b015d8e.jpg",
+    "figure_id": "图3.7.2",
+    "caption": "各种 CMOS 与 TTL 系列门电路的输出、输入电平",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\115d1576f59b614b29145895c2ea705e72642b940b15d16b063d3d749b015d8e.jpg"
+  },
+  {
+    "key": "图3.7.3|images/d97e19aef3ebb3a88a587fe8ddd9e8ceb1d2869647fa819bb5ddefc2b18bf221.jpg",
+    "figure_id": "图3.7.3",
+    "caption": "用接入上拉电阻",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d97e19aef3ebb3a88a587fe8ddd9e8ceb1d2869647fa819bb5ddefc2b18bf221.jpg"
+  },
+  {
+    "key": "图3.7.4(a)|images/397d3acbfcb2aeb4db724dda6694c5910831b934ef09b18317ee2dfb9372eb1d.jpg",
+    "figure_id": "图3.7.4(a)",
+    "caption": "用 CMOS 电路驱动 TTL 电路时的接口电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\397d3acbfcb2aeb4db724dda6694c5910831b934ef09b18317ee2dfb9372eb1d.jpg"
+  },
+  {
+    "key": "图3.7.4(b)|images/e77a64578e71bda7b0d15f9ec5a7168b86d99e2450c1cc63140dcf2a2c0d7e25.jpg",
+    "figure_id": "图3.7.4(b)",
+    "caption": "用 CMOS 电路驱动 TTL 电路时的接口电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e77a64578e71bda7b0d15f9ec5a7168b86d99e2450c1cc63140dcf2a2c0d7e25.jpg"
+  },
+  {
+    "key": "图3.7.5(a)|images/aa70bda9ab068a6c658e4c504659effa6445cbf699bd73351010525e002d19e5.jpg",
+    "figure_id": "图3.7.5(a)",
+    "caption": "用 OD 输出的缓冲/驱动器实现逻辑电平转换 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\aa70bda9ab068a6c658e4c504659effa6445cbf699bd73351010525e002d19e5.jpg"
+  },
+  {
+    "key": "图3.7.5(b)|images/2c4fe54a13f0acf06d958896ddaf962560ee6d6516c67e961400342cfc6d7066.jpg",
+    "figure_id": "图3.7.5(b)",
+    "caption": "用 OD 输出的缓冲/驱动器实现逻辑电平转换 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2c4fe54a13f0acf06d958896ddaf962560ee6d6516c67e961400342cfc6d7066.jpg"
+  }
+]

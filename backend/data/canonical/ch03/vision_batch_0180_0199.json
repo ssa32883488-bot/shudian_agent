@@ -1,0 +1,22 @@
+{
+  "图P3.24|images/e94b311d682ba43d3f4f35077a797fa0bf836ca21a98a972e114ad4b1541d10d.jpg": "TTL与非门输出经上拉电阻RL接VDD=5V抬高高电平，驱动两只74HC或非门（各输入短接）作CMOS负载。",
+  "图P3.25_0|images/dbef047f37aa097f997ee0ad94266dcd7fff7407a2179e3a081c08490b5e148c.jpg": "扇出结构：驱动门GM为74AHCT04反相器，输出总线驱动n个负载与非门G1…Gn（7400/74LS00/74ALS00等，各输入短接）。",
+  "图P3.25_1|images/9c0208732e3c5097f338a50f2f9cbca55b0dad6ac962d4909a0ee5bad195ae00.jpg": "TTL输入特性：横轴vI/V，纵轴iI/mA；vI=0时iI约−1.6mA，约1.4V处陡升过零，高电平区约+40μA。",
+  "图P3.26|images/37b0b627d2cd8180407c470692bb29fd15be8c29e09e12bd3b3cb4d5a6a394aa.jpg": "CMOS或非门经RB=33kΩ驱动接口NPN（β=40，RC=2kΩ接VCC=5V），集电极vc再驱动三只TTL或非门。",
+  "图3.7.6_0|images/5a1b6d1e63339f9669c33f2b7880037c15ba8581df0827bc7a571125a062cf03.jpg": "负载电路74HC00：虚线框内二输入与非门，电源VCC=3.3V，底部接地，左侧输入线接入（可见B端）。",
+  "图3.7.6_1|images/30f1fb10a4413620e99a0729ca6e5aea251567d7fc9b21563c746090fa2e1824.jpg": "极小灰度碎图：白底上有一条近水平细线及少量不规则深灰斑块，细节无法辨认，疑为图3.7.6相关截图残片。",
+  "图2(a)|images/c090ce0d33caa7983131b2fd56da31bbba9683b73aa63f60eecf267dc3f921ec.jpg": "四变量卡诺图Y1：行AB、列CD（格雷码）；圈出左上2×2、AB=01整行，以及AB=10行中CD=11与10两格。",
+  "图2(b)|images/5843cb04cac3110fabed58b35ddc94a3e42927bee302554fe036c55d8ad7881d.jpg": "四变量卡诺图Y2：AB=00行左两格为1，AB=11行左两格为1，AB=10整行为1；圈为AB=00左二格、下两行左2×2及AB=10整行。",
+  "图2(c)|images/c519c70c628eb382c51248d43cb18aef75ffa438ba1e22d5f1f848682e8371f1.jpg": "四变量卡诺图：行AB、列CD，若干1被四个圈包围——左上横/纵各二格组、右上纵二格组、左下2×2四格组。",
+  "图2(d)|images/88efa2954952c09424b44c613746c9fc621b038dbc841869c2adb9c66249afbc.jpg": "三路与–或逻辑：Y1=A'C'+AB'C+A'B；Y2=B'C'+AC'+AB'；Y3=A'D'+AC'+B'C'，各由三与门馈入三输入或门。",
+  "图3(a)|images/c78c36f89499bb0655cb89a5bd50fcca2f17e30cab02dbcd1264d4955cb5c6e8.jpg": "二极管i–v特性对照：实线为理想开关（负v轴与正i轴折线），虚线为实际正向指数与反向/击穿；旁附二极管符号及v、i参考方向。",
+  "图3(b)|images/27ce4ac39b4934b270ffe4dff7b8f6279b96cb74633f33e361f0045e444c729e.jpg": "直流串联：VCC—二极管—RL；二极管两端标vD（左正右负），回路电流i顺时针。",
+  "图3(c)|images/071edc069a764f53a809a62caf50891fdd2329b51534f2a090f997373a9982d7.jpg": "折线模型：实线在VON后线性上升，虚线为实际指数特性；下为rD、VON(0.5V)与理想开关串联等效。",
+  "图3(d)|images/195afa60ba7782c83f473ae9bb20fa596827c25fa71dc7f2a494fce3538245a4.jpg": "恒压降模型：实线在VON处竖直线，虚线为实际特性；下为VON=0.7V源与理想开关串联等效。",
+  "图3(e)|images/ba37a43cf89ad93872ecb8c373503be777861527148cd19a0ea5454dcce13d6e.jpg": "理想开关i–v：实线沿负v轴与正i轴；虚线为实际二极管正向指数与微小反向漏电；下为断开开关符号。",
+  "图3(f)|images/e04e511d1cf47d163970a15a81598126af2aa7934bab67d24c110b3e79b47958.jpg": "TTL与非门vI=0工作态：多发射极T1饱和，T2/T5截止、T4导通，经R4–T4–D2输出；输出端对地接电压表测VOH。",
+  "图3(g)|images/9dfd51338b604f92490b051bbba2a844252f70fb1560b4944c06a0accc90bfd0.jpg": "NPN共射反相：vI经RB入基极（iB），集电极经RC接VCC取vO（iC），发射极接地。",
+  "图3(h)|images/28b567ddd18e425896b19121d8668ba6d7af8a16810c3421d8d5ab0700bf2db9.jpg": "TTL反相器：输入级T1（基极经4kΩ接+5V）、分相T2与推挽T4/T5及二极管，输出vO取自推挽节点。",
+  "图3(i)|images/e349ed49ea37a4083296766b98fa6b1eabe6e761333d688898de11ed7b8900b0.jpg": "TTL输入低电平等效：T1基极经R1=4kΩ接+5V，发射极接VIL=0.3V，标ib1、ie1及流入信号源的I1。",
+  "图3(j)|images/50fe4928308d97b11a5e87eaafc32f25ea109546b671fef439d8fe62525fafe3.jpg": "TTL输入高电平等效：T1基极经4kΩ接+5V，发射极接VIH=3.4V；集电极经be2、be5等效二极管入地，标ib1、ic1、I1。"
+}

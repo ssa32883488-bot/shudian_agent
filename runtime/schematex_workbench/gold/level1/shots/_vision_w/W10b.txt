@@ -1,0 +1,17 @@
+﻿Based on the provided timing diagram, here are the signal labels listed from top to bottom, along with their approximate HIGH/LOW sequences (0/1) across the major time slots ($t_1$ to $t_4$).
+
+**1. Signal: $S_1$**
+*   **Description:** Starts HIGH, then transitions to LOW before $t_1$, and stays LOW.
+*   **Sequence:** 1, 0, 0, 0, 0
+
+**2. Signal: $S_0$**
+*   **Description:** Stays at a constant HIGH level throughout the visible duration.
+*   **Sequence:** 1, 1, 1, 1, 1
+
+**3. Signal: $CLK_1$**
+*   **Description:** A clock signal that pulses high at each marked interval ($t_1, t_2, t_3, t_4$).
+*   **Sequence:** 0, 1, 1, 1, 1 (assuming the state changes at or around the time markers).
+
+**4. Signal: $CLK_2$**
+*   **Description:** Pulses high at $t_1$ and $t_2$, but stays LOW for $t_3$ and $t_4$.
+*   **Sequence:** 0, 1, 1, 0, 0

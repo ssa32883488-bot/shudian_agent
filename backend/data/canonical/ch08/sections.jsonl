@@ -1,0 +1,36 @@
+{"section_id": "ch08_root", "level": 0, "number": "8", "title": "第08章 数模和模数转换", "line_start": 1, "line_end": 1110, "parent_id": null, "children": ["ch08_sec_数-模和模-数转换", "ch08_sec_review"]}
+{"section_id": "ch08_sec_数-模和模-数转换", "level": 1, "number": "", "title": "数-模和模-数转换", "line_start": 1, "line_end": 528, "parent_id": "ch08_root", "children": ["ch08_sec_summary", "ch08_sec_8_1", "ch08_sec_8_2", "ch08_sec_8_2_1", "ch08_sec_8_2_2", "ch08_sec_8_2_3", "ch08_sec_8_2_4_开关树型_D_A_转换器", "ch08_sec_8_2_5_权电容网络_D_A_转换器", "ch08_sec_8_2_6", "ch08_sec_review", "ch08_sec_8_3", "ch08_sec_8_3_1", "ch08_sec_review", "ch08_sec_8_3_2", "ch08_sec_review", "ch08_sec_8_4", "ch08_sec_一_取样定理", "ch08_sec_二_量化和编码"]}
+{"section_id": "ch08_sec_summary", "level": 2, "number": "summary", "title": "内容提要", "line_start": 3, "line_end": 12, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_1", "level": 2, "number": "8.1", "title": "概述", "line_start": 13, "line_end": 32, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_2", "level": 2, "number": "8.2", "title": "D/A 转换器的电路结构和工作原理", "line_start": 33, "line_end": 34, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_2_1", "level": 2, "number": "8.2.1", "title": "权电阻网络 D/A 转换器", "line_start": 35, "line_end": 102, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_2_2", "level": 2, "number": "8.2.2", "title": "倒 T 形电阻网络 D/A 转换器", "line_start": 103, "line_end": 146, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_2_3", "level": 2, "number": "8.2.3", "title": "权电流型 D/A 转换器", "line_start": 147, "line_end": 219, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_2_4_开关树型_D_A_转换器", "level": 2, "number": "", "title": "*8.2.4 开关树型 D/A 转换器", "line_start": 220, "line_end": 240, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_2_5_权电容网络_D_A_转换器", "level": 2, "number": "", "title": "*8.2.5 权电容网络 D/A 转换器", "line_start": 241, "line_end": 283, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_2_6", "level": 2, "number": "8.2.6", "title": "具有双极性输出的 D/A 转换器", "line_start": 284, "line_end": 315, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 316, "line_end": 322, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_3", "level": 2, "number": "8.3", "title": "D/A 转换器的转换精度与转换速度", "line_start": 323, "line_end": 324, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_3_1", "level": 2, "number": "8.3.1", "title": "D/A转换器的转换精度", "line_start": 325, "line_end": 445, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 446, "line_end": 453, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_3_2", "level": 2, "number": "8.3.2", "title": "D/A转换器的转换速度", "line_start": 454, "line_end": 468, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 469, "line_end": 472, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_8_4", "level": 2, "number": "8.4", "title": "A/D 转换的基本原理", "line_start": 473, "line_end": 478, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_一_取样定理", "level": 2, "number": "", "title": "一、取样定理", "line_start": 479, "line_end": 502, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_二_量化和编码", "level": 2, "number": "", "title": "二、量化和编码", "line_start": 503, "line_end": 528, "parent_id": "ch08_sec_数-模和模-数转换", "children": []}
+{"section_id": "ch08_sec_review", "level": 1, "number": "review", "title": "复习思考题", "line_start": 529, "line_end": 1110, "parent_id": "ch08_root", "children": ["ch08_sec_8_5", "ch08_sec_8_6", "ch08_sec_8_6_1", "ch08_sec_8_6_2_流水线型_A_D_转换器", "ch08_sec_8_6_3", "ch08_sec_8_6_4", "ch08_sec_8_6_5_Sigma_-_Delta_型A_D转换器", "ch08_sec_8_6_6", "ch08_sec_review", "ch08_sec_8_7", "ch08_sec_8_7_1", "ch08_sec_8_7_2", "ch08_sec_review", "ch08_sec_summary_end", "ch08_sec_exercises"]}
+{"section_id": "ch08_sec_8_5", "level": 2, "number": "8.5", "title": "取样-保持电路", "line_start": 531, "line_end": 570, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_6", "level": 2, "number": "8.6", "title": "A/D 转换器的电路结构和工作原理", "line_start": 571, "line_end": 572, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_6_1", "level": 2, "number": "8.6.1", "title": "并联比较型 A/D 转换器", "line_start": 573, "line_end": 620, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_6_2_流水线型_A_D_转换器", "level": 2, "number": "", "title": "*8.6.2 流水线型 A/D 转换器", "line_start": 621, "line_end": 643, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_6_3", "level": 2, "number": "8.6.3", "title": "逐次逼近型A/D转换器", "line_start": 644, "line_end": 679, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_6_4", "level": 2, "number": "8.6.4", "title": "双积分型 A/D 转换器", "line_start": 680, "line_end": 772, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_6_5_Sigma_-_Delta_型A_D转换器", "level": 2, "number": "", "title": "*8.6.5 $\\Sigma -\\Delta$ 型A/D转换器", "line_start": 773, "line_end": 809, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_6_6", "level": 2, "number": "8.6.6", "title": "V-F 变换型 A/D 转换器", "line_start": 810, "line_end": 973, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 974, "line_end": 977, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_7", "level": 2, "number": "8.7", "title": "A/D 转换器的转换精度与转换速度", "line_start": 978, "line_end": 979, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_7_1", "level": 2, "number": "8.7.1", "title": "A/D转换器的转换精度", "line_start": 980, "line_end": 993, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_8_7_2", "level": 2, "number": "8.7.2", "title": "A/D 转换器的转换速度", "line_start": 994, "line_end": 1005, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1006, "line_end": 1011, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_summary_end", "level": 2, "number": "summary_end", "title": "本章小结", "line_start": 1012, "line_end": 1025, "parent_id": "ch08_sec_review", "children": []}
+{"section_id": "ch08_sec_exercises", "level": 2, "number": "exercises", "title": "章末习题", "line_start": 1026, "line_end": 1110, "parent_id": "ch08_sec_review", "children": []}

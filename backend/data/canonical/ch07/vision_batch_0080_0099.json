@@ -1,0 +1,22 @@
+{
+  "图P7.27(b)|images/1ec861a3ea302cd6b86d5b21b36b87856d94c62ba6b42c53208521e215b27705.jpg": "子图(b)双踪波形：上迹vI为高电平5V上窄负脉冲串（每1ms约两脉冲）；下迹VM阶梯，0–1ms为2V、1–2ms为4V、2–3ms为3V，横轴t/ms至3。",
+  "图7.2.8|images/036fd7635dd9c022e2432f2c7f3d2722cecbb41fb1fb3f799bda2f5b809f647e.jpg": "施密特触发反相器逻辑符号：三角内滞回标志，输出端带小圆；左入vI、右出vO。",
+  "图P7.1|images/e2f9d6918b91d3d97b336be2a078e99708c96f51c699ff6e3ca1ba411bdabfd0.jpg": "教材章节横幅标题条，居中印刷「习题」二字，两侧带浅灰渐变与铅笔纹理边饰。",
+  "图7(a)|images/64727e29e49abc61e87f79b9db6c641bc8144a9569850eb2d8c8e1f79e28e132.jpg": "三级反相器G1–G3首尾相接环形振荡：vI1→vO1→vO2→vO3回馈；各节点附升降沿箭头示延迟翻转。",
+  "图7(b)|images/e6dffb2222d8c271f861bb6c6b28b62b3d5538b8d7bab13ae691b3ae6b206329.jpg": "TTL反相器内部：T1多发射极输入经R1接VCC，D1钳位；中间倒相管驱动图腾柱输出得vO。",
+  "图7(c)|images/7317880d87e9deef58e526a5a3f631bd1f45a954d9122c9eed96a1aa09f9da3a.jpg": "门输入特性曲线：纵轴vI、横轴iI；标−VIk与VTH，呈钳位与阈值台阶折线。",
+  "图7(d)|images/3b18cd9c437d4effe58647d02f22dcaf26945cec3482a3d51f499d0e71e87be5.jpg": "点划线框内输入等效：上端VCC−VBE1经R1至节点，D1阴极接该点、阳极接地；vI双线箭头入该节点。",
+  "图7(e)|images/4c0e1ae19a5f79aaf73f721edfdff7ed570a3538571526edc6d779833e339f04.jpg": "左：G1/G2经C1、C2交叉耦合，各有RF1/RF2反馈的多谐振荡；右：vI1下降、vI2由−VIk升至VTH，t1处翻转对齐。",
+  "图7(f)|images/274831e6dc2dfc1c70688098aed46bdc9b3fec4596a69332d0f71c0990084f40.jpg": "三步等效：T1发射极经C1接地且RF2接VOH2→两并联支路(R1与VCC−VBE1、RF2与VOH2)→戴维南RE1、VE1对C1充电。",
+  "图7(g)|images/d3c8c8ca1383db659ef55604ea95d0f80657870f57d6fdf99b807b6f8ce9333f.jpg": "左：vI1经C2接VOH2、经RF1接VOL1；右：等效为VOH2–C2–vI1–RF1–地串联回路。",
+  "图7(h)|images/78f027423c1d1a6f18d0e3c0214d102ccf08d6f2f2afc1522c713401bf263397.jpg": "左：CMOS反相器输入ESD保护D1/D2、串Rs后至P/NMOS栅；右：iI–vI特性，±钳位区外电流陡升，标VDD+VDF1与−VDF2。",
+  "图7(i)|images/511f573701f1e8c28b2675fd5694ac6e3ee4ce4319337c784a258d61e5badc8e.jpg": "三态：(a)vI>VDD+VDF1时D1导通；(b)正常区无二极管；(c)vI<−VDF2时D2导通；点划线框示芯片边界。",
+  "图7(j)|images/f0531d3c7b43db44e7b53fd2ab028198fc1106bf5dfaa0663c5a58cf0c1ba15d.jpg": "左：CMOS两级G1/G2，RP、RF与C构成多谐振荡；右：vI1在VDD+VTH与−(VDD−VTH)间指数充放电并在阈值处跳变。",
+  "图7(11)|images/e69d3cea21f3882d162a9dd1908ca4dd8e3c82d4df79fde6990a8ea210dae3f8.jpg": "左：G1输出经RON(n)接地、G2经RON(p)接VDD，外接C与RF，输入含D1保护；右：VDD–RON(p)–C–vI1–(RF+RON(n))–地等效。",
+  "图7(12)|images/d76b2eb7ca3768f0d6a909f3f3a52e891f1939b6608d9a0b9037a5b3c07d7646.jpg": "子图(b)：G1经RON(p)上拉、G2经RON(n)下拉，外接RF、C与D2保护；右等效VDD–(RF+RON(p))–vI1–C–RON(n)–地。",
+  "图7(13)|images/48eeb77f32a7d549841b893e2d45aaea0dd1e367b0ea5b435fe6b3643d75a721.jpg": "555内部结构：三分压5kΩ、比较器C1/C2、RS触发器、放电管TD与输出反相器；外引脚1–8标GND、vI2、vO、RD′、VCO、vI1、vOD、VCC。",
+  "图7(14)|images/4553dcd15eff02e498187ffc9d8cb72bd041a38d4605b2b3e00280d2121793d8.jpg": "555局部：内部分压5kΩ与10kΩ串接，脚5接分压中点VCO，脚6/2分别引出vI1、vI2。",
+  "图7(15)|images/224289b18bb219e5528fc27a3abca446c6650240e5e7ee511b14e3b438ee7656.jpg": "与非门G1输出Vo经10kΩ接555控制端VCO；盒内VDD–5kΩ–VCO–10kΩ–地分压。",
+  "图7(16)|images/cd4ff3967ec66890af93e6db91b20f580888f11b6e41695b8721a2b8b91504b7.jpg": "两级反相器同相施密特：vI经R1=5kΩ入vI1，R2=10kΩ接地，R3=33kΩ自vO正反馈至vI1，G1/G2级联出vO。",
+  "图7(17)|images/5d41f48201bb74b3615da3e7fe47e8005da5aec18213a680ed8915066661db45.jpg": "微分型单稳态：vI经Cd、Rd得vA入与非门G1，C–R定时入反相器G2，vO2反馈G1，再经G3得vO。"
+}

@@ -1,0 +1,23 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "t1",
+      "base": "XOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Y",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    }
+  ],
+  "cellCount": 2,
+  "multiGates": 0,
+  "fallbackSplits": []
+}

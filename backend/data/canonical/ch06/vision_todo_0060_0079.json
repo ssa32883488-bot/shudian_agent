@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图6.3.43|images/9a1de38fb398c49ad3a3934709795c876b011b130060c27ae9bd3d685536e957.jpg",
+    "figure_id": "图6.3.43",
+    "caption": "图6.3.44电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9a1de38fb398c49ad3a3934709795c876b011b130060c27ae9bd3d685536e957.jpg"
+  },
+  {
+    "key": "图6.3.44|images/3bdbfd75e2617fa007aed0cc386de9be87fd587502ebe0e57dcd556008f92aca.jpg",
+    "figure_id": "图6.3.44",
+    "caption": "移位寄存器型计数器的一般结构形式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3bdbfd75e2617fa007aed0cc386de9be87fd587502ebe0e57dcd556008f92aca.jpg"
+  },
+  {
+    "key": "图6.3.45|images/ae1b828e1caf981cd5d2e740a85eaf33bb2194c33fcae7e3685b333819e3a4dc.jpg",
+    "figure_id": "图6.3.45",
+    "caption": "扭环形计数器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ae1b828e1caf981cd5d2e740a85eaf33bb2194c33fcae7e3685b333819e3a4dc.jpg"
+  },
+  {
+    "key": "图6.3.46|images/61a4195d9aaf057b2e24b9104c14913a1e3cee118d21cf173fde534311edc7b1.jpg",
+    "figure_id": "图6.3.46",
+    "caption": "图 6.3.45 电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\61a4195d9aaf057b2e24b9104c14913a1e3cee118d21cf173fde534311edc7b1.jpg"
+  },
+  {
+    "key": "图6.3.47|images/fa658c790da89dd90ea12ff35960cdfad66bfb882918858a3831b8b071581a97.jpg",
+    "figure_id": "图6.3.47",
+    "caption": "能自启动的扭环形计数器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fa658c790da89dd90ea12ff35960cdfad66bfb882918858a3831b8b071581a97.jpg"
+  },
+  {
+    "key": "图6.3.48|images/bb117315e7d47e35c5c7e25df2901bb64b0b1e8110048400a2f0775207949ce3.jpg",
+    "figure_id": "图6.3.48",
+    "caption": "图6.3.47电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bb117315e7d47e35c5c7e25df2901bb64b0b1e8110048400a2f0775207949ce3.jpg"
+  },
+  {
+    "key": "图6.3.49(a)|images/644753b91ff9b8177533c408e41678152323ec73cacf07066df6449cebc0fb1b.jpg",
+    "figure_id": "图6.3.49(a)",
+    "caption": "用环形计数器作顺序脉冲发生器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\644753b91ff9b8177533c408e41678152323ec73cacf07066df6449cebc0fb1b.jpg"
+  },
+  {
+    "key": "图6.3.49(b)|images/73f2c04c8ad0c75789146afe6dac82407c790f8e63ed25c57d157ad8a343f013.jpg",
+    "figure_id": "图6.3.49(b)",
+    "caption": "用环形计数器作顺序脉冲发生器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\73f2c04c8ad0c75789146afe6dac82407c790f8e63ed25c57d157ad8a343f013.jpg"
+  },
+  {
+    "key": "图6.3.50(a)|images/0bcb0ee511d199bab4a00de3b107cc6fff200f39978fecdf162de067379e27d5.jpg",
+    "figure_id": "图6.3.50(a)",
+    "caption": "用计数器和译码器构成的顺序脉冲发生器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0bcb0ee511d199bab4a00de3b107cc6fff200f39978fecdf162de067379e27d5.jpg"
+  },
+  {
+    "key": "图6.3.50(b)|images/78d7d8a7cab73c9684a8605fe430494b55f470eb0cd10cf53ca93f2e53a39e1d.jpg",
+    "figure_id": "图6.3.50(b)",
+    "caption": "用计数器和译码器构成的顺序脉冲发生器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\78d7d8a7cab73c9684a8605fe430494b55f470eb0cd10cf53ca93f2e53a39e1d.jpg"
+  },
+  {
+    "key": "图6.3.51(a)|images/7550ba1acd469e8bd4802f57e75a2c6f9b807dfbaed52272248719a8fc827087.jpg",
+    "figure_id": "图6.3.51(a)",
+    "caption": "用中规模集成电路构成的顺序脉冲发生器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7550ba1acd469e8bd4802f57e75a2c6f9b807dfbaed52272248719a8fc827087.jpg"
+  },
+  {
+    "key": "图6.3.51(b)|images/31ff4a45f68bba3edbe70b7b3e1dbf9d1bd6c25cc440027e72cd96e5739f7fed.jpg",
+    "figure_id": "图6.3.51(b)",
+    "caption": "用中规模集成电路构成的顺序脉冲发生器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\31ff4a45f68bba3edbe70b7b3e1dbf9d1bd6c25cc440027e72cd96e5739f7fed.jpg"
+  },
+  {
+    "key": "图6.3.52|images/85eff97cf61c2a499acfef839edaf919e464770351c699fb655ef697895fa742.jpg",
+    "figure_id": "图6.3.52",
+    "caption": "用扭环形计数器和译码器构成的顺序脉冲发生器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\85eff97cf61c2a499acfef839edaf919e464770351c699fb655ef697895fa742.jpg"
+  },
+  {
+    "key": "图6.3.53|images/bd09197bc3831129ebfc61842e9d3206b702e9eca7a66be447a7922ba7979cda.jpg",
+    "figure_id": "图6.3.53",
+    "caption": "用计数器和数据选择器组成的序列信号发生器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bd09197bc3831129ebfc61842e9d3206b702e9eca7a66be447a7922ba7979cda.jpg"
+  },
+  {
+    "key": "图6.3.54(a)|images/e100ec306d0b323485ae73fa5a5bf399572960133726aa240f9df8f978a59346.jpg",
+    "figure_id": "图6.3.54(a)",
+    "caption": "用移位寄存器构成的序列信号发生器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e100ec306d0b323485ae73fa5a5bf399572960133726aa240f9df8f978a59346.jpg"
+  },
+  {
+    "key": "图6.3.54(b)|images/ddc6bcc0a143d5e8d6845739dd9a0e5aa36d2eee230a235403e1576e4f472284.jpg",
+    "figure_id": "图6.3.54(b)",
+    "caption": "用移位寄存器构成的序列信号发生器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ddc6bcc0a143d5e8d6845739dd9a0e5aa36d2eee230a235403e1576e4f472284.jpg"
+  },
+  {
+    "key": "图6.4.1|images/51e7eedfc3d5f2bf12121c7f0748ee6aa9c0a52280295278ebf6014536b72f13.jpg",
+    "figure_id": "图6.4.1",
+    "caption": "同步时序逻辑电路的设计过程",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\51e7eedfc3d5f2bf12121c7f0748ee6aa9c0a52280295278ebf6014536b72f13.jpg"
+  },
+  {
+    "key": "图6.4.2|images/3f49e3bdf3bb44938a21d069a6de9328d7d31ed5627a12863fb6f520dd13650f.jpg",
+    "figure_id": "图6.4.2",
+    "caption": "例6.4.1的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3f49e3bdf3bb44938a21d069a6de9328d7d31ed5627a12863fb6f520dd13650f.jpg"
+  },
+  {
+    "key": "图6.4.4(a)|images/9c1fdc26993df27639b43473d24e74371a7c66e2787a0b77f9f40f1ca5e84a1a.jpg",
+    "figure_id": "图6.4.4(a)",
+    "caption": "图6.4.3卡诺图的分解 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9c1fdc26993df27639b43473d24e74371a7c66e2787a0b77f9f40f1ca5e84a1a.jpg"
+  },
+  {
+    "key": "图6.4.4(b)|images/c5213bda40a03090ae5de9c82d52642d56656b95531fc46acfbb6d7cfc1e77a5.jpg",
+    "figure_id": "图6.4.4(b)",
+    "caption": "图6.4.3卡诺图的分解 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c5213bda40a03090ae5de9c82d52642d56656b95531fc46acfbb6d7cfc1e77a5.jpg"
+  }
+]

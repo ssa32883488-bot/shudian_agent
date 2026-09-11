@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图6.3.6|images/e705bea54b503f0d46ea7028c74086d57544912046ccabcc8fb8415e2e117b60.jpg",
+    "figure_id": "图6.3.6",
+    "caption": "例6.3.1的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e705bea54b503f0d46ea7028c74086d57544912046ccabcc8fb8415e2e117b60.jpg"
+  },
+  {
+    "key": "图6.3.7|images/77dcbbe57f2241abfa4f8698e60def40126a529a947b0fae5355bafa68169caa.jpg",
+    "figure_id": "图6.3.7",
+    "caption": "例6.3.1电路的波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\77dcbbe57f2241abfa4f8698e60def40126a529a947b0fae5355bafa68169caa.jpg"
+  },
+  {
+    "key": "图6.3.8(a)|images/ba5fc24674e4d9aea6dbbb3b41944bf728ed769cea3b24f33e0d44ca9a5bb89f.jpg",
+    "figure_id": "图6.3.8(a)",
+    "caption": "所示电路就是按式(6.3.1)接成的 4 位二进制同步加法计数器。由图可见, 各触发器的驱动方程为 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ba5fc24674e4d9aea6dbbb3b41944bf728ed769cea3b24f33e0d44ca9a5bb89f.jpg"
+  },
+  {
+    "key": "图6.3.8(b)|images/01faea9ba5eeb528fd0acd71e8e128837c774783f5c8ff48d0c1faf3dc8dc965.jpg",
+    "figure_id": "图6.3.8(b)",
+    "caption": "所示电路就是按式(6.3.1)接成的 4 位二进制同步加法计数器。由图可见, 各触发器的驱动方程为 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\01faea9ba5eeb528fd0acd71e8e128837c774783f5c8ff48d0c1faf3dc8dc965.jpg"
+  },
+  {
+    "key": "图6.3.9|images/d6047ef22f1185dd678fdda9e65cbe9a1f7e133e9562bec77c5922d5ce94487f.jpg",
+    "figure_id": "图6.3.9",
+    "caption": "图 6.3.8 电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d6047ef22f1185dd678fdda9e65cbe9a1f7e133e9562bec77c5922d5ce94487f.jpg"
+  },
+  {
+    "key": "图6.3.10|images/8c9398007bbd5389d4e99cad2c90c857a73f984606b4cb2b343f547477688cec.jpg",
+    "figure_id": "图6.3.10",
+    "caption": "图6.3.8电路的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8c9398007bbd5389d4e99cad2c90c857a73f984606b4cb2b343f547477688cec.jpg"
+  },
+  {
+    "key": "图6.3.11|images/83a8cbe92453bea702c141f94312505544567cf9e5da134c50a9333ce16cb24a.jpg",
+    "figure_id": "图6.3.11",
+    "caption": "4 位同步二进制计数器 74161 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\83a8cbe92453bea702c141f94312505544567cf9e5da134c50a9333ce16cb24a.jpg"
+  },
+  {
+    "key": "图6.3.12|images/01b669482ccfd990a05379f26cb289f0c28bbe9a688e41c7bc5d6ae1227f48d4.jpg",
+    "figure_id": "图6.3.12",
+    "caption": "4 位同步二进制计数器的另一种结构形式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\01b669482ccfd990a05379f26cb289f0c28bbe9a688e41c7bc5d6ae1227f48d4.jpg"
+  },
+  {
+    "key": "图6.3.13|images/448ba52b0e4e95c7cb1714ddcd3952962036a1644e8b8fc944879a0522821e04.jpg",
+    "figure_id": "图6.3.13",
+    "caption": "用 T 触发器接成的同步二进制减法计数器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\448ba52b0e4e95c7cb1714ddcd3952962036a1644e8b8fc944879a0522821e04.jpg"
+  },
+  {
+    "key": "图6.3.14|images/93d973474c444d49bdfcc28eda4e790432ea86ff56ebb03b1dd57f213f45f4cb.jpg",
+    "figure_id": "图6.3.14",
+    "caption": "单时钟同步十六进制加/减计数器 74LS191 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\93d973474c444d49bdfcc28eda4e790432ea86ff56ebb03b1dd57f213f45f4cb.jpg"
+  },
+  {
+    "key": "图6.3.15|images/47b49d7723a096f770e70751a81c45bc61af5d31dca3ca0a42c16adc1af2d0a2.jpg",
+    "figure_id": "图6.3.15",
+    "caption": "同步十六进制加/减计数器 74LS191 的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\47b49d7723a096f770e70751a81c45bc61af5d31dca3ca0a42c16adc1af2d0a2.jpg"
+  },
+  {
+    "key": "图6.3.16|images/c5fa53341c699391f7ae013092a392a7b1a0023e4fe35fa71c413e996a6aabc7.jpg",
+    "figure_id": "图6.3.16",
+    "caption": "双时钟同步十六进制加/减计数器 74LS193 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c5fa53341c699391f7ae013092a392a7b1a0023e4fe35fa71c413e996a6aabc7.jpg"
+  },
+  {
+    "key": "图6.3.17|images/515cd29a5c91d8a7bfdb2d17be56ab45ce221b09ed6642a4095d8e773b63a0e9.jpg",
+    "figure_id": "图6.3.17",
+    "caption": "同步十进制加法计数器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\515cd29a5c91d8a7bfdb2d17be56ab45ce221b09ed6642a4095d8e773b63a0e9.jpg"
+  },
+  {
+    "key": "图6.3.18|images/29befefe2683dae0a98bd8652d4b9ba762ac90ad06162a7983f991c9821e1517.jpg",
+    "figure_id": "图6.3.18",
+    "caption": "图 6.3.17 电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\29befefe2683dae0a98bd8652d4b9ba762ac90ad06162a7983f991c9821e1517.jpg"
+  },
+  {
+    "key": "图6.3.19|images/da304777282e51f978e3c1923e101ae1ee6790d639ae257527533395d511e679.jpg",
+    "figure_id": "图6.3.19",
+    "caption": "同步十进制加法计数器 74160 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\da304777282e51f978e3c1923e101ae1ee6790d639ae257527533395d511e679.jpg"
+  },
+  {
+    "key": "图6.3.20|images/eebddc3a0615da1f6829f59036e6ff87f9375d5526bfc90c4fd46812a432a0ea.jpg",
+    "figure_id": "图6.3.20",
+    "caption": "同步十进制减法计数器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\eebddc3a0615da1f6829f59036e6ff87f9375d5526bfc90c4fd46812a432a0ea.jpg"
+  },
+  {
+    "key": "图6.3.21|images/f2488abb73cb7761f152ca1f6f1c42f060ce17ea7c00755b23f6e4b42078006f.jpg",
+    "figure_id": "图6.3.21",
+    "caption": "图6.3.20电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f2488abb73cb7761f152ca1f6f1c42f060ce17ea7c00755b23f6e4b42078006f.jpg"
+  },
+  {
+    "key": "图6.3.22|images/4d052453b034b4eee375e0cb45c5901ba5f22b45e0bfb57d0fd459282d46bada.jpg",
+    "figure_id": "图6.3.22",
+    "caption": "单时钟同步十进制加/减计数器 74LS190",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4d052453b034b4eee375e0cb45c5901ba5f22b45e0bfb57d0fd459282d46bada.jpg"
+  },
+  {
+    "key": "图6.3.23|images/76d9c76b5be6c165dd352cff3a17c4247c8f3461d630a90e3e7d47a445a45220.jpg",
+    "figure_id": "图6.3.23",
+    "caption": "下降沿动作的异步二进制加法计数器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\76d9c76b5be6c165dd352cff3a17c4247c8f3461d630a90e3e7d47a445a45220.jpg"
+  },
+  {
+    "key": "图6.3.24|images/1109475ee9ddefb871b8ca87445944d8777456dadeec1d28f3c7f21347215c63.jpg",
+    "figure_id": "图6.3.24",
+    "caption": "图6.3.23电路的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1109475ee9ddefb871b8ca87445944d8777456dadeec1d28f3c7f21347215c63.jpg"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "name": "schematex-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "独立 Schematex 对照台：左脚本 / 右预览。与 shudian_agent 无关。",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "organize-figures": "node scripts/organize_figures.mjs",
+    "scaffold-level1": "node scripts/scaffold_level1.mjs",
+    "run-level1-logic": "node scripts/run_level1_logic_batch.mjs",
+    "run-level1-full": "node scripts/run_level1_full_batch.mjs",
+    "bake-tbx": "node scripts/bake_logic_tbx.mjs",
+    "shot": "node scripts/shot_card.mjs",
+    "review-gallery": "node scripts/build_review_gallery.mjs",
+    "rebuild-state": "node scripts/rebuild_state_gallery.mjs",
+    "rebuild-state-textbook": "node scripts/rebuild_state_textbook_gallery.mjs",
+    "rebuild-state-tikz": "node scripts/rebuild_state_tikz_gallery.mjs",
+    "rebuild-state-accepted": "npm run rebuild-state-textbook && npm run rebuild-state-tikz && node scripts/build_state_opt_index.mjs",
+    "freeze-state-acceptance": "node scripts/freeze_state_acceptance.mjs && node scripts/build_state_opt_index.mjs",
+    "ir2stx": "node adapters/logic_ir_to_schematex.mjs"
+  },
+  "dependencies": {
+    "@hpcc-js/wasm-graphviz": "^1.28.0",
+    "node-tikzjax": "^1.0.5",
+    "schematex": "^1.0.9"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1",
+    "sharp": "^0.35.4",
+    "vite": "^6.0.0"
+  }
+}

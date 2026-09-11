@@ -1,0 +1,15 @@
+logic "ex_4_3_1_nor" style: iec
+input R, A, G
+output Z
+nR = NOT(R)
+nA = NOT(A)
+nG = NOT(G)
+a1a = AND(R, nA)
+a1 = AND(a1a, nG)
+a2a = AND(nR, A)
+a2 = AND(a2a, nG)
+a3a = AND(nR, nA)
+a3 = AND(a3a, G)
+o1 = OR(a1, a2)
+o2 = OR(o1, a3)
+Z = NOT(o2)

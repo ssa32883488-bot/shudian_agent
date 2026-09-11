@@ -1,0 +1,12 @@
+{
+  "图7.4.1|images/c3b2e1316dd59c2c0fa8c22d7839d275be20668595e990673ef727c3e76822c1.jpg": "对称式多谐振荡：反相器G1、G2各跨RF1、RF2偏置线性区；C1耦合vO1至vI2，C2自vO2反馈至vI1形成闭环。",
+  "图7.4.2|images/f84e75885c7af0b3f6e4fc833417b06ff3644ec5ae08cbf59861654fb866fd75.jpg": "TTL反相器(7404)电压传输特性：过渡区陡降，标ΔvO/ΔvI；与直线交于工作点P，用于求静态增益。",
+  "图7.4.3|images/1e2956ae963a65a1d6e2a3053a38c8f0557dff9f122a413b93baaa69a47625d8.jpg": "求静态工作点等效：G1内NPN管T1基极经R1接VCC、发射极为vI；外接RF1自vO反馈至vI。",
+  "图7.4.4(a)|images/03a25599528938446d89802e92493b246f4d6be004997a3a08329514b90a3e9f.jpg": "C1充放电等效：左为含T1、R1、RF2与C1的原电路；右化为RE∥RF经C1接VOH→VOL的RC回路，节点为vI2。",
+  "图7.4.4(b)|images/e9fdc376bc838c56dddf114ae5c6ea9b9c1499057a8d65ee4a1ee4302539f845.jpg": "C2充放电等效：VOH2经C2至节点vI1，再经RF1至VOL1；右化为VOH—C2—vI1—RF1—VOL串联模型。",
+  "图7.4.5|images/fcaff3ea1451946d4315b87bdb0f21579129fc41c3e7e22d5a2a19817265c948.jpg": "图7.4.1波形：vI1、vI2在VTH与VIK间指数升降；过阈翻转使vO1、vO2互补矩形振荡，周期分t1、t2。",
+  "图7.4.6|images/1dce724ee71eeafdb98862184ea7a3d00d53808687a967f7581532cc5a6abf52.jpg": "非对称多谐振荡：G1、G2级联；RP串入vI1，RF跨接vI1与vO1，C自vO2反馈至vI1。",
+  "图7.4.7|images/6ac86c2e734cc2a4bbfd2523f54456805cab19945fea4c3857a88fdde41bf6aa.jpg": "CMOS反相器VTC与vo=vi直线交于P，坐标约VDD/2，用以确定图7.4.6静态工作点。",
+  "图7.4.8(a)|images/c6cc9dab47bb7c40f7b32beebb881f861b471ccc9b4fb54dcb46b8e6617ea3c2.jpg": "图7.4.6电容充电等效：G2以RON(P)上拉、G1以RON(N)接地；VDD经RON(P)、C至vI1，再经RF+RON(N)入地。",
+  "图7.4.8(b)|images/aca2524f757ba8b8b9335d5544eebfa281b447a1050001beda11c56decf376b5.jpg": "图7.4.6电容放电等效：G1侧RON(P)、G2侧RON(N)；VDD经RON(P)+RP与RF分压节点vI1，经C与RON(N)入地。"
+}

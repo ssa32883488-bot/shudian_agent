@@ -1,0 +1,18 @@
+{
+  "id": "S08",
+  "bucket": "state",
+  "fig_id": "6.4.14",
+  "caption": "例6.4.3的状态转换图",
+  "image": "../../textbook_figures/state_machine/fig_6_4_14.jpg",
+  "image_exists": true,
+  "tier_guess": "C",
+  "ir_schema": "state_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "state_ir_v1_svg+tikz",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "user_accepted",
+  "reviewed_at": "2026-09-02T12:00:00+08:00",
+  "notes": "triangle 布局；多入边错开"
+}

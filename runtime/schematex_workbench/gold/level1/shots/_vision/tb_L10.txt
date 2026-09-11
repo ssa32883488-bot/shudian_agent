@@ -1,0 +1,39 @@
+﻿Let's break down this full-adder circuit by mapping gate positions, inputs/outputs, and logic wiring:
+
+### 1. Gate Positions & Component List
+| Gate Type       | Label  | Position          | Inputs                          | Output Purpose                |
+|-----------------|--------|-------------------|---------------------------------|--------------------------------|
+| XOR (2-input)   | `XOR1` | Top-left          | `A`, `B`                        | Feeds `XOR2` and `AND1`        |
+| XOR (2-input)   | `XOR2` | Top-right         | Output of `XOR1`, `CI` (Carry In) | **S (Sum)** (final sum output) |
+| AND (2-input)   | `AND1` | Middle            | `CI`, Output of `XOR1`          | Feeds `NOR1`                   |
+| AND (2-input)   | `AND2` | Bottom            | `A`, `B`                        | Feeds `NOR1`                   |
+| NOR (OR-NOT)    | `NOR1` | Middle-right      | Outputs of `AND1` + `AND2`      | Feeds the final NOT gate       |
+| NOT (Inverter)  | `INV`  | Far-right         | Output of `NOR1`                | **CO (Carry Out)** (final carry output) |
+
+---
+
+### 2. Logic Equations (matches standard full-adder function)
+- **Sum (`S`):**
+  This is the standard full-adder sum, built from two cascaded XOR gates:
+  `S = (A 鈯?B) 鈯?CI`
+
+- **Carry Out (`CO`):**
+  Derived from the circuit, this simplifies to the standard full-adder carry logic:
+  `CO = (A 鈭?B) 鈭?(A 鈭?CI) 鈭?(B 鈭?CI)`
+  *From the circuit, the intermediate logic is: `CO = NOT( ((A鈯旴) 鈭?CI) 鈭?(A 鈭?B) )`, which algebraically reduces to the above form.*
+
+---
+
+### 3. Wiring Summary (Connection Map)
+- **Input Terminals:**
+  - `A` 鈫?`XOR1` (input), `AND2` (input)
+  - `B` 鈫?`XOR1` (input), `AND2` (input)
+  - `CI (Carry In)` 鈫?`XOR2` (input), `AND1` (input)
+- **Internal Wires:**
+  - `XOR1 Output` (`A鈯旴`) 鈫?`XOR2` (input), `AND1` (input)
+  - `AND1 Output` 鈫?`NOR1` (input)
+  - `AND2 Output` 鈫?`NOR1` (input)
+  - `NOR1 Output` 鈫?`INV` (input)
+- **Output Terminals:**
+  - `S (Sum)` = `XOR2 Output`
+  - `CO (Carry Out)` = `INV Output`

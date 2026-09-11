@@ -1,0 +1,53 @@
+{"section_id": "ch05_root", "level": 0, "number": "5", "title": "第05章 半导体存储电路", "line_start": 1, "line_end": 1159, "parent_id": null, "children": ["ch05_sec_第五章半导体存储电路", "ch05_sec_summary_end"]}
+{"section_id": "ch05_sec_第五章半导体存储电路", "level": 1, "number": "", "title": "第五章半导体存储电路", "line_start": 1, "line_end": 908, "parent_id": "ch05_root", "children": ["ch05_sec_summary", "ch05_sec_5_1", "ch05_sec_5_2", "ch05_sec_review", "ch05_sec_5_3", "ch05_sec_5_3_1", "ch05_sec_一_电路结构和工作原理", "ch05_sec_二_电平触发方式的动作特点", "ch05_sec_review", "ch05_sec_5_3_2", "ch05_sec_一_电路结构和工作原理", "ch05_sec_二_边沿触发方式的动作特点", "ch05_sec_review", "ch05_sec_5_3_3", "ch05_sec_一_电路结构和工作原理", "ch05_sec_二_脉冲触发方式的动作特点", "ch05_sec_review", "ch05_sec_5_3_4", "ch05_sec_一_SR_触发器", "ch05_sec_二_JK_触发器", "ch05_sec_三_T_触发器", "ch05_sec_四_D_触发器", "ch05_sec_review", "ch05_sec_5_3_5", "ch05_sec_一_建立时间_Setup_time_t_su", "ch05_sec_二_保持时间_Hold_time_t_h", "ch05_sec_三_传输延迟时间_Propagation_delay_time_t_pd", "ch05_sec_四_最高时钟频率_Maximum_clock_frequency_f_max", "ch05_sec_review", "ch05_sec_5_4", "ch05_sec_5_5", "ch05_sec_5_5_1", "ch05_sec_一_SRAM的结构和工作原理", "ch05_sec_二_SRAM的静态存储单元", "ch05_sec_review", "ch05_sec_5_5_2_动态随机存储器_DRAM", "ch05_sec_一_DRAM_的动态存储单元", "ch05_sec_二_DRAM的总体结构", "ch05_sec_review", "ch05_sec_5_5_3", "ch05_sec_一_ROM的结构和工作原理", "ch05_sec_二_ROM的分类", "ch05_sec_review", "ch05_sec_5_5_4", "ch05_sec_一_位扩展方式", "ch05_sec_二_字扩展方式", "ch05_sec_review", "ch05_sec_5_5_5", "ch05_sec_review"]}
+{"section_id": "ch05_sec_summary", "level": 2, "number": "summary", "title": "内容提要", "line_start": 3, "line_end": 6, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_1", "level": 2, "number": "5.1", "title": "概述", "line_start": 7, "line_end": 20, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_2", "level": 2, "number": "5.2", "title": "SR 锁存器", "line_start": 21, "line_end": 93, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 94, "line_end": 97, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_3", "level": 2, "number": "5.3", "title": "触发器", "line_start": 98, "line_end": 103, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_3_1", "level": 2, "number": "5.3.1", "title": "电平触发的触发器", "line_start": 104, "line_end": 105, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_电路结构和工作原理", "level": 2, "number": "", "title": "一、电路结构和工作原理", "line_start": 106, "line_end": 142, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_电平触发方式的动作特点", "level": 2, "number": "", "title": "二、电平触发方式的动作特点", "line_start": 143, "line_end": 186, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 187, "line_end": 190, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_3_2", "level": 2, "number": "5.3.2", "title": "边沿触发的触发器", "line_start": 191, "line_end": 192, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_电路结构和工作原理", "level": 2, "number": "", "title": "一、电路结构和工作原理", "line_start": 193, "line_end": 228, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_边沿触发方式的动作特点", "level": 2, "number": "", "title": "二、边沿触发方式的动作特点", "line_start": 229, "line_end": 239, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 240, "line_end": 243, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_3_3", "level": 2, "number": "5.3.3", "title": "脉冲触发的触发器", "line_start": 244, "line_end": 245, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_电路结构和工作原理", "level": 2, "number": "", "title": "一、电路结构和工作原理", "line_start": 246, "line_end": 324, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_脉冲触发方式的动作特点", "level": 2, "number": "", "title": "二、脉冲触发方式的动作特点", "line_start": 325, "line_end": 358, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 359, "line_end": 370, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_3_4", "level": 2, "number": "5.3.4", "title": "触发器按逻辑功能的分类", "line_start": 371, "line_end": 376, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_SR_触发器", "level": 2, "number": "", "title": "一、SR 触发器", "line_start": 377, "line_end": 402, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_JK_触发器", "level": 2, "number": "", "title": "二、JK 触发器", "line_start": 403, "line_end": 418, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_三_T_触发器", "level": 2, "number": "", "title": "三、 $T$ 触发器", "line_start": 419, "line_end": 451, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_四_D_触发器", "level": 2, "number": "", "title": "四、 $D$ 触发器", "line_start": 452, "line_end": 492, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 493, "line_end": 498, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_3_5", "level": 2, "number": "5.3.5", "title": "触发器的动态特性", "line_start": 499, "line_end": 504, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_建立时间_Setup_time_t_su", "level": 2, "number": "", "title": "一、建立时间（Setup time） $t_{su}$", "line_start": 505, "line_end": 515, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_保持时间_Hold_time_t_h", "level": 2, "number": "", "title": "二、保持时间（Hold time） $t_{h}$", "line_start": 516, "line_end": 519, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_三_传输延迟时间_Propagation_delay_time_t_pd", "level": 2, "number": "", "title": "三、传输延迟时间(Propagation delay time) $t_{pd}$", "line_start": 520, "line_end": 523, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_四_最高时钟频率_Maximum_clock_frequency_f_max", "level": 2, "number": "", "title": "四、最高时钟频率(Maximum clock frequency) $f_{max}$", "line_start": 524, "line_end": 539, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 540, "line_end": 543, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_4", "level": 2, "number": "5.4", "title": "寄存器", "line_start": 544, "line_end": 567, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_5", "level": 2, "number": "5.5", "title": "存储器", "line_start": 568, "line_end": 583, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_5_1", "level": 2, "number": "5.5.1", "title": "静态随机存储器(SRAM)", "line_start": 584, "line_end": 585, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_SRAM的结构和工作原理", "level": 2, "number": "", "title": "一、SRAM的结构和工作原理", "line_start": 586, "line_end": 610, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_SRAM的静态存储单元", "level": 2, "number": "", "title": "二、SRAM的静态存储单元", "line_start": 611, "line_end": 626, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 627, "line_end": 632, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_5_2_动态随机存储器_DRAM", "level": 2, "number": "", "title": "*5.5.2 动态随机存储器(DRAM)", "line_start": 633, "line_end": 634, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_DRAM_的动态存储单元", "level": 2, "number": "", "title": "一、DRAM 的动态存储单元", "line_start": 635, "line_end": 660, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_DRAM的总体结构", "level": 2, "number": "", "title": "二、DRAM的总体结构", "line_start": 661, "line_end": 677, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 678, "line_end": 683, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_5_3", "level": 2, "number": "5.5.3", "title": "只读存储器(ROM)", "line_start": 684, "line_end": 691, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_ROM的结构和工作原理", "level": 2, "number": "", "title": "一、ROM的结构和工作原理", "line_start": 692, "line_end": 728, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_ROM的分类", "level": 2, "number": "", "title": "二、ROM的分类", "line_start": 729, "line_end": 788, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 789, "line_end": 794, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_5_4", "level": 2, "number": "5.5.4", "title": "存储器容量的扩展", "line_start": 795, "line_end": 798, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_一_位扩展方式", "level": 2, "number": "", "title": "一、位扩展方式", "line_start": 799, "line_end": 811, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_二_字扩展方式", "level": 2, "number": "", "title": "二、字扩展方式", "line_start": 812, "line_end": 836, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 837, "line_end": 840, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_5_5_5", "level": 2, "number": "5.5.5", "title": "用存储器实现组合逻辑函数", "line_start": 841, "line_end": 900, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 901, "line_end": 908, "parent_id": "ch05_sec_第五章半导体存储电路", "children": []}
+{"section_id": "ch05_sec_summary_end", "level": 1, "number": "summary_end", "title": "本章小结", "line_start": 909, "line_end": 1159, "parent_id": "ch05_root", "children": ["ch05_sec_exercises"]}
+{"section_id": "ch05_sec_exercises", "level": 2, "number": "exercises", "title": "章末习题", "line_start": 933, "line_end": 1159, "parent_id": "ch05_sec_summary_end", "children": []}

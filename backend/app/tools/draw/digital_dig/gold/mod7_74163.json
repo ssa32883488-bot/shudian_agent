@@ -1,0 +1,66 @@
+{
+  "schema_version": "digital_msi_v1",
+  "diagram_type": "msi_design",
+  "circuit_name": "mod7_74163",
+  "description": "74163 sync-clear mod7 detect state6: ~R=NAND(Q2,Q1,~Q0); CO=AND(Q2,Q1,~Q0)",
+  "logic_first": {
+    "method": "sync_clear",
+    "chip": "74163",
+    "goal": "mod7",
+    "modulus": 7,
+    "detect_state": 6,
+    "clear_expr": "NAND(Q2,Q1,~Q0)",
+    "carry_expr": "AND(Q2,Q1,~Q0)"
+  },
+  "components": [
+    {"id": "U1", "type": "74163_exam"},
+    {"id": "INV0", "type": "NOT"},
+    {"id": "G1", "type": "NAND3"},
+    {"id": "G2", "type": "AND3"},
+    {"id": "CLK", "type": "Clock", "label": "CLK"},
+    {"id": "Q0", "type": "Out", "label": "Q0"},
+    {"id": "Q1", "type": "Out", "label": "Q1"},
+    {"id": "Q2", "type": "Out", "label": "Q2"},
+    {"id": "Q3", "type": "Out", "label": "Q3"},
+    {"id": "CO", "type": "Out", "label": "CO"}
+  ],
+  "connections": [
+    {"from": "CLK.OUT", "to": "U1.CLK"},
+    {"from": "U1.Q0", "to": "Q0.IN"},
+    {"from": "U1.Q1", "to": "Q1.IN"},
+    {"from": "U1.Q2", "to": "Q2.IN"},
+    {"from": "U1.Q3", "to": "Q3.IN"},
+    {"from": "U1.Q0", "to": "INV0.IN"},
+    {"from": "INV0.OUT", "to": "G1.A"},
+    {"from": "U1.Q1", "to": "G1.B"},
+    {"from": "U1.Q2", "to": "G1.C"},
+    {"from": "G1.OUT", "to": "U1.~R"},
+    {"from": "INV0.OUT", "to": "G2.A"},
+    {"from": "U1.Q1", "to": "G2.B"},
+    {"from": "U1.Q2", "to": "G2.C"},
+    {"from": "G2.OUT", "to": "CO.IN"}
+  ],
+  "constants": [
+    {"pin": "U1.EP", "value": "HIGH"},
+    {"pin": "U1.ET", "value": "HIGH"},
+    {"pin": "U1.~LD", "value": "HIGH"},
+    {"pin": "U1.D0", "value": "LOW"},
+    {"pin": "U1.D1", "value": "LOW"},
+    {"pin": "U1.D2", "value": "LOW"},
+    {"pin": "U1.D3", "value": "LOW"},
+    {"pin": "U1.VCC", "value": "HIGH"},
+    {"pin": "U1.GND", "value": "LOW"}
+  ],
+  "rules": {
+    "detect_state": 6,
+    "clear_formula": "~R = NAND(Q2, Q1, ~Q0)",
+    "carry_formula": "CO = AND(Q2, Q1, ~Q0)",
+    "clear_inputs_forbidden": ["U1.Q3"],
+    "carry_must_not_use_chip_C": true,
+    "layout": ["no_wire_through_symbol", "left_entry_gates", "tunnel_feedback_only"]
+  },
+  "testcase": {
+    "label": "MOD7",
+    "data": "CLK Q3 Q2 Q1 Q0 CO\n0   0  0  0  0  0\nC   0  0  0  1  0\nC   0  0  1  0  0\nC   0  0  1  1  0\nC   0  1  0  0  0\nC   0  1  0  1  0\nC   0  1  1  0  1\nC   0  0  0  0  0\nC   0  0  0  1  0\n"
+  }
+}

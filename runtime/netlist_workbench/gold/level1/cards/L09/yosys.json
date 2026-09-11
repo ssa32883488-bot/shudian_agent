@@ -1,0 +1,135 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "L09": {
+      "ports": {
+        "B": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "C'": {
+          "direction": "input",
+          "bits": [
+            5
+          ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [
+            8
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NOR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NOR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "B": [
+              5
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_NOR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              7
+            ],
+            "Y": [
+              8
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "B": {
+          "bits": [
+            2
+          ]
+        },
+        "C": {
+          "bits": [
+            3
+          ]
+        },
+        "A": {
+          "bits": [
+            4
+          ]
+        },
+        "C'": {
+          "bits": [
+            5
+          ]
+        },
+        "G1": {
+          "bits": [
+            6
+          ]
+        },
+        "G2": {
+          "bits": [
+            7
+          ]
+        },
+        "Y": {
+          "bits": [
+            8
+          ]
+        }
+      }
+    }
+  }
+}

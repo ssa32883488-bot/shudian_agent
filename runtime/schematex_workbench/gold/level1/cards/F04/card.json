@@ -1,0 +1,18 @@
+{
+  "id": "F04",
+  "bucket": "flipflop_seq",
+  "fig_id": "5.3.4",
+  "caption": "电平触发D触发器",
+  "image": "../../textbook_figures/logic_dag/fig_5_3_4.jpg",
+  "image_exists": true,
+  "tier_guess": "B",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_tbx_v1",
+  "reviewed_at": "2026-09-02T04:30:21.208Z",
+  "notes": "主路径 netlistsvg；gold.tbx 已弃用"
+}

@@ -1,0 +1,58 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "nR",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "nA",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "nG",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "a1",
+      "base": "AND",
+      "arity": 3,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "a2",
+      "base": "AND",
+      "arity": 3,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "a3",
+      "base": "AND",
+      "arity": 3,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "Z",
+      "base": "NOR",
+      "arity": 3,
+      "mode": "multi",
+      "cells": 1
+    }
+  ],
+  "cellCount": 7,
+  "multiGates": 4,
+  "fallbackSplits": []
+}

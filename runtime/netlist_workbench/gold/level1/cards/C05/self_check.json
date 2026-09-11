@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "grade": "SELF_OK",
+  "checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=8"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=4 ir_gates=4"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=4401"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "meta": {
+    "preferMulti": true,
+    "multiMax": 4,
+    "gateMeta": [
+      {
+        "id": "G1",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "G2",
+        "base": "NOT",
+        "arity": 1,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "G3",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "Y",
+        "base": "OR",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      }
+    ],
+    "cellCount": 4,
+    "multiGates": 0,
+    "fallbackSplits": []
+  },
+  "combinational": true
+}

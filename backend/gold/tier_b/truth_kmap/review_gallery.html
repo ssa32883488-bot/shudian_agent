@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<title>真值表 · 卡诺图 对照</title>
+<style>
+  :root {
+    --bg:#f3efe8; --card:#fffcf7; --ink:#1a1814; --muted:#6a645c;
+    --line:#d9d2c8; --ok:#1f6b3a; --fail:#9b2c2c;
+  }
+  body { margin:0; font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg); color:var(--ink); }
+  header.top { position:sticky; top:0; z-index:2; background:rgba(243,239,232,.96);
+    border-bottom:1px solid var(--line); padding:14px 18px; }
+  header.top h1 { margin:0; font-size:1.15rem; }
+  .sub { margin:4px 0 0; color:var(--muted); font-size:.9rem; }
+  .nav { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .nav a { font-size:.82rem; text-decoration:none; color:inherit; border:1px solid var(--line);
+    background:#fff; padding:2px 8px; border-radius:6px; }
+  main { max-width:1100px; margin:16px auto 48px; padding:0 12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px;
+    margin:14px 0; overflow:hidden; }
+  .card > header { padding:12px 16px; border-bottom:1px solid var(--line); }
+  .card h2 { margin:6px 0 4px; font-size:1rem; }
+  .meta { margin:0; font-size:.85rem; color:var(--muted); }
+  .note { margin:6px 0 0; font-size:.85rem; color:#0e7490; }
+  .badge { display:inline-block; font-size:.72rem; font-weight:700; padding:2px 8px;
+    border-radius:999px; color:#fff; }
+  .badge.ok { background:var(--ok); }
+  .badge.fail { background:var(--fail); }
+  .cols { display:grid; grid-template-columns:1fr 1fr; }
+  figure { margin:0; padding:12px; min-height:160px; }
+  figure:first-child { border-right:1px solid var(--line); }
+  figcaption { font-size:.75rem; color:var(--muted); text-transform:uppercase;
+    letter-spacing:.05em; margin-bottom:8px; }
+  img { max-width:100%; height:auto; display:block; background:#fff;
+    border:1px solid #eee; }
+  .na,.err { color:var(--muted); font-size:.9rem; padding:20px 8px; }
+  .err { color:var(--fail); }
+  .tb-table { background:#fff; border:1px solid #eee; padding:12px; }
+  .tb-cap { font-size:.9rem; font-weight:600; margin-bottom:8px; }
+  .tb-table table { border-collapse:collapse; width:100%; max-width:320px; }
+  .tb-table th,.tb-table td { border:1px solid #cbd5e1; padding:6px 12px; text-align:center;
+    font-size:.95rem; }
+  .tb-table th { background:#f1f5f9; }
+  @media (max-width:800px) { .cols { grid-template-columns:1fr; }
+    figure:first-child { border-right:0; border-bottom:1px solid var(--line); } }
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>真值表 · 卡诺图：课本 ↔ 工具生成</h1>
+  <p class="sub">成功 7/7 · 2026-09-02 13:14
+    · 卡诺图限定 2/3/4 变量</p>
+  <div class="nav"><a href="#T01">T01</a><a href="#T02">T02</a><a href="#T03">T03</a><a href="#K01">K01</a><a href="#K02">K02</a><a href="#K03">K03</a><a href="#K04">K04</a></div>
+</header>
+<main>
+
+<article class="card" id="T01">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>T01 · 异或真值表</h2>
+    <p class="meta">课本：表 2.2.7 · Tier B / svg_table</p>
+    <p class='note'>课本为 Markdown 内嵌表格，左栏按原表复现</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><div class="tb-table"><div class="tb-cap">表 2.2.7 异或逻辑的真值表</div><table><thead><tr><th>A</th><th>B</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table></div></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/T01.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="T02">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>T02 · 同或真值表</h2>
+    <p class="meta">课本：表 2.2.8 · Tier B / svg_table</p>
+    
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><div class="tb-table"><div class="tb-cap">表 2.2.8 同或逻辑的真值表</div><table><thead><tr><th>A</th><th>B</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table></div></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/T02.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="T03">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>T03 · 与非真值表（三变量）</h2>
+    <p class="meta">课本：表 2.2.5 · Tier B / svg_table</p>
+    
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><div class="tb-table"><div class="tb-cap">表 2.2.5 与非逻辑的真值表</div><table><thead><tr><th>A</th><th>B</th><th>C</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td></tr></tbody></table></div></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/T03.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="K01">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>K01 · 四变量卡诺图填格</h2>
+    <p class="meta">课本：图 2.6.2 · 例 2.6.8 · Tier B / svg_kmap · F = m1 + m4 + m6 + m8 + m9 + m10 + m11 + m15</p>
+    <p class='note'>仅填 1/0，不自动圈选</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><img src="refs/49392bea931a9555853228bb5e9c028040fbb0d35b3b3ddbc4cf790207834442.jpg" alt="textbook"/></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/K01.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="K02">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>K02 · 四变量带圈化简</h2>
+    <p class="meta">课本：图 2.6.5 · 例 2.6.10 · Tier B / svg_kmap · F = A&#x27;B + A&#x27;C + AB&#x27; + BC&#x27;</p>
+    <p class='note'>Y = AC&#x27; + A&#x27;C + BC&#x27; + B&#x27;C；圈法可能与课本 (a)/(b) 之一不同</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><img src="refs/8ba11bab586972c14b92fde604cd36db985aa5f812a7bccb05e70c1b2e2f5d90.jpg" alt="textbook"/></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/K02.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="K03">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>K03 · 三变量卡诺图读图</h2>
+    <p class="meta">课本：图 2.6.3 · 例 2.6.9 · Tier B / svg_kmap · F = m1 + m2 + m5 + m7</p>
+    <p class='note'>Y = AB&#x27;C&#x27; + A&#x27;B&#x27;C + ABC + A&#x27;BC&#x27;</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><img src="refs/6f470e357c56ab91019e14c663be2b46b7f149e2a17e488943c6bf14e8f35d85.jpg" alt="textbook"/></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/K03.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="K04">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>K04 · 四变量带圈化简（样例）</h2>
+    <p class="meta">课本：Σm(0,2,5,7,8,10,13,15) · Tier B / svg_kmap · F = B&#x27;D&#x27; + BD</p>
+    <p class='note'>与 type_samples/06_kmap.svg 相同数据</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><div class="na">（无课本扫描图）</div></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/K04.svg" alt="gen"/></figure>
+  </div>
+</article>
+</main>
+</body>
+</html>

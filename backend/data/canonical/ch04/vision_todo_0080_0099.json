@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图4.9.1(e)|images/7faf5abbffecefb6cad26b0f6365f87fe394adec4c2fb17214eba7810f00942d.jpg",
+    "figure_id": "图4.9.1(e)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7faf5abbffecefb6cad26b0f6365f87fe394adec4c2fb17214eba7810f00942d.jpg"
+  },
+  {
+    "key": "图4.9.1(f)|images/710fb39fac1db1382fc9bb971653490c958ba21dc22f5ab34479b25fd1827b8f.jpg",
+    "figure_id": "图4.9.1(f)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\710fb39fac1db1382fc9bb971653490c958ba21dc22f5ab34479b25fd1827b8f.jpg"
+  },
+  {
+    "key": "图4.9.2(a)|images/14b1da62cbf40d9b3379df5dabfb836e672b5a85e1465506b65b95edd3fe54a3.jpg",
+    "figure_id": "图4.9.2(a)",
+    "caption": "2 线-4 线译码器中的竞争-冒险现象 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\14b1da62cbf40d9b3379df5dabfb836e672b5a85e1465506b65b95edd3fe54a3.jpg"
+  },
+  {
+    "key": "图4.9.2(b)|images/9e82d1e13a1bf5273ebf120be226e28ffe75a9b78dfdcd08999f3469496424b8.jpg",
+    "figure_id": "图4.9.2(b)",
+    "caption": "2 线-4 线译码器中的竞争-冒险现象 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9e82d1e13a1bf5273ebf120be226e28ffe75a9b78dfdcd08999f3469496424b8.jpg"
+  },
+  {
+    "key": "图4.9.3(a)|images/6f2bf05621595542fd3147cf27e3e6d31894f3c8834cf340aebe00ad175fbfdb.jpg",
+    "figure_id": "图4.9.3(a)",
+    "caption": "同一输入变量经不同途径到达输出门的情况 (m, n 均为正整数) 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6f2bf05621595542fd3147cf27e3e6d31894f3c8834cf340aebe00ad175fbfdb.jpg"
+  },
+  {
+    "key": "图4.9.3(b)|images/4f00407aef234a62627cbcd3d768d28744a69ac276b2cfb6d02181cacd164003.jpg",
+    "figure_id": "图4.9.3(b)",
+    "caption": "同一输入变量经不同途径到达输出门的情况 (m, n 均为正整数) 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4f00407aef234a62627cbcd3d768d28744a69ac276b2cfb6d02181cacd164003.jpg"
+  },
+  {
+    "key": "图4.9.4(a)|images/4dde9a2f3e0c695ef1e2375bfd6bf4cf7a657f1a35ee290fac413a3ee08f76c4.jpg",
+    "figure_id": "图4.9.4(a)",
+    "caption": "例4.9.1的电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4dde9a2f3e0c695ef1e2375bfd6bf4cf7a657f1a35ee290fac413a3ee08f76c4.jpg"
+  },
+  {
+    "key": "图4.9.4(b)|images/660def8afe40971e65d3f94c615fad386cde1a22d64c21b2130f2e9b6b0b16ac.jpg",
+    "figure_id": "图4.9.4(b)",
+    "caption": "例4.9.1的电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\660def8afe40971e65d3f94c615fad386cde1a22d64c21b2130f2e9b6b0b16ac.jpg"
+  },
+  {
+    "key": "图4.9.5(a)|images/d52128b398843b84f3c9864b1007369b284f222c9c97bd3f7deb20e31a16a683.jpg",
+    "figure_id": "图4.9.5(a)",
+    "caption": "消除竞争-冒险现象的几种方法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d52128b398843b84f3c9864b1007369b284f222c9c97bd3f7deb20e31a16a683.jpg"
+  },
+  {
+    "key": "图4.9.5(b)|images/9f1081b426fa44f97dff47af931ae4449ad42f550a1af8cfcc3b13fc1b6b292b.jpg",
+    "figure_id": "图4.9.5(b)",
+    "caption": "消除竞争-冒险现象的几种方法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9f1081b426fa44f97dff47af931ae4449ad42f550a1af8cfcc3b13fc1b6b292b.jpg"
+  },
+  {
+    "key": "图4.9.6_0|images/1ebf37dbf28bc6f0c171ae27a6e37a93ef84a7004fbd39242441d82ce8d113ba.jpg",
+    "figure_id": "图4.9.6",
+    "caption": "用增加冗余项消除竞争-冒险现象",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1ebf37dbf28bc6f0c171ae27a6e37a93ef84a7004fbd39242441d82ce8d113ba.jpg"
+  },
+  {
+    "key": "图4.9.6_1|images/82acfeeb191c923c7df368b779f16ee3f8ef99883414b0ffc563e74f431e4261.jpg",
+    "figure_id": "图4.9.6",
+    "caption": "用增加冗余项消除竞争-冒险现象",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\82acfeeb191c923c7df368b779f16ee3f8ef99883414b0ffc563e74f431e4261.jpg"
+  },
+  {
+    "key": "图P4.1_0|images/4ad6d532432392be3aa646846573bef9c0c9d5ab033fb924ccd718f58dbedf6b.jpg",
+    "figure_id": "图P4.1",
+    "caption": "图P4.1",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4ad6d532432392be3aa646846573bef9c0c9d5ab033fb924ccd718f58dbedf6b.jpg"
+  },
+  {
+    "key": "图P4.1_1|images/e598df5703c2e7a8c5291f992e324ccf8d77a23848b8aa9ad346c4c5552138d2.jpg",
+    "figure_id": "图P4.1",
+    "caption": "图P4.1",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e598df5703c2e7a8c5291f992e324ccf8d77a23848b8aa9ad346c4c5552138d2.jpg"
+  },
+  {
+    "key": "图P4.2|images/04b29f093ed75058bb91b519793f5fdd7b8f524bfd8abee7f098dce01971082c.jpg",
+    "figure_id": "图P4.2",
+    "caption": "图 P4.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\04b29f093ed75058bb91b519793f5fdd7b8f524bfd8abee7f098dce01971082c.jpg"
+  },
+  {
+    "key": "图P4.3|images/0b7338a70243d975b722a2d6f24d21bc75c709529a7eb4cd382c5a9d93175aac.jpg",
+    "figure_id": "图P4.3",
+    "caption": "图P4.3",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0b7338a70243d975b722a2d6f24d21bc75c709529a7eb4cd382c5a9d93175aac.jpg"
+  },
+  {
+    "key": "图P4.4|images/cd897101a740bd97243d03c2cbd94ef10749b78562e3c33e98f596ec77be09c1.jpg",
+    "figure_id": "图P4.4",
+    "caption": "图P4.4",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cd897101a740bd97243d03c2cbd94ef10749b78562e3c33e98f596ec77be09c1.jpg"
+  },
+  {
+    "key": "图P4.6|images/5df1c650d98f1be8f52bae5ce0c5dc584bbf99a12e88571001b956108060b5ee.jpg",
+    "figure_id": "图P4.6",
+    "caption": "图P4.6",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5df1c650d98f1be8f52bae5ce0c5dc584bbf99a12e88571001b956108060b5ee.jpg"
+  },
+  {
+    "key": "图P4.10|images/8a9277ca0d2e6423cf38866a654e6b750f0901bac84876320162046bd7c62c16.jpg",
+    "figure_id": "图P4.10",
+    "caption": "图P4.10",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8a9277ca0d2e6423cf38866a654e6b750f0901bac84876320162046bd7c62c16.jpg"
+  },
+  {
+    "key": "图P4.11|images/cea4fefe0fbdb9c70de0fe45cd3c49235671dcb9f7f956db0f4f6c3e5abe8e27.jpg",
+    "figure_id": "图P4.11",
+    "caption": "图 P4.11",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cea4fefe0fbdb9c70de0fe45cd3c49235671dcb9f7f956db0f4f6c3e5abe8e27.jpg"
+  }
+]

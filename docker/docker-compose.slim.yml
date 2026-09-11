@@ -1,0 +1,151 @@
+# 精简+基础设施：frontend + backend + Postgres + Redis + MinIO（不含 Neo4j）
+# 适配 ≥2GB 云主机（已加 swap）；内存限额见各服务 mem_limit
+#
+# 一键：
+#   cd docker && cp .env.example .env   # 填 DEEPSEEK_KEY
+#   ./bootstrap_slim.sh
+#
+# 说明：
+#   - Postgres：业务库（账号/题库/聊天…）；首次空库由 init_db+seed 建表灌样例
+#   - Redis：登录 Token（跨重启不丢）；失败自动回退进程内存
+#   - MinIO：教材图对象存储；/media 接口优先读 MinIO，没有则本地文件
+#   - Neo4j：仍关闭（2G 不够）
+
+services:
+  postgres:
+    image: docker.m.daocloud.io/library/postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: shudian_agent
+    command:
+      - postgres
+      - -c
+      - shared_buffers=64MB
+      - -c
+      - max_connections=50
+      - -c
+      - work_mem=4MB
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+    mem_limit: 256m
+
+  redis:
+    image: docker.m.daocloud.io/library/redis:7-alpine
+    command: ["redis-server", "--maxmemory", "64mb", "--maxmemory-policy", "allkeys-lru", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+    mem_limit: 96m
+
+  minio:
+    image: docker.m.daocloud.io/minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_SECRET_KEY:-minioadmin}
+    volumes:
+      - minio_data:/data
+    restart: unless-stopped
+    mem_limit: 256m
+
+  minio-init:
+    image: docker.m.daocloud.io/minio/mc:latest
+    depends_on:
+      minio:
+        condition: service_started
+    entrypoint: >
+      /bin/sh -c "
+      for i in 1 2 3 4 5 6 7 8 9 10 12 15 20; do
+        mc alias set local http://minio:9000 $${MINIO_ACCESS_KEY:-minioadmin} $${MINIO_SECRET_KEY:-minioadmin} && break;
+        sleep 2;
+      done;
+      mc mb -p local/$${MINIO_BUCKET:-shudian-textbook} || true;
+      mc anonymous set download local/$${MINIO_BUCKET:-shudian-textbook} || true;
+      echo minio-init done;
+      "
+    environment:
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+      MINIO_BUCKET: ${MINIO_BUCKET:-shudian-textbook}
+    restart: "no"
+
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend.slim
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_started
+    environment:
+      APP_NAME: 数电教育智能体
+      DEBUG: "false"
+      DATABASE_URL: postgresql+psycopg2://postgres:${POSTGRES_PASSWORD:-postgres}@postgres:5432/shudian_agent
+      CHROMA_PERSIST_DIR: /app/data/chroma
+      HF_ENDPOINT: https://hf-mirror.com
+      PIP_INDEX_URL: https://mirrors.aliyun.com/pypi/simple/
+      PIP_TRUSTED_HOST: mirrors.aliyun.com
+      MIMO_API_BASE: ${MIMO_API_BASE:-https://api.deepseek.com/v1}
+      DEEPSEEK_KEY: ${DEEPSEEK_KEY:?请在 docker/.env 填写自备的 DEEPSEEK_KEY（DeepSeek Key）}
+      MIMO_API_KEY: ${DEEPSEEK_KEY}
+      MIMO_MODEL: ${MIMO_MODEL:-deepseek-chat}
+      MIMO_OCR_MODEL: ${MIMO_OCR_MODEL:-deepseek-chat}
+      MIMO_MOCK: ${MIMO_MOCK:-false}
+      BGE_USE_REAL_MODEL: ${BGE_USE_REAL_MODEL:-false}
+      NEO4J_ENABLED: "false"
+      AUTH_DISABLED: ${AUTH_DISABLED:-false}
+      DEMO_CLASS_CODE: ${DEMO_CLASS_CODE:-DEMO01}
+      MEDIA_BASE_URL: ${MEDIA_BASE_URL:-/media}
+      HIT_SCORE_THRESHOLD: ${HIT_SCORE_THRESHOLD:-0.95}
+      REFLOW_MODE: ${REFLOW_MODE:-manual}
+      AUTH_SALT: ${AUTH_SALT:-shudian-agent-slim-change-me}
+      REDIS_URL: redis://redis:6379/0
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+      MINIO_BUCKET: ${MINIO_BUCKET:-shudian-textbook}
+      MINIO_SECURE: "false"
+      DRAW_RUNTIME_ROOT: ${DRAW_RUNTIME_ROOT:-/app/runtime}
+      NODE_BIN: ${NODE_BIN:-node}
+      AGENT_MAX_DRAW_CALLS: ${AGENT_MAX_DRAW_CALLS:-3}
+      DIGITAL_JAR: ${DIGITAL_JAR:-/app/app/tools/draw/digital_dig/vendor/Digital.jar}
+      MINERU_TOKEN: ${MINERU_TOKEN:-}
+      MINERU_MODE: ${MINERU_MODE:-precision}
+      MINERU_TIMEOUT_SEC: ${MINERU_TIMEOUT_SEC:-600}
+      MINERU_MAX_FILE_MB: ${MINERU_MAX_FILE_MB:-25}
+    volumes:
+      - backend_data:/app/data
+      - ../backend/data/canonical:/app/data/canonical:ro
+    expose:
+      - "8000"
+    restart: unless-stopped
+    mem_limit: 1100m
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend.slim
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    mem_limit: 128m
+
+volumes:
+  backend_data:
+  pgdata:
+  minio_data:

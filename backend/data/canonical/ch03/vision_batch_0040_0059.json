@@ -1,0 +1,22 @@
+{
+  "图3.3.17(b)|images/9e4a4be0839f52946cfb9492723dde8d79502e25d0b6df7efdb8d1033cfddad6.jpg": "输入保护的vI–iI曲线：正常工作区内输入电流几乎为零，当vI低于−0.7V或高于VDD+0.7V时电流迅速增大，体现钳位作用。",
+  "图3.3.18|images/42fea36dae7af10c3228db087d2ea1f0c5fd60a91c4e161f860e4c8a7bf541c5.jpg": "输出低电平时：输入VIH=VDD使下拉管T2导通，漏极经负载RL接VDD，输出为VOL，并标注灌电流IOL与漏极电流iD2。",
+  "图3.3.19|images/70043c38c74410962a9be51cdc5e3d52a8ccfd28d4aadbb164a8abe01da7c2d0.jpg": "低电平输出特性：纵轴VOL、横轴IOL，给出VDD=5V、10V、15V三条曲线；IOL增大则VOL升高，同一IOL下VDD越高VOL越低。",
+  "图3.3.20|images/792e94d71264437e6baa5480e75bf3f05e0e5c7cd7ec5b510ac7eac88dc84a9a.jpg": "输出高电平时：输入VIL=0使上拉管T1导通，源极/衬底接VDD，漏极输出VOH，经负载RL对地提供拉电流IOH。",
+  "图3.3.21|images/57a64caf526ec4efe2c56b89cb305e8578a090317b149b69c43651a6545dd610.jpg": "高电平输出特性：纵轴VOH、横轴IOH，给出VDD=5V、10V、15V曲线；IOH=0时VOH=VDD，拉电流增大则VOH下降。",
+  "图3.3.22|images/6e13263d4f3fb593b39880a1ee20dbada76fbbeb826fcf7c14c6c3b1d6c43490.jpg": "左侧为带RS、保护二极管及负载电容CL的CMOS反相器；右侧波形在50%电平处定义传输延迟tPHL与tPLH。",
+  "图3.3.23|images/d08260989fd0fe32717d02229fb8ee471964184174f9bd82daeb41514614ed1a.jpg": "交流噪声容限：纵轴噪声幅值VNA、横轴脉冲宽度tW，给出VDD=3V与5V两条曲线；tW越窄可承受噪声越大，VDD越高容限越大。",
+  "图3.3.24|images/beb873020e7be8abf117ea8bece3535830e590a9c105da495de5cf30035c9dcb.jpg": "左侧反相器T1、T2驱动负载电容CL并标充电电流iP与放电电流iN；右侧给出vI、vO及iN、iP波形，显示翻转时对CL的充放电脉冲。",
+  "图3.3.25|images/f6bea1345e6a6cac35a2975e6357bd47596dc54769304d3d840632b90c0031cd.jpg": "带RS、D1、D2保护的反相器及波形：vG介于VGS(th)N与VDD−|VGS(th)P|的t1–t2、t3–t4区间出现穿通电流iT尖峰。",
+  "图3.3.26(a)|images/56886cacb83ad70cb8f2dee1e762d9ae83c066bad34173e9d1f0e5b1e44913d1.jpg": "静态vI=0：输入经RS与钳位/寄生二极管构成泄放网络，虚线箭头标出漏电流流向VDD或地的路径，输出为反相器vO。",
+  "图3.3.26(b)|images/2b3ee48511502ba3c2264df5bd6963470baa9631f587a21d3a94923cfb3eb154.jpg": "静态vI=VDD：输入高电平时经RS及各钳位/寄生二极管形成静态漏电路径，虚线箭头标出电荷泄放方向，输出仍为vO。",
+  "图3.3.27|images/e5eba49c130a0b5774f5d2e8aacb4ce653a83454a2468999156b79a431565e99.jpg": "扇出连接：驱动门G0的输出Vo同时接到n个负载门G1…Gn的一个输入端，各负载门画出输入RC等效，说明扇出负载。",
+  "图3.3.28|images/bdc9a27ff50ff1e31b30a5a7b73b1d6714e967d00d6b943e908a96e6a6cab168.jpg": "二输入与非门：上拉为并联PMOS管T1、T3接VDD，下拉为串联NMOS管T2、T4接地；输入A、B分别控对应管，输出为Y。",
+  "图3.3.29|images/e2ba7589a977208b4705b8eceb17fef1569c3b88a04da518e4596b2482d17a1e.jpg": "二输入或非门：上拉为串联PMOS管T3、T1接VDD，下拉为并联NMOS管T4、T2接地；输入A、B分别接到对应管栅极，输出为Y。",
+  "图3.3.30|images/d7da07b5ce637932a0c8b5777a2cbc4a34c1de278b645073d6edbda1064daa83.jpg": "带缓冲与非门：左侧为输入反相、中间或非级与输出反相器的晶体管电路；右侧等效为反相器与或非门级联，对应二输入与非门符号。",
+  "图3.3.31|images/0bee80e99854ff66dbfdcbc1ee5484be9a006005b1e3ef86a3c8af7aa8051342.jpg": "带缓冲或非门：左侧为输入反相、中间与非级与输出反相器的晶体管电路；右侧用反相器与与非门级联说明，并给出二输入或非门符号。",
+  "图3.3.32(a)|images/32bb8f2db5343450c84976fc6d4239a7ddc6565c3c44241dcfb27d9f7ba872ee.jpg": "OD输出与非门：内部与非门经反相器驱动NMOS管TN栅极，TN漏极为输出vO，经外接上拉电阻RL接VDD2，实现Y=(AB)′。",
+  "图3.3.32(b)|images/53c4a6fe7e854686cbac200bb8893b519d924ef1a8a60e5f9462e5703db386d6.jpg": "OD输出与非门逻辑符号：二输入与非门图形内含带下横线的菱形标记，表示漏极开路输出结构，输入A、B，输出Y。",
+  "图3.3.33(a)|images/af3d7e9e273da7c574d6a4d0f351978447d53cd9dd19536059d0e0aed4c556d5.jpg": "两只OD门G1、G2的输出管漏极Y1、Y2并联至公共点Y，再经上拉电阻RL接VDD；G1输入A、B，G2输入C、D，实现线与。",
+  "图3.3.33(b)|images/d85f3577c448f686254f4df3827583a98612e663180cc890f00e17f17a93d342.jpg": "线与接法逻辑图：两个带OD标记的与非门G1、G2输出Y1与Y2直接相连为Y，并经RL上拉至VDD，图中标出“线与符号”。"
+}

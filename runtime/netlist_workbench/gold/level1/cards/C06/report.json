@@ -1,0 +1,86 @@
+{
+  "id": "C06",
+  "fig_id": "4.4.21",
+  "caption": "半加器",
+  "image": "../../textbook_figures/logic_dag/fig_4_4_21.jpg",
+  "combinational": true,
+  "sim_ok": true,
+  "sim_reason": "ok",
+  "sim_rows": 4,
+  "sim_samples": [
+    {
+      "inputs": {
+        "A": 0,
+        "B": 0
+      },
+      "outputs": {
+        "S": 0,
+        "CO": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 0,
+        "B": 1
+      },
+      "outputs": {
+        "S": 1,
+        "CO": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 1,
+        "B": 0
+      },
+      "outputs": {
+        "S": 1,
+        "CO": 0
+      }
+    },
+    {
+      "inputs": {
+        "A": 1,
+        "B": 1
+      },
+      "outputs": {
+        "S": 0,
+        "CO": 1
+      }
+    }
+  ],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": true,
+  "self_grade": "SELF_OK",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=4"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=2 ir_gates=2"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=3355"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "multi_gates": 0,
+  "fallback_splits": 0,
+  "notes": ""
+}

@@ -1,0 +1,19 @@
+logic "pla_y123_b" style: iec
+input A, B, C, D
+output Y1, Y2, Y3
+nA = NOT(A)
+nB = NOT(B)
+nC = NOT(C)
+nD = NOT(D)
+g1a = AND(nA, nC)
+G1 = AND(g1a, D)
+G2 = AND(B, nD)
+g3a = AND(A, nB)
+G3 = AND(g3a, C)
+g4a = AND(nA, C)
+G4 = AND(g4a, D)
+Y1 = OR(B, G1)
+y2a = OR(G1, G2)
+Y2 = OR(y2a, G4)
+y3a = OR(G2, G3)
+Y3 = OR(y3a, G4)

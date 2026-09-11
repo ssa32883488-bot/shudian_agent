@@ -1,0 +1,74 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "sync_bin_counter_JK",
+  "inputs": [
+    "CLK"
+  ],
+  "gates": {
+    "FF0": {
+      "type": "JKFF",
+      "inputs": [
+        "ONE",
+        "CLK",
+        "ONE"
+      ]
+    },
+    "FF1": {
+      "type": "JKFF",
+      "inputs": [
+        "FF0",
+        "CLK",
+        "FF0"
+      ]
+    },
+    "G1": {
+      "type": "AND",
+      "inputs": [
+        "FF0",
+        "FF1"
+      ]
+    },
+    "FF2": {
+      "type": "JKFF",
+      "inputs": [
+        "G1",
+        "CLK",
+        "G1"
+      ]
+    },
+    "G2": {
+      "type": "AND",
+      "inputs": [
+        "G1",
+        "FF2"
+      ]
+    },
+    "FF3": {
+      "type": "JKFF",
+      "inputs": [
+        "G2",
+        "CLK",
+        "G2"
+      ]
+    },
+    "G3": {
+      "type": "AND4",
+      "inputs": [
+        "FF0",
+        "FF1",
+        "FF2",
+        "FF3"
+      ]
+    }
+  },
+  "outputs": {
+    "Q0": "FF0",
+    "Q1": "FF1",
+    "Q2": "FF2",
+    "Q3": "FF3",
+    "C": "G3"
+  },
+  "notes": "图6.3.8 / fig_6_3_8_01faea9b：JK 接成 T；G1=Q0Q1；G2=G1·Q2；G3=Q0Q1Q2Q3→C"
+}

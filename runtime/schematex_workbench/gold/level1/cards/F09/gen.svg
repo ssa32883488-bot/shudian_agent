@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="schematex-logic" viewBox="0 0 1800 410" width="1800" height="410" role="img" data-diagram-type="logic"><title>sync_bin_counter_T</title>
+<desc>Logic gate diagram with 12 gates, 1 inputs, 5 outputs</desc>
+<defs><style>.schematex-logic { font-family: system-ui, -apple-system, sans-serif; }
+.schematex-logic-gate-body { fill: none; stroke: #111111; stroke-width: 1.75; stroke-linejoin: round; }
+.schematex-logic-bubble { fill: #ffffff; stroke: #111111; stroke-width: 1.5; }
+.schematex-logic-clock-tri { fill: none; stroke: #111111; stroke-width: 1.5; stroke-linejoin: round; }
+.schematex-logic-wire { stroke: #111111; stroke-width: 1.5; fill: none; stroke-linecap: square; }
+.schematex-logic-port-label { font: 13px system-ui, sans-serif; fill: #111111; }
+.schematex-logic-pin-label { font: 9px sans-serif; fill: #222222; }
+.schematex-logic-gate-type { font: 10px sans-serif; fill: #555555; }
+.schematex-logic-gate-iec-label { font: bold 13px sans-serif; fill: #111111; }
+.schematex-logic-title { font: 700 16px sans-serif; fill: #111111; }
+.schematex-logic-module { fill: none; stroke: #555555; stroke-width: 1.25; stroke-dasharray: 6 4; }
+.schematex-logic-module-label { font: 11px sans-serif; fill: #555555; font-style: italic; }
+[data-gate-type="unknown"] .schematex-logic-gate-body { stroke: #1d4e89; stroke-dasharray: 5 3; }
+[data-gate-type="unknown"] .schematex-logic-gate-iec-label { fill: #1d4e89; }</style></defs>
+<g transform="translate(0, 20)"><g class="schematex-logic-modules"></g>
+<g class="schematex-logic-wires"><path d="M 60,195 L 115,195 L 115,195 L 170,195" class="schematex-logic-wire" data-from="CLK" data-to="nCLK"/>
+<path d="M 60,195 L 194,195 L 194,180 L 328,180" class="schematex-logic-wire" data-from="CLK" data-to="ONE"/>
+<path d="M 230,195 L 279,195 L 279,210 L 328,210" class="schematex-logic-wire" data-from="nCLK" data-to="ONE"/>
+<path d="M 380,195 L 420,195 L 420,175 L 460,175" class="schematex-logic-wire" data-from="ONE" data-to="Q0"/>
+<path d="M 60,195 L 260,195 L 260,205 L 460,205" class="schematex-logic-wire" data-from="CLK" data-to="Q0"/>
+<path d="M 520,175 L 560,175 L 560,175 L 600,175" class="schematex-logic-wire" data-from="Q0" data-to="Q1"/>
+<path d="M 60,195 L 330,195 L 330,205 L 600,205" class="schematex-logic-wire" data-from="CLK" data-to="Q1"/>
+<path d="M 520,175 L 640,175 L 640,80 L 760,80" class="schematex-logic-wire" data-from="Q0" data-to="T2"/>
+<path d="M 660,175 L 710,175 L 710,110 L 760,110" class="schematex-logic-wire" data-from="Q1" data-to="T2"/>
+<path d="M 820,95 L 860,95 L 860,175 L 900,175" class="schematex-logic-wire" data-from="T2" data-to="Q2"/>
+<path d="M 60,195 L 480,195 L 480,205 L 900,205" class="schematex-logic-wire" data-from="CLK" data-to="Q2"/>
+<path d="M 520,175 L 640,175 L 640,180 L 760,180" class="schematex-logic-wire" data-from="Q0" data-to="T3a"/>
+<path d="M 660,175 L 710,175 L 710,210 L 760,210" class="schematex-logic-wire" data-from="Q1" data-to="T3a"/>
+<path d="M 820,195 L 940,195 L 940,180 L 1060,180" class="schematex-logic-wire" data-from="T3a" data-to="T3"/>
+<path d="M 960,175 L 1010,175 L 1010,210 L 1060,210" class="schematex-logic-wire" data-from="Q2" data-to="T3"/>
+<path d="M 1120,195 L 1160,195 L 1160,175 L 1200,175" class="schematex-logic-wire" data-from="T3" data-to="Q3"/>
+<path d="M 60,195 L 630,195 L 630,205 L 1200,205" class="schematex-logic-wire" data-from="CLK" data-to="Q3"/>
+<path d="M 520,175 L 640,175 L 640,280 L 760,280" class="schematex-logic-wire" data-from="Q0" data-to="Ca"/>
+<path d="M 660,175 L 710,175 L 710,310 L 760,310" class="schematex-logic-wire" data-from="Q1" data-to="Ca"/>
+<path d="M 960,175 L 1160,175 L 1160,180 L 1360,180" class="schematex-logic-wire" data-from="Q2" data-to="Cb"/>
+<path d="M 1260,175 L 1310,175 L 1310,210 L 1360,210" class="schematex-logic-wire" data-from="Q3" data-to="Cb"/>
+<path d="M 820,295 L 1170,295 L 1170,180 L 1520,180" class="schematex-logic-wire" data-from="Ca" data-to="C"/>
+<path d="M 1420,195 L 1470,195 L 1470,210 L 1520,210" class="schematex-logic-wire" data-from="Cb" data-to="C"/>
+<path d="M 520,175 L 1090,175 L 1090,55 L 1660,55" class="schematex-logic-wire" data-from="Q0" data-to="$out$Q0"/>
+<path d="M 660,175 L 1160,175 L 1160,125 L 1660,125" class="schematex-logic-wire" data-from="Q1" data-to="$out$Q1"/>
+<path d="M 960,175 L 1310,175 L 1310,195 L 1660,195" class="schematex-logic-wire" data-from="Q2" data-to="$out$Q2"/>
+<path d="M 1260,175 L 1460,175 L 1460,265 L 1660,265" class="schematex-logic-wire" data-from="Q3" data-to="$out$Q3"/>
+<path d="M 1580,195 L 1620,195 L 1620,335 L 1660,335" class="schematex-logic-wire" data-from="C" data-to="$out$C"/></g>
+<g class="schematex-logic-gates"><g transform="translate(160, 165)" data-gate-id="nCLK" data-gate-type="NOT"><rect x="0" y="0" width="70" height="60" class="schematex-logic-gate-body"/>
+<text x="35" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">1</text>
+<circle cx="66" cy="30" r="4" class="schematex-logic-bubble"/></g>
+<g transform="translate(310, 165)" data-gate-id="ONE" data-gate-type="OR"><rect x="0" y="0" width="70" height="60" class="schematex-logic-gate-body"/>
+<text x="35" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">≥1</text></g>
+<g transform="translate(460, 155)" data-gate-id="Q0" data-gate-type="TFF"><rect x="0" y="0" width="60" height="80" class="schematex-logic-gate-body"/>
+<text x="30" y="44" class="schematex-logic-gate-iec-label" text-anchor="middle">T</text>
+<polygon points="0,45 8,50 0,55" class="schematex-logic-clock-tri"/>
+<circle cx="64" cy="60" r="4" class="schematex-logic-bubble"/>
+<text x="5" y="23" class="schematex-logic-pin-label">T</text>
+<text x="54" y="23" class="schematex-logic-pin-label" text-anchor="end">Q</text>
+<text x="54" y="63" class="schematex-logic-pin-label" text-anchor="end">Q̄</text></g>
+<g transform="translate(600, 155)" data-gate-id="Q1" data-gate-type="TFF"><rect x="0" y="0" width="60" height="80" class="schematex-logic-gate-body"/>
+<text x="30" y="44" class="schematex-logic-gate-iec-label" text-anchor="middle">T</text>
+<polygon points="0,45 8,50 0,55" class="schematex-logic-clock-tri"/>
+<circle cx="64" cy="60" r="4" class="schematex-logic-bubble"/>
+<text x="5" y="23" class="schematex-logic-pin-label">T</text>
+<text x="54" y="23" class="schematex-logic-pin-label" text-anchor="end">Q</text>
+<text x="54" y="63" class="schematex-logic-pin-label" text-anchor="end">Q̄</text></g>
+<g transform="translate(740, 65)" data-gate-id="T2" data-gate-type="AND"><rect x="0" y="0" width="80" height="60" class="schematex-logic-gate-body"/>
+<text x="40" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">&amp;</text></g>
+<g transform="translate(740, 165)" data-gate-id="T3a" data-gate-type="AND"><rect x="0" y="0" width="80" height="60" class="schematex-logic-gate-body"/>
+<text x="40" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">&amp;</text></g>
+<g transform="translate(740, 265)" data-gate-id="Ca" data-gate-type="AND"><rect x="0" y="0" width="80" height="60" class="schematex-logic-gate-body"/>
+<text x="40" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">&amp;</text></g>
+<g transform="translate(900, 155)" data-gate-id="Q2" data-gate-type="TFF"><rect x="0" y="0" width="60" height="80" class="schematex-logic-gate-body"/>
+<text x="30" y="44" class="schematex-logic-gate-iec-label" text-anchor="middle">T</text>
+<polygon points="0,45 8,50 0,55" class="schematex-logic-clock-tri"/>
+<circle cx="64" cy="60" r="4" class="schematex-logic-bubble"/>
+<text x="5" y="23" class="schematex-logic-pin-label">T</text>
+<text x="54" y="23" class="schematex-logic-pin-label" text-anchor="end">Q</text>
+<text x="54" y="63" class="schematex-logic-pin-label" text-anchor="end">Q̄</text></g>
+<g transform="translate(1040, 165)" data-gate-id="T3" data-gate-type="AND"><rect x="0" y="0" width="80" height="60" class="schematex-logic-gate-body"/>
+<text x="40" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">&amp;</text></g>
+<g transform="translate(1200, 155)" data-gate-id="Q3" data-gate-type="TFF"><rect x="0" y="0" width="60" height="80" class="schematex-logic-gate-body"/>
+<text x="30" y="44" class="schematex-logic-gate-iec-label" text-anchor="middle">T</text>
+<polygon points="0,45 8,50 0,55" class="schematex-logic-clock-tri"/>
+<circle cx="64" cy="60" r="4" class="schematex-logic-bubble"/>
+<text x="5" y="23" class="schematex-logic-pin-label">T</text>
+<text x="54" y="23" class="schematex-logic-pin-label" text-anchor="end">Q</text>
+<text x="54" y="63" class="schematex-logic-pin-label" text-anchor="end">Q̄</text></g>
+<g transform="translate(1340, 165)" data-gate-id="Cb" data-gate-type="AND"><rect x="0" y="0" width="80" height="60" class="schematex-logic-gate-body"/>
+<text x="40" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">&amp;</text></g>
+<g transform="translate(1500, 165)" data-gate-id="C" data-gate-type="AND"><rect x="0" y="0" width="80" height="60" class="schematex-logic-gate-body"/>
+<text x="40" y="34" class="schematex-logic-gate-iec-label" text-anchor="middle">&amp;</text></g></g>
+<g class="schematex-logic-ports"><g transform="translate(20, 180)" data-port="input"><text x="0" y="19" text-anchor="start" class="schematex-logic-port-label">CLK</text>
+<line x1="28" y1="15" x2="40" y2="15" class="schematex-logic-wire"/>
+</g>
+<g transform="translate(1660, 40)" data-port="output"><line x1="0" y1="15" x2="12" y2="15" class="schematex-logic-wire"/>
+<text x="16" y="19" text-anchor="start" class="schematex-logic-port-label">Q0</text></g>
+<g transform="translate(1660, 110)" data-port="output"><line x1="0" y1="15" x2="12" y2="15" class="schematex-logic-wire"/>
+<text x="16" y="19" text-anchor="start" class="schematex-logic-port-label">Q1</text></g>
+<g transform="translate(1660, 180)" data-port="output"><line x1="0" y1="15" x2="12" y2="15" class="schematex-logic-wire"/>
+<text x="16" y="19" text-anchor="start" class="schematex-logic-port-label">Q2</text></g>
+<g transform="translate(1660, 250)" data-port="output"><line x1="0" y1="15" x2="12" y2="15" class="schematex-logic-wire"/>
+<text x="16" y="19" text-anchor="start" class="schematex-logic-port-label">Q3</text></g>
+<g transform="translate(1660, 320)" data-port="output"><line x1="0" y1="15" x2="12" y2="15" class="schematex-logic-wire"/>
+<text x="16" y="19" text-anchor="start" class="schematex-logic-port-label">C</text></g></g></g>
+<text x="900" y="18" text-anchor="middle" class="schematex-logic-title">sync_bin_counter_T</text></svg>

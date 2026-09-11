@@ -1,0 +1,87 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "ex_6_2_3",
+  "inputs": [
+    "A",
+    "CLK"
+  ],
+  "gates": {
+    "nQ1": {
+      "type": "NOT",
+      "inputs": [
+        "FF1"
+      ]
+    },
+    "FF1": {
+      "type": "DFF",
+      "inputs": [
+        "nQ1",
+        "CLK"
+      ]
+    },
+    "x1": {
+      "type": "XOR",
+      "inputs": [
+        "FF1",
+        "A"
+      ]
+    },
+    "D2": {
+      "type": "XOR",
+      "inputs": [
+        "x1",
+        "FF2"
+      ]
+    },
+    "FF2": {
+      "type": "DFF",
+      "inputs": [
+        "D2",
+        "CLK"
+      ]
+    },
+    "nA": {
+      "type": "NOT",
+      "inputs": [
+        "A"
+      ]
+    },
+    "nQ2": {
+      "type": "NOT",
+      "inputs": [
+        "FF2"
+      ]
+    },
+    "t1": {
+      "type": "NAND3",
+      "inputs": [
+        "nA",
+        "FF1",
+        "FF2"
+      ]
+    },
+    "t2": {
+      "type": "NAND3",
+      "inputs": [
+        "A",
+        "nQ1",
+        "nQ2"
+      ]
+    },
+    "Y": {
+      "type": "NAND",
+      "inputs": [
+        "t1",
+        "t2"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "Y",
+    "Q1": "FF1",
+    "Q2": "FF2"
+  },
+  "notes": "式(6.2.4)(6.2.6)：输出为三与非形式"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "xor_and_2_9_3",
+  "inputs": [
+    "A",
+    "B",
+    "C'"
+  ],
+  "gates": {
+    "t1": {
+      "type": "XOR",
+      "inputs": [
+        "A",
+        "B"
+      ]
+    },
+    "Y": {
+      "type": "AND",
+      "inputs": [
+        "t1",
+        "C'"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "Y"
+  },
+  "notes": "图2.9.3；输入 C' 不用 Cn"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "nand_sr_latch",
+  "inputs": [
+    "SDn",
+    "RDn"
+  ],
+  "gates": {
+    "G1": {
+      "type": "NAND",
+      "inputs": [
+        "SDn",
+        "G2"
+      ]
+    },
+    "G2": {
+      "type": "NAND",
+      "inputs": [
+        "RDn",
+        "G1"
+      ]
+    }
+  },
+  "outputs": {
+    "Q": "G1",
+    "Qn": "G2"
+  }
+}

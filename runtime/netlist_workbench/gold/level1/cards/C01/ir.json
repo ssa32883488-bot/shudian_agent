@@ -1,0 +1,73 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "ex_4_3_1_andor",
+  "inputs": [
+    "R",
+    "A",
+    "G"
+  ],
+  "gates": {
+    "nR": {
+      "type": "NOT",
+      "inputs": [
+        "R"
+      ]
+    },
+    "nA": {
+      "type": "NOT",
+      "inputs": [
+        "A"
+      ]
+    },
+    "nG": {
+      "type": "NOT",
+      "inputs": [
+        "G"
+      ]
+    },
+    "t1": {
+      "type": "AND",
+      "inputs": [
+        "R",
+        "A"
+      ]
+    },
+    "t2": {
+      "type": "AND",
+      "inputs": [
+        "A",
+        "G"
+      ]
+    },
+    "t3": {
+      "type": "AND",
+      "inputs": [
+        "R",
+        "G"
+      ]
+    },
+    "t4": {
+      "type": "AND",
+      "inputs": [
+        "nR",
+        "nA",
+        "nG"
+      ]
+    },
+    "Z": {
+      "type": "OR",
+      "inputs": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    }
+  },
+  "outputs": {
+    "Z": "Z"
+  },
+  "notes": "课本：t4 三输入与、Z 四输入或；Z=RA+AG+RG+R'A'G'"
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": "第05章 半导体存储电路",
+  "sections": 53,
+  "blocks": 102,
+  "figures_textbook": 94,
+  "figures_keypoints": 22,
+  "exercises_merged": {
+    "matched": 40,
+    "missing_answer": [],
+    "extra_solutions": [],
+    "appendix_fallback": []
+  },
+  "chunks_total": 148,
+  "vision_updated": 121,
+  "orphan_figures": 0,
+  "orphan_figure_ids": [],
+  "chunks_by_type": {
+    "theory": 80,
+    "example": 9,
+    "review": 19,
+    "exercise_merged": 40
+  }
+}

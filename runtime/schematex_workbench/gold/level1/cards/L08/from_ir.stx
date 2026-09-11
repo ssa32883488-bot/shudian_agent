@@ -1,0 +1,6 @@
+logic "nand_aoi_2_9_4" style: iec
+input A, C, B, Cn
+output Y
+G1 = NAND(A, C)
+G2 = NAND(B, Cn)
+Y = NAND(G1, G2)

@@ -1,0 +1,158 @@
+{
+  "id": "C10",
+  "fig_id": "4.4.20",
+  "caption": "双4选1数据选择器74HC153",
+  "image": "../../textbook_figures/logic_dag/fig_4_4_20.jpg",
+  "combinational": true,
+  "sim_ok": true,
+  "sim_reason": "ok",
+  "sim_rows": 128,
+  "sim_samples": [
+    {
+      "inputs": {
+        "A0": 0,
+        "A1": 0,
+        "D0": 0,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A0": 0,
+        "A1": 0,
+        "D0": 1,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 1
+      }
+    },
+    {
+      "inputs": {
+        "A0": 0,
+        "A1": 1,
+        "D0": 0,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A0": 0,
+        "A1": 1,
+        "D0": 1,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A0": 1,
+        "A1": 0,
+        "D0": 0,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A0": 1,
+        "A1": 0,
+        "D0": 1,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A0": 1,
+        "A1": 1,
+        "D0": 0,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    },
+    {
+      "inputs": {
+        "A0": 1,
+        "A1": 1,
+        "D0": 1,
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "Sn": 0
+      },
+      "outputs": {
+        "Y": 0
+      }
+    }
+  ],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": true,
+  "self_grade": "SELF_OK",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=128"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=15 ir_gates=15"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=12788"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "multi_gates": 0,
+  "fallback_splits": 0,
+  "notes": "单路 4 选 1（课本双路）；TG 树简化为 AND-OR"
+}

@@ -1,0 +1,61 @@
+# 国内镜像优先：DaoCloud 代理 Docker Hub；apt 走阿里云
+# 固定 bookworm：包源稳定，含 nodejs；JRE 用 17（与 Digital 兼容）
+FROM docker.m.daocloud.io/library/python:3.12-slim-bookworm
+
+WORKDIR /app
+
+ENV PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/ \
+    PIP_TRUSTED_HOST=mirrors.aliyun.com \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app \
+    HF_ENDPOINT=https://hf-mirror.com \
+    DRAW_RUNTIME_ROOT=/app/runtime \
+    NODE_BIN=node \
+    DIGITAL_JAR=/app/app/tools/draw/digital_dig/vendor/Digital.jar
+
+# 阿里云 Debian 镜像，避免 deb.debian.org 在国内极慢/超时
+RUN set -eux; \
+    if [ -f /etc/apt/sources.list.d/debian.sources ]; then \
+      sed -i 's/deb.debian.org/mirrors.aliyun.com/g; s/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list.d/debian.sources; \
+    fi; \
+    if [ -f /etc/apt/sources.list ]; then \
+      sed -i 's/deb.debian.org/mirrors.aliyun.com/g; s/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list; \
+    fi; \
+    apt-get update && apt-get install -y --no-install-recommends \
+      curl \
+      nodejs npm \
+      openjdk-17-jre-headless \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY backend/requirements.slim.txt ./requirements.txt
+RUN pip install -r requirements.txt \
+    -i https://mirrors.aliyun.com/pypi/simple/ \
+    --trusted-host mirrors.aliyun.com
+
+COPY backend/app ./app
+COPY backend/alembic ./alembic
+COPY backend/alembic.ini .
+COPY backend/scripts ./scripts
+COPY data/kg /app/kg
+COPY runtime /app/runtime
+
+# Node workbench 依赖（使用淘宝 npm）
+RUN npm config set registry https://registry.npmmirror.com \
+    && cd /app/runtime/netlist_workbench && npm ci --omit=dev \
+    && cd /app/runtime/schematex_workbench && npm ci --omit=dev
+
+RUN mkdir -p /app/data /app/media
+
+EXPOSE 8000
+
+CMD ["sh", "-c", "python -m scripts.check_draw_runtime || true; \
+  python -c 'from app.db import init_db; init_db()' && \
+  python -c \"import shutil; from pathlib import Path; \
+src=Path('/app/kg/path_graph.json'); dst=Path('/app/data/knowledge_graph.json'); \
+dst.parent.mkdir(parents=True, exist_ok=True); \
+shutil.copy(src,dst) if src.exists() else None; print('kg ready')\" && \
+  python -m scripts.seed_questions && \
+  python -m scripts.seed_teacher && \
+  uvicorn app.main:app --host 0.0.0.0 --port 8000"]

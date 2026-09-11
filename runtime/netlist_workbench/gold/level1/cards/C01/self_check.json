@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "grade": "SELF_OK",
+  "checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=8"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=2"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=8 ir_gates=8"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=7845"
+    },
+    {
+      "id": "PEER_EQ",
+      "ok": true,
+      "detail": "eq_C02 rows=8"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "meta": {
+    "preferMulti": true,
+    "multiMax": 4,
+    "gateMeta": [
+      {
+        "id": "nR",
+        "base": "NOT",
+        "arity": 1,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "nA",
+        "base": "NOT",
+        "arity": 1,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "nG",
+        "base": "NOT",
+        "arity": 1,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "t1",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "t2",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "t3",
+        "base": "AND",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "t4",
+        "base": "AND",
+        "arity": 3,
+        "mode": "multi",
+        "cells": 1
+      },
+      {
+        "id": "Z",
+        "base": "OR",
+        "arity": 4,
+        "mode": "multi",
+        "cells": 1
+      }
+    ],
+    "cellCount": 8,
+    "multiGates": 2,
+    "fallbackSplits": []
+  },
+  "combinational": true
+}

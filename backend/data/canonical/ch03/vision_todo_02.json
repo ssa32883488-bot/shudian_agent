@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图3.3.11(d)|images/34e2e5626aa04717b2432db50fe6c2167aadcf99d2f8d85ee99b228b2f6f304b.jpg",
+    "figure_id": "图3.3.11(d)",
+    "caption": "CMOS 反相器 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\34e2e5626aa04717b2432db50fe6c2167aadcf99d2f8d85ee99b228b2f6f304b.jpg"
+  },
+  {
+    "key": "图3.3.12|images/9d5cc4023d702fd7a9eec1b8fbd10f3ccc8f868795ebfa7af60226c08ef76183.jpg",
+    "figure_id": "图3.3.12",
+    "caption": "CMOS 反相器的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9d5cc4023d702fd7a9eec1b8fbd10f3ccc8f868795ebfa7af60226c08ef76183.jpg"
+  },
+  {
+    "key": "图3.3.13|images/d90f9e1c8a44bd42c6eb67da41c74f885f45695551432450adf2aed726bc7634.jpg",
+    "figure_id": "图3.3.13",
+    "caption": "CMOS 反相器的电流传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d90f9e1c8a44bd42c6eb67da41c74f885f45695551432450adf2aed726bc7634.jpg"
+  },
+  {
+    "key": "图3.3.14|images/da0fc620c66fdd24ecb893b4ccb5d5e18035a881155f45257eda57471e462dd9.jpg",
+    "figure_id": "图3.3.14",
+    "caption": "输入端噪声容限示意图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\da0fc620c66fdd24ecb893b4ccb5d5e18035a881155f45257eda57471e462dd9.jpg"
+  },
+  {
+    "key": "图3.3.15(a)|images/538ace24566a5f6e4b0fce01c4addf01591b647b4dc3c89a853614ea9b77332f.jpg",
+    "figure_id": "图3.3.15(a)",
+    "caption": "CMOS反相器输入噪声容限与 $V_{\\mathrm{DD}}$ 的关系 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\538ace24566a5f6e4b0fce01c4addf01591b647b4dc3c89a853614ea9b77332f.jpg"
+  },
+  {
+    "key": "图3.3.15(b)|images/30c9a9ac9e08159fbe2020d0ec66244b1872d789d6d2d843277d18be42b5b41a.jpg",
+    "figure_id": "图3.3.15(b)",
+    "caption": "CMOS反相器输入噪声容限与 $V_{\\mathrm{DD}}$ 的关系 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\30c9a9ac9e08159fbe2020d0ec66244b1872d789d6d2d843277d18be42b5b41a.jpg"
+  },
+  {
+    "key": "图3.3.16(a)|images/a6d11027f558c69dfb3cd7b98f4a1c858150e540daceb51cf371259790717751.jpg",
+    "figure_id": "图3.3.16(a)",
+    "caption": "CMOS 反相器的输入保护电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a6d11027f558c69dfb3cd7b98f4a1c858150e540daceb51cf371259790717751.jpg"
+  },
+  {
+    "key": "图3.3.16(b)|images/a99e267e01b86121f3eb314c663ceeee6d56173b1bdec7585e1a9c9fa02bccad.jpg",
+    "figure_id": "图3.3.16(b)",
+    "caption": "CMOS 反相器的输入保护电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a99e267e01b86121f3eb314c663ceeee6d56173b1bdec7585e1a9c9fa02bccad.jpg"
+  },
+  {
+    "key": "图3.3.16(c)|images/b0a90857e8020a65ff99593a66671a08e24ebe21e39f471626354215efadbe64.jpg",
+    "figure_id": "图3.3.16(c)",
+    "caption": "CMOS 反相器的输入保护电路 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b0a90857e8020a65ff99593a66671a08e24ebe21e39f471626354215efadbe64.jpg"
+  },
+  {
+    "key": "图3.3.17(a)|images/6dd267333fe07d53e9c85469d637decc58c02ed354316ad21bc1a0935ed9082f.jpg",
+    "figure_id": "图3.3.17(a)",
+    "caption": "CMOS 反相器的输入特性 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6dd267333fe07d53e9c85469d637decc58c02ed354316ad21bc1a0935ed9082f.jpg"
+  },
+  {
+    "key": "图3.3.17(b)|images/9e4a4be0839f52946cfb9492723dde8d79502e25d0b6df7efdb8d1033cfddad6.jpg",
+    "figure_id": "图3.3.17(b)",
+    "caption": "CMOS 反相器的输入特性 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9e4a4be0839f52946cfb9492723dde8d79502e25d0b6df7efdb8d1033cfddad6.jpg"
+  },
+  {
+    "key": "图3.3.18|images/42fea36dae7af10c3228db087d2ea1f0c5fd60a91c4e161f860e4c8a7bf541c5.jpg",
+    "figure_id": "图3.3.18",
+    "caption": "$v_{0} = V_{0L}$ 时CMOS",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\42fea36dae7af10c3228db087d2ea1f0c5fd60a91c4e161f860e4c8a7bf541c5.jpg"
+  },
+  {
+    "key": "图3.3.19|images/70043c38c74410962a9be51cdc5e3d52a8ccfd28d4aadbb164a8abe01da7c2d0.jpg",
+    "figure_id": "图3.3.19",
+    "caption": "CMOS 反相器的低电平输出特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\70043c38c74410962a9be51cdc5e3d52a8ccfd28d4aadbb164a8abe01da7c2d0.jpg"
+  },
+  {
+    "key": "图3.3.20|images/792e94d71264437e6baa5480e75bf3f05e0e5c7cd7ec5b510ac7eac88dc84a9a.jpg",
+    "figure_id": "图3.3.20",
+    "caption": "$v_{0}=V_{OH}$ 时 CMOS 反相器的工作状态",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\792e94d71264437e6baa5480e75bf3f05e0e5c7cd7ec5b510ac7eac88dc84a9a.jpg"
+  },
+  {
+    "key": "图3.3.21|images/57a64caf526ec4efe2c56b89cb305e8578a090317b149b69c43651a6545dd610.jpg",
+    "figure_id": "图3.3.21",
+    "caption": "CMOS反相器的",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\57a64caf526ec4efe2c56b89cb305e8578a090317b149b69c43651a6545dd610.jpg"
+  },
+  {
+    "key": "图3.3.22|images/6e13263d4f3fb593b39880a1ee20dbada76fbbeb826fcf7c14c6c3b1d6c43490.jpg",
+    "figure_id": "图3.3.22",
+    "caption": "CMOS 反相器传输延迟时间的定义",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6e13263d4f3fb593b39880a1ee20dbada76fbbeb826fcf7c14c6c3b1d6c43490.jpg"
+  },
+  {
+    "key": "图3.3.23|images/d08260989fd0fe32717d02229fb8ee471964184174f9bd82daeb41514614ed1a.jpg",
+    "figure_id": "图3.3.23",
+    "caption": "CMOS反相器的交流噪声容限",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d08260989fd0fe32717d02229fb8ee471964184174f9bd82daeb41514614ed1a.jpg"
+  },
+  {
+    "key": "图3.3.24|images/beb873020e7be8abf117ea8bece3535830e590a9c105da495de5cf30035c9dcb.jpg",
+    "figure_id": "图3.3.24",
+    "caption": "CMOS 反相器对负载电容的充、放电电流波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\beb873020e7be8abf117ea8bece3535830e590a9c105da495de5cf30035c9dcb.jpg"
+  },
+  {
+    "key": "图3.3.25|images/f6bea1345e6a6cac35a2975e6357bd47596dc54769304d3d840632b90c0031cd.jpg",
+    "figure_id": "图3.3.25",
+    "caption": "CMOS 反相器的瞬时导通电流",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f6bea1345e6a6cac35a2975e6357bd47596dc54769304d3d840632b90c0031cd.jpg"
+  },
+  {
+    "key": "图3.3.26(a)|images/56886cacb83ad70cb8f2dee1e762d9ae83c066bad34173e9d1f0e5b1e44913d1.jpg",
+    "figure_id": "图3.3.26(a)",
+    "caption": "CMOS反相器的静态漏电流（a） $v_{1} = 0$ （b） $v_{1} = V_{\\mathrm{DD}}$ 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\56886cacb83ad70cb8f2dee1e762d9ae83c066bad34173e9d1f0e5b1e44913d1.jpg"
+  },
+  {
+    "key": "图3.3.26(b)|images/2b3ee48511502ba3c2264df5bd6963470baa9631f587a21d3a94923cfb3eb154.jpg",
+    "figure_id": "图3.3.26(b)",
+    "caption": "CMOS反相器的静态漏电流（a） $v_{1} = 0$ （b） $v_{1} = V_{\\mathrm{DD}}$ 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2b3ee48511502ba3c2264df5bd6963470baa9631f587a21d3a94923cfb3eb154.jpg"
+  },
+  {
+    "key": "图3.3.27|images/e5eba49c130a0b5774f5d2e8aacb4ce653a83454a2468999156b79a431565e99.jpg",
+    "figure_id": "图3.3.27",
+    "caption": "CMOS 电路的扇出连接",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e5eba49c130a0b5774f5d2e8aacb4ce653a83454a2468999156b79a431565e99.jpg"
+  },
+  {
+    "key": "图3.3.28|images/bdc9a27ff50ff1e31b30a5a7b73b1d6714e967d00d6b943e908a96e6a6cab168.jpg",
+    "figure_id": "图3.3.28",
+    "caption": "CMOS 与非门",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bdc9a27ff50ff1e31b30a5a7b73b1d6714e967d00d6b943e908a96e6a6cab168.jpg"
+  },
+  {
+    "key": "图3.3.29|images/e2ba7589a977208b4705b8eceb17fef1569c3b88a04da518e4596b2482d17a1e.jpg",
+    "figure_id": "图3.3.29",
+    "caption": "CMOS 或非门",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e2ba7589a977208b4705b8eceb17fef1569c3b88a04da518e4596b2482d17a1e.jpg"
+  },
+  {
+    "key": "图3.3.30|images/d7da07b5ce637932a0c8b5777a2cbc4a34c1de278b645073d6edbda1064daa83.jpg",
+    "figure_id": "图3.3.30",
+    "caption": "带缓冲级的CMOS与非门电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d7da07b5ce637932a0c8b5777a2cbc4a34c1de278b645073d6edbda1064daa83.jpg"
+  },
+  {
+    "key": "图3.3.31|images/0bee80e99854ff66dbfdcbc1ee5484be9a006005b1e3ef86a3c8af7aa8051342.jpg",
+    "figure_id": "图3.3.31",
+    "caption": "带缓冲级的CMOS或非门电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0bee80e99854ff66dbfdcbc1ee5484be9a006005b1e3ef86a3c8af7aa8051342.jpg"
+  },
+  {
+    "key": "图3.3.32(a)|images/32bb8f2db5343450c84976fc6d4239a7ddc6565c3c44241dcfb27d9f7ba872ee.jpg",
+    "figure_id": "图3.3.32(a)",
+    "caption": "OD输出的与非门 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\32bb8f2db5343450c84976fc6d4239a7ddc6565c3c44241dcfb27d9f7ba872ee.jpg"
+  },
+  {
+    "key": "图3.3.32(b)|images/53c4a6fe7e854686cbac200bb8893b519d924ef1a8a60e5f9462e5703db386d6.jpg",
+    "figure_id": "图3.3.32(b)",
+    "caption": "OD输出的与非门 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\53c4a6fe7e854686cbac200bb8893b519d924ef1a8a60e5f9462e5703db386d6.jpg"
+  },
+  {
+    "key": "图3.3.33(a)|images/af3d7e9e273da7c574d6a4d0f351978447d53cd9dd19536059d0e0aed4c556d5.jpg",
+    "figure_id": "图3.3.33(a)",
+    "caption": "OD输出门的线与接法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\af3d7e9e273da7c574d6a4d0f351978447d53cd9dd19536059d0e0aed4c556d5.jpg"
+  },
+  {
+    "key": "图3.3.33(b)|images/d85f3577c448f686254f4df3827583a98612e663180cc890f00e17f17a93d342.jpg",
+    "figure_id": "图3.3.33(b)",
+    "caption": "OD输出门的线与接法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d85f3577c448f686254f4df3827583a98612e663180cc890f00e17f17a93d342.jpg"
+  }
+]

@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>netlist_workbench v2 · Level-1 验收</title>
+<style>
+  :root {
+    --bg: #f6f3ee;
+    --ink: #1c1a16;
+    --muted: #6b6560;
+    --line: #d9d2c8;
+    --ok: #1f6b3a;
+    --bad: #9b2c2c;
+    --panel: #fffdf9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(1200px 600px at 10% -10%, #e8f0e4 0%, transparent 55%),
+      radial-gradient(900px 500px at 100% 0%, #efe6d8 0%, transparent 50%),
+      var(--bg);
+  }
+  .top {
+    position: sticky; top: 0; z-index: 5;
+    backdrop-filter: blur(8px);
+    background: rgba(246,243,238,.92);
+    border-bottom: 1px solid var(--line);
+    padding: 14px 22px;
+  }
+  .top h1 { margin: 0 0 4px; font-size: 1.25rem; font-weight: 650; }
+  .top p { margin: 0; color: var(--muted); font-size: .92rem; }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .nav a {
+    text-decoration: none; color: var(--ink);
+    border: 1px solid var(--line); background: var(--panel);
+    padding: 2px 8px; border-radius: 6px; font-size: .85rem;
+  }
+  main { max-width: 1400px; margin: 0 auto; padding: 18px 18px 64px; }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    margin: 18px 0;
+    overflow: hidden;
+  }
+  .card header { padding: 14px 16px 8px; border-bottom: 1px solid var(--line); }
+  .card h2 { margin: 0; font-size: 1.1rem; }
+  .cap { margin: 4px 0 8px; color: var(--muted); font-size: .9rem; }
+  .badges { display: flex; gap: 8px; }
+  .badge {
+    font-size: .75rem; font-weight: 700; letter-spacing: .02em;
+    padding: 2px 8px; border-radius: 999px; border: 1px solid;
+  }
+  .badge.ok { color: var(--ok); border-color: #b7d8c2; background: #eef8f1; }
+  .badge.bad { color: var(--bad); border-color: #e5bcbc; background: #fdf0f0; }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  @media (max-width: 960px) { .grid { grid-template-columns: 1fr; } }
+  .grid section {
+    padding: 12px 14px 16px;
+    border-top: 1px solid var(--line);
+  }
+  @media (min-width: 961px) {
+    .grid section:nth-child(odd) { border-right: 1px solid var(--line); }
+    .grid section:nth-child(-n+2) { border-top: none; }
+  }
+  h3 { margin: 0 0 8px; font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  img { max-width: 100%; height: auto; display: block; background: #fff; border: 1px solid var(--line); }
+  img.net { min-height: 120px; }
+  pre.ir {
+    margin: 0; max-height: 320px; overflow: auto;
+    font-size: .78rem; line-height: 1.35;
+    background: #f3efe8; padding: 10px; border-radius: 8px;
+    white-space: pre-wrap; word-break: break-word;
+  }
+  table.tt { border-collapse: collapse; width: 100%; font-size: .82rem; }
+  table.tt th, table.tt td { border: 1px solid var(--line); padding: 3px 6px; text-align: center; }
+  table.tt th { background: #f0ebe3; }
+  table.tt td.out { font-weight: 650; color: var(--ok); }
+  .muted { color: var(--muted); font-size: .9rem; }
+  .meta { margin: 0 0 8px; font-size: .85rem; color: var(--muted); }
+  .notes { margin-top: 10px; font-size: .85rem; color: var(--muted); }
+</style>
+</head>
+<body>
+  <div class="top">
+    <h1>netlist_workbench v2 · Level-1 组合逻辑验收</h1>
+    <p>仿真正确优先 · 多输入单符号优先（失败再降级拆分）· 自检入库 · 18/30 仿真 · 27/30 渲染 · 18/30 自检</p>
+    <div class="nav">
+      <a href="#C01">C01</a><a href="#C02">C02</a><a href="#C03">C03</a><a href="#C04">C04</a><a href="#C05">C05</a><a href="#C06">C06</a><a href="#C07">C07</a><a href="#C08">C08</a><a href="#C09">C09</a><a href="#C10">C10</a><a href="#F01">F01</a><a href="#F02">F02</a><a href="#F03">F03</a><a href="#F04">F04</a><a href="#F05">F05</a><a href="#F06">F06</a><a href="#F07">F07</a><a href="#F08">F08</a><a href="#F09">F09</a><a href="#F10">F10</a><a href="#L01">L01</a><a href="#L02">L02</a><a href="#L03">L03</a><a href="#L04">L04</a><a href="#L05">L05</a><a href="#L06">L06</a><a href="#L07">L07</a><a href="#L08">L08</a><a href="#L09">L09</a><a href="#L10">L10</a>
+    </div>
+  </div>
+  <main>
+    
+<article class="card" id="C01">
+  <header>
+    <h2>C01 · 4.3.3</h2>
+    <p class="cap">例4.3.1逻辑图之一</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    <p class="meta">多输入单符号 ×2</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_3_3.jpg" alt="textbook C01" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: R, A, G
+outputs: Z←Z
+
+gates:
+nR NOT(R)
+nA NOT(A)
+nG NOT(G)
+t1 AND(R,A)
+t2 AND(A,G)
+t3 AND(R,G)
+t4 AND(nR,nA,nG)
+Z OR(t1,t2,t3,t4)
+
+notes: 课本：t4 三输入与、Z 四输入或；Z=RA+AG+RG+R'A'G'</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C01/gen_netlist.svg" alt="netlist C01" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>R</th><th>A</th><th>G</th><th>Z</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">1</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=2
+✓ CELL_COUNT: cells=8 ir_gates=8
+✓ RENDER_SVG: bytes=7845
+✓ PEER_EQ: eq_C02 rows=8
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">课本：t4 三输入与、Z 四输入或；Z=RA+AG+RG+R'A'G'</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C02">
+  <header>
+    <h2>C02 · 4.3.4</h2>
+    <p class="cap">例4.3.1逻辑图之二（与非）</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    <p class="meta">多输入单符号 ×2</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_3_4.jpg" alt="textbook C02" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: R, A, G
+outputs: Z←Z
+
+gates:
+nR NOT(R)
+nA NOT(A)
+nG NOT(G)
+n1 NAND(R,A)
+n2 NAND(A,G)
+n3 NAND(R,G)
+n4 NAND(nR,nA,nG)
+Z NAND(n1,n2,n3,n4)
+
+notes: 课本：n4 三输入与非、Z 四输入与非；与 C01 同函数</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C02/gen_netlist.svg" alt="netlist C02" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>R</th><th>A</th><th>G</th><th>Z</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">1</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=2
+✓ CELL_COUNT: cells=8 ir_gates=8
+✓ RENDER_SVG: bytes=8169
+✓ PEER_EQ: eq_C01 rows=8
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">课本：n4 三输入与非、Z 四输入与非；与 C01 同函数</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C03">
+  <header>
+    <h2>C03 · 4.3.6</h2>
+    <p class="cap">例4.3.1逻辑图之三</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    <p class="meta">多输入单符号 ×4</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_3_6.jpg" alt="textbook C03" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: R, A, G
+outputs: Z←Z
+
+gates:
+nR NOT(R)
+nA NOT(A)
+nG NOT(G)
+a1 AND(R,nA,nG)
+a2 AND(nR,A,nG)
+a3 AND(nR,nA,G)
+Z NOR(a1,a2,a3)
+
+notes: 课本：三输入与 + 三输入或非；Z=!(exactly-one)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C03/gen_netlist.svg" alt="netlist C03" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>R</th><th>A</th><th>G</th><th>Z</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">1</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=4
+✓ CELL_COUNT: cells=7 ir_gates=7
+✓ RENDER_SVG: bytes=7024
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">课本：三输入与 + 三输入或非；Z=!(exactly-one)</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C04">
+  <header>
+    <h2>C04 · 4.4.2</h2>
+    <p class="cap">3位二进制编码器</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_4_2.jpg" alt="textbook C04" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: I1, I2, I3, I4, I5, I6, I7
+outputs: Y2←Y2, Y1←Y1, Y0←Y0
+
+gates:
+y2a OR(I4,I5)
+y2b OR(I6,I7)
+Y2 OR(y2a,y2b)
+y1a OR(I2,I3)
+y1b OR(I6,I7)
+Y1 OR(y1a,y1b)
+y0a OR(I1,I3)
+y0b OR(I5,I7)
+Y0 OR(y0a,y0b)
+
+notes: 总线型编码器；版式难</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C04/gen_netlist.svg" alt="netlist C04" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 128 · 组合</p>
+      <table class="tt"><thead><tr><th>I1</th><th>I2</th><th>I3</th><th>I4</th><th>I5</th><th>I6</th><th>I7</th><th>Y2</th><th>Y1</th><th>Y0</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">1</td><td class="out">1</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=128
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=9 ir_gates=9
+✓ RENDER_SVG: bytes=10372
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">总线型编码器；版式难</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C05">
+  <header>
+    <h2>C05 · 4.4.19</h2>
+    <p class="cap">二选一数据选择器</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_4_19.jpg" alt="textbook C05" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, SEL, B
+outputs: Y←Y
+
+gates:
+G1 AND(A,SEL)
+G2 NOT(SEL)
+G3 AND(G2,B)
+Y OR(G1,G3)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C05/gen_netlist.svg" alt="netlist C05" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>SEL</th><th>B</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=4 ir_gates=4
+✓ RENDER_SVG: bytes=4401
+✓ EVAL_SMOKE: ok</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C06">
+  <header>
+    <h2>C06 · 4.4.21</h2>
+    <p class="cap">半加器</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_4_21.jpg" alt="textbook C06" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B
+outputs: S←S, CO←CO
+
+gates:
+S XOR(A,B)
+CO AND(A,B)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C06/gen_netlist.svg" alt="netlist C06" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 4 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>S</th><th>CO</th></tr></thead><tbody><tr><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td class="out">0</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=4
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=2 ir_gates=2
+✓ RENDER_SVG: bytes=3355
+✓ EVAL_SMOKE: ok</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C07">
+  <header>
+    <h2>C07 · 4.7.4</h2>
+    <p class="cap">1位全加器电路</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_7_4.jpg" alt="textbook C07" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: CI, A, B
+outputs: Sum←Sum, Cout←Cout
+
+gates:
+XOR1 XOR(A,B)
+Sum XOR(CI,XOR1)
+AND1 AND(A,B)
+AND2 AND(B,CI)
+AND3 AND(A,CI)
+t1 OR(AND1,AND2)
+Cout OR(t1,AND3)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C07/gen_netlist.svg" alt="netlist C07" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>CI</th><th>A</th><th>B</th><th>Sum</th><th>Cout</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=7 ir_gates=7
+✓ RENDER_SVG: bytes=7509
+✓ EVAL_SMOKE: ok</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C08">
+  <header>
+    <h2>C08 · 4.4.7</h2>
+    <p class="cap">3线-8线译码器74HC138</p>
+    <div class="badges"><span class="badge bad">SIM_msi_unsupported</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_4_7.jpg" alt="textbook C08" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A0, A1, A2, S1, S2n, S3n
+outputs: Y0n←Y0n, Y7n←Y7n, D←D
+
+gates:
+nS1 NOT(S1)
+enA AND(nS1,S2n)
+S AND(enA,S3n)
+nA0 NOT(A0)
+nA1 NOT(A1)
+nA2 NOT(A2)
+D DECODER(A0,A1,A2)
+y0a AND(nA0,nA1)
+y0b AND(y0a,nA2)
+Y0n NAND(S,y0b)
+y7a AND(A0,A1)
+y7b AND(y7a,A2)
+Y7n NAND(S,y7b)
+
+notes: 138 门级过密；IR 示意 enable+两端译码，完整 8 路建议 C</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C08/gen_netlist.svg" alt="netlist C08" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: msi_unsupported
+✗ SYMBOL_MULTI: fallback=none high=D
+✓ CELL_COUNT: cells=12 ir_gates=13
+✓ RENDER_SVG: bytes=10966</pre>
+      <p class="notes">138 门级过密；IR 示意 enable+两端译码，完整 8 路建议 C</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C09">
+  <header>
+    <h2>C09 · 4.4.9</h2>
+    <p class="cap">二-十进制译码器74HC42</p>
+    <div class="badges"><span class="badge bad">SIM_msi_unsupported</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_4_9.jpg" alt="textbook C09" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A0, A1, A2, A3
+outputs: D←D, Y0n←Y0n
+
+gates:
+D DECODER(A0,A1,A2,A3)
+nA0 NOT(A0)
+nA1 NOT(A1)
+nA2 NOT(A2)
+nA3 NOT(A3)
+y0a AND(nA0,nA1)
+y0b AND(nA2,nA3)
+Y0n NAND(y0a,y0b)
+
+notes: BCD 译码器总线图 → C/B</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C09/gen_netlist.svg" alt="netlist C09" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: msi_unsupported
+✗ SYMBOL_MULTI: fallback=none high=D
+✓ CELL_COUNT: cells=7 ir_gates=8
+✓ RENDER_SVG: bytes=6125</pre>
+      <p class="notes">BCD 译码器总线图 → C/B</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="C10">
+  <header>
+    <h2>C10 · 4.4.20</h2>
+    <p class="cap">双4选1数据选择器74HC153</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_4_20.jpg" alt="textbook C10" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A0, A1, D0, D1, D2, D3, Sn
+outputs: Y←Y
+
+gates:
+nA0 NOT(A0)
+nA1 NOT(A1)
+nSn NOT(Sn)
+m0a AND(D0,nA0)
+m0 AND(m0a,nA1)
+m1a AND(D1,A0)
+m1 AND(m1a,nA1)
+m2a AND(D2,nA0)
+m2 AND(m2a,A1)
+m3a AND(D3,A0)
+m3 AND(m3a,A1)
+s01 OR(m0,m1)
+s23 OR(m2,m3)
+sum OR(s01,s23)
+Y AND(sum,nSn)
+
+notes: 单路 4 选 1（课本双路）；TG 树简化为 AND-OR</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/C10/gen_netlist.svg" alt="netlist C10" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 128 · 组合</p>
+      <table class="tt"><thead><tr><th>A0</th><th>A1</th><th>D0</th><th>D1</th><th>D2</th><th>D3</th><th>Sn</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">1</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=128
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=15 ir_gates=15
+✓ RENDER_SVG: bytes=12788
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">单路 4 选 1（课本双路）；TG 树简化为 AND-OR</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F01">
+  <header>
+    <h2>F01 · 5.2.1</h2>
+    <p class="cap">或非门组成的锁存器</p>
+    <div class="badges"><span class="badge bad">SIM_cyclic_combinational</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_5_2_1.jpg" alt="textbook F01" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: VI1, VI2
+outputs: VO1←G1, VO2←G2
+
+gates:
+G1 NOR(VI1,G2)
+G2 NOR(VI2,G1)
+
+notes: 交叉耦合 NOR；版式镜像</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/F01/gen_netlist.svg" alt="netlist F01" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 组合</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: cyclic_combinational
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=2 ir_gates=2
+✓ RENDER_SVG: bytes=3880</pre>
+      <p class="notes">交叉耦合 NOR；版式镜像</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F02">
+  <header>
+    <h2>F02 · 5.2.2</h2>
+    <p class="cap">与非门组成的SR锁存器</p>
+    <div class="badges"><span class="badge bad">SIM_cyclic_combinational</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_5_2_2.jpg" alt="textbook F02" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: SDn, RDn
+outputs: Q←G1, Qn←G2
+
+gates:
+G1 NAND(SDn,G2)
+G2 NAND(RDn,G1)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/F02/gen_netlist.svg" alt="netlist F02" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 组合</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: cyclic_combinational
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=2 ir_gates=2
+✓ RENDER_SVG: bytes=3744</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F03">
+  <header>
+    <h2>F03 · 5.3.1</h2>
+    <p class="cap">电平触发SR触发器</p>
+    <div class="badges"><span class="badge bad">SIM_cyclic_combinational</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_5_3_1.jpg" alt="textbook F03" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: S, R, CLK
+outputs: Q←G1, Qn←G2
+
+gates:
+G3 NAND(S,CLK)
+G4 NAND(R,CLK)
+G1 NAND(G3,G2)
+G2 NAND(G4,G1)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/F03/gen_netlist.svg" alt="netlist F03" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 组合</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: cyclic_combinational
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=4 ir_gates=4
+✓ RENDER_SVG: bytes=5515</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F04">
+  <header>
+    <h2>F04 · 5.3.4</h2>
+    <p class="cap">电平触发D触发器</p>
+    <div class="badges"><span class="badge bad">SIM_cyclic_combinational</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_5_3_4.jpg" alt="textbook F04" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: D, CLK
+outputs: Q←G1, Qn←G2
+
+gates:
+nD NOT(D)
+Sn NAND(D,CLK)
+Rn NAND(nD,CLK)
+G1 NAND(Sn,G2)
+G2 NAND(Rn,G1)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/F04/gen_netlist.svg" alt="netlist F04" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 组合</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: cyclic_combinational
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=5 ir_gates=5
+✓ RENDER_SVG: bytes=5793</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F05">
+  <header>
+    <h2>F05 · </h2>
+    <p class="cap"></p>
+    <div class="badges"><span class="badge bad">SIM_FAIL</span> <span class="badge bad">RENDER_FAIL</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <p class="muted">无课本图 (-)</p>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: D, CLK
+outputs: Q←FF2, Q'←FF2_bar
+
+gates:
+CLK1 NOT(CLK)
+CLK2 NOT(CLK1)
+FF1 LATCH_D(D,CLK1)
+FF2 LATCH_D(FF1,CLK2)
+
+notes: 主从：CLK1=NOT(CLK)→FF1；CLK2=NOT(CLK1)→FF2；Q'为FF2互补端</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <p class="muted">未渲染</p>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数  · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">无自检</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F06">
+  <header>
+    <h2>F06 · </h2>
+    <p class="cap"></p>
+    <div class="badges"><span class="badge bad">SIM_FAIL</span> <span class="badge bad">RENDER_FAIL</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <p class="muted">无课本图 (-)</p>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: CLK
+outputs: Y←Y, Q1←FF1, Q2←FF2, Q3←FF3
+
+gates:
+FB NAND(FF2,FF3)
+FF1 JKFF(FB,CLK,ONE)
+nQ1 NOT(FF1)
+nQ3 NOT(FF3)
+K2 NAND(nQ1,nQ3)
+FF2 JKFF(FF1,CLK,K2)
+J3 AND(FF1,FF2)
+FF3 JKFF(J3,CLK,FF2)
+Y NOT(FB)
+
+notes: 式(6.2.1)：J1=(Q2Q3)' K1=1；J2=Q1 K2=(Q1'Q3')'；J3=Q1Q2 K3=Q2；Y=Q2Q3</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <p class="muted">未渲染</p>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数  · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">无自检</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F07">
+  <header>
+    <h2>F07 · 6.2.3</h2>
+    <p class="cap">例6.2.3时序逻辑电路</p>
+    <div class="badges"><span class="badge bad">SIM_sequential_unsupported</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    <p class="meta">多输入单符号 ×2</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_6_2_3.jpg" alt="textbook F07" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, CLK
+outputs: Y←Y, Q1←FF1, Q2←FF2
+
+gates:
+nQ1 NOT(FF1)
+FF1 DFF(nQ1,CLK)
+x1 XOR(FF1,A)
+D2 XOR(x1,FF2)
+FF2 DFF(D2,CLK)
+nA NOT(A)
+nQ2 NOT(FF2)
+t1 NAND3(nA,FF1,FF2)
+t2 NAND3(A,nQ1,nQ2)
+Y NAND(t1,t2)
+
+notes: 式(6.2.4)(6.2.6)：输出为三与非形式</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/F07/gen_netlist.svg" alt="netlist F07" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: sequential_unsupported
+✓ SYMBOL_MULTI: multi_gates=2
+✓ CELL_COUNT: cells=10 ir_gates=10
+✓ RENDER_SVG: bytes=10395</pre>
+      <p class="notes">式(6.2.4)(6.2.6)：输出为三与非形式</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F08">
+  <header>
+    <h2>F08 · 6.3.1</h2>
+    <p class="cap">D触发器移位寄存器</p>
+    <div class="badges"><span class="badge bad">SIM_sequential_unsupported</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_6_3_1.jpg" alt="textbook F08" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: D_I, CLK
+outputs: Q0←Q0, Q1←Q1, Q2←Q2, Q3←Q3, D_O←Q3
+
+gates:
+Q0 DFF(D_I,CLK)
+Q1 DFF(Q0,CLK)
+Q2 DFF(Q1,CLK)
+Q3 DFF(Q2,CLK)
+
+notes: 图6.3.1：串行入 D_I、串行出 D_O；各级有 Q' 端</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/F08/gen_netlist.svg" alt="netlist F08" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: sequential_unsupported
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=4 ir_gates=4
+✓ RENDER_SVG: bytes=6804</pre>
+      <p class="notes">图6.3.1：串行入 D_I、串行出 D_O；各级有 Q' 端</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F09">
+  <header>
+    <h2>F09 · </h2>
+    <p class="cap"></p>
+    <div class="badges"><span class="badge bad">SIM_FAIL</span> <span class="badge bad">RENDER_FAIL</span> <span class="badge bad">SELF_FAIL</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <p class="muted">无课本图 (-)</p>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: CLK
+outputs: Q0←FF0, Q1←FF1, Q2←FF2, Q3←FF3, C←G3
+
+gates:
+FF0 JKFF(ONE,CLK,ONE)
+FF1 JKFF(FF0,CLK,FF0)
+G1 AND(FF0,FF1)
+FF2 JKFF(G1,CLK,G1)
+G2 AND(G1,FF2)
+FF3 JKFF(G2,CLK,G2)
+G3 AND4(FF0,FF1,FF2,FF3)
+
+notes: 图6.3.8 / fig_6_3_8_01faea9b：JK 接成 T；G1=Q0Q1；G2=G1·Q2；G3=Q0Q1Q2Q3→C</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <p class="muted">未渲染</p>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数  · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">无自检</pre>
+      
+    </section>
+  </div>
+</article>
+
+<article class="card" id="F10">
+  <header>
+    <h2>F10 · 6.4.17</h2>
+    <p class="cap">例6.4.3的逻辑图</p>
+    <div class="badges"><span class="badge bad">SIM_sequential_unsupported</span> <span class="badge ok">RENDER_OK</span> <span class="badge bad">SELF_FAIL</span></div>
+    <p class="meta">多输入单符号 ×6</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_6_4_17.jpg" alt="textbook F10" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B, CLK, R_D'
+outputs: Y←Y, Z←Z, Q1←Q1, Q0←Q0
+
+gates:
+nA NOT(A)
+nB NOT(B)
+nQ1 NOT(Q1)
+nQ0 NOT(Q0)
+pD1a AND3(Q1,nA,nB)
+pD1b AND3(nQ1,nQ0,A)
+pD1c AND(Q0,B)
+D1 OR3(pD1a,pD1b,pD1c)
+pD0a AND3(nQ1,nQ0,B)
+pD0b AND3(Q0,nA,nB)
+D0 OR(pD0a,pD0b)
+Q1 DFF(D1,CLK)
+Q0 DFF(D0,CLK)
+pY1 AND(Q1,B)
+pY2 AND(Q1,A)
+pY3 AND(Q0,A)
+Y OR3(pY1,pY2,pY3)
+Z AND(Q1,A)
+
+notes: 式(6.4.11)(6.4.12)；含异步 R_D'；PLA 与或主结构（积项+或面+两DFF）</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/F10/gen_netlist.svg" alt="netlist F10" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 0 · 非组合/跳过</p>
+      <p class='muted'>无仿真样本</p>
+      <pre class="ir self">✗ SIM: sequential_unsupported
+✓ SYMBOL_MULTI: multi_gates=6
+✓ CELL_COUNT: cells=18 ir_gates=18
+✓ RENDER_SVG: bytes=17829</pre>
+      <p class="notes">式(6.4.11)(6.4.12)；含异步 R_D'；PLA 与或主结构（积项+或面+两DFF）</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L01">
+  <header>
+    <h2>L01 · 2.5.2</h2>
+    <p class="cap">举重裁判逻辑图 Y=A·(B+C)</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_5_2.jpg" alt="textbook L01" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B, C
+outputs: Y←G2
+
+gates:
+G1 OR(B,C)
+G2 AND(A,G1)
+
+notes: Y=A*(B+C)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L01/gen_netlist.svg" alt="netlist L01" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>C</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=2 ir_gates=2
+✓ RENDER_SVG: bytes=3157
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">Y=A*(B+C)</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L02">
+  <header>
+    <h2>L02 · 2.5.4</h2>
+    <p class="cap">例2.5.3的逻辑图</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    <p class="meta">多输入单符号 ×2</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_5_4.jpg" alt="textbook L02" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B, C
+outputs: Y←or3
+
+gates:
+nA NOT(A)
+nB NOT(B)
+nC NOT(C)
+and_abc AND(B,nA,nC)
+and_bc AND(C,nB)
+nor1 NOR(A,and_bc)
+or3 OR(and_abc,nor1,C)
+
+notes: 图2.5.4：Y=(A+B'C)'+A'BC'+C</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L02/gen_netlist.svg" alt="netlist L02" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>C</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">1</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=2
+✓ CELL_COUNT: cells=7 ir_gates=7
+✓ RENDER_SVG: bytes=6744
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">图2.5.4：Y=(A+B'C)'+A'BC'+C</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L03">
+  <header>
+    <h2>L03 · 2.5.5</h2>
+    <p class="cap">例2.5.4的逻辑图</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_5_5.jpg" alt="textbook L03" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B
+outputs: Y←Y
+
+gates:
+G1 NOR(A,B)
+nA NOT(A)
+nB NOT(B)
+G2 NOR(nA,nB)
+Y NOR(G1,G2)
+
+notes: 图2.5.5：Y=((A+B)'+(A'+B')')'=A⊕B</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L03/gen_netlist.svg" alt="netlist L03" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 4 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td class="out">0</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=4
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=5 ir_gates=5
+✓ RENDER_SVG: bytes=5035
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">图2.5.5：Y=((A+B)'+(A'+B')')'=A⊕B</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L04">
+  <header>
+    <h2>L04 · 2.8.2</h2>
+    <p class="cap">根据式(2.8.2)得到的逻辑电路图</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    <p class="meta">多输入单符号 ×4</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_8_2.jpg" alt="textbook L04" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B, C, D
+outputs: Y1←Y1, Y2←Y2, Y3←Y3
+
+gates:
+nA NOT(A)
+nB NOT(B)
+nC NOT(C)
+nD NOT(D)
+ac AND(A,C)
+nacd AND(nA,nC,D)
+Y1 OR(B,ac,nacd)
+nad AND(nA,D)
+bnd AND(B,nD)
+Y2 OR(nad,bnd)
+nacD AND(nA,C,D)
+anbc AND(A,nB,C)
+Y3 OR(nacD,anbc)
+
+notes: 式(2.8.2)：Y1=B+AC+A'C'D；Y2=A'D+BD'；Y3=A'CD+AB'C。图2.8.2 PLA总线布局</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L04/gen_netlist.svg" alt="netlist L04" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 16 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>Y1</th><th>Y2</th><th>Y3</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td class="out">1</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=16
+✓ SYMBOL_MULTI: multi_gates=4
+✓ CELL_COUNT: cells=13 ir_gates=13
+✓ RENDER_SVG: bytes=12483
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">式(2.8.2)：Y1=B+AC+A'C'D；Y2=A'D+BD'；Y3=A'CD+AB'C。图2.8.2 PLA总线布局</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L05">
+  <header>
+    <h2>L05 · 2.8.4</h2>
+    <p class="cap">根据式(2.8.3)得到的逻辑电路图</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    <p class="meta">多输入单符号 ×5</p>
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_8_4.jpg" alt="textbook L05" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B, C, D
+outputs: Y1←Y1, Y2←Y2, Y3←Y3
+
+gates:
+nA NOT(A)
+nB NOT(B)
+nC NOT(C)
+nD NOT(D)
+t_acd AND(nA,nC,D)
+t_bd AND(B,nD)
+t_abc AND(A,nB,C)
+t_acD AND(nA,C,D)
+Y1 OR(B,t_abc,t_acd)
+Y2 OR(t_acd,t_acD,t_bd)
+Y3 OR(t_acD,t_abc)
+
+notes: 式(2.8.3)：Y1=B+AB'C+A'C'D；Y2=A'C'D+A'CD+BD'；Y3=A'CD+AB'C；积项独立竖轨</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L05/gen_netlist.svg" alt="netlist L05" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 16 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>C</th><th>D</th><th>Y1</th><th>Y2</th><th>Y3</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td class="out">1</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td class="out">1</td><td class="out">1</td><td class="out">0</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=16
+✓ SYMBOL_MULTI: multi_gates=5
+✓ CELL_COUNT: cells=11 ir_gates=11
+✓ RENDER_SVG: bytes=11259
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">式(2.8.3)：Y1=B+AB'C+A'C'D；Y2=A'C'D+A'CD+BD'；Y3=A'CD+AB'C；积项独立竖轨</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L06">
+  <header>
+    <h2>L06 · 2.9.2</h2>
+    <p class="cap">按式(2.9.2)接成的逻辑电路</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_9_2.jpg" alt="textbook L06" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B', C', A', B
+outputs: Y←G7
+
+gates:
+G1 NAND(A,B')
+G2 NAND(A',B)
+G3 NAND(G1,G1)
+G4 NAND(G2,G2)
+G5 NAND(G3,C')
+G6 NAND(C',G4)
+G7 NAND(G5,G6)
+
+notes: 图2.9.2：七与非门；B'/C'/A' 为初级输入；G3/G4 双端短接作非</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L06/gen_netlist.svg" alt="netlist L06" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 32 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B'</th><th>C'</th><th>A'</th><th>B</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=32
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=7 ir_gates=7
+✓ RENDER_SVG: bytes=7641
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">图2.9.2：七与非门；B'/C'/A' 为初级输入；G3/G4 双端短接作非</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L07">
+  <header>
+    <h2>L07 · 2.9.3</h2>
+    <p class="cap">按式(2.9.3)接成的逻辑电路</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_9_3.jpg" alt="textbook L07" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B, C'
+outputs: Y←Y
+
+gates:
+t1 XOR(A,B)
+Y AND(t1,C')
+
+notes: 图2.9.3；输入 C' 不用 Cn</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L07/gen_netlist.svg" alt="netlist L07" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>C'</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">0</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=2 ir_gates=2
+✓ RENDER_SVG: bytes=3191
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">图2.9.3；输入 C' 不用 Cn</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L08">
+  <header>
+    <h2>L08 · 2.9.4</h2>
+    <p class="cap">按式(2.9.5)接成的逻辑电路</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_9_4.jpg" alt="textbook L08" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, C, B, C'
+outputs: Y←Y
+
+gates:
+G1 NAND(A,C)
+G2 NAND(B,C')
+Y NAND(G1,G2)
+
+notes: 图2.9.4 Y=((A·C)'·(B·C')')'</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L08/gen_netlist.svg" alt="netlist L08" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 16 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>C</th><th>B</th><th>C'</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=16
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=3 ir_gates=3
+✓ RENDER_SVG: bytes=4306
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">图2.9.4 Y=((A·C)'·(B·C')')'</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L09">
+  <header>
+    <h2>L09 · 2.9.5</h2>
+    <p class="cap">按式(2.9.6)接成的逻辑电路</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_2_9_5.jpg" alt="textbook L09" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: B, C, A, C'
+outputs: Y←Y
+
+gates:
+G1 NOR(B,C)
+G2 NOR(A,C')
+Y NOR(G1,G2)
+
+notes: 图2.9.5；C' 不用 Cn</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L09/gen_netlist.svg" alt="netlist L09" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 16 · 组合</p>
+      <table class="tt"><thead><tr><th>B</th><th>C</th><th>A</th><th>C'</th><th>Y</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td class="out">0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=16
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=3 ir_gates=3
+✓ RENDER_SVG: bytes=4492
+✓ EVAL_SMOKE: ok</pre>
+      <p class="notes">图2.9.5；C' 不用 Cn</p>
+    </section>
+  </div>
+</article>
+
+<article class="card" id="L10">
+  <header>
+    <h2>L10 · 4.1.1</h2>
+    <p class="cap">组合逻辑电路实例</p>
+    <div class="badges"><span class="badge ok">SIM_OK</span> <span class="badge ok">RENDER_OK</span> <span class="badge ok">SELF_OK</span></div>
+    
+  </header>
+  <div class="grid">
+    <section>
+      <h3>课本原图</h3>
+      <img src="../../../schematex_workbench/textbook_figures/logic_dag/fig_4_1_1.jpg" alt="textbook L10" loading="lazy"/>
+    </section>
+    <section>
+      <h3>IR 摘要</h3>
+      <pre class="ir">inputs: A, B, CI
+outputs: S←S, CO←CO
+
+gates:
+s1 XOR(A,B)
+S XOR(s1,CI)
+c1 AND(A,B)
+c2 AND(s1,CI)
+nor1 NOR(c1,c2)
+CO NOT(nor1)</pre>
+    </section>
+    <section>
+      <h3>netlistsvg 自动布线</h3>
+      <img class="net" src="cards/L10/gen_netlist.svg" alt="netlist L10" loading="lazy"/>
+    </section>
+    <section>
+      <h3>仿真（真值表抽样）</h3>
+      <p class="meta">行数 8 · 组合</p>
+      <table class="tt"><thead><tr><th>A</th><th>B</th><th>CI</th><th>S</th><th>CO</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td><td class="out">0</td><td class="out">0</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td class="out">1</td><td class="out">0</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td class="out">0</td><td class="out">1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td class="out">1</td><td class="out">1</td></tr></tbody></table>
+      <pre class="ir self">✓ SIM: rows=8
+✓ SYMBOL_MULTI: multi_gates=0
+✓ CELL_COUNT: cells=6 ir_gates=6
+✓ RENDER_SVG: bytes=6566
+✓ EVAL_SMOKE: ok</pre>
+      
+    </section>
+  </div>
+</article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "图7(18)|images/12bac9e9faeb78444e01053f58a3f26f5b0c53c51bfdf2210476e754f6c201dc.jpg": "六路时序：vI方波触发；vA在VDD基线上下冲；vO1暂态高；vI2自VDD指数降至VTH；vO2互补；vO脉宽标tW。",
+  "图7(19)|images/53b65bcdda642a46129e3159c0bc596374882e62d15005f5131acb2178059d0a.jpg": "左：G1经RON(p)上拉出vO1，经C、R至vI2，G2输入标×示开路；右：VDD–C–vI2–R–地简化充电等效。",
+  "图7(20)|images/010f383de4170d2cd30397f297c53bfb81bba80351596b7a428e8f57ff9aee61.jpg": "左：G1经RON(n)下拉，C耦合标vC极性，G2侧R与保护二极管rD并联；右：RON(n)–C–(R∥rD)–地等效。",
+  "图7(21)|images/65295ef74ed1af646df75cb2225c24cc05ef0d804abb01259bdd86425288970d.jpg": "两片1/6 7404反相器G1/G2级联多谐振荡：R跨接vO1–vI1，C自vO2反馈至vI1。",
+  "图7(22)|images/43316e8ef2d675ed1cb5600906fe963fa8ee67d3542539b3cc5a5c8908ca3e8b.jpg": "三路波形：vI1在VTH+VOH与VIk间经VTH指数充放电，段标T1/T2；vO1与vO2为互补方波，翻转对齐VTH。",
+  "图7(23)|images/f4752dbdc12398f5194047e6e7c109ca2b91f28478f065b1da301f19b2f6d840.jpg": "左：G1输出为VOL、G2输出为VOH，R与C接回vI1；右：VOH–C–vI1–R–地等效放电/充电态。",
+  "图7(24)|images/32b5ded1695d8c2726d57034ffc0dde5579a13b7b6669f15e959e5ec4f2ecc04.jpg": "G1内含T1/R1与钳位二极管，输出VOH；G2输出VOL；R自VOH、C自VOL反馈至vI1构成多谐暂态。",
+  "图7(25)|images/235da4cf366311132f458a9cc4a7bce0c1b465bf802d1876d302bef4ae058afa.jpg": "左：两并联支路(R1与VCC−VBE1、R与VOH)对C充电于vI1；右：戴维南VE–RE–vI1–C–地等效。",
+  "图7(26)|images/98ec90208413c4e86752952ccc6e5482264cabb8510a5c113094c313a4072dbf.jpg": "555施密特应用：vI并接脚2/6，与非门G经10kΩ调脚5控制电压VCO；VCC=5V，脚4接VCC，脚3出vO。",
+  "图7(27)|images/ca4d3079c203cb384508c07672ba8e68b3c969c286a08ab00eeaa3494c68dfa1.jpg": "555控制端等效：内部分压R1=5kΩ、R2=10kΩ得VCO；外源VG经R4=50Ω、R3=10kΩ注入，VCC=+5V。",
+  "图7(28)|images/b3602fda14f44c6cbe197aadb52f9a5bc27127ee5f7a8ad70bf073982ddfe704.jpg": "滞回传输特性(a)VG=0：vO高约4.5V/低约0.2V；上门限2.5V、下门限1.25V，箭头示翻转方向。",
+  "图7(29)|images/74d704b8321cadb3b47d088e7191f8a8430d38d4488968d5f925a504a944999c.jpg": "滞回传输特性(b)VG=5V：上门限3.74V、下门限1.87V；vO在约4.5V与0.2V间矩形滞回。",
+  "图7(30)|images/ac3cb29b075d4754a8507d67d8324463cdf11891aa01499d5c632ecd2642906e.jpg": "555单稳态全图：VCC=12V；vI经Cd=510pF、Rd=51kΩ触发脚2；R=110kΩ与C=0.01μF定时接6/7脚；脚5旁路0.01μF，内含分压/比较器/RS/TD。",
+  "图7(31)|images/a716f420157ded872b93a305a6a4b193c0d4b71c139804db3ffe5566ca2c119c.jpg": "触发波形vI：高电平10V，在t≈1ms与3ms处出现负向矩形脉冲（宽约0.7ms与2.5ms），横轴t/ms至6。",
+  "图7(32)|images/2932b55fc1da7e9d6fe6d5a179381989a6611c0c3dc71eff8ff3249c94a3777d.jpg": "四路时序：vI方波；vI2在12V基线微分尖峰；vI1自0指数充至约8V阈值后回零；vO等宽脉冲标tW。",
+  "图7(33)|images/f901d1c4cf9cc34177232d1e1dba50c1f007fa10c3b4d5ab7b607db500045cdf.jpg": "555无稳态：VCC=10V；R1=33kΩ、R2=51kΩ、C=0.01μF接2/6/7脚；脚5经R3=10kΩ∥CF=0.1μF接地改阈值；内含完整555结构。",
+  "图7(34)|images/feff11adca1aca3d323e7b0934784b3c10e25b0ff56ac7149aee7c8d879aeba1.jpg": "双踪：上迹vC在VT+与VT−间充放电，段标t1/t2；下迹vO方波，高低翻转对齐阈值穿越时刻。",
+  "图7(35)|images/1b7bba8736bf4223af056be98db36b654f55b2577a0d7f0cfcbba31039197ba2.jpg": "充电支路：VCC经串联R1、R2对电容C充电，节点电压标vC，下端接地。",
+  "图7(36)|images/6c5ab67e0f2c70a9d0ebed57e1853b2e2b82be15279bb159544adfafc523bf07.jpg": "放电回路(b)：C上电压vC经R2与导通的放电管TD对地放电，TD发射极接地、基极受控。"
+}

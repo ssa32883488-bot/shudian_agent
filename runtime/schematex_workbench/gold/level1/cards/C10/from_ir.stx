@@ -1,0 +1,18 @@
+logic "mux_74hc153_approx" style: iec
+input A0, A1, D0, D1, D2, D3, Sn
+output Y
+nA0 = NOT(A0)
+nA1 = NOT(A1)
+nSn = NOT(Sn)
+m0a = AND(D0, nA0)
+m0 = AND(m0a, nA1)
+m1a = AND(D1, A0)
+m1 = AND(m1a, nA1)
+m2a = AND(D2, nA0)
+m2 = AND(m2a, A1)
+m3a = AND(D3, A0)
+m3 = AND(m3a, A1)
+s01 = OR(m0, m1)
+s23 = OR(m2, m3)
+sum = OR(s01, s23)
+Y = AND(sum, nSn)

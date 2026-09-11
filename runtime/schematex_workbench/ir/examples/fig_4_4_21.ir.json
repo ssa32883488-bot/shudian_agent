@@ -1,0 +1,16 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "half_adder",
+  "inputs": ["A", "B"],
+  "gates": {
+    "S": { "type": "XOR", "inputs": ["A", "B"] },
+    "CO": { "type": "AND", "inputs": ["A", "B"] }
+  },
+  "outputs": {
+    "S": "S",
+    "CO": "CO"
+  },
+  "notes": "图4.4.21 半加器"
+}

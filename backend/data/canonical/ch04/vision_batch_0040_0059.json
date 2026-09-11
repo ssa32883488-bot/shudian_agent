@@ -1,0 +1,22 @@
+{
+  "图4.4.15(b)|images/6c24059c47f40b45c79f77e2828b13b7056def65dd24d829f784f8fe1bc2ec73.jpg": "7448输入级晶体管电路：VCC经6kΩ接NPN基极，发射极作输入并经钳位二极管接地，集电极经两串联二极管到地。",
+  "图4.4.15(c)|images/ef81806eab00bfc51e55af9489c17c55893500c9bb13ead524687d500f938aca.jpg": "7448输出级晶体管电路：多输入NPN并联后驱动射极跟随到输出管，集电极经2kΩ上拉至VCC引出“输出”。",
+  "图4.4.16|images/da2b63240570a139ad445077cc6562fb23da86ddaad89c01f745dd8b422317a1.jpg": "7448驱动共阴BS201A：A3～A0输入，LT、BI/RBO、RBI接1；Ya～Yg各经1kΩ上拉至VCC后接a～g段，公共端接地。",
+  "图4.4.17|images/6a302e7cd0e81e25c8aed89aacba019a7176af0de7a4e391644a440d18d07d24.jpg": "八位灭零显示：八片7448级联RBI/RBO，左四位前导零消隐、右三位尾随零消隐，中间小数点位RBI接1保持显示。",
+  "图4.4.18|images/3b02434ea39488ce2053af258e48b1e797f5939111fb7fdc2bd2f6280465f0b5.jpg": "二选一数据选择器逻辑符号：左入A(1)、B(0)，底侧选择端SEL，右出Y，梯形MUX图形。",
+  "图4.4.19|images/ec6be40f2b4804593678db9b3b81d9f890cae5b785057af99ff9917e1f3e2808.jpg": "二选一门级电路：SEL控制两与门选通A或B，经或门得Y=A·SEL+B·SEL'。",
+  "图4.4.20(a)|images/dbca1c7b26565cddbb663c064c2a3a272d96c4c66ae086adb2d42085e77ebe0b.jpg": "双4选1内部结构：A1、A0控制两级传输门对D10～D13与D20～D23选择，再经S1'、S2'使能与门输出Y1、Y2。",
+  "图4.4.20(b)|images/82f34f72a5db259eaf003b1a083cfcacb813ebb5104e604ebf02aa844ede4890.jpg": "74HC153逻辑符号：公共地址A1、A0与低有效使能S1、S2，两组数据D10～D13、D20～D23，输出Y1、Y2。",
+  "图4.4.21(a)|images/314a475d1bef772eb71576388feef4bfbbd0c104d8fca48e759ee86146fbf670.jpg": "半加器门电路：A、B同时送异或门得和S，送与门得进位CO。",
+  "图4.4.21(b)|images/b071adae33d460fa3b31268f3b23bb45356cb347ac3a4a299bc1f7dcd50c1ca0.jpg": "半加器逻辑符号：矩形内标Σ，左入A、B，右出S与CO。",
+  "图4.4.22|images/a957eb33e534d0e0ceddaf6ba92cfa3c6b48551c763751ae75e4f6906e09b632.jpg": "全加器卡诺图：左图S呈棋盘1/0对应A⊕B⊕CI；右图CO对0项作三组圈，用于化简进位函数。",
+  "图4.4.23(a)|images/f0cbd2a74be1f7992539931896483d7ae15fbf5a5345834ac024ab44ce54977d.jpg": "全加器与-或非实现：A、B、CI及其反变量经与门阵列，上支或非得CO，下支或非得S。",
+  "图4.4.23(b)|images/ddae72f2cd4c7a1857b93a3b785be6beef24205c530e8605a4f8c2c68e7ae438.jpg": "全加器逻辑符号：框内Σ，左入A、B、CI，右出S与CO。",
+  "图4.4.24|images/ba4b1302d935afd67e6ece6131da1bff28dfcb967d765fe356fea658165a8cd5.jpg": "四位串行进位加法器：四个全加器级联，低位CI接地，各级CO依次送下一级CI，输出S0～S3与最终CO。",
+  "图4.4.25(a)|images/715e2bfe7d02aa01e86633cb5ff4679092c7fe3b87a6b3756628437909cafcc8.jpg": "四位超前进位加法器门级图：A0～A3、B0～B3与CI经产生/传播逻辑并行求进位，异或得S0～S3并输出CO。",
+  "图4.4.25(b)|images/92e26f193d560150d7c764a4136588ebdcf31d97d3ca1a47fda0fee03a482c1c.jpg": "74HC283逻辑符号：顶侧A3～A0与B3～B0，左侧CI，底侧S3～S0，右侧CO。",
+  "图4.4.26|images/ccbb7756c741d4a801c7649b39ec9d38590fb03847980a951e359b6e30cda2ef.jpg": "一位数值比较器：A、B经与非及与门得Y(A>B)、Y(A<B)，再或非得相等输出Y(A=B)。",
+  "图4.4.27(a)|images/35987e0121f61accc739563d68a19cb1e468e4691571f449a7846761d8871867.jpg": "74HC85型四位比较器内部逻辑：逐位比较A3～A0与B3～B0，结合级联输入I(A<B/A=B/A>B)产生三路比较输出。",
+  "图4.4.27(b)|images/4f63dfd50daba12aabdc070e06e6b0c99db8e92ee8bd8f2167701e51e676f099.jpg": "74HC85逻辑符号：顶侧A3～A0、B3～B0，左侧三级联输入，底侧Y(A>B)、Y(A=B)、Y(A<B)。",
+  "图4.5.1|images/9563d94065fbb96145c749220e630b788b4d5ee0abb46579c599b7d6d04ac213.jpg": "两片74HC148级联成16线-4线优先编码器：高位片YS'接低位片S'，再经非门与与非门合成Z3～Z0。"
+}

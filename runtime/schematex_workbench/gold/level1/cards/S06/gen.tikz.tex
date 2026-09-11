@@ -1,0 +1,26 @@
+% state_ir_v1 → TikZ (generated)
+\begin{document}
+\begin{tikzpicture}[
+  x=1pt, y=-1pt,
+  >=Stealth,
+  every node/.style={font=\rmfamily},
+  state/.style={circle, draw=black!75, line width=0.95pt, minimum size=60.0pt, inner sep=0pt, font=\bfseries},
+  every edge/.style={draw=black!75, line width=0.95pt},
+  edge label/.style={font=\rmfamily, fill=white, inner sep=1pt}
+]
+  \node[state] (sS0) at (70, 70) {S0};
+  \node[state] (sS1) at (180, 70) {S1};
+  \node[state] (sS2) at (180, 210) {S2};
+  \node[state] (sS3) at (70, 210) {S3};
+  \draw[->] (sS0) edge[loop left, min distance=65pt] node[edge label, left] {0/0} (sS0);
+  \draw[->] (sS0) .. controls (125.0, 38.0) .. node[edge label, above] {1/0} (sS1);
+  \draw[->] (sS1) .. controls (125.0, 102.0) .. node[edge label, below] {0/0} (sS0);
+  \draw[->] (sS1) -- node[edge label, right] {1/0} (sS2);
+  \draw[->] (sS2) -- node[edge label, above left] {0/0} (sS0);
+  \draw[->] (sS2) -- node[edge label, above] {1/1} (sS3);
+  \draw[->] (sS3) -- node[edge label, right] {0/0} (sS0);
+  \draw[->] (sS3) edge[loop below, min distance=65pt] node[edge label, below] {1/1} (sS3);
+  \node[circle, draw=black!75, line width=0.95pt, minimum size=72pt, inner sep=0pt] (legend) at (280, 140) {};
+  \node at (280, 154) {X/Y};
+\end{tikzpicture}
+\end{document}

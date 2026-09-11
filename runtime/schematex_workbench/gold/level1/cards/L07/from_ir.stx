@@ -1,0 +1,5 @@
+logic "xor_and_2_9_3" style: iec
+input A, B, Cn
+output Y
+t1 = XOR(A, B)
+Y = AND(t1, Cn)

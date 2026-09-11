@@ -1,0 +1,22 @@
+{
+  "图7.1.1|images/abf5bd72d053edd2a9e1302dbd39d575970cb8b7be860025ce2e1f29f47b6989.jpg": "矩形脉冲参数示意：幅度Vm及0.1/0.5/0.9Vm参考电平；前沿上升时间tr、后沿下降时间tf、半高宽tw与周期T。",
+  "图7.2.1|images/c14f2120a031a2423411dff6b3e4df618dcc34da58dc6d794719f51620b0980d.jpg": "射极耦合施密特电路：NPN管T1、T2共射极接RE；vI入T1基极，T1集电极直耦T2基极，vO取自T2集电极。",
+  "图7.2.2|images/1f0de4818a229d5e12fe392128780fabfa001f5d72690d4afc0e554c11ee039d.jpg": "同相滞回电压传输特性：vI升过VT+时vO由低变高，降过VT−时由高变低；回差ΔVT=VT+−VT−。",
+  "图7.2.3|images/e395ed627840d446e6d1ff0948075a6b4ccd5dbabb6f9c240c336c380c66996f.jpg": "四输入TTL施密特与非门内电路：二极管与门→T1/T2施密特级→电平偏移→图腾柱输出；旁附带回差标志的与非符号。",
+  "图7.2.4|images/c60966ed02af1455ca0f7ab30577e5e499a949d297ce49732ccd18400e06e2c2.jpg": "集成反相施密特实测VTC：VOH≈3.4V、VOL≈0.2V；VT+≈1.7V、VT−≈0.8V，回差约0.9V。",
+  "图7.2.5|images/55e09b6d98df3807404764148b4ef7f4874cea23d679af06d17fe7ff41768cb0.jpg": "(a)两级CMOS反相器G1、G2经R1分压、R2正反馈构成施密特；(b)同相与反相施密特逻辑符号。",
+  "图7.2.6(a)|images/47db3526fd20edda38662d7c35e481c29310b98750061c11f4ec3e678070b9bf.jpg": "图7.2.5输出vO的滞回特性：阈值中心在VTH，回差宽度标为2(R1/R2)VTH，至VDD。",
+  "图7.2.6(b)|images/b373ea17c090fcd12b131d51f3fc5f486786cbd31b4af113c88eb03c4130ccea.jpg": "互补输出vO′的反相滞回环：升过上阈时vO′变低，降过下阈时变高，回差同为2(R1/R2)VTH。",
+  "图7.2.7|images/4e1c53a76b44e1c380846e072957e2745fc1e518ac8400646aeb5c202090b4fc.jpg": "反相施密特波形变换：正弦vI越过VT+/VT−时，vO在高低电平间翻转，得矩形波。",
+  "图7.2.8(a)|images/cf7d0fca6f5c18a51f9b8e79c8d577ebe4de7b0b5918d0fd2d23bc7858baae2c.jpg": "施密特触发反相器逻辑符号：三角内带回差标志，输出带小圆，输入vI、输出vO。",
+  "图7.2.8(b)|images/4bac4d344ffa844e410f9acc15c6bc01f23e5ed77fa5f8461bb959de0f938939.jpg": "指数充放电形vI经反相施密特整形：过VT+时vO变低，过VT−时vO变高，得矩形波。",
+  "图7.2.8(c)|images/ab3f6fed4951d6c68ae3c3a9e3819a7235fc491ea7dbe167a4249dce7d7ad1ea.jpg": "施密特反相器符号（整形应用）：vI入、vO出，三角内滞回标志与输出小圆表示反相。",
+  "图7.2.8(d)|images/1264b9a3ed988d85dc96065b69f2a145a35d196c364bcdf2f06324225e45ac95.jpg": "边沿带振铃噪声的脉冲经反相施密特整形：仅跨过VT+/VT−时翻转，输出为干净矩形波。",
+  "图7.2.8(e)|images/f82979b77e792d074dfb18c7efa9b13a4ac651f63ca014943a4c62459291bffc.jpg": "幅度鉴别：仅幅值超过VT+的输入脉冲使反相施密特输出负脉冲，矮脉冲被滤除。",
+  "图7.2.8(f)|images/ed26e27bbb4dbbf436ef5afdf81df62b01098c9da7df94619b228eb16e842e24.jpg": "带高低电平毛刺的脉冲经反相施密特：噪声未跨双阈值则输出仍为陡沿矩形波。",
+  "图7.2.9|images/62e1483d1becff44bf4db35ab93283c67105a7b4c9a968e6b3390eaf4aa58f4d.jpg": "用于幅度鉴别的施密特反相器符号：输入vI、输出vO，内含滞回标志。",
+  "图7.3.1|images/9093ed974e3dec49c02d80b09e2ef26fd96d9f61fbf654a045f4a50676418a4c.jpg": "微分型CMOS单稳态：CdRd微分得vd入或非门G1，G1经RC定时驱动反相器G2，vO反馈回G1。",
+  "图7.3.2|images/4e0df5ed33f1df08643daf1e6bf0a7791895559182f907066b058bc645455a2d.jpg": "图7.3.1波形：vI矩形→vd尖脉冲→vO1低电平暂稳；vi2经RC升至VTH后结束，输出脉宽tw。",
+  "图7.3.3|images/4a36746ab8b74c530d7342e3bfe5ab670f18ed9b96b9bfc1d3832056cbc34207.jpg": "暂稳时电容充电等效：G1输出RON接地，C与R上拉至VDD，等效为VDD经R向C充电至v12。",
+  "图7.3.4|images/d446ef711fbdb72fee6884f2609c7303b9c3707f8aa88ce75728b8f1bc6b10de.jpg": "恢复过程等效：G1侧RON上拉至VDD经C耦合至vI2，R上拉且D1钳位保护G2输入。"
+}

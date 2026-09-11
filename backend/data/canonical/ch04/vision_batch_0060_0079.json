@@ -1,0 +1,22 @@
+{
+  "图4.5.2|images/fee4b6880ab6bc0b659a65a6ebb405ac87cb395683664bece92e1e060ff9b7bb.jpg": "两片74HC138扩展为4线-16线译码器：D0～D2并联接两片A0～A2，D3作片选分别控S2'/S3'与S1，输出Z'0～Z'15。",
+  "图4.5.3|images/c924589e4a32a2b0e013ee68c0c0d94e2f6f58e5792b7ebd35978f51aecd77fe.jpg": "两片74HC85级联成8位比较器：低位片输出接高位片级联输入，高位片输出Y(C<D)、Y(C=D)、Y(C>D)。",
+  "图4.5.4|images/20ad605cd67023cb5cd3a4640f84148e720eb83c426e3bb2b8da1af4f799ef68.jpg": "半片74HC153实现逻辑函数：地址A1、A0接A、G，数据D0～D3接R'、R、R、1，使能S'接地，Y出Z。",
+  "图4.5.5|images/526abf96aff5d56fb0d62f78a062b9a705e5230836ba9f63ec585f7b7fdac9e0.jpg": "74HC151作函数发生器：地址A、B、C译码选通传输门，D0～D7按最小项接1或0，输出Y(Z)与反相W。",
+  "图4.6.1(a)|images/0ec990a44738b6ae3db8c7649ae9b6b32bc202f33cc59af3fd02a24220220891.jpg": "PLD与阵列连线示意：横线与A、B、D交叉有×/点表示编程连接，等效三输入与门P=A·B·D。",
+  "图4.6.1(b)|images/b9de05e2142fe0a727f34178262a1f66a96e13003dfab811e596003978d1b48b.jpg": "乘积项恒0表示：与门内画大叉且P=0，等效于A与A'、B与B'全部接入使输出恒为0。",
+  "图4.6.1(c)|images/c740fa5df617d90977292dc25a310239ad3fdf4f163e8d5ab57403008cc64e3f.jpg": "PLD或阵列示意：P1点连接、P3/P4叉连接接入或门，等效Y=P1+P3+P4。",
+  "图4.6.1(d)|images/1127b15e67e2e5a82f35071b4d48eef9028374177892c80a06e888f3d90ba484.jpg": "高有效使能三态反相器符号：入A、出A'，顶侧EN，三角内∇表示三态输出。",
+  "图4.6.1(e)|images/072c155b60b9e77148e318b73f54122ce87905e160c3c496ae705003730f14d8.jpg": "低有效使能三态反相器：入A、出A'，控制端EN'带小圆，输出亦为反相三态。",
+  "图4.6.2|images/798daf62d5dac3dc7979335beebcabcaa658e8a13a69de0612bbf10284c35c92.jpg": "PLA结构：A～D互补缓冲后进与阵列生成乘积项，再经或阵列与OE'三态缓冲输出Y3～Y0。",
+  "图4.7.1|images/6c4b7ab4c066a79d2a441e00fc73ed9704e460d1b4aa74beeb51816cae2230f6.jpg": "HDL二选一MUX符号级：sel选a或b得out，再经非门得outbar。",
+  "图4.7.2|images/16c06988ad6e5f9276b8d77959d6ba81f6fe8dea086e8dd37931354ba75d1697.jpg": "MUX门级实现：sel与selb分别选通a、b得out1、out2，或后得out再反相为outbar。",
+  "图4.7.3|images/dff1aac986e52f03dc97273562987c5e1596edebf10174de09139a4f152f7ac8.jpg": "四位行波进位加法器HDL结构：add1～add4级联，中间进位Ctemp，低位CI接地，输出S与CO。",
+  "图4.7.4_0|images/cb02491cda5ff2800380669584e26b1538a249a384d961e0eb37d0ee5c19a4f0.jpg": "全加器门级：两级异或得Sum；三与门再或得Cout=AB+B·CI+A·CI。",
+  "图4.7.4_1|images/fff1d421d32374dd6273c7357a944f891234818eca05de3e431d48ccce7a77f1.jpg": "Verilog四位全加器模块Four_bit_fulladd：assign {CO,S}=A+B+CI，旁注端口与参数说明。",
+  "图4.8.1|images/7e4f1c4a4559301491a236e8f203cc5fed94ada269481b4922e149e79b17870d.jpg": "液位监测系统：容器E-1上S1～S9传感器进监测器，驱动七段数码管与报警LED，旁绘共阴段码结构。",
+  "图4.9.1(a)|images/ac69d1101e7b1d8ddc37d115b5f9447f7df702676a683e8ae30849118d900252.jpg": "两输入与门符号：入A、B，出Y。",
+  "图4.9.1(b)|images/91e99c60f8293aca1cd17268e61ea2b13772e19bc01b866d40ce9847247a3b3b.jpg": "两输入或门符号：入A、B，出Y。",
+  "图4.9.1(c)|images/dbe2c2626cc0d668b0fab3ad2d253beceef3a73fcfe80ef4671c8ca68f2e5996.jpg": "竞争冒险波形：A下降、B上升相对VIL(max)存在时间差Δt，示意输入不同步。",
+  "图4.9.1(d)|images/4a576e4eb941abf6a7a76c9e5501609e159c00e15d74659161ec0d99fb3a224a.jpg": "竞争冒险波形：A下降与B上升相对VIH(min)错开Δt，虚线示理想同步位置。"
+}

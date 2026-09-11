@@ -1,0 +1,191 @@
+{
+  "scale": {
+    "chapters": 8,
+    "concepts": 214,
+    "problems": 425,
+    "tests": 1439,
+    "belongs_to": 639,
+    "prereq": 88,
+    "similar": 2000
+  },
+  "tests": {
+    "coverage": "425/425",
+    "rate": 1.0,
+    "by_kind": {
+      "example": "82/82",
+      "review": "116/116",
+      "chapter_exercise": "227/227"
+    },
+    "confidence": {
+      "high": 959,
+      "medium": 450,
+      "low": 30
+    },
+    "force_map_ratio": 0.0,
+    "avg_per_problem": 3.39,
+    "max_per_problem": 4,
+    "cross_chapter_non_force": 0,
+    "bad_refs": 0
+  },
+  "prereq": {
+    "edges": 88,
+    "curated": 59,
+    "confidence": {
+      "medium": 29,
+      "high": 59
+    },
+    "cycles": 0,
+    "cycle_samples": [],
+    "isolated_concepts": 139,
+    "isolated_ratio": 0.6495,
+    "bad_refs": 0
+  },
+  "api": {
+    "path_ok": true,
+    "list_concepts": 214,
+    "samples": {
+      "卡诺图": {
+        "resolved": "卡诺图",
+        "path_len": 9,
+        "path": [
+          "二进制算术运算",
+          "反码、补码和补码运算",
+          "逻辑代数中的三种基本运算",
+          "基本公式",
+          "逻辑函数",
+          "逻辑函数的描述方法",
+          "逻辑函数的两种标准形式",
+          "公式化简",
+          "卡诺图"
+        ],
+        "suggestion": "建议学习路径：二进制算术运算 → 反码、补码和补码运算 → 逻辑代数中的三种基本运算 → 基本公式 → 逻辑函数 → 逻辑函数的描述方法 → 逻辑函数的两种标准形式 → 公式化简 → 卡诺图"
+      },
+      "触发器": {
+        "resolved": "触发器",
+        "path_len": 6,
+        "path": [
+          "二进制算术运算",
+          "反码、补码和补码运算",
+          "逻辑代数中的三种基本运算",
+          "组合逻辑电路",
+          "SR 锁存器",
+          "触发器"
+        ],
+        "suggestion": "建议学习路径：二进制算术运算 → 反码、补码和补码运算 → 逻辑代数中的三种基本运算 → 组合逻辑电路 → SR 锁存器 → 触发器"
+      },
+      "计数器": {
+        "resolved": "计数器",
+        "path_len": 7,
+        "path": [
+          "二进制算术运算",
+          "反码、补码和补码运算",
+          "逻辑代数中的三种基本运算",
+          "组合逻辑电路",
+          "SR 锁存器",
+          "触发器",
+          "计数器"
+        ],
+        "suggestion": "建议学习路径：二进制算术运算 → 反码、补码和补码运算 → 逻辑代数中的三种基本运算 → 组合逻辑电路 → SR 锁存器 → 触发器 → 计数器"
+      },
+      "D/A 转换器": {
+        "resolved": "D/A 转换器",
+        "path_len": 6,
+        "path": [
+          "二进制算术运算",
+          "反码、补码和补码运算",
+          "逻辑代数中的三种基本运算",
+          "组合逻辑电路",
+          "加法器",
+          "D/A 转换器"
+        ],
+        "suggestion": "建议学习路径：二进制算术运算 → 反码、补码和补码运算 → 逻辑代数中的三种基本运算 → 组合逻辑电路 → 加法器 → D/A 转换器"
+      },
+      "组合逻辑电路": {
+        "resolved": "组合逻辑电路",
+        "path_len": 4,
+        "path": [
+          "二进制算术运算",
+          "反码、补码和补码运算",
+          "逻辑代数中的三种基本运算",
+          "组合逻辑电路"
+        ],
+        "suggestion": "建议学习路径：二进制算术运算 → 反码、补码和补码运算 → 逻辑代数中的三种基本运算 → 组合逻辑电路"
+      }
+    },
+    "problem_link": {
+      "题4.1": {
+        "concepts": [
+          "数值比较器"
+        ],
+        "similar": []
+      },
+      "例2.6.1": {
+        "concepts": [
+          "卡诺图",
+          "公式化简",
+          "奎恩-麦克拉斯基化简法 (Q-M 法)",
+          "逻辑函数"
+        ],
+        "similar": [
+          "题2.6",
+          "例2.6.2",
+          "例2.6.3"
+        ]
+      },
+      "R4.4.1": {
+        "concepts": [
+          "编码器",
+          "加法器",
+          "译码器",
+          "数值比较器"
+        ],
+        "similar": [
+          "题4.10",
+          "题4.12",
+          "题4.14"
+        ]
+      },
+      "题5.1": {
+        "concepts": [
+          "SR 锁存器"
+        ],
+        "similar": []
+      }
+    }
+  },
+  "samples": {},
+  "problem_graph": {
+    "problems_with_solid_tests": 419,
+    "solid_rate": 0.9859,
+    "all_low_only": 6,
+    "avg_tests": 3.39,
+    "isolated_concepts_info": 139,
+    "note": "孤立概念不强制连边；优先保证题↔考点"
+  },
+  "concepts": {
+    "confidence": {
+      "seed": 11,
+      "low_kept": 110,
+      "high": 91,
+      "medium": 2
+    },
+    "noise_names": [],
+    "noise_count": 0,
+    "low_kept_ratio": 0.514
+  },
+  "runtime": {
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\shudian_agent\\backend\\data\\knowledge_graph.json",
+    "nodes": 214,
+    "edges": 88,
+    "ok": true
+  },
+  "similar": {
+    "sample_cross_chapter_in_500": 0
+  },
+  "score": 100,
+  "verdict": "PASS",
+  "ready_for_project": true,
+  "issues": [],
+  "warnings": [],
+  "recommendation": "题侧图谱可支撑拍题/问点/复杂意图；孤立概念允许存在。"
+}

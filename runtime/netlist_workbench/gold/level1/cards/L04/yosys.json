@@ -1,0 +1,387 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "L04": {
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [
+            5
+          ]
+        },
+        "Y1": {
+          "direction": "output",
+          "bits": [
+            12
+          ]
+        },
+        "Y2": {
+          "direction": "output",
+          "bits": [
+            15
+          ]
+        },
+        "Y3": {
+          "direction": "output",
+          "bits": [
+            18
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "Y": [
+              8
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              5
+            ],
+            "Y": [
+              9
+            ]
+          }
+        },
+        "c4": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              10
+            ]
+          }
+        },
+        "c5": {
+          "type": "$_AND3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              11
+            ],
+            "A": [
+              6
+            ],
+            "B": [
+              8
+            ],
+            "C": [
+              5
+            ]
+          }
+        },
+        "c6": {
+          "type": "$_OR3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              12
+            ],
+            "A": [
+              3
+            ],
+            "B": [
+              10
+            ],
+            "C": [
+              11
+            ]
+          }
+        },
+        "c7": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              5
+            ],
+            "Y": [
+              13
+            ]
+          }
+        },
+        "c8": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              9
+            ],
+            "Y": [
+              14
+            ]
+          }
+        },
+        "c9": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              13
+            ],
+            "B": [
+              14
+            ],
+            "Y": [
+              15
+            ]
+          }
+        },
+        "c10": {
+          "type": "$_AND3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              16
+            ],
+            "A": [
+              6
+            ],
+            "B": [
+              4
+            ],
+            "C": [
+              5
+            ]
+          }
+        },
+        "c11": {
+          "type": "$_AND3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              17
+            ],
+            "A": [
+              2
+            ],
+            "B": [
+              7
+            ],
+            "C": [
+              4
+            ]
+          }
+        },
+        "c12": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              16
+            ],
+            "B": [
+              17
+            ],
+            "Y": [
+              18
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "bits": [
+            2
+          ]
+        },
+        "B": {
+          "bits": [
+            3
+          ]
+        },
+        "C": {
+          "bits": [
+            4
+          ]
+        },
+        "D": {
+          "bits": [
+            5
+          ]
+        },
+        "nA": {
+          "bits": [
+            6
+          ]
+        },
+        "nB": {
+          "bits": [
+            7
+          ]
+        },
+        "nC": {
+          "bits": [
+            8
+          ]
+        },
+        "nD": {
+          "bits": [
+            9
+          ]
+        },
+        "ac": {
+          "bits": [
+            10
+          ]
+        },
+        "nacd": {
+          "bits": [
+            11
+          ]
+        },
+        "Y1": {
+          "bits": [
+            12
+          ]
+        },
+        "nad": {
+          "bits": [
+            13
+          ]
+        },
+        "bnd": {
+          "bits": [
+            14
+          ]
+        },
+        "Y2": {
+          "bits": [
+            15
+          ]
+        },
+        "nacD": {
+          "bits": [
+            16
+          ]
+        },
+        "anbc": {
+          "bits": [
+            17
+          ]
+        },
+        "Y3": {
+          "bits": [
+            18
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "chapter": "第08章 数模和模数转换",
+  "sections": 36,
+  "blocks": 58,
+  "figures_textbook": 57,
+  "figures_keypoints": 17,
+  "exercises_merged": {
+    "matched": 20,
+    "missing_answer": [],
+    "extra_solutions": [],
+    "appendix_fallback": [
+      "题8.20"
+    ]
+  },
+  "chunks_total": 112,
+  "vision_updated": 74,
+  "orphan_figures": 0,
+  "orphan_figure_ids": [],
+  "chunks_by_type": {
+    "theory": 77,
+    "review": 11,
+    "example": 4,
+    "exercise_merged": 20
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "F07",
+  "bucket": "flipflop_seq",
+  "fig_id": "6.2.3",
+  "caption": "例6.2.3时序逻辑电路",
+  "image": "../../textbook_figures/logic_dag/fig_6_2_3.jpg",
+  "image_exists": true,
+  "tier_guess": "B",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_batch_v2",
+  "reviewed_at": "2026-09-02T04:30:21.278Z",
+  "notes": "主路径 netlistsvg；gold.tbx 已弃用"
+}

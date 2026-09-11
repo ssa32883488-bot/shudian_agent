@@ -1,0 +1,9 @@
+logic "gated_sr" style: iec
+input S, R, CLK
+output Q, Qn
+G3 = NAND(S, CLK)
+G4 = NAND(R, CLK)
+G1 = NAND(G3, G2)
+G2 = NAND(G4, G1)
+Q <- G1
+Qn <- G2

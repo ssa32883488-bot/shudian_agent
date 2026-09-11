@@ -1,0 +1,105 @@
+{"section_id": "ch03_root", "level": 0, "number": "3", "title": "第03章 门电路", "line_start": 1, "line_end": 2244, "parent_id": null, "children": ["ch03_sec_summary", "ch03_sec_3_1", "ch03_sec_3_2", "ch03_sec_3_2_1", "ch03_sec_review", "ch03_sec_3_2_2", "ch03_sec_3_2_3", "ch03_sec_review"]}
+{"section_id": "ch03_sec_summary", "level": 2, "number": "summary", "title": "内容提要", "line_start": 1, "line_end": 6, "parent_id": "ch03_root", "children": []}
+{"section_id": "ch03_sec_3_1", "level": 2, "number": "3.1", "title": "概述", "line_start": 7, "line_end": 49, "parent_id": "ch03_root", "children": []}
+{"section_id": "ch03_sec_3_2", "level": 2, "number": "3.2", "title": "半导体二极管门电路", "line_start": 50, "line_end": 51, "parent_id": "ch03_root", "children": []}
+{"section_id": "ch03_sec_3_2_1", "level": 2, "number": "3.2.1", "title": "半导体二极管的开关特性", "line_start": 52, "line_end": 115, "parent_id": "ch03_root", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 116, "line_end": 119, "parent_id": "ch03_root", "children": []}
+{"section_id": "ch03_sec_3_2_2", "level": 2, "number": "3.2.2", "title": "二极管与门", "line_start": 120, "line_end": 142, "parent_id": "ch03_root", "children": []}
+{"section_id": "ch03_sec_3_2_3", "level": 2, "number": "3.2.3", "title": "二极管或门", "line_start": 143, "line_end": 161, "parent_id": "ch03_root", "children": []}
+{"section_id": "ch03_sec_review", "level": 1, "number": "review", "title": "复习思考题", "line_start": 162, "line_end": 2244, "parent_id": "ch03_root", "children": ["ch03_sec_3_3", "ch03_sec_3_3_1", "ch03_sec_一_MOS_管的结构和工作原理", "ch03_sec_二_MOS_管的输入特性和输出特性", "ch03_sec_三_MOS管的基本开关电路", "ch03_sec_四_MOS_管的开关等效电路", "ch03_sec_五_MOS管的四种类型", "ch03_sec_3", "ch03_sec_review", "ch03_sec_3_3_2", "ch03_sec_一_CMOS_反相器的电路结构", "ch03_sec_二_电压传输特性和电流传输特性", "ch03_sec_三_输入端噪声容限", "ch03_sec_3_3_3", "ch03_sec_一_输入特性", "ch03_sec_二_输出特性", "ch03_sec_review", "ch03_sec_3_3_4", "ch03_sec_一_传输延迟时间_t_mathrm_PHL_t_mathrm_PLH", "ch03_sec_二_交流噪声容限", "ch03_sec_三_动态功耗", "ch03_sec_四_扇出", "ch03_sec_review", "ch03_sec_3_3_5", "ch03_sec_一_各种逻辑功能的_CMOS_门电路", "ch03_sec_二_漏极开路输出门电路_OD门", "ch03_sec_三_CMOS传输门", "ch03_sec_四_三态输出的_CMOS_门电路", "ch03_sec_review", "ch03_sec_3_3_6", "ch03_sec_一_输入电路的静电防护", "ch03_sec_二_输入电路的过流保护", "ch03_sec_三_CMOS_电路锁定效应的防护", "ch03_sec_review", "ch03_sec_3_3_7", "ch03_sec_4000", "ch03_sec_74", "ch03_sec_74", "ch03_sec_74", "ch03_sec_74", "ch03_sec_review", "ch03_sec_3_4", "ch03_sec_3_4_1", "ch03_sec_一_双极型三极管的结构", "ch03_sec_二_双极型三极管的输入特性和输出特性", "ch03_sec_三_双极型三极管的基本开关电路_三极管反相器", "ch03_sec_四_三极管反相器的开关等效电路", "ch03_sec_五_双极型三极管反相器的动态开关特性", "ch03_sec_review", "ch03_sec_3_4_2", "ch03_sec_一_电路结构", "ch03_sec_二_电压传输特性", "ch03_sec_三_输入端噪声容限", "ch03_sec_review", "ch03_sec_3_4_3", "ch03_sec_一_输入特性", "ch03_sec_二_输出特性", "ch03_sec_三_输入端负载特性", "ch03_sec_review", "ch03_sec_3_4_4", "ch03_sec_一_传输延迟时间", "ch03_sec_二_交流噪声容限", "ch03_sec_三_电源的动态尖峰电流", "ch03_sec_review", "ch03_sec_3_4_5", "ch03_sec_一_其他逻辑功能的门电路", "ch03_sec_3", "ch03_sec_二_集电极开路输出的门电路_OC门", "ch03_sec_三_三态输出门电路_TS门", "ch03_sec_review", "ch03_sec_3_4_6", "ch03_sec_74", "ch03_sec_74", "ch03_sec_74", "ch03_sec_74", "ch03_sec_74", "ch03_sec_3_5_ECL_集成电路", "ch03_sec_3_5_1", "ch03_sec_review", "ch03_sec_3_5_2", "ch03_sec_MECLⅢ系列", "ch03_sec_MECL_10K_系列", "ch03_sec_MECL_10KH_及_MECL_100K_系列", "ch03_sec_3_6", "ch03_sec_3_6_1", "ch03_sec_3_6_2", "ch03_sec_74", "ch03_sec_74", "ch03_sec_74", "ch03_sec_3_7", "ch03_sec_3_7_1", "ch03_sec_一_用TTL电路驱动CMOS电路", "ch03_sec_二_用_CMOS_电路驱动_TTL_电路", "ch03_sec_3_7_2", "ch03_sec_summary_end", "ch03_sec_exercises"]}
+{"section_id": "ch03_sec_3_3", "level": 2, "number": "3.3", "title": "CMOS 门电路", "line_start": 164, "line_end": 165, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_3_1", "level": 2, "number": "3.3.1", "title": "MOS 管的开关特性", "line_start": 166, "line_end": 169, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_MOS_管的结构和工作原理", "level": 2, "number": "", "title": "一、MOS 管的结构和工作原理", "line_start": 170, "line_end": 184, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_MOS_管的输入特性和输出特性", "level": 2, "number": "", "title": "二、MOS 管的输入特性和输出特性", "line_start": 185, "line_end": 218, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_MOS管的基本开关电路", "level": 2, "number": "", "title": "三、MOS管的基本开关电路", "line_start": 219, "line_end": 237, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_四_MOS_管的开关等效电路", "level": 2, "number": "", "title": "四、MOS 管的开关等效电路", "line_start": 238, "line_end": 249, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_五_MOS管的四种类型", "level": 2, "number": "", "title": "五、MOS管的四种类型", "line_start": 250, "line_end": 273, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3", "level": 2, "number": "3", "title": "N 沟道耗尽型", "line_start": 274, "line_end": 302, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 303, "line_end": 310, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_3_2", "level": 2, "number": "3.3.2", "title": "CMOS 反相器的电路结构和工作原理", "line_start": 311, "line_end": 314, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_CMOS_反相器的电路结构", "level": 2, "number": "", "title": "一、CMOS 反相器的电路结构", "line_start": 315, "line_end": 354, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_电压传输特性和电流传输特性", "level": 2, "number": "", "title": "二、电压传输特性和电流传输特性", "line_start": 355, "line_end": 381, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_输入端噪声容限", "level": 2, "number": "", "title": "三、输入端噪声容限", "line_start": 382, "line_end": 414, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_3_3", "level": 2, "number": "3.3.3", "title": "CMOS 反相器的静态输入特性和输出特性", "line_start": 415, "line_end": 418, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_输入特性", "level": 2, "number": "", "title": "一、输入特性", "line_start": 419, "line_end": 453, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_输出特性", "level": 2, "number": "", "title": "二、输出特性", "line_start": 454, "line_end": 483, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 484, "line_end": 489, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_3_4", "level": 2, "number": "3.3.4", "title": "CMOS反相器的动态特性", "line_start": 490, "line_end": 493, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_传输延迟时间_t_mathrm_PHL_t_mathrm_PLH", "level": 2, "number": "", "title": "一、传输延迟时间 $t_{\\mathrm{PHL}}$ 、 $t_{\\mathrm{PLH}}$", "line_start": 494, "line_end": 504, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_交流噪声容限", "level": 2, "number": "", "title": "二、交流噪声容限", "line_start": 505, "line_end": 510, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_动态功耗", "level": 2, "number": "", "title": "三、动态功耗", "line_start": 511, "line_end": 603, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_四_扇出", "level": 2, "number": "", "title": "四、扇出", "line_start": 604, "line_end": 620, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 621, "line_end": 628, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_3_5", "level": 2, "number": "3.3.5", "title": "其他类型的 CMOS 门电路", "line_start": 629, "line_end": 630, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_各种逻辑功能的_CMOS_门电路", "level": 2, "number": "", "title": "一、各种逻辑功能的 CMOS 门电路", "line_start": 631, "line_end": 682, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_漏极开路输出门电路_OD门", "level": 2, "number": "", "title": "二、漏极开路输出门电路（OD门）", "line_start": 683, "line_end": 762, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_CMOS传输门", "level": 2, "number": "", "title": "三、CMOS传输门", "line_start": 763, "line_end": 826, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_四_三态输出的_CMOS_门电路", "level": 2, "number": "", "title": "四、三态输出的 CMOS 门电路", "line_start": 827, "line_end": 851, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 852, "line_end": 859, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_3_6", "level": 2, "number": "3.3.6", "title": "CMOS 集成电路的正确使用", "line_start": 860, "line_end": 861, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_输入电路的静电防护", "level": 2, "number": "", "title": "一、输入电路的静电防护", "line_start": 862, "line_end": 877, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_输入电路的过流保护", "level": 2, "number": "", "title": "二、输入电路的过流保护", "line_start": 878, "line_end": 897, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_CMOS_电路锁定效应的防护", "level": 2, "number": "", "title": "* 三、CMOS 电路锁定效应的防护", "line_start": 898, "line_end": 961, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 962, "line_end": 967, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_3_7", "level": 2, "number": "3.3.7", "title": "CMOS数字集成电路的各种系列", "line_start": 968, "line_end": 973, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_4000", "level": 2, "number": "4000", "title": "/14000 系列：", "line_start": 974, "line_end": 985, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "AHC/AHCT 系列：", "line_start": 986, "line_end": 989, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "LVC系列：", "line_start": 990, "line_end": 995, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "ALVC 系列：", "line_start": 996, "line_end": 999, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "AVC 系列：", "line_start": 1000, "line_end": 1014, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1015, "line_end": 1018, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_4", "level": 2, "number": "3.4", "title": "TTL 门电路", "line_start": 1019, "line_end": 1020, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_4_1", "level": 2, "number": "3.4.1", "title": "双极型三极管的开关特性", "line_start": 1021, "line_end": 1026, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_双极型三极管的结构", "level": 2, "number": "", "title": "一、双极型三极管的结构", "line_start": 1027, "line_end": 1038, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_双极型三极管的输入特性和输出特性", "level": 2, "number": "", "title": "二、双极型三极管的输入特性和输出特性", "line_start": 1039, "line_end": 1062, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_双极型三极管的基本开关电路_三极管反相器", "level": 2, "number": "", "title": "三、双极型三极管的基本开关电路——三极管反相器", "line_start": 1063, "line_end": 1115, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_四_三极管反相器的开关等效电路", "level": 2, "number": "", "title": "四、三极管反相器的开关等效电路", "line_start": 1116, "line_end": 1144, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_五_双极型三极管反相器的动态开关特性", "level": 2, "number": "", "title": "五、双极型三极管反相器的动态开关特性", "line_start": 1145, "line_end": 1181, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1182, "line_end": 1185, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_4_2", "level": 2, "number": "3.4.2", "title": "TTL 反相器的电路结构和工作原理", "line_start": 1186, "line_end": 1187, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_电路结构", "level": 2, "number": "", "title": "一、电路结构", "line_start": 1188, "line_end": 1208, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_电压传输特性", "level": 2, "number": "", "title": "二、电压传输特性", "line_start": 1209, "line_end": 1233, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_输入端噪声容限", "level": 2, "number": "", "title": "三、输入端噪声容限", "line_start": 1234, "line_end": 1249, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1250, "line_end": 1253, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_4_3", "level": 2, "number": "3.4.3", "title": "TTL 反相器的静态输入特性和输出特性", "line_start": 1254, "line_end": 1255, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_输入特性", "level": 2, "number": "", "title": "一、输入特性", "line_start": 1256, "line_end": 1280, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_输出特性", "level": 2, "number": "", "title": "二、输出特性", "line_start": 1281, "line_end": 1343, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_输入端负载特性", "level": 2, "number": "", "title": "三、输入端负载特性", "line_start": 1344, "line_end": 1397, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1398, "line_end": 1403, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_4_4", "level": 2, "number": "3.4.4", "title": "TTL反相器的动态特性", "line_start": 1404, "line_end": 1405, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_传输延迟时间", "level": 2, "number": "", "title": "一、传输延迟时间", "line_start": 1406, "line_end": 1420, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_交流噪声容限", "level": 2, "number": "", "title": "二、交流噪声容限", "line_start": 1421, "line_end": 1437, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_电源的动态尖峰电流", "level": 2, "number": "", "title": "三、电源的动态尖峰电流", "line_start": 1438, "line_end": 1521, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1522, "line_end": 1527, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_4_5", "level": 2, "number": "3.4.5", "title": "其他类型的TTL门电路", "line_start": 1528, "line_end": 1529, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_其他逻辑功能的门电路", "level": 2, "number": "", "title": "一、其他逻辑功能的门电路", "line_start": 1530, "line_end": 1572, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3", "level": 2, "number": "3", "title": "与或非门", "line_start": 1573, "line_end": 1597, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_集电极开路输出的门电路_OC门", "level": 2, "number": "", "title": "二、集电极开路输出的门电路(OC门)", "line_start": 1598, "line_end": 1681, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_三_三态输出门电路_TS门", "level": 2, "number": "", "title": "三、三态输出门电路(TS门)", "line_start": 1682, "line_end": 1697, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1698, "line_end": 1703, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_4_6", "level": 2, "number": "3.4.6", "title": "TTL数字集成电路的各种系列", "line_start": 1704, "line_end": 1709, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "系列：", "line_start": 1710, "line_end": 1713, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "S 系列：", "line_start": 1714, "line_end": 1737, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "LS 系列：", "line_start": 1738, "line_end": 1751, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "AS 系列：", "line_start": 1752, "line_end": 1759, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "F 系列：", "line_start": 1760, "line_end": 1771, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_5_ECL_集成电路", "level": 2, "number": "", "title": "* 3.5 ECL 集成电路", "line_start": 1772, "line_end": 1781, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_5_1", "level": 2, "number": "3.5.1", "title": "ECL 电路的基本结构和工作原理", "line_start": 1782, "line_end": 1829, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1830, "line_end": 1833, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_5_2", "level": 2, "number": "3.5.2", "title": "ECL 集成电路的各种系列", "line_start": 1834, "line_end": 1837, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_MECLⅢ系列", "level": 2, "number": "", "title": "MECLⅢ系列：", "line_start": 1838, "line_end": 1841, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_MECL_10K_系列", "level": 2, "number": "", "title": "MECL 10K 系列：", "line_start": 1842, "line_end": 1845, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_MECL_10KH_及_MECL_100K_系列", "level": 2, "number": "", "title": "MECL 10KH 及 MECL 100K 系列：", "line_start": 1846, "line_end": 1855, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_6", "level": 2, "number": "3.6", "title": "Bi-CMOS 电路", "line_start": 1856, "line_end": 1863, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_6_1", "level": 2, "number": "3.6.1", "title": "Bi-CMOS 电路的基本结构和工作原理", "line_start": 1864, "line_end": 1885, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_6_2", "level": 2, "number": "3.6.2", "title": "Bi-CMOS 集成电路的各种系列", "line_start": 1886, "line_end": 1891, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "ABT 系列：", "line_start": 1892, "line_end": 1895, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "ALB 系列：", "line_start": 1896, "line_end": 1899, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_74", "level": 2, "number": "74", "title": "ALVT 系列：", "line_start": 1900, "line_end": 1913, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_7", "level": 2, "number": "3.7", "title": "不同类型数字集成电路间的接口", "line_start": 1914, "line_end": 1919, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_7_1", "level": 2, "number": "3.7.1", "title": "CMOS 电路和 TTL 电路的接口", "line_start": 1920, "line_end": 1953, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_一_用TTL电路驱动CMOS电路", "level": 2, "number": "", "title": "一、用TTL电路驱动CMOS电路", "line_start": 1954, "line_end": 1982, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_二_用_CMOS_电路驱动_TTL_电路", "level": 2, "number": "", "title": "二、用 CMOS 电路驱动 TTL 电路", "line_start": 1983, "line_end": 1992, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_3_7_2", "level": 2, "number": "3.7.2", "title": "不同逻辑电平电路间的接口", "line_start": 1993, "line_end": 2033, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_summary_end", "level": 2, "number": "summary_end", "title": "本章小结", "line_start": 2034, "line_end": 2066, "parent_id": "ch03_sec_review", "children": []}
+{"section_id": "ch03_sec_exercises", "level": 2, "number": "exercises", "title": "章末习题", "line_start": 2067, "line_end": 2244, "parent_id": "ch03_sec_review", "children": []}

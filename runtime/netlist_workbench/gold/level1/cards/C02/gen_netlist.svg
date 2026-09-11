@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="307" height="302.5">
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .portlabel {
+    font-size: 11px;
+  }
+  .outPortLabel {
+    text-anchor: start;
+    font-size: 11px;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="not" transform="translate(70,160.5)" s:width="30" s:height="20" id="cell_c0">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_c0"/>
+    <circle cx="23" cy="10" r="3" class="cell_c0"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(70,215.5)" s:width="30" s:height="20" id="cell_c1">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_c1"/>
+    <circle cx="23" cy="10" r="3" class="cell_c1"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="not" transform="translate(70,270.5)" s:width="30" s:height="20" id="cell_c2">
+    <s:alias val="$_NOT_"/>
+    <s:alias val="$not"/>
+    <s:alias val="$logic_not"/>
+    <path d="M0,0 L0,20 L20,10 Z" class="cell_c2"/>
+    <circle cx="23" cy="10" r="3" class="cell_c2"/>
+    <g s:x="0" s:y="10" s:pid="A"/>
+    <g s:x="25" s:y="10" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(135,13)" s:width="30" s:height="25" id="cell_c3">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_c3"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_c3"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(135,73)" s:width="30" s:height="25" id="cell_c4">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_c4"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_c4"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(135,133.5)" s:width="30" s:height="25" id="cell_c5">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_c5"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_c5"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="nand3" transform="translate(135,205.5)" s:width="36" s:height="40" id="cell_c6">
+    <s:alias val="$_NAND3_"/>
+    <path d="M0,0 L0,40 L15,40 A15 20 0 0 0 15,0 Z" class="cell_c6"/>
+    <circle cx="34" cy="20" r="3" class="cell_c6"/>
+    <g s:x="0" s:y="6" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="0" s:y="34" s:pid="C"/>
+    <g s:x="36" s:y="20" s:pid="Y"/>
+  </g>
+  <g s:type="nand4" transform="translate(206,66.5)" s:width="36" s:height="52" id="cell_c7">
+    <s:alias val="$_NAND4_"/>
+    <path d="M0,0 L0,52 L15,52 A15 26 0 0 0 15,0 Z" class="cell_c7"/>
+    <circle cx="34" cy="26" r="3" class="cell_c7"/>
+    <g s:x="0" s:y="6" s:pid="A"/>
+    <g s:x="0" s:y="19" s:pid="B"/>
+    <g s:x="0" s:y="33" s:pid="C"/>
+    <g s:x="0" s:y="46" s:pid="D"/>
+    <g s:x="36" s:y="26" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,12)" s:width="18" s:height="12" id="cell_R">
+    <text x="-3" y="9.5" class="portlabel inputPortLabel cell_R" s:attribute="ref">R</text>
+    <s:alias val="$_inputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_R"/>
+    <g s:x="18" s:y="6" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,72)" s:width="18" s:height="12" id="cell_A">
+    <text x="-3" y="9.5" class="portlabel inputPortLabel cell_A" s:attribute="ref">A</text>
+    <s:alias val="$_inputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_A"/>
+    <g s:x="18" s:y="6" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,121.5)" s:width="18" s:height="12" id="cell_G">
+    <text x="-3" y="9.5" class="portlabel inputPortLabel cell_G" s:attribute="ref">G</text>
+    <s:alias val="$_inputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_G"/>
+    <g s:x="18" s:y="6" s:pid="Y"/>
+  </g>
+  <g s:type="outputExt" transform="translate(277,86.5)" s:width="18" s:height="12" id="cell_Z">
+    <text x="21" y="9.5" class="outPortLabel cell_Z" s:attribute="ref">Z</text>
+    <s:alias val="$_outputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_Z"/>
+    <g s:x="0" s:y="6" s:pid="A"/>
+  </g>
+  <line x1="30" x2="60" y1="18" y2="18" class="net_2"/>
+  <line x1="60" x2="60" y1="18" y2="170.5" class="net_2"/>
+  <circle cx="60" cy="18" r="2" style="fill:#000" class="net_2"/>
+  <line x1="60" x2="70" y1="170.5" y2="170.5" class="net_2"/>
+  <line x1="30" x2="135" y1="18" y2="18" class="net_2"/>
+  <line x1="30" x2="60" y1="18" y2="18" class="net_2"/>
+  <line x1="60" x2="60" y1="18" y2="138.5" class="net_2"/>
+  <circle cx="60" cy="138.5" r="2" style="fill:#000" class="net_2"/>
+  <line x1="60" x2="135" y1="138.5" y2="138.5" class="net_2"/>
+  <line x1="30" x2="40" y1="78" y2="78" class="net_3"/>
+  <line x1="40" x2="40" y1="78" y2="225.5" class="net_3"/>
+  <circle cx="40" cy="78" r="2" style="fill:#000" class="net_3"/>
+  <line x1="40" x2="70" y1="225.5" y2="225.5" class="net_3"/>
+  <line x1="30" x2="110" y1="78" y2="78" class="net_3"/>
+  <line x1="110" x2="110" y1="78" y2="33" class="net_3"/>
+  <circle cx="110" cy="78" r="2" style="fill:#000" class="net_3"/>
+  <line x1="110" x2="135" y1="33" y2="33" class="net_3"/>
+  <line x1="30" x2="135" y1="78" y2="78" class="net_3"/>
+  <line x1="30" x2="50" y1="127.5" y2="127.5" class="net_4"/>
+  <line x1="50" x2="50" y1="127.5" y2="280.5" class="net_4"/>
+  <circle cx="50" cy="127.5" r="2" style="fill:#000" class="net_4"/>
+  <line x1="50" x2="70" y1="280.5" y2="280.5" class="net_4"/>
+  <line x1="30" x2="110" y1="127.5" y2="127.5" class="net_4"/>
+  <line x1="110" x2="110" y1="127.5" y2="93" class="net_4"/>
+  <line x1="110" x2="135" y1="93" y2="93" class="net_4"/>
+  <line x1="30" x2="50" y1="127.5" y2="127.5" class="net_4"/>
+  <line x1="50" x2="50" y1="127.5" y2="149.5" class="net_4"/>
+  <line x1="50" x2="110" y1="149.5" y2="149.5" class="net_4"/>
+  <line x1="110" x2="110" y1="149.5" y2="153.5" class="net_4"/>
+  <circle cx="50" cy="149.5" r="2" style="fill:#000" class="net_4"/>
+  <line x1="110" x2="135" y1="153.5" y2="153.5" class="net_4"/>
+  <line x1="95" x2="110" y1="170.5" y2="170.5" class="net_5"/>
+  <line x1="110" x2="110" y1="170.5" y2="211.5" class="net_5"/>
+  <line x1="110" x2="135" y1="211.5" y2="211.5" class="net_5"/>
+  <line x1="95" x2="135" y1="225.5" y2="225.5" class="net_6"/>
+  <line x1="95" x2="110" y1="280.5" y2="280.5" class="net_7"/>
+  <line x1="110" x2="110" y1="280.5" y2="239.5" class="net_7"/>
+  <line x1="110" x2="135" y1="239.5" y2="239.5" class="net_7"/>
+  <line x1="171" x2="181" y1="25.5" y2="25.5" class="net_8"/>
+  <line x1="181" x2="181" y1="25.5" y2="72.5" class="net_8"/>
+  <line x1="181" x2="206" y1="72.5" y2="72.5" class="net_8"/>
+  <line x1="171" x2="206" y1="85.5" y2="85.5" class="net_9"/>
+  <line x1="171" x2="181" y1="146" y2="146" class="net_10"/>
+  <line x1="181" x2="181" y1="146" y2="99.5" class="net_10"/>
+  <line x1="181" x2="206" y1="99.5" y2="99.5" class="net_10"/>
+  <line x1="171" x2="191" y1="225.5" y2="225.5" class="net_11"/>
+  <line x1="191" x2="191" y1="225.5" y2="112.5" class="net_11"/>
+  <line x1="191" x2="206" y1="112.5" y2="112.5" class="net_11"/>
+  <line x1="242" x2="277" y1="92.5" y2="92.5" class="net_12"/>
+</svg>

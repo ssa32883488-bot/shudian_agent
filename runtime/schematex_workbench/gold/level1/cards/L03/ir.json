@@ -1,0 +1,16 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "xor_nor",
+  "inputs": ["A", "B"],
+  "gates": {
+    "G1": { "type": "NOR", "inputs": ["A", "B"] },
+    "nA": { "type": "NOT", "inputs": ["A"] },
+    "nB": { "type": "NOT", "inputs": ["B"] },
+    "G2": { "type": "NOR", "inputs": ["nA", "nB"] },
+    "Y": { "type": "NOR", "inputs": ["G1", "G2"] }
+  },
+  "outputs": { "Y": "Y" },
+  "notes": "图2.5.5：Y=((A+B)'+(A'+B')')'=A⊕B"
+}

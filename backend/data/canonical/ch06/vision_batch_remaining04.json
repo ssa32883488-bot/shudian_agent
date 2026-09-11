@@ -1,0 +1,12 @@
+{
+  "图6(16)|images/3b920f8cf7d8171c83e9ce25e1960a48442b2f80e25ef10f3f19776cc871fad9.jpg": "四变量卡诺图AB×Q1Q0：含0/1/×；横圈顶行×与1，2×2圈含底行1与多处×，用于激励化简。",
+  "图6(17)|images/ccaf6877cbc1b5ed315ab415072386799ae9b287dfb4389bb245ff2fb2fe51d6.jpg": "Q0*四变量卡诺图：圈得A'B'Q0与AQ1'Q0'，化简Q0*=AQ1'Q0'+A'B'Q0。",
+  "图6(18)|images/3e0b0d19fdf96d32f4cd1aef38e361de865c60cb3ade28785acb7146da251a80.jpg": "四变量卡诺图AB×D1D0：两处2×2圈分别覆盖左列与右下区域，含1与×用于化简。",
+  "图6(19)|images/032c848fccf7dbb98320043e96dbf4745b13ac7b3c78780ebe918ff97ba9c12a.jpg": "同步状态机：组合与非/非门驱动两只D触发器Q0、Q1；输入A/B、CLK，按钮AN与电阻R复位，输出Y。",
+  "图6(20)|images/2880226ed5dfbd00fd5fce0bedba0fe833abdb2c4503ae9aa3946ed2c416d55f.jpg": "四态Mealy状态图00/01/10/11：弧标AB/Y，给出各输入组合下的转移与输出。",
+  "图6(21)|images/81f6b3342c3cd262c728235a56739ecc75bfeddec6148f12d38067654f2decb5.jpg": "74LS160电路：D端接地，EP/ET/LD接1；四输入与门反馈异步清零RD，另一与门译码得Y。",
+  "图6(22)|images/92ec1cd1382e96602c01f895a916c136a6d781d1648b97bcfb896b7333939231.jpg": "十进制计数状态图S0–S9：仅S9→S0时C=1；另有S6、S7指向S0的复位/特殊跳转。",
+  "图6(23)|images/906f07a04bb41baccb5c2e28e21481d1c4308e6d2b5bdf7be824b766aabdd889.jpg": "(a)74LS161A：D端接地，C经非门回LD；(b)十六进制环S0–S15，仅S15→S0时C=1。",
+  "图6(24)|images/4c167e78419ca0dfae5d0e989605df00ba6eb637682cd8747aa785e67c14d03e.jpg": "两片74LS160同步级联：片1进位接片2使能；与/与非门译码反馈两片LD，经非门得Y。",
+  "图6(25)|images/84e8082a4575801312df8c80ccc6ab49d6aa0c5b183479f86dc7dc0d203d9dc7.jpg": "两片74LS160级联：各片与门检态经非门回LD，D端接地；片1检测兼控片2使能，与门输出Y。"
+}

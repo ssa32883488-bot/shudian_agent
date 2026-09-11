@@ -1,0 +1,154 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "F03": {
+      "ports": {
+        "S": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [
+            7
+          ]
+        },
+        "Qn": {
+          "direction": "output",
+          "bits": [
+            8
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              5
+            ],
+            "B": [
+              8
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              7
+            ],
+            "Y": [
+              8
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "S": {
+          "bits": [
+            2
+          ]
+        },
+        "R": {
+          "bits": [
+            3
+          ]
+        },
+        "CLK": {
+          "bits": [
+            4
+          ]
+        },
+        "G3": {
+          "bits": [
+            5
+          ]
+        },
+        "G4": {
+          "bits": [
+            6
+          ]
+        },
+        "G1": {
+          "bits": [
+            7
+          ]
+        },
+        "G2": {
+          "bits": [
+            8
+          ]
+        }
+      }
+    }
+  }
+}

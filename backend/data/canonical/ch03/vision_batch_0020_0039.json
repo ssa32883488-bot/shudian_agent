@@ -1,0 +1,22 @@
+{
+  "图3.3.4|images/d4eb77d18aa7617dd9ce12bc1114efbcd2e39fab4af8cb1817aec575f4ec2283.jpg": "左侧为N沟道增强型MOS开关：漏极经RD接+VDD，源极接地，栅极接vI，漏极取vO；右侧为对应剖面结构及电极偏置。",
+  "图3.3.5(a)|images/1cf3819998b2cefce776149edd69e9a0007bf8f28473782becfbf9315f282516.jpg": "MOS管截止等效电路：栅源间有电容C1，漏源间为断开开关，源极接地，表示沟道关断时的开关模型。",
+  "图3.3.5(b)|images/1f76bcf92b8f7d7ddbe76d9e43685578557a2efa37accaefc4a39933902c59e6.jpg": "MOS管导通等效电路：栅源间仍为输入电容CI，漏源间接导通电阻RON，源极接地，表示开启后的电阻开关模型。",
+  "图3.3.6|images/269baebc81a0d1709439ccbb993f99aa2ce0c0a4fd1d78acccb37355c3bc406e.jpg": "P沟道增强型MOS管：N型衬底上两P+区为源、漏，栅下为SiO2；标准符号衬底箭头向外且沟道虚线，简化符号栅极带小圆圈。",
+  "图3.3.7|images/e1548f335bd6dd4c1cb5df420feb09f6715d7bfe14a6204a9a69fbc43ebfe59f.jpg": "P沟道增强型MOS管漏极特性：曲线位于第三象限，vGS为−2V至−5V，|iD|随|vDS|与|vGS|增大而增大，虚线区分可变电阻区与饱和区。",
+  "图3.3.8|images/577aaf2b98a0bd4f16e4a0c23d9f54c37a6cb46f18ec47fce65a4776aa86306a.jpg": "P沟道增强型MOS开关电路：源极接地，漏极经RD接负电源−VDD，栅极输入vI，漏极输出vO，并标注漏极电流iD。",
+  "图3.3.9|images/0714959d216ace5ae3a333c6bc6abff00487e83ca16d6a5650cad8b4dde0d1b8.jpg": "图中并列给出N沟道与P沟道MOS管的标准四端符号与简化三端符号；N沟道衬底箭头向内，P沟道箭头向外，简化P管栅极带小圆圈。",
+  "图3.3.11(a)|images/ceedf79be6080b62b89eae6f86ddf8dfeb10a8d7c762561e1bd867c1bff6ba02.jpg": "CMOS反相器剖面：左侧P阱中为NMOS，右侧N衬底上为PMOS；两管栅极相连为vI，漏极相连为vO，NMOS源接地、PMOS源接VDD。",
+  "图3.3.11(b)|images/eba26a6274d11d9c23be0ba0c851db6d2491ee79d53def8d0b4f3be726fcc1f1.jpg": "CMOS反相器电路：上方PMOS管T1源极接VDD，下方NMOS管T2源极接VSS/地，两管栅极共接输入vI、漏极共接输出vO，并标电流iD。",
+  "图3.3.11(c)|images/a338c804360d68e2ba7fbe2a92e9c8c40dfa4da4805bc78cc0fd11f1b223b366.jpg": "输入为低电平vI=VIL时的开关等效：上管开关闭合将vO接至VDD，下管开关断开，故输出高电平vO=VOH=VDD。",
+  "图3.3.11(d)|images/34e2e5626aa04717b2432db50fe6c2167aadcf99d2f8d85ee99b228b2f6f304b.jpg": "输入高电平vI=VIH时的开关等效：上管开关断开，下管开关闭合将vO接地，故输出低电平vO=VOL=0。",
+  "图3.3.12|images/9d5cc4023d702fd7a9eec1b8fbd10f3ccc8f868795ebfa7af60226c08ef76183.jpg": "电压传输曲线：横轴vI、纵轴vO自0至VDD；A–B段输出保持VDD，过VGS(th)N后陡降并过中点(VDD/2,VDD/2)，高于VDD−|VGS(th)P|后进入C–D低电平段。",
+  "图3.3.13|images/d90f9e1c8a44bd42c6eb67da41c74f885f45695551432450adf2aed726bc7634.jpg": "电流传输曲线：iD随vI呈钟形，仅在VGS(th)N与VDD−|VGS(th)P|之间两管同时导通时出现，并在vI≈VDD/2处达峰值。",
+  "图3.3.14|images/da0fc620c66fdd24ecb893b4ccb5d5e18035a881155f45257eda57471e462dd9.jpg": "噪声容限示意：左侧vO标VOH(min)、VOL(max)，右侧vI标VIH(min)、VIL(max)；其间为高电平容限VNH与低电平容限VNL，底部为两级联反相器。",
+  "图3.3.15(a)|images/538ace24566a5f6e4b0fce01c4addf01591b647b4dc3c89a853614ea9b77332f.jpg": "不同电源下的电压传输特性：分别给出VDD=15V与10V的vO–vI曲线，并在各曲线上标出对应的低、高电平噪声容限VNL、VNH及V′NL、V′NH。",
+  "图3.3.15(b)|images/30c9a9ac9e08159fbe2020d0ec66244b1872d789d6d2d843277d18be42b5b41a.jpg": "噪声容限随VDD变化：上阴影区介于VDD−0.1V与0.7VDD之间表示VNH，下阴影区介于0.3VDD与VSS+0.1V之间表示VNL，均随电源近似线性增大。",
+  "图3.3.16(a)|images/a6d11027f558c69dfb3cd7b98f4a1c858150e540daceb51cf371259790717751.jpg": "输入保护：vI先经钳位二极管D1、D2，再经限流电阻RS至栅极节点vG；PMOS管T1与NMOS管T2构成反相器，并标栅极电容C1、C2，输出为vO。",
+  "图3.3.16(b)|images/a99e267e01b86121f3eb314c663ceeee6d56173b1bdec7585e1a9c9fa02bccad.jpg": "带保护网络的反相器：输入经RS后由D1、D2钳位到栅极节点vG，T1、T2互补输出vO，并标出对VDD与地的等效电容。",
+  "图3.3.16(c)|images/b0a90857e8020a65ff99593a66671a08e24ebe21e39f471626354215efadbe64.jpg": "反相器逻辑符号输入侧并联电阻R1与电容C1到地，表示输入等效RC网络，输出端带反相小圆圈。",
+  "图3.3.17(a)|images/6dd267333fe07d53e9c85469d637decc58c02ed354316ad21bc1a0935ed9082f.jpg": "输入特性：iI随vI变化，在约−0.7V至VDD+0.7V范围内电流近似为零；超出该范围后保护二极管导通，|iI|急剧增大。"
+}

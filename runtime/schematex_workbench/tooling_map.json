@@ -1,0 +1,152 @@
+{
+  "version": 2,
+  "updated": "2026-09-08",
+  "workflow": {
+    "entry": "draw_with_workflow",
+    "compat_entry": "draw_diagram",
+    "package": "shudian_agent/backend/app/tools/draw_workflow",
+    "flow": [
+      "入参 (diagram_kind?, brief, slots?, script?)",
+      "路由分发 resolve_kind",
+      "加载 skill/*.md",
+      "LLM 生成 IR/参数 JSON（可跳过若已有 script/slots）",
+      "结构校验 verify_structure",
+      "驱动引擎 runners.dispatch_runner",
+      "失败则反馈重试（最多 3 次）",
+      "输出 ToolResult SVG"
+    ],
+    "kinds": [
+      "logic_dag",
+      "timing_wave",
+      "state_machine",
+      "truth_table",
+      "kmap",
+      "seven_seg",
+      "char_curve",
+      "design_circuit"
+    ],
+    "max_fix": 3
+  },
+  "level1": {
+    "logic_dag": {
+      "prefixes": ["L", "C", "F"],
+      "count": 30,
+      "ir": "logic_ir_v1",
+      "primary_tool": "netlistsvg",
+      "workbench": "netlist_workbench",
+      "runtime_render": "netlist_workbench/scripts/render_ir.mjs",
+      "pipeline": [
+        "schematex_workbench/gold/level1/cards/{id}/ir.json",
+        "netlist_workbench/lib/sim_logic_ir.mjs",
+        "netlist_workbench/lib/ir_to_yosys_json.mjs",
+        "netlistsvg + skins/textbook.svg"
+      ],
+      "output": ["gen_netlist.svg", "gen.svg"],
+      "gold_gallery": "netlist_workbench/gold/level1/review_gallery.html",
+      "gold_format": "课本原图 | IR | netlistsvg 自动布线",
+      "gold_exemplar": "C07 · 图4.7.4 全加器",
+      "acceptance": "netlist_workbench/gold/level1/acceptance.json",
+      "status": "accepted",
+      "overview_gallery": "schematex_workbench/gold/level1/review_gallery.html",
+      "deprecated": {
+        "tool": "renderers/tbx_logic.mjs",
+        "dsl": "gold.tbx",
+        "reason": "手调坐标 TBX 已弃用，统一 netlistsvg 自动布线"
+      },
+      "limits": {
+        "sim_skip": {
+          "cyclic": ["F01", "F02", "F03", "F04"],
+          "msi": ["C08", "C09"],
+          "sequential": ["F07", "F08", "F10"]
+        },
+        "render_pending_skin": ["F05", "F06", "F09"],
+        "notes": "JKFF/LATCH 待 skin；DECODER 为 stub 占位可出图但无译码器符号"
+      }
+    },
+    "timing_wave": {
+      "prefixes": ["W"],
+      "count": 10,
+      "ir": "wave_ir_v1",
+      "primary_tool": "wave_ir_to_svg",
+      "workbench": "schematex_workbench",
+      "runtime_render": "schematex_workbench/scripts/render_wave_ir.mjs",
+      "status": "accepted",
+      "gallery": "schematex_workbench/gold/level1/review_gallery.html",
+      "rebuild": "cd schematex_workbench && npm run build-review-gallery",
+      "notes": "仅 schematex_workbench；W01–W10 在 50 卡总廊内"
+    },
+    "state_machine": {
+      "prefixes": ["S"],
+      "count": 10,
+      "ir": "state_ir_v1",
+      "primary_tool": "state_ir_to_svg",
+      "workbench": "schematex_workbench",
+      "runtime_render": "schematex_workbench/scripts/render_state_ir.mjs",
+      "acceptance": "gold/level1/state_opt/acceptance.json",
+      "status": "accepted"
+    }
+  },
+  "tier_b": {
+    "truth_table": {
+      "primary_tool": "draw_truth_table",
+      "workbench": "shudian_agent/backend",
+      "engine": "svg_table",
+      "acceptance": "gold/tier_b/truth_kmap/acceptance.json",
+      "gallery": "gold/tier_b/truth_kmap/review_gallery.html",
+      "rebuild": "python scripts/build_truth_kmap_gallery.py",
+      "status": "accepted"
+    },
+    "kmap": {
+      "primary_tool": "draw_kmap",
+      "workbench": "shudian_agent/backend",
+      "engine": "svg_kmap",
+      "acceptance": "gold/tier_b/truth_kmap/acceptance.json",
+      "gallery": "gold/tier_b/truth_kmap/review_gallery.html",
+      "rebuild": "python scripts/build_truth_kmap_gallery.py",
+      "status": "accepted",
+      "limits": { "var_count": [2, 3, 4] }
+    },
+    "seven_seg": {
+      "primary_tool": "draw_seven_seg",
+      "workbench": "shudian_agent/backend",
+      "engine": "svg_seven_seg",
+      "style": "textbook_white",
+      "acceptance": "gold/tier_b/seven_curve/acceptance.json",
+      "gallery": "gold/tier_b/seven_curve/review_gallery.html",
+      "rebuild": "python scripts/build_seven_curve_gallery.py",
+      "status": "accepted"
+    },
+    "char_curve": {
+      "primary_tool": "draw_char_curve",
+      "workbench": "shudian_agent/backend",
+      "engine": "matplotlib_vtc",
+      "backend": "matplotlib",
+      "acceptance": "gold/tier_b/seven_curve/acceptance.json",
+      "gallery": "gold/tier_b/seven_curve/review_gallery.html",
+      "rebuild": "python scripts/build_seven_curve_gallery.py",
+      "status": "accepted",
+      "curves": ["ttl_vtc", "cmos_vtc"]
+    },
+    "design_circuit": {
+      "primary_tool": "tscircuit",
+      "workbench": "tscircuit_workbench",
+      "engine": "tscircuit + circuit-to-svg",
+      "secondary_sim": "CircuitVerse (planned)",
+      "status": "migrating",
+      "notes": "已放弃自研 layout/ELK/JointJS；LLM→语义→tscircuit 出图",
+      "smoke_gallery": "tscircuit_workbench/out/fig_A4_12/accept.html",
+      "rebuild": "cd tscircuit_workbench && npx bun@1.2.16 scripts/build_accept_a4_12.tsx"
+    }
+  },
+  "shelved": {
+    "block_struct": "正常做题少见，绘制流水线已删除",
+    "circuit_netlist": "自动布局不适合教材原理图，已搁置"
+  },
+  "npm": {
+    "logic": "cd netlist_workbench && npm run all",
+    "state": "cd schematex_workbench && npm run rebuild-state-accepted",
+    "gallery_50": "cd schematex_workbench && npm run build-review-gallery",
+    "tier_b_truth_kmap": "cd shudian_agent/backend && .venv/Scripts/python.exe scripts/build_truth_kmap_gallery.py",
+    "tier_b_seven_curve": "cd shudian_agent/backend && .venv/Scripts/python.exe scripts/build_seven_curve_gallery.py"
+  }
+}

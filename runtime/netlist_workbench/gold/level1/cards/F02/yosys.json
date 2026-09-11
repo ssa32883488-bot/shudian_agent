@@ -1,0 +1,95 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "F02": {
+      "ports": {
+        "SDn": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "RDn": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [
+            4
+          ]
+        },
+        "Qn": {
+          "direction": "output",
+          "bits": [
+            5
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              5
+            ],
+            "Y": [
+              4
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              5
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "SDn": {
+          "bits": [
+            2
+          ]
+        },
+        "RDn": {
+          "bits": [
+            3
+          ]
+        },
+        "G1": {
+          "bits": [
+            4
+          ]
+        },
+        "G2": {
+          "bits": [
+            5
+          ]
+        }
+      }
+    }
+  }
+}

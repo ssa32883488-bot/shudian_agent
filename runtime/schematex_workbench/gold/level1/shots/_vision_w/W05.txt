@@ -1,0 +1,6 @@
+﻿Based on the timing diagram provided, here are the extracted signals:
+
+**CLK: 00110011**
+**D: 11000101**
+**Q: 00100010**
+**Q': 11011101**

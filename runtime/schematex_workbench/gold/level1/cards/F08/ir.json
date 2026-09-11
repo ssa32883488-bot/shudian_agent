@@ -1,0 +1,48 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "shift_reg_4",
+  "inputs": [
+    "D_I",
+    "CLK"
+  ],
+  "gates": {
+    "Q0": {
+      "type": "DFF",
+      "inputs": [
+        "D_I",
+        "CLK"
+      ]
+    },
+    "Q1": {
+      "type": "DFF",
+      "inputs": [
+        "Q0",
+        "CLK"
+      ]
+    },
+    "Q2": {
+      "type": "DFF",
+      "inputs": [
+        "Q1",
+        "CLK"
+      ]
+    },
+    "Q3": {
+      "type": "DFF",
+      "inputs": [
+        "Q2",
+        "CLK"
+      ]
+    }
+  },
+  "outputs": {
+    "Q0": "Q0",
+    "Q1": "Q1",
+    "Q2": "Q2",
+    "Q3": "Q3",
+    "D_O": "Q3"
+  },
+  "notes": "图6.3.1：串行入 D_I、串行出 D_O；各级有 Q' 端"
+}

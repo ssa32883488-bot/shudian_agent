@@ -1,0 +1,144 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "C05": {
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "SEL": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [
+            8
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              5
+            ],
+            "B": [
+              7
+            ],
+            "Y": [
+              8
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "bits": [
+            2
+          ]
+        },
+        "SEL": {
+          "bits": [
+            3
+          ]
+        },
+        "B": {
+          "bits": [
+            4
+          ]
+        },
+        "G1": {
+          "bits": [
+            5
+          ]
+        },
+        "G2": {
+          "bits": [
+            6
+          ]
+        },
+        "G3": {
+          "bits": [
+            7
+          ]
+        },
+        "Y": {
+          "bits": [
+            8
+          ]
+        }
+      }
+    }
+  }
+}

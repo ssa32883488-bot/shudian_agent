@@ -1,0 +1,36 @@
+{
+  "schema_version": "state_ir_v1",
+  "diagram_type": "state",
+  "layout": "free",
+  "title": "fig_6_4_26",
+  "legend": {
+    "state_label": "Q1Q2Q3",
+    "style": "text",
+    "position": [168, 42]
+  },
+  "states": ["100", "000", "001", "010", "111", "011", "101", "110"],
+  "positions": {
+    "100": [210, 50],
+    "000": [350, 50],
+    "001": [210, 125],
+    "010": [350, 125],
+    "111": [72, 200],
+    "011": [210, 200],
+    "101": [350, 200],
+    "110": [280, 275]
+  },
+  "transitions": [
+    { "from": "001", "to": "100", "label": "" },
+    { "from": "100", "to": "010", "label": "" },
+    { "from": "010", "to": "001", "label": "" },
+    { "from": "000", "to": "100", "label": "" },
+    { "from": "111", "to": "011", "label": "", "style": "dashed" },
+    { "from": "011", "to": "001", "label": "", "style": "dashed" },
+    { "from": "101", "to": "010", "label": "", "style": "dashed" },
+    { "from": "110", "to": "011", "label": "" },
+    { "from": "011", "to": "101", "label": "", "forbidden": true },
+    { "from": "101", "to": "110", "label": "", "forbidden": true },
+    { "from": "000", "to": "000", "label": "", "forbidden": true, "style": "dashed" },
+    { "from": "111", "to": "111", "label": "", "forbidden": true, "style": "dashed" }
+  ]
+}

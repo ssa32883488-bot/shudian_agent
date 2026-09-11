@@ -1,0 +1,40 @@
+% state_ir_v1 → TikZ (generated)
+\begin{document}
+\begin{tikzpicture}[
+  x=1pt, y=-1pt,
+  >=Stealth,
+  every node/.style={font=\rmfamily},
+  state/.style={circle, draw=black!75, line width=0.95pt, minimum size=52.0pt, inner sep=0pt, font=\bfseries},
+  every edge/.style={draw=black!75, line width=0.95pt},
+  edge label/.style={font=\rmfamily, fill=white, inner sep=1pt}
+]
+  \node[state] (sS0) at (70, 70) {S0};
+  \node[state] (sS1) at (180, 70) {S1};
+  \node[state] (sS2) at (290, 70) {S2};
+  \node[state] (sS3) at (400, 70) {S3};
+  \node[state] (sS4) at (510, 70) {S4};
+  \node[state] (sS5) at (620, 70) {S5};
+  \node[state] (sS6) at (730, 70) {S6};
+  \node[state] (sS7) at (620, 210) {S7};
+  \node[state] (sS8) at (510, 210) {S8};
+  \node[state] (sS9) at (400, 210) {S9};
+  \node[state] (sS10) at (290, 210) {S10};
+  \node[state] (sS11) at (180, 210) {S11};
+  \node[state] (sS12) at (70, 210) {S12};
+  \draw[->] (sS0) -- node[edge label, above] {/0} (sS1);
+  \draw[->] (sS1) -- node[edge label, above] {/0} (sS2);
+  \draw[->] (sS2) -- node[edge label, above] {/0} (sS3);
+  \draw[->] (sS3) -- node[edge label, above] {/0} (sS4);
+  \draw[->] (sS4) -- node[edge label, above] {/0} (sS5);
+  \draw[->] (sS5) -- node[edge label, above] {/0} (sS6);
+  \draw[->] (sS6) -- node[edge label, above left] {/0} (sS7);
+  \draw[->] (sS7) -- node[edge label, above] {/0} (sS8);
+  \draw[->] (sS8) -- node[edge label, above] {/0} (sS9);
+  \draw[->] (sS9) -- node[edge label, above] {/0} (sS10);
+  \draw[->] (sS10) -- node[edge label, above] {/0} (sS11);
+  \draw[->] (sS11) -- node[edge label, above] {/0} (sS12);
+  \draw[->] (sS12) -- node[edge label, right] {/1} (sS0);
+  \node[circle, draw=black!75, line width=0.95pt, minimum size=72pt, inner sep=0pt] (legend) at (830, 140) {};
+  \node at (830, 154) {/Y};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "mux2_1",
+  "inputs": [
+    "A",
+    "SEL",
+    "B"
+  ],
+  "gates": {
+    "G1": {
+      "type": "AND",
+      "inputs": [
+        "A",
+        "SEL"
+      ]
+    },
+    "G2": {
+      "type": "NOT",
+      "inputs": [
+        "SEL"
+      ]
+    },
+    "G3": {
+      "type": "AND",
+      "inputs": [
+        "G2",
+        "B"
+      ]
+    },
+    "Y": {
+      "type": "OR",
+      "inputs": [
+        "G1",
+        "G3"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "Y"
+  }
+}

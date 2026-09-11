@@ -1,0 +1,43 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "ms_d_ff",
+  "inputs": [
+    "D",
+    "CLK"
+  ],
+  "gates": {
+    "CLK1": {
+      "type": "NOT",
+      "inputs": [
+        "CLK"
+      ]
+    },
+    "CLK2": {
+      "type": "NOT",
+      "inputs": [
+        "CLK1"
+      ]
+    },
+    "FF1": {
+      "type": "LATCH_D",
+      "inputs": [
+        "D",
+        "CLK1"
+      ]
+    },
+    "FF2": {
+      "type": "LATCH_D",
+      "inputs": [
+        "FF1",
+        "CLK2"
+      ]
+    }
+  },
+  "outputs": {
+    "Q": "FF2",
+    "Q'": "FF2_bar"
+  },
+  "notes": "主从：CLK1=NOT(CLK)→FF1；CLK2=NOT(CLK1)→FF2；Q'为FF2互补端"
+}

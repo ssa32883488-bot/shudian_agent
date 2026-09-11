@@ -1,0 +1,47 @@
+{"section_id": "ch06_root", "level": 0, "number": "6", "title": "第06章 时序逻辑电路", "line_start": 1, "line_end": 1951, "parent_id": null, "children": ["ch06_sec_summary", "ch06_sec_6_1", "ch06_sec_review", "ch06_sec_6_2", "ch06_sec_6_2_1", "ch06_sec_6_2_2", "ch06_sec_一_状态转换表", "ch06_sec_二_状态转换图", "ch06_sec_三_状态机流程图_SM_图", "ch06_sec_四_时序图", "ch06_sec_review", "ch06_sec_6_2_3_异步时序逻辑电路的分析方法", "ch06_sec_6_3", "ch06_sec_6_3_1", "ch06_sec_review", "ch06_sec_6_3_2", "ch06_sec_一_同步计数器", "ch06_sec_二_异步计数器", "ch06_sec_三_任意进制计数器的构成方法", "ch06_sec_四_移位寄存器型计数器", "ch06_sec_review", "ch06_sec_6_3_3", "ch06_sec_6_3_4", "ch06_sec_6_4", "ch06_sec_6_4_1", "ch06_sec_一_逻辑抽象_得出电路的状态转换图或状态转换表", "ch06_sec_二_状态化简", "ch06_sec_三_状态分配", "ch06_sec_四_选定触发器的类型_求出电路的状态方程_驱动方程和输出方程", "ch06_sec_五_根据得到的方程式画出逻辑图", "ch06_sec_六_检查设计的电路能否自启动", "ch06_sec_review", "ch06_sec_6_4_2", "ch06_sec_6_4_3", "ch06_sec_6_4_4_复杂时序逻辑电路的设计", "ch06_sec_review", "ch06_sec_6_5", "ch06_sec_6_5_1", "ch06_sec_6_5_2", "ch06_sec_一_对触发器的描述", "ch06_sec_二_对时序逻辑电路的描述", "ch06_sec_同步状态转换模块", "ch06_sec_则开始根据电路目前的状态和输入跳转下一个状态", "ch06_sec_6_6", "ch06_sec_summary_end"]}
+{"section_id": "ch06_sec_summary", "level": 2, "number": "summary", "title": "内容提要", "line_start": 1, "line_end": 6, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_1", "level": 2, "number": "6.1", "title": "概述", "line_start": 7, "line_end": 50, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 51, "line_end": 56, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_2", "level": 2, "number": "6.2", "title": "时序逻辑电路的分析方法", "line_start": 57, "line_end": 58, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_2_1", "level": 2, "number": "6.2.1", "title": "同步时序逻辑电路的分析方法", "line_start": 59, "line_end": 97, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_2_2", "level": 2, "number": "6.2.2", "title": "时序逻辑电路的状态转换表、状态转换图、状态机流程图和时序图", "line_start": 98, "line_end": 103, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_一_状态转换表", "level": 2, "number": "", "title": "一、状态转换表", "line_start": 104, "line_end": 141, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_二_状态转换图", "level": 2, "number": "", "title": "二、状态转换图", "line_start": 142, "line_end": 186, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_三_状态机流程图_SM_图", "level": 2, "number": "", "title": "三、状态机流程图（SM 图）", "line_start": 187, "line_end": 212, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_四_时序图", "level": 2, "number": "", "title": "四、时序图", "line_start": 213, "line_end": 234, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 235, "line_end": 238, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_2_3_异步时序逻辑电路的分析方法", "level": 2, "number": "", "title": "*6.2.3 异步时序逻辑电路的分析方法", "line_start": 239, "line_end": 286, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_3", "level": 2, "number": "6.3", "title": "若干常用的时序逻辑电路", "line_start": 287, "line_end": 288, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_3_1", "level": 2, "number": "6.3.1", "title": "移位寄存器", "line_start": 289, "line_end": 368, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 369, "line_end": 374, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_3_2", "level": 2, "number": "6.3.2", "title": "计数器", "line_start": 375, "line_end": 386, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_一_同步计数器", "level": 2, "number": "", "title": "一、同步计数器", "line_start": 387, "line_end": 620, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_二_异步计数器", "level": 2, "number": "", "title": "二、异步计数器", "line_start": 621, "line_end": 685, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_三_任意进制计数器的构成方法", "level": 2, "number": "", "title": "三、任意进制计数器的构成方法", "line_start": 686, "line_end": 805, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_四_移位寄存器型计数器", "level": 2, "number": "", "title": "四、移位寄存器型计数器", "line_start": 806, "line_end": 874, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 875, "line_end": 882, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_3_3", "level": 2, "number": "6.3.3", "title": "顺序脉冲发生器", "line_start": 883, "line_end": 930, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_3_4", "level": 2, "number": "6.3.4", "title": "序列信号发生器", "line_start": 931, "line_end": 972, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_4", "level": 2, "number": "6.4", "title": "时序逻辑电路的设计方法", "line_start": 973, "line_end": 974, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_4_1", "level": 2, "number": "6.4.1", "title": "同步时序逻辑电路的设计方法", "line_start": 975, "line_end": 982, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_一_逻辑抽象_得出电路的状态转换图或状态转换表", "level": 2, "number": "", "title": "一、逻辑抽象，得出电路的状态转换图或状态转换表", "line_start": 983, "line_end": 994, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_二_状态化简", "level": 2, "number": "", "title": "二、状态化简", "line_start": 995, "line_end": 1000, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_三_状态分配", "level": 2, "number": "", "title": "三、状态分配", "line_start": 1001, "line_end": 1014, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_四_选定触发器的类型_求出电路的状态方程_驱动方程和输出方程", "level": 2, "number": "", "title": "四、选定触发器的类型，求出电路的状态方程、驱动方程和输出方程", "line_start": 1015, "line_end": 1020, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_五_根据得到的方程式画出逻辑图", "level": 2, "number": "", "title": "五、根据得到的方程式画出逻辑图", "line_start": 1021, "line_end": 1022, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_六_检查设计的电路能否自启动", "level": 2, "number": "", "title": "六、检查设计的电路能否自启动", "line_start": 1023, "line_end": 1259, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1260, "line_end": 1267, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_4_2", "level": 2, "number": "6.4.2", "title": "时序逻辑电路的自启动设计", "line_start": 1268, "line_end": 1394, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_4_3", "level": 2, "number": "6.4.3", "title": "异步时序逻辑电路的设计方法", "line_start": 1395, "line_end": 1481, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_4_4_复杂时序逻辑电路的设计", "level": 2, "number": "", "title": "*6.4.4 复杂时序逻辑电路的设计", "line_start": 1482, "line_end": 1513, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_review", "level": 2, "number": "review", "title": "复习思考题", "line_start": 1514, "line_end": 1517, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_5", "level": 2, "number": "6.5", "title": "用可编程逻辑器件实现同步时序逻辑电路", "line_start": 1518, "line_end": 1519, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_5_1", "level": 2, "number": "6.5.1", "title": "可以实现时序逻辑电路的可编程逻辑器件", "line_start": 1520, "line_end": 1527, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_5_2", "level": 2, "number": "6.5.2", "title": "用硬件描述语言 Verilog HDL 描述时序逻辑电路", "line_start": 1528, "line_end": 1531, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_一_对触发器的描述", "level": 2, "number": "", "title": "一、对触发器的描述", "line_start": 1532, "line_end": 1588, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_二_对时序逻辑电路的描述", "level": 2, "number": "", "title": "二、对时序逻辑电路的描述", "line_start": 1589, "line_end": 1659, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_同步状态转换模块", "level": 2, "number": "", "title": "//同步状态转换模块", "line_start": 1660, "line_end": 1669, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_则开始根据电路目前的状态和输入跳转下一个状态", "level": 2, "number": "", "title": "//则开始根据电路目前的状态和输入跳转下一个状态", "line_start": 1670, "line_end": 1723, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_6_6", "level": 2, "number": "6.6", "title": "时序逻辑电路中的竞争-冒险现象", "line_start": 1724, "line_end": 1790, "parent_id": "ch06_root", "children": []}
+{"section_id": "ch06_sec_summary_end", "level": 1, "number": "summary_end", "title": "本章小结", "line_start": 1791, "line_end": 1951, "parent_id": "ch06_root", "children": ["ch06_sec_exercises"]}
+{"section_id": "ch06_sec_exercises", "level": 2, "number": "exercises", "title": "章末习题", "line_start": 1809, "line_end": 1951, "parent_id": "ch06_sec_summary_end", "children": []}

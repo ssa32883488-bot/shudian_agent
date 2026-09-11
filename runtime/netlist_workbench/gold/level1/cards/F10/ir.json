@@ -1,0 +1,149 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "ex_6_4_3",
+  "inputs": [
+    "A",
+    "B",
+    "CLK",
+    "R_D'"
+  ],
+  "gates": {
+    "nA": {
+      "type": "NOT",
+      "inputs": [
+        "A"
+      ]
+    },
+    "nB": {
+      "type": "NOT",
+      "inputs": [
+        "B"
+      ]
+    },
+    "nQ1": {
+      "type": "NOT",
+      "inputs": [
+        "Q1"
+      ]
+    },
+    "nQ0": {
+      "type": "NOT",
+      "inputs": [
+        "Q0"
+      ]
+    },
+    "pD1a": {
+      "type": "AND3",
+      "inputs": [
+        "Q1",
+        "nA",
+        "nB"
+      ]
+    },
+    "pD1b": {
+      "type": "AND3",
+      "inputs": [
+        "nQ1",
+        "nQ0",
+        "A"
+      ]
+    },
+    "pD1c": {
+      "type": "AND",
+      "inputs": [
+        "Q0",
+        "B"
+      ]
+    },
+    "D1": {
+      "type": "OR3",
+      "inputs": [
+        "pD1a",
+        "pD1b",
+        "pD1c"
+      ]
+    },
+    "pD0a": {
+      "type": "AND3",
+      "inputs": [
+        "nQ1",
+        "nQ0",
+        "B"
+      ]
+    },
+    "pD0b": {
+      "type": "AND3",
+      "inputs": [
+        "Q0",
+        "nA",
+        "nB"
+      ]
+    },
+    "D0": {
+      "type": "OR",
+      "inputs": [
+        "pD0a",
+        "pD0b"
+      ]
+    },
+    "Q1": {
+      "type": "DFF",
+      "inputs": [
+        "D1",
+        "CLK"
+      ]
+    },
+    "Q0": {
+      "type": "DFF",
+      "inputs": [
+        "D0",
+        "CLK"
+      ]
+    },
+    "pY1": {
+      "type": "AND",
+      "inputs": [
+        "Q1",
+        "B"
+      ]
+    },
+    "pY2": {
+      "type": "AND",
+      "inputs": [
+        "Q1",
+        "A"
+      ]
+    },
+    "pY3": {
+      "type": "AND",
+      "inputs": [
+        "Q0",
+        "A"
+      ]
+    },
+    "Y": {
+      "type": "OR3",
+      "inputs": [
+        "pY1",
+        "pY2",
+        "pY3"
+      ]
+    },
+    "Z": {
+      "type": "AND",
+      "inputs": [
+        "Q1",
+        "A"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "Y",
+    "Z": "Z",
+    "Q1": "Q1",
+    "Q0": "Q0"
+  },
+  "notes": "式(6.4.11)(6.4.12)；含异步 R_D'；PLA 与或主结构（积项+或面+两DFF）"
+}

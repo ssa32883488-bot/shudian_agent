@@ -1,0 +1,23 @@
+{
+  "schema_version": "wave_ir_v1",
+  "diagram_type": "waveform",
+  "title": "fig_2_5_3",
+  "signals": [
+    {
+      "name": "A",
+      "wave": "00001111"
+    },
+    {
+      "name": "B",
+      "wave": "00110011"
+    },
+    {
+      "name": "C",
+      "wave": "01010101"
+    },
+    {
+      "name": "Y",
+      "wave": "00000111"
+    }
+  ]
+}

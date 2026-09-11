@@ -1,0 +1,31 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "referee",
+  "inputs": [
+    "A",
+    "B",
+    "C"
+  ],
+  "gates": {
+    "G1": {
+      "type": "OR",
+      "inputs": [
+        "B",
+        "C"
+      ]
+    },
+    "G2": {
+      "type": "AND",
+      "inputs": [
+        "A",
+        "G1"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "G2"
+  },
+  "notes": "Y=A*(B+C)"
+}

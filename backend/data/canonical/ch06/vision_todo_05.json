@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图6.5.1|images/29036c4f8a025c32711aa28d0cfca343a491f2f785680ead98bdace9ac098c5e.jpg",
+    "figure_id": "图6.5.1",
+    "caption": "时序逻辑型PLA",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\29036c4f8a025c32711aa28d0cfca343a491f2f785680ead98bdace9ac098c5e.jpg"
+  },
+  {
+    "key": "图6.5.2|images/979279a687d7f1f72f644cedf948715f04ca9eec092ce72729b05267903e0013.jpg",
+    "figure_id": "图6.5.2",
+    "caption": "图6.5.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\979279a687d7f1f72f644cedf948715f04ca9eec092ce72729b05267903e0013.jpg"
+  },
+  {
+    "key": "图6.6.1|images/d39262de87544d7c3eda4247868baf3522681728fb3a75f3b33c2dca5ec1bf1b.jpg",
+    "figure_id": "图6.6.1",
+    "caption": "说明时序电路竞争-冒险现象的例子",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d39262de87544d7c3eda4247868baf3522681728fb3a75f3b33c2dca5ec1bf1b.jpg"
+  },
+  {
+    "key": "图6.6.2|images/c8f01a4903253743c916660983754e0636602f9b475ee1f65b3de68496cdd471.jpg",
+    "figure_id": "图6.6.2",
+    "caption": "图 6.6.1 电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c8f01a4903253743c916660983754e0636602f9b475ee1f65b3de68496cdd471.jpg"
+  },
+  {
+    "key": "图6.6.3(a)|images/65daf91fa22dc3cee03889428e54d4d9bbc4e866376300d7e935e3a8fc7da7f4.jpg",
+    "figure_id": "图6.6.3(a)",
+    "caption": "移位寄存器中的时钟偏移现象 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\65daf91fa22dc3cee03889428e54d4d9bbc4e866376300d7e935e3a8fc7da7f4.jpg"
+  },
+  {
+    "key": "图6.6.3(b)|images/f14a7dc34e9fe1d29ffff09abcd259eea92e6609f8808c5c172c12d904cca01b.jpg",
+    "figure_id": "图6.6.3(b)",
+    "caption": "移位寄存器中的时钟偏移现象 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f14a7dc34e9fe1d29ffff09abcd259eea92e6609f8808c5c172c12d904cca01b.jpg"
+  },
+  {
+    "key": "图6.6.4(a)|images/166616688cfdc623802b2ee2ccd62da99490cede524ba78aa6adcd6ddd87ac22.jpg",
+    "figure_id": "图6.6.4(a)",
+    "caption": "防止移位寄存器错移的方法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\166616688cfdc623802b2ee2ccd62da99490cede524ba78aa6adcd6ddd87ac22.jpg"
+  },
+  {
+    "key": "图6.6.4(b)|images/ccfc0363c122386959051c026f18635dfa426d327711397e74952fcff0fa3d6b.jpg",
+    "figure_id": "图6.6.4(b)",
+    "caption": "防止移位寄存器错移的方法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ccfc0363c122386959051c026f18635dfa426d327711397e74952fcff0fa3d6b.jpg"
+  },
+  {
+    "key": "图P6.1_0|images/7c86340b1de2ccacf03df68a6aab7a31793009e606085fa1ef9aaebdd8fd471a.jpg",
+    "figure_id": "图P6.1",
+    "caption": "图P6.1",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7c86340b1de2ccacf03df68a6aab7a31793009e606085fa1ef9aaebdd8fd471a.jpg"
+  },
+  {
+    "key": "图P6.1_1|images/2a0978c34b05de3a0a361c7a8c14aa9ffda6bebdfd63c704fb15b9b689249c90.jpg",
+    "figure_id": "图P6.1",
+    "caption": "图P6.1",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2a0978c34b05de3a0a361c7a8c14aa9ffda6bebdfd63c704fb15b9b689249c90.jpg"
+  },
+  {
+    "key": "图P6.2|images/2a4b7940f08b615170632a8e884239e6d5675040fdca836f613f03a6ed3c4a87.jpg",
+    "figure_id": "图P6.2",
+    "caption": "图 P6.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2a4b7940f08b615170632a8e884239e6d5675040fdca836f613f03a6ed3c4a87.jpg"
+  },
+  {
+    "key": "图P6.3|images/b087cbdf530f0217d4408734d025fb83e93e5b9e551a562a4cb7ee4231da8b74.jpg",
+    "figure_id": "图P6.3",
+    "caption": "图 P6.3",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b087cbdf530f0217d4408734d025fb83e93e5b9e551a562a4cb7ee4231da8b74.jpg"
+  },
+  {
+    "key": "图P6.4|images/e0dafdd0918cb3e31efd8fc3704add0d94811b3d7c758ca4f1e748e238cebd0b.jpg",
+    "figure_id": "图P6.4",
+    "caption": "图P6.4",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e0dafdd0918cb3e31efd8fc3704add0d94811b3d7c758ca4f1e748e238cebd0b.jpg"
+  },
+  {
+    "key": "图P6.5|images/5a7112eb20a61376ea9cdaa2ed8a4c2c3c39c93e5a4b39022edfefd0ed5bdbd7.jpg",
+    "figure_id": "图P6.5",
+    "caption": "图P6.5",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5a7112eb20a61376ea9cdaa2ed8a4c2c3c39c93e5a4b39022edfefd0ed5bdbd7.jpg"
+  },
+  {
+    "key": "图P6.6|images/9752f87c2bc463ca1e48d5486de06145ddcdc8fbd1a593b270184c28095a65a4.jpg",
+    "figure_id": "图P6.6",
+    "caption": "图 P6.6",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9752f87c2bc463ca1e48d5486de06145ddcdc8fbd1a593b270184c28095a65a4.jpg"
+  },
+  {
+    "key": "图P6.7|images/d214c6201e840ced7867df7265e11d807bdf9503d581966106f91f40c0d28f4f.jpg",
+    "figure_id": "图P6.7",
+    "caption": "图P6.7",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d214c6201e840ced7867df7265e11d807bdf9503d581966106f91f40c0d28f4f.jpg"
+  },
+  {
+    "key": "图P6.8|images/dc6c3a94251826b7520a044cd8d934ea9e48d0cfc88ce66d096719422ae0f3f5.jpg",
+    "figure_id": "图P6.8",
+    "caption": "图 P6.8",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dc6c3a94251826b7520a044cd8d934ea9e48d0cfc88ce66d096719422ae0f3f5.jpg"
+  },
+  {
+    "key": "图P6.10|images/81122c604aee2d91c89d6f213d63dcfed7aa65bb36042bea0e3e1afcccf48776.jpg",
+    "figure_id": "图P6.10",
+    "caption": "图P6.10",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\81122c604aee2d91c89d6f213d63dcfed7aa65bb36042bea0e3e1afcccf48776.jpg"
+  },
+  {
+    "key": "图P6.11|images/2e0eb99d1ecd62feefa3a1d4375df33613514b24419be6a04d97cbc45a831dae.jpg",
+    "figure_id": "图P6.11",
+    "caption": "图P6.11",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2e0eb99d1ecd62feefa3a1d4375df33613514b24419be6a04d97cbc45a831dae.jpg"
+  },
+  {
+    "key": "图P6.12|images/5e5a38eeb9b45fb556728af789181f3a137bcf1e1adc610a3b846d982069eac6.jpg",
+    "figure_id": "图P6.12",
+    "caption": "图 P6.12",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5e5a38eeb9b45fb556728af789181f3a137bcf1e1adc610a3b846d982069eac6.jpg"
+  },
+  {
+    "key": "图P6.13|images/5808d03f63bc3075a48c52184172757defde297a3620d7801476aaa243ed4ec0.jpg",
+    "figure_id": "图P6.13",
+    "caption": "图P6.13",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5808d03f63bc3075a48c52184172757defde297a3620d7801476aaa243ed4ec0.jpg"
+  },
+  {
+    "key": "图P6.15|images/1a8088b7ac68e9516b49cffaa24493379b1b1f096e92d273d70e1ca7823d4632.jpg",
+    "figure_id": "图P6.15",
+    "caption": "图 P6.15",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1a8088b7ac68e9516b49cffaa24493379b1b1f096e92d273d70e1ca7823d4632.jpg"
+  },
+  {
+    "key": "图P6.17|images/5ee6c5c82bf55a0eb7e06959f8ea53f99b86056a5be932962a358672c1ebae88.jpg",
+    "figure_id": "图P6.17",
+    "caption": "图 P6.17",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5ee6c5c82bf55a0eb7e06959f8ea53f99b86056a5be932962a358672c1ebae88.jpg"
+  },
+  {
+    "key": "图P6.18|images/caf71c6d0ee6b8a35f890ae82e5216c1e743a298b8fc3ff45d3f9e6ce3e70f69.jpg",
+    "figure_id": "图P6.18",
+    "caption": "图P6.18",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\caf71c6d0ee6b8a35f890ae82e5216c1e743a298b8fc3ff45d3f9e6ce3e70f69.jpg"
+  },
+  {
+    "key": "图P6.19|images/9e572036dd31f3e8318e0d30115dfc9ea3a433f16126021e701b0ebb0d2bb48c.jpg",
+    "figure_id": "图P6.19",
+    "caption": "图 P6.19",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9e572036dd31f3e8318e0d30115dfc9ea3a433f16126021e701b0ebb0d2bb48c.jpg"
+  },
+  {
+    "key": "图P6.20|images/9a86b102997d6fb89f8812f2b3a228fedbfbf69acd3cbeefd5fb991ee3cf357c.jpg",
+    "figure_id": "图P6.20",
+    "caption": "图 P6.20",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9a86b102997d6fb89f8812f2b3a228fedbfbf69acd3cbeefd5fb991ee3cf357c.jpg"
+  },
+  {
+    "key": "图P6.24|images/031c9fb41950835df0b50382cceaf7e5d75cfe9c0cfa5e2de0b0cd525b5b5248.jpg",
+    "figure_id": "图P6.24",
+    "caption": "图 P6.24",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\031c9fb41950835df0b50382cceaf7e5d75cfe9c0cfa5e2de0b0cd525b5b5248.jpg"
+  },
+  {
+    "key": "图P6.26|images/4d9c17a24c100bd7564f5984f3157b256e83e80e25883b59717ccbd811024810.jpg",
+    "figure_id": "图P6.26",
+    "caption": "图 P6.26",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4d9c17a24c100bd7564f5984f3157b256e83e80e25883b59717ccbd811024810.jpg"
+  },
+  {
+    "key": "图P6.27|images/d95382bf64b0ea87dfc5237b38337ad841b216bb403f25a281e2228979ffc773.jpg",
+    "figure_id": "图P6.27",
+    "caption": "图P6.27",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d95382bf64b0ea87dfc5237b38337ad841b216bb403f25a281e2228979ffc773.jpg"
+  },
+  {
+    "key": "图P6.34|images/b2b10eeb4a7a16abe29992872bcedd8e9cdf82e9b9d3cff70ad41e708ef0b6ae.jpg",
+    "figure_id": "图P6.34",
+    "caption": "图 P6.34",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b2b10eeb4a7a16abe29992872bcedd8e9cdf82e9b9d3cff70ad41e708ef0b6ae.jpg"
+  }
+]

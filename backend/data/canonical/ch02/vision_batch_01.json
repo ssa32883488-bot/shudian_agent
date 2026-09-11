@@ -1,0 +1,12 @@
+{
+  "图2.2.1(a)|images/a2fc5020ce3ae729813c2f357a2f050521c5e5965b37c6d9a36879e6b0bdfebc.jpg": "串联开关A、B与灯泡Y的与逻辑示意电路：两开关均闭合灯才亮，对应Y=A·B。",
+  "图2.2.1(b)|images/7df8cfc2a74d38854f365d223fa41ca6bfb25214f480a2421f8062fa55d89f20.jpg": "开关A、B并联控制灯泡Y的或逻辑电路：任一开关闭合即可点亮，对应Y=A+B。",
+  "图2.2.1(c)|images/05a329851db8052fe7993e2a055853ddd0b8d277a4f027b2d3b9e6879d7b0dae.jpg": "开关A与灯泡Y并联的非逻辑电路：A断开时灯亮，A闭合时短路灯灭，对应Y=A'。",
+  "图2.2.2|images/a0766d8ed3c61208fb79fb90fbd4b443871bcf528b0de6fe3e916e3949747cea.jpg": "与、或、非门的特定外形符号(a)与矩形轮廓符号(b)对照，输入A/B、输出Y。",
+  "图2.2.3|images/5e5b89f29b232b6e256d2704380e871f6fa5a189de742bed1fe205f4b84e896d.jpg": "与非、或非、异或、同或及与或非复合逻辑的标准图形符号与布尔式。",
+  "图2.5.1|images/2ec7bafe6c78b632a91cacc044bc7c776e53d53755772ec0b6244e6f06a8f4c1.jpg": "举重裁判电路：B、C并联后与A串联再驱动指示灯Y，体现Y=A·(B+C)。",
+  "图2.5.2|images/d4d5230cfe3f79486c5866159d4179f604ae8cd3472bc8b1b6a79051e343c025.jpg": "图2.5.1的逻图：B、C经或门，再与A经与门得输出Y=A·(B+C)。",
+  "图2.5.3|images/fd57c10b280833b08e86ffaa71cb78cfb6ed2d50823ba991984972ab8caa5a5d.jpg": "A、B、C及输出Y的时序波形，Y在A=1且(B或C为1)时为高，验证与或逻辑。",
+  "图2.6.1|images/8ddfd8c067b03e7249c306e627cdf8f8afee6c225d3ccb2578e586a5a8762bb4.jpg": "二变量卡诺图：四格分别标注最小项A'B'、A'B、AB'、AB及m0~m3。",
+  "图2.6.2|images/49392bea931a9555853228bb5e9c028040fbb0d35b3b3ddbc4cf790207834442.jpg": "四变量AB-CD卡诺图，格内填0/1表示逻辑函数取值，用于化简例2.6.8。"
+}

@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "逻辑代数": {"chapter": "第2章", "id": "de_0201"},
+    "卡诺图": {"chapter": "第4章", "id": "de_0401"},
+    "组合逻辑": {"chapter": "第3章", "id": "de_0301"},
+    "时序逻辑": {"chapter": "第5章", "id": "de_0501"},
+    "D触发器": {"chapter": "第5章", "id": "de_0502"},
+    "竞争冒险": {"chapter": "第3章", "id": "de_0303"}
+  },
+  "edges": [
+    {"from": "逻辑代数", "to": "卡诺图", "type": "PRE_REQUISITE_OF"},
+    {"from": "逻辑代数", "to": "组合逻辑", "type": "PRE_REQUISITE_OF"},
+    {"from": "组合逻辑", "to": "竞争冒险", "type": "PRE_REQUISITE_OF"},
+    {"from": "组合逻辑", "to": "时序逻辑", "type": "PRE_REQUISITE_OF"},
+    {"from": "时序逻辑", "to": "D触发器", "type": "PRE_REQUISITE_OF"}
+  ]
+}

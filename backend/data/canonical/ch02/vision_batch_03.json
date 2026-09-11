@@ -1,0 +1,22 @@
+{
+  "图2.9.3|images/1779bafb463c7a45bcda00ab89411f6b22468d4deaa058005214ac0f33601173.jpg": "按式(2.9.3)的逻辑电路：输入A、B经异或门，结果与C'经与门得输出Y=(A⊕B)·C'。",
+  "图2.9.4|images/e2a59c6d0b8c98e1518180d79b87d4ef83ce1275f28b579d13291039918b6dff.jpg": "按式(2.9.5)的与非-与非电路：三个二输入与非门实现Y=AC+BC'，C为选择端构成二选一MUX。",
+  "图2.9.5_0|images/6d1accf15e3cd4b9d968e850354164e37c199c7759532a9d10f29dd46c693c94.jpg": "按式(2.9.6)的或非-或非电路：三个二输入或非门，输入A、B、C、C'，实现Y=((B+C)'+(A+C'))'即AC+BC'。",
+  "图2.9.5_1|images/91e89cbdfa903587bd5630dbe35c7d26af6902c839852a1548cc20afe6506c54.jpg": "四变量4×4卡诺图：部分格填1并含相邻圈组，演示最小项合并化简逻辑函数的过程。",
+  "图P2.6(a)|images/0e9fe75769d743d99f92bb454659685f7f9530a445b623467b6641ec29c36d33.jpg": "习题P2.6(a)逻辑图：输入A、B经两个非门与三个与非门实现异或，输出Y1=A⊕B=A'B+AB'。",
+  "图P2.6(b)|images/ad5950e3aa20545d2186a35893ecf04664844cb8227fd54d12490a16f3d2f80a.jpg": "习题P2.6(b)逻辑图：A、B经异或门，C经非门得C'，B与C'经与非门后与A⊕B经或非门得Y2=AB'C。",
+  "图P2.7(a)|images/88a9692b334b7f26abde84d780cf2b8707b6413ad040d094654517b63516eac4.jpg": "习题P2.7(a)逻辑图：四输入A~D，A、B经或非门，C经非门，两路经与非门后异或得输出Y1。",
+  "图P2.7(b)|images/7d66c572670b51c50b582f1c5ef3e4fa00442ab30681117092a29d44e7affd4f.jpg": "习题P2.7(b)逻辑图：五输入A~E，B经非门，两路与非分别接A、C、D，再与E经与门后或非得输出Y2。",
+  "图P2.8|images/c3222e8d4333dec5dfb73708fa572a9cffa5472fc9c3e383ca445f01ab18632b.jpg": "习题P2.8时序波形：输入A、B、C与输出Y，Y在ABC=110或101时为高，对应Y=AB'C+A'BC=A(B⊕C)。",
+  "图P2.9|images/f15c574af5b395c46655c3e1eab9c460e170cc6611e2c38334cb9ed26add375f.jpg": "习题P2.9时序波形：四输入A3~A0按二进制0000~1111计数变化，输出Y在m1、m3、m5、m8、m9、m11、m13时为高。",
+  "图P2.14(a)|images/97d7debc79a4291bdcb26e2a6cda4ab9dd3a92dce616924552cf12e5dab768e6.jpg": "习题P2.14(a)三变量A-BC卡诺图：1位于m3(011)、m4(100)、m5(101)、m6(110)，其余格为0。",
+  "图P2.14(b)|images/2f47e575c2ebc37153c84327c3431828bce9a73cea75637db49308d0ebb1d15c.jpg": "习题P2.14(b)四变量AB-CD卡诺图：四角四格1可圈为B'D'，另m5(0101)、m15(1111)两处为孤立1。",
+  "图P2.14(c)|images/27c69fe18ee4f84c9bcf935daa8ec3247c3728a9315a2e22da1d767b7413ed9b.jpg": "习题P2.14(c)四变量AB-CD卡诺图：1分布于m1、m2、m5、m7、m10、m12、m15共七处，未标注圈组。",
+  "图P2.18(a)|images/f80d7847b637f2395ab27f1312ea230dd9414021882dad3700ff6af2ca77964c.jpg": "习题P2.18(a)逻辑图：A、B、C经非门与三级与非门实现Y=A'B'C+BC'。",
+  "图P2.18(b)|images/f3ee67c4cb4461ba8c0b34e0ce76f65225c80ffd684067cf44d6828e9bdbbdd5.jpg": "习题P2.18(b)逻辑图：A、B、C经非门与三级二输入或非及一级三输入或非，输出Y=(A'+C)(A+B')(B+C')。",
+  "图P2.18(c)|images/fa8ba3ccbc89fe626083571c5c3eccbff12f6cd71281d451f0ea82620db349cb.jpg": "习题P2.18(c)逻辑图：四输入A~D经非门与五级与非门二级结构，分别经二输入与三输入与非门输出Y1、Y2。",
+  "图P2.18(d)|images/6eb778dd1d02f09787ce4ceb8de0ed3d4d250f61f80ddcc3d0ba4880d09d5ad5.jpg": "习题P2.18(d)全加器逻辑图：A、B、C经异或、与、或非、非门实现进位Y1=AB+C(A⊕B)与和Y2=A⊕B⊕C。",
+  "图P2.22(a)|images/5d375a1be67f34b9eb5194f2ea95a413c18b9d941b6d65e47827f6a848c9dadb.jpg": "习题P2.22(a)四变量卡诺图模板Y1：4×4格，第二行第二列标注最小项mi1，其余格为空。",
+  "图P2.22(b)|images/4ea0ae243db7e28e2b3fac5b4a8313d1568fd15f710594102fd9c58ea0800724.jpg": "习题P2.22(b)四变量卡诺图模板Y2：4×4格，第二行第二列标注最小项mi2，其余格为空。",
+  "图P2.22(c)|images/88ab4db8bfc352c9ebd0d8e83c61e87c6822a1483781f69d0abc75ffd63d8b8f.jpg": "习题P2.22(c)卡诺图合并示意：第二行中间两格圈为mi1+mi2，下方Y=Y1+Y2说明多输出函数公共项合并化简。"
+}

@@ -1,0 +1,22 @@
+{
+  "图3.4.1(b)|images/1046a9669c1b886fa664c9fa78adf784cf2d7040eee32aec7675d9ef2ef3ff69.jpg": "PNP三极管：左为P-N-P分层结构标c、b、e；右为电路符号，发射极箭头指向基极。",
+  "图3.4.2(a)|images/379c230e34319720abc868a7fcd94d90562c7b049a4584b24692c510137f920b.jpg": "输入特性：iB–vBE曲线先平缓后陡升，横轴标出开启电压VON区间。",
+  "图3.4.2(b)|images/66080bae9fa622c3e973c13a2b86b87620dfd3ca9f944642f676678588ccb2f2.jpg": "输入回路示意：NPN共射，基极流入iB，基射间标注正向电压vBE，发射极接地。",
+  "图3.4.2(c)|images/0397a5d864fe4b01b1f8361d6c431970ce6e42d483c076e9dc4f46f5c5e0a8ea.jpg": "输出特性族：iC–vCE，iB=0~50μA多条曲线，划分饱和区、放大区、截止区，并标β=ΔiC/ΔiB。",
+  "图3.4.2(d)|images/0351232ab6bed4c1d3cdd1f05e70840b83a1d039ea22ce4f2dfc58113c19c845.jpg": "输出回路示意：NPN共射，集电极流入iC，集射间标注vCE极性，发射极接地。",
+  "图3.4.3|images/d45133eec190233e47a08d567dd5d68ee5f413de4dd49ca88cb74ddf69721434.jpg": "基本开关电路：vI经RB进基极产生iB，VCC经RC到集电极产生iC，输出vO取自集电极对地。",
+  "图3.4.4(a)|images/3a67d55e0cc289b1eb4a7719e98785e6667f27d846f2f268fdb3aacc7b6cbc0a.jpg": "图解分析电路：标出b、c、e与RC、RB、VCC，集电极M点对地N点电压为vCE(vO)，并标iC流向。",
+  "图3.4.4(b)|images/a1c573fb7b7b49ca126fd14bcb9cb23adae7845fc328299fd88740209c10d538.jpg": "负载线法：输出特性上画直流负载线，交纵轴VCC/RC、横轴VCC，与IB曲线交点为Q，对应静态VO。",
+  "图3.4.5(a)|images/0440785bddf9674ceff0e2ae4be482482f2a05b17e3912e9eaaf8ed15180d4f0.jpg": "截止等效：虚线框内c–e间开关断开，引出端b、c、e，表示集射开路。",
+  "图3.4.5(b)|images/7a70ab9bad32c93b534cbedd38abbe8807eaab74f88d8f129c1a45c29fc26c35.jpg": "饱和等效：b–e间为VON，c–e串RCE(sat)与VCE(sat)，表示饱和压降与导通电阻。",
+  "图3.4.5(c)|images/de2de67b7c09b6e82a701573fd6d6d9329da5df4384d828748f7053d14578846.jpg": "开关过渡模型：b–e间为开启电压VON，c–e为受控开关（带闭合箭头），表示基极偏置足够时集射导通。",
+  "图3.4.6(a)|images/f289ec8b22b85e0544be94de8f7034477ce41c4ef93a97a3240e45f1b2b3376a.jpg": "反相器原电路：vI经RB到NPN管T基极，VCC经RC到集电极取vO，发射极接地。",
+  "图3.4.6(b)|images/b1e538987debacd0447c9297191644a5ead4f98bdd198190f97b579cbaa5b60a.jpg": "截止等效：vI=VIL时开关S断开，经RC上拉得vO=VOH。",
+  "图3.4.6(c)|images/6eb8fe169fac72f08f06f69d657a2af50929c8d4a7fe13e75598d86b7ead9fa9.jpg": "饱和等效：vI=VIH经RB进基极，管内VON、RCE(sat)、VCE(sat)，输出被拉至vO=VOL。",
+  "图3.4.7|images/4699b2523d27848167dc890eacaa498d4815048d080daa1897dd84750492a2db.jpg": "动态开关：左为共射开关电路；右为vI、iC、vO时序，可见开启延迟、存储时间与输出反相边沿。",
+  "图3.4.8|images/d650a620dbf4cb7a7c534b7a1be977bc924d9f52889e1b07ec5d1a68135982c8.jpg": "例电路：VCC经R1=4kΩ到节点P，D1接vI、D2耦合基极，发射极串D3接地，集电极经R2=1.6kΩ取vO。",
+  "图3.4.9|images/dbdf66bb46a3d02c6c3a5c5eff221cd05ea51e87fe2fe096c92a52e4676817ab.jpg": "TTL反相器典型结构：输入级T1(R1=4kΩ)+D1，倒相级T2(R2=1.6kΩ,R3=1kΩ)，图腾柱T4/D2/T5(R4=130Ω)。",
+  "图3.4.10|images/6ad7b29a337ec116e907a871e90c3a276006cf8f4ae10d5d795cb070cfb219ca.jpg": "电压传输特性vO–vI：AB段高电平约3.4V，经BC、CD陡降，阈值VTH附近翻转，DE段低电平近0。",
+  "图3.4.11|images/17854a2839eb46535b2203b674ef4dec12561a619c8d063f47f04e51e6d6fdbf.jpg": "输入等效：VCC经R1=4kΩ到T1基极，发射极接vI/iI与钳位D1，集电极串等效二极管be2、be5到地。",
+  "图3.4.12|images/0820fcffac5bd92bf6a8c99bfb741dd8562079e2089a75c37e07349734dddc45.jpg": "输入特性i1–v1：低电平时流出约−1mA量级电流，v1>约1.5V后电流骤减至<40μA近似零。"
+}

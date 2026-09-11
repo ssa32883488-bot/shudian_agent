@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图3.3.34(a)|images/113935149278cbf7e41007e4bae538eb58c4a99339cf3b1c7710dcbf52607918.jpg",
+    "figure_id": "图3.3.34(a)",
+    "caption": "OD 门外接上拉电阻的计算 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\113935149278cbf7e41007e4bae538eb58c4a99339cf3b1c7710dcbf52607918.jpg"
+  },
+  {
+    "key": "图3.3.34(b)|images/831c63a7a3b85b4fe03be7afc1ba674ad7ba9ba353e78fbcfded6dc2cf419e07.jpg",
+    "figure_id": "图3.3.34(b)",
+    "caption": "OD 门外接上拉电阻的计算 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\831c63a7a3b85b4fe03be7afc1ba674ad7ba9ba353e78fbcfded6dc2cf419e07.jpg"
+  },
+  {
+    "key": "图3.3.35|images/b3ea24e4fe24292c116b01e1101e9068409be28448cbc74d83ddd1ee9a955153.jpg",
+    "figure_id": "图3.3.35",
+    "caption": "例3.3.2的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b3ea24e4fe24292c116b01e1101e9068409be28448cbc74d83ddd1ee9a955153.jpg"
+  },
+  {
+    "key": "图3.3.36|images/04b8687be52ab4f2c2543f4eac6a71745d2a9233c2fdf1c2509f7069972b212f.jpg",
+    "figure_id": "图3.3.36",
+    "caption": "CMOS 传输门的电路结构和逻辑符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\04b8687be52ab4f2c2543f4eac6a71745d2a9233c2fdf1c2509f7069972b212f.jpg"
+  },
+  {
+    "key": "图3.3.37|images/47f7e79f3a5ae32fab5f0384d146cb11005d8bf465191acd773bf1cfdb916508.jpg",
+    "figure_id": "图3.3.37",
+    "caption": "CMOS 传输门中两个 MOS 管的工作状态",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\47f7e79f3a5ae32fab5f0384d146cb11005d8bf465191acd773bf1cfdb916508.jpg"
+  },
+  {
+    "key": "图3.3.38|images/4e914c3dd58b89821097ddba87f9a36f7ac3aaa6cbb4f75bec1b36adb688ed34.jpg",
+    "figure_id": "图3.3.38",
+    "caption": "用反相器和传输门构成的异或门电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4e914c3dd58b89821097ddba87f9a36f7ac3aaa6cbb4f75bec1b36adb688ed34.jpg"
+  },
+  {
+    "key": "图3.3.39|images/70119e026b49a7e3c8d3553bbdbb3489ed6de3b73a6bf317df11dce6b1b74e28.jpg",
+    "figure_id": "图3.3.39",
+    "caption": "CMOS 双向模拟开关的电路结构和符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\70119e026b49a7e3c8d3553bbdbb3489ed6de3b73a6bf317df11dce6b1b74e28.jpg"
+  },
+  {
+    "key": "图3.3.40|images/f3155c958db1362630285fa0083274fd68615ebc58caaf9e7dd90f006a930a6d.jpg",
+    "figure_id": "图3.3.40",
+    "caption": "CMOS 模拟开关接负载电阻的情况",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f3155c958db1362630285fa0083274fd68615ebc58caaf9e7dd90f006a930a6d.jpg"
+  },
+  {
+    "key": "图3.3.41(a)|images/567249a694cf97c028fbe5b2a4b0ae15ba79d85e959613e43000e8e376bfa870.jpg",
+    "figure_id": "图3.3.41(a)",
+    "caption": "三态输出的 CMOS 反相器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\567249a694cf97c028fbe5b2a4b0ae15ba79d85e959613e43000e8e376bfa870.jpg"
+  },
+  {
+    "key": "图3.3.41(b)|images/d5b618c0c64a77812f7146d09864f696d5ce6b969ed40e080c7bd17ffef23769.jpg",
+    "figure_id": "图3.3.41(b)",
+    "caption": "三态输出的 CMOS 反相器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d5b618c0c64a77812f7146d09864f696d5ce6b969ed40e080c7bd17ffef23769.jpg"
+  },
+  {
+    "key": "图3.3.42|images/a4bbcac4d4265058a0abcdf04a479414e8c7cd5a6f0db7458e27af48e7ef9ca7.jpg",
+    "figure_id": "图3.3.42",
+    "caption": "用三态输出反相器接成总线结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a4bbcac4d4265058a0abcdf04a479414e8c7cd5a6f0db7458e27af48e7ef9ca7.jpg"
+  },
+  {
+    "key": "图3.3.43|images/dd248e644f74d3f0ac9f9d445fff19dfb0f29b8d5c8a1a48610084c31d3538b5.jpg",
+    "figure_id": "图3.3.43",
+    "caption": "用三态输出反相器实现数据双向传输",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dd248e644f74d3f0ac9f9d445fff19dfb0f29b8d5c8a1a48610084c31d3538b5.jpg"
+  },
+  {
+    "key": "图3.3.44|images/fa3aaf5f7660a3e60af1105185953710bed5887f54affae712d70214af97e6c2.jpg",
+    "figure_id": "图3.3.44",
+    "caption": "输入端接大电容时的防护",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fa3aaf5f7660a3e60af1105185953710bed5887f54affae712d70214af97e6c2.jpg"
+  },
+  {
+    "key": "图3.3.45|images/b92a859e3d188f4feb8cc5dd4cff7367ce4dac3b2e65f0fdc1cf22422c18be43.jpg",
+    "figure_id": "图3.3.45",
+    "caption": "输入端接长线时的防护",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b92a859e3d188f4feb8cc5dd4cff7367ce4dac3b2e65f0fdc1cf22422c18be43.jpg"
+  },
+  {
+    "key": "图3.3.46|images/31904bcf2c606f9d9f033262e731c35ce8e8f2465ae3a2e3fb3f9f764c75a59d.jpg",
+    "figure_id": "图3.3.46",
+    "caption": "CMOS 反相器电路中的双极型寄生三极管效应",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\31904bcf2c606f9d9f033262e731c35ce8e8f2465ae3a2e3fb3f9f764c75a59d.jpg"
+  },
+  {
+    "key": "图3.3.47|images/1dc7ad1338b7779a36c3578ec172d980c721a5e641516b5a76ca6390240a0b43.jpg",
+    "figure_id": "图3.3.47",
+    "caption": "由寄生三极管形成的可控硅结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1dc7ad1338b7779a36c3578ec172d980c721a5e641516b5a76ca6390240a0b43.jpg"
+  },
+  {
+    "key": "图3.3.48(a)|images/8eb75070a9aadee307499cbc333d92a0786e2c5337a438a34af4f384e891aef4.jpg",
+    "figure_id": "图3.3.48(a)",
+    "caption": "CMOS 电路的钳位保护电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8eb75070a9aadee307499cbc333d92a0786e2c5337a438a34af4f384e891aef4.jpg"
+  },
+  {
+    "key": "图3.3.48(b)|images/3c2520ce433b3712d1d75020649b4a19b35eb24e735f8bad78d9f4107ba8fb11.jpg",
+    "figure_id": "图3.3.48(b)",
+    "caption": "CMOS 电路的钳位保护电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3c2520ce433b3712d1d75020649b4a19b35eb24e735f8bad78d9f4107ba8fb11.jpg"
+  },
+  {
+    "key": "图3.3.49|images/3167af45d40784ebcba404676086f158f13c00b386a73410173d1b70222161c9.jpg",
+    "figure_id": "图3.3.49",
+    "caption": "在CMOS电路的",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3167af45d40784ebcba404676086f158f13c00b386a73410173d1b70222161c9.jpg"
+  },
+  {
+    "key": "图3.4.1(a)|images/e55a61cb6da186184c808342a1d37723c72a4914f9dfc998d18b30e063afa4ad.jpg",
+    "figure_id": "图3.4.1(a)",
+    "caption": "双极型三极管的两种类型 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e55a61cb6da186184c808342a1d37723c72a4914f9dfc998d18b30e063afa4ad.jpg"
+  },
+  {
+    "key": "图3.4.1(b)|images/1046a9669c1b886fa664c9fa78adf784cf2d7040eee32aec7675d9ef2ef3ff69.jpg",
+    "figure_id": "图3.4.1(b)",
+    "caption": "双极型三极管的两种类型 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1046a9669c1b886fa664c9fa78adf784cf2d7040eee32aec7675d9ef2ef3ff69.jpg"
+  },
+  {
+    "key": "图3.4.2(a)|images/379c230e34319720abc868a7fcd94d90562c7b049a4584b24692c510137f920b.jpg",
+    "figure_id": "图3.4.2(a)",
+    "caption": "双极型三极管的特性曲线 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\379c230e34319720abc868a7fcd94d90562c7b049a4584b24692c510137f920b.jpg"
+  },
+  {
+    "key": "图3.4.2(b)|images/66080bae9fa622c3e973c13a2b86b87620dfd3ca9f944642f676678588ccb2f2.jpg",
+    "figure_id": "图3.4.2(b)",
+    "caption": "双极型三极管的特性曲线 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\66080bae9fa622c3e973c13a2b86b87620dfd3ca9f944642f676678588ccb2f2.jpg"
+  },
+  {
+    "key": "图3.4.2(c)|images/0397a5d864fe4b01b1f8361d6c431970ce6e42d483c076e9dc4f46f5c5e0a8ea.jpg",
+    "figure_id": "图3.4.2(c)",
+    "caption": "双极型三极管的特性曲线 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0397a5d864fe4b01b1f8361d6c431970ce6e42d483c076e9dc4f46f5c5e0a8ea.jpg"
+  },
+  {
+    "key": "图3.4.2(d)|images/0351232ab6bed4c1d3cdd1f05e70840b83a1d039ea22ce4f2dfc58113c19c845.jpg",
+    "figure_id": "图3.4.2(d)",
+    "caption": "双极型三极管的特性曲线 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0351232ab6bed4c1d3cdd1f05e70840b83a1d039ea22ce4f2dfc58113c19c845.jpg"
+  },
+  {
+    "key": "图3.4.3|images/d45133eec190233e47a08d567dd5d68ee5f413de4dd49ca88cb74ddf69721434.jpg",
+    "figure_id": "图3.4.3",
+    "caption": "双极型三极管的基本开关电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d45133eec190233e47a08d567dd5d68ee5f413de4dd49ca88cb74ddf69721434.jpg"
+  },
+  {
+    "key": "图3.4.4(a)|images/3a67d55e0cc289b1eb4a7719e98785e6667f27d846f2f268fdb3aacc7b6cbc0a.jpg",
+    "figure_id": "图3.4.4(a)",
+    "caption": "用图解法分析图 3.4.3 电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3a67d55e0cc289b1eb4a7719e98785e6667f27d846f2f268fdb3aacc7b6cbc0a.jpg"
+  },
+  {
+    "key": "图3.4.4(b)|images/a1c573fb7b7b49ca126fd14bcb9cb23adae7845fc328299fd88740209c10d538.jpg",
+    "figure_id": "图3.4.4(b)",
+    "caption": "用图解法分析图 3.4.3 电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a1c573fb7b7b49ca126fd14bcb9cb23adae7845fc328299fd88740209c10d538.jpg"
+  },
+  {
+    "key": "图3.4.5(a)|images/0440785bddf9674ceff0e2ae4be482482f2a05b17e3912e9eaaf8ed15180d4f0.jpg",
+    "figure_id": "图3.4.5(a)",
+    "caption": "双极型三极管的开关等效电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0440785bddf9674ceff0e2ae4be482482f2a05b17e3912e9eaaf8ed15180d4f0.jpg"
+  },
+  {
+    "key": "图3.4.5(b)|images/7a70ab9bad32c93b534cbedd38abbe8807eaab74f88d8f129c1a45c29fc26c35.jpg",
+    "figure_id": "图3.4.5(b)",
+    "caption": "双极型三极管的开关等效电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7a70ab9bad32c93b534cbedd38abbe8807eaab74f88d8f129c1a45c29fc26c35.jpg"
+  }
+]

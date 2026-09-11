@@ -1,0 +1,45 @@
+% state_ir_v1 → TikZ (generated)
+\begin{document}
+\begin{tikzpicture}[
+  x=1pt, y=-1pt,
+  >=Stealth,
+  every node/.style={font=\rmfamily},
+  state/.style={circle, draw=black!75, line width=0.95pt, minimum size=54.0pt, inner sep=0pt, font=\bfseries},
+  every edge/.style={draw=black!75, line width=0.95pt},
+  edge label/.style={font=\rmfamily, fill=white, inner sep=1pt}
+]
+  \node[state] (s100) at (210, 50) {100};
+  \node[state] (s000) at (350, 50) {000};
+  \node[state] (s001) at (210, 125) {001};
+  \node[state] (s010) at (350, 125) {010};
+  \node[state] (s111) at (72, 200) {111};
+  \node[state] (s011) at (210, 200) {011};
+  \node[state] (s101) at (350, 200) {101};
+  \node[state] (s110) at (280, 275) {110};
+  \draw[->] (s001) -- (s100);
+  \draw[->] (s100) -- (s010);
+  \draw[->] (s010) -- (s001);
+  \draw[->] (s000) -- (s100);
+  \draw[dashed, ->] (s111) -- (s011);
+  \draw[dashed, ->] (s011) -- (s001);
+  \draw[dashed, ->] (s101) -- (s010);
+  \draw[->] (s110) -- (s011);
+  \draw[->] (s011) -- (s101);
+  \draw[->] (s101) -- (s110);
+  \draw[dashed, ->] (s000) edge[loop right, min distance=58pt] (s000);
+  \draw[dashed, ->] (s111) edge[loop left, min distance=58pt] (s111);
+  \fill[white] (271.0, 180.0) rectangle (289.0, 198.0);
+  \draw[line width=0.95pt] (274.0, 183.0) -- (286.0, 195.0);
+  \draw[line width=0.95pt] (274.0, 195.0) -- (286.0, 183.0);
+  \fill[white] (306.0, 228.5) rectangle (324.0, 246.5);
+  \draw[line width=0.95pt] (309.0, 231.5) -- (321.0, 243.5);
+  \draw[line width=0.95pt] (309.0, 243.5) -- (321.0, 231.5);
+  \fill[white] (390.9, 41.0) rectangle (408.9, 59.0);
+  \draw[line width=0.95pt] (393.9, 44.0) -- (405.9, 56.0);
+  \draw[line width=0.95pt] (393.9, 56.0) -- (405.9, 44.0);
+  \fill[white] (13.0, 191.0) rectangle (31.0, 209.0);
+  \draw[line width=0.95pt] (16.0, 194.0) -- (28.0, 206.0);
+  \draw[line width=0.95pt] (16.0, 206.0) -- (28.0, 194.0);
+  \node[font=\rmfamily] at (168, 42) {(Q1Q2Q3)};
+\end{tikzpicture}
+\end{document}

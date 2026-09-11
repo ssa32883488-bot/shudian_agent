@@ -1,0 +1,50 @@
+{
+  "ok": false,
+  "grade": "SELF_FAIL",
+  "checks": [
+    {
+      "id": "SIM",
+      "ok": false,
+      "detail": "cyclic_combinational"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=2 ir_gates=2"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=3880"
+    }
+  ],
+  "meta": {
+    "preferMulti": true,
+    "multiMax": 4,
+    "gateMeta": [
+      {
+        "id": "G1",
+        "base": "NOR",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      },
+      {
+        "id": "G2",
+        "base": "NOR",
+        "arity": 2,
+        "mode": "binary",
+        "cells": 1
+      }
+    ],
+    "cellCount": 2,
+    "multiGates": 0,
+    "fallbackSplits": []
+  },
+  "combinational": true
+}

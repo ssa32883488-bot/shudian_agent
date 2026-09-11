@@ -1,0 +1,100 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "nS1",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "enA",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "S",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "nA0",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "nA1",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "nA2",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "D",
+      "base": "DECODER",
+      "arity": 3,
+      "mode": "msi_stub",
+      "cells": 0
+    },
+    {
+      "id": "y0a",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y0b",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Y0n",
+      "base": "NAND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y7a",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "y7b",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Y7n",
+      "base": "NAND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    }
+  ],
+  "cellCount": 12,
+  "multiGates": 0,
+  "fallbackSplits": []
+}

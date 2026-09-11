@@ -1,0 +1,12 @@
+﻿Based on the image provided:
+
+1.  **Orientation of the bottom NOR gate (G2):**
+    The flat side with the input lines is on the left, and the pointed output side (with the inversion bubble) is on the right. Therefore, the bottom NOR gate faces **RIGHT**.
+
+2.  **Location of labels:**
+    *   **Left side:** The label $v_{I1}$ is on the far left, connected to the top gate. The label $v_{O2}$ is also on the far left, connected to the feedback loop coming from the bottom gate.
+    *   **Right side:** The label $v_{O1}$ is on the far right, connected to the output of the top gate. The label $v_{I2}$ is on the far right, connected to the bottom gate.
+
+**Summary:**
+*   The bottom NOR gate faces **RIGHT**.
+*   Labels $v_{I1}$ and

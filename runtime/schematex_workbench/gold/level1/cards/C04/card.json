@@ -1,0 +1,18 @@
+{
+  "id": "C04",
+  "bucket": "combinational",
+  "fig_id": "4.4.2",
+  "caption": "3位二进制编码器",
+  "image": "../../textbook_figures/logic_dag/fig_4_4_2.jpg",
+  "image_exists": true,
+  "tier_guess": "B",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_batch_v2",
+  "reviewed_at": "2026-09-02T04:30:20.712Z",
+  "notes": "主路径 netlistsvg；gold.tbx 已弃用"
+}

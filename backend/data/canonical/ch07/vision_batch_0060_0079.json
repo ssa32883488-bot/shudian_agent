@@ -1,0 +1,22 @@
+{
+  "图7.5.7|images/df740500809ab0f82767cfef1307e8e1a95197f019fb115e0179fa7b0b9df41b.jpg": "555类多谐振荡波形：vC在1/3VCC与2/3VCC间指数充放电；vO在T1高、T2低间翻转，周期T=T1+T2。",
+  "图7.5.8|images/c19906bc6e2faa92080d1037a55cec30a4f71c714e29d54f2e73102da47614a6.jpg": "555内部分压器、比较器、RS触发器与放电管；外接R1/D1充电、R2/D2放电，构成占空比可调多谐振荡电路。",
+  "图7.5.9|images/704415fbb7cbde8f5b446a4600714cb67b2512e8a3d5781816ae97b26260c107.jpg": "NE555多谐振荡：+5V供电，47kΩ–2kΩ电位器–47kΩ与10μF定时，2/6脚相连，3脚输出vO，5脚0.01μF旁路。",
+  "图P7.1(a)|images/e3a180b84851b5364432a2fbad7af6d35590d62be0026200b0640097463b832c.jpg": "施密特触发反相器逻辑符号：三角内滞回标志，输出带小圆；输入vI、输出vO。",
+  "图P7.1(b)|images/9d1e7ce7e9b9a415f70002038d180cd6f66947247e9e0b114dbe8fd8c12b9cde.jpg": "三角波输入vI随时间变化，峰谷越过上下门限VT+、VT−，用于说明施密特触发翻转条件。",
+  "图P7.3(a)|images/08b91c6cd1d645c4d59d14ec80e9c5d678aff8c8b31e48c9f1d4a27ce8cbfec8.jpg": "两级反相器G1、G2级联：vI经R1入G1，R2自vO正反馈至G1输入，构成同相施密特结构。",
+  "图P7.3(b)|images/02bb183652452266d7b2cf977c82f0c57963e4dac7ba8c2552324f21b79101b6.jpg": "锯齿脉冲序列vI：前沿陡升、后沿线性下降至零，各脉冲幅值约8–16V不等。",
+  "图P7.4|images/7a3098c6f98d1afa7fe1fea670f21a80530b3954e0bfa8ceda5c4dfb616149d2.jpg": "两级反相器施密特：vI经R1、控制电压VCO经R3汇入G1输入，R2自vO反馈，输出vO。",
+  "图P7.6|images/1ed8527384bbe8c7e802e04fc2fa835abf9b7736bd939ddbe5ec07497b87cc74.jpg": "RC与施密特反相器串联整形：旁附幅值不等的矩形脉冲vI波形，用于脉冲整形或边沿检测。",
+  "图P7.9|images/d33bde1cde08b268565d513059fde059b0b70a9a8b253b37f20c64bd0fd0a688.jpg": "微分型单稳态：CdRd得vA入与非门G1，RC定时驱动反相器G2，vO反馈；旁附高电平VOH矩形触发波。",
+  "图P7.11(a)|images/849251b2d96a8540ca09d9a61df8520c7cfb877773718969ffa9a291adee1a16.jpg": "两片74121级联：第一级B触发得vO1（22kΩ/0.13μF），其下降沿触发第二级A输入得vO2（11kΩ/0.13μF）。",
+  "图P7.11(b)|images/86e1e61204c59497cabbaa08c581f966742ec5552255b7ddf7fbc6efecd9ca51.jpg": "周期10ms、占空比50%的矩形波vI：高低各5ms，高电平标VOH，横轴单位ms。",
+  "图P7.16_0|images/1055093079a7b4aa2f339044891bb90540d63a366564403a4cf08ef1c29af5e0.jpg": "五级与非门（接成反相器）首尾相接构成环形振荡器，奇数级延迟反馈，输出vo为方波脉冲串。",
+  "图P7.16_1|images/c53c55b0b61f541f2cec1ad0ad7b164bedf9e32ff903c1deb2e7f0d97b9d0ebf.jpg": "两反相器G1/G2经C1、C2交叉耦合多谐振荡；各有RF反馈与RP串联电阻，节点标vI1/vO1、vI2/vO2。",
+  "图P7.20|images/ad7fee303f6ddb6605d55e831167849d349cf2d5a0ff7b05a0b9612afa2995aa.jpg": "555应用：2/6脚短接，经R接地、经并联开关S与电容C接VCC；5脚0.01μF旁路，3脚输出vO。",
+  "图P7.23|images/6181594dd0cbe254fe33983e3aef327601a7acb744e2d423b73661ca65338398.jpg": "555压控振荡：R1、R2、C构成无稳态，2/6短接；控制电压vI入5脚，3脚输出vO。",
+  "图P7.24|images/c8fcd9f21ec9893b67d09e6236b58bb58ced40e5fdbcd9315d32cd5746bd3e01.jpg": "555电子琴：多路开关Sn/Rn经PNP管调5脚控制电压改频率；无稳态驱动扬声器，电位器调音量。",
+  "图P7.25|images/3760dd0deeaf026c1ded2de566930adc63f2c33c106a180d3fb8606675551aff.jpg": "双555音频电路：左级长定时经反相器G1门控右级无稳态Reset；右级驱动扬声器，VCC=12V。",
+  "图P7.26|images/57e67bc70392d50e2dcd6af1fa069c4689067815703ccd954056b7f13ee44c19.jpg": "双555警报音：左无稳态vO1经R3调右级5脚实现变频；右级经30μF耦合驱动8Ω扬声器与100Ω音量电位器。",
+  "图P7.27(a)|images/72abd8ac6ba21c0a903717aff1a436515cb075dcabe3a5cb39725bba11f2fcb7.jpg": "555单稳态：vI触发2脚，R、C接6/7脚定时，5脚外加VM，3脚输出vO，供电VDD。"
+}

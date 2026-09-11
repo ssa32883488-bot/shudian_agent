@@ -1,0 +1,22 @@
+{
+  "图7.4.9(a)|images/db77d07c48854d84842b8741699150a2077d0c2f0849fa23ea2693ca21665e69.jpg": "图7.4.6的vI1波形：在VTH±VDD与VTH间指数升降；升穿VTH历时T1、降穿VTH历时T2，过阈处伴阶跃。",
+  "图7.4.9(b)|images/5975f2238d95e1fbab3c6b543bbe58b2b68142fd5ffe10d48b60d6da574cf788.jpg": "图7.4.6互补输出：vO1与vO2反相矩形波，一高则另一为低，随振荡周期交替翻转。",
+  "图7.4.12|images/c95f84792c571041b206032f50c09a35bcc37be9fde3047e220f00be02a8cc50.jpg": "(a)三反相器环中串入R、对地C构成RC延迟；(b)C跨接于G2输出与R两端，G3输入串保护电阻RS。",
+  "图7.4.10|images/9e534e991793f55bee23c6f3227f9a05e75a8ff3c5ed1eaead7c5a9f0fd343c5.jpg": "最简环形振荡：G1→G2→G3三级反相器串联，vO自G3反馈至vI1，级间节点标vI2、vI3。",
+  "图7.4.11|images/97fe9d60d4591099d121378faf3a46a789dca9eb0829d42f9416748b138e5a93.jpg": "图7.4.10波形：vI1(=vO)、vI2、vI3逐级滞后约tpd的矩形波，三倍延迟合成周期T。",
+  "图7.4.13|images/eb5741c732bfd6feb1195a24c76e3ab80f8140d5b31a00e2a52c06fd2aa342af.jpg": "图7.4.12(b)波形：vI1、vI2、vO2为矩形脉冲；vI3在VTH±(VOH−VOL)间指数充放并过VTH翻转。",
+  "图7.4.14(a)|images/b56ed5e55d68f7699218477b9af2c7313d2c9a0c4e8d1648f27adcf18f4b53f6.jpg": "C充电等效：VOH2经C、R与RS入G3输入级(含钳位二极管)；右化为VE、RE与C的RC模型。",
+  "图7.4.14(b)|images/0159f1be245a73ef688a15019a13208477dbd5df6f0339e7bcf4ee0eac6f2976.jpg": "C放电等效：VOH1经C与R汇于vI3再经RS入G3；右化为C与R构成的放电RC回路。",
+  "图7.4.15(a)|images/691cbbcc0796c9b7dbb710de380d70ef3cccce65cb6b504052b26e246f3501f9.jpg": "施密特反相器多谐振荡：输出vO经R反馈至输入vI，vI对地接定时电容C。",
+  "图7.4.15(b)|images/3f73f2f02cd3a66508fb074aa54de656742a18b2798aa5151face15f40d3c3e4.jpg": "对应波形：vI在VT+与VT−间指数充放；过阈使vO矩形翻转，高/低电平宽标为T1、T2。",
+  "图7.4.17|images/5b9186d76c1dac52463f5654d67004105c651884ecfe3dfbce6578adb8f3a010.jpg": "占空比可调施密特振荡：反馈分两路二极管定向，一经R2、一经可调R1，分控C充放电。",
+  "图7.4.18|images/9dd62d991ec8eb67cb027c80f576677353fcb92ba4aea48a68c8107fc28810ff.jpg": "石英晶体符号旁附电抗–频率曲线：串联谐振f0处X=0，近邻呈感性，其余呈容性。",
+  "图7.4.19|images/1e3e52df298ba801ebf4d61c1d78b13a8dd0a11518db2a2a023131dfe3ab5c16.jpg": "晶体多谐振荡：G1、G2各跨RF偏置；级间C耦合，晶体与另一C串联自vO反馈至G1输入。",
+  "图7.5.1|images/5dd5d6fbb81a77558dabc09aee11492148deb2e5588fb90c250c9f30836b6b1e.jpg": "555内部结构：三只5kΩ分压得2/3、1/3VCC；比较器C1/C2驱RS锁存，经G出OUT，并控放电管TD(DISC)。",
+  "图7.5.2|images/4384112757eb6bca677bdac26740c781482e605187ea20e0d063e14261266978.jpg": "555接成施密特：TH与TR′短接为vI，CTRL接旁路电容；锁存经G得vO，形成双阈值滞回。",
+  "图7.5.3|images/ea14eb007ab46de7100e3508d8c7df9e59f75f6df098df86b897466f137b8c99.jpg": "图7.5.2反相滞回VTC：上阈2/3VCC、下阈1/3VCC；vI升/降越过阈值时vO在高低电平间跳变。",
+  "图7.5.4_0|images/cde332c188db3dae85b5239d08db02c908000cf066bdb757c7b86f0d6b367c98.jpg": "555单稳态：vI入TR′(2脚)，TH与DISC短接经外R接VCC、对地C定时；CTRL旁路，OUT为vO。",
+  "图7.5.4_1|images/5fe9cb79f2df89ff90a9ddb62b03cd8367b70b779674c77b579a67056e7a4c8a.jpg": "极低分辨率残片(约143×95)：白底上竖向锯齿深灰墨迹，似断裂S形笔画，无法辨识完整电路。",
+  "图7.5.5|images/7ca369de9c84089b2dae940b3e186365169062a647f0c0cd7b87ceb893337dbb.jpg": "单稳态波形：vI负窄脉冲触发后vO变高、vC指数升至2/3VCC结束暂稳；其后vO回低、C迅速放电。",
+  "图7.5.6|images/ca6efe8efbb7500cab66777a1d4c2ea1dff76b1d727c713a542eca589571e3d7.jpg": "555无稳态：R1、R2与C充放，TH与TR′并接vC，DISC接R1–R2结点；vC在1/3~2/3VCC间振荡得vO。"
+}

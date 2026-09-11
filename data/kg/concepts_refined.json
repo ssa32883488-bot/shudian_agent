@@ -1,0 +1,4558 @@
+[
+  {
+    "id": "concept_ch01_ASCII代码",
+    "type": "Concept",
+    "name": "ASCII代码",
+    "raw_name": "ASCII代码",
+    "aliases": [
+      "ASCII",
+      "ascii"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [
+      "1.5"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch01_不同数制间的转换",
+    "type": "Concept",
+    "name": "不同数制间的转换",
+    "raw_name": "不同数制间的转换",
+    "aliases": [
+      "不同数制间的转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_二_十六转换",
+    "type": "Concept",
+    "name": "二-十六转换",
+    "raw_name": "二-十六转换",
+    "aliases": [
+      "二-十六转换",
+      "二十六转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_二_十转换",
+    "type": "Concept",
+    "name": "二-十转换",
+    "raw_name": "二-十转换",
+    "aliases": [
+      "二-十转换",
+      "二十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_二进制",
+    "type": "Concept",
+    "name": "二进制",
+    "raw_name": "二进制",
+    "aliases": [
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_二进制数的补码运算",
+    "type": "Concept",
+    "name": "二进制数的补码运算",
+    "raw_name": "二进制数的补码运算",
+    "aliases": [
+      "二进制数的补码运算",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_二进制算术运算的特点",
+    "type": "Concept",
+    "name": "二进制算术运算",
+    "raw_name": "二进制算术运算的特点",
+    "aliases": [
+      "二进制算术运算",
+      "二进制算术运算的特点",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换",
+      "算术运算",
+      "加减运算"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [
+      "1.4.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_八进制",
+    "type": "Concept",
+    "name": "八进制",
+    "raw_name": "八进制",
+    "aliases": [
+      "八进制",
+      "二进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_八进制数与二进制数的转换",
+    "type": "Concept",
+    "name": "八进制数与二进制数的转换",
+    "raw_name": "八进制数与二进制数的转换",
+    "aliases": [
+      "八进制数与二进制数的转换",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_十_二转换",
+    "type": "Concept",
+    "name": "十-二转换",
+    "raw_name": "十-二转换",
+    "aliases": [
+      "十-二转换",
+      "十二转换",
+      "二-十转换",
+      "整数部分",
+      "小数部分"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_十六_二转换",
+    "type": "Concept",
+    "name": "十六-二转换",
+    "raw_name": "十六-二转换",
+    "aliases": [
+      "十六-二转换",
+      "十六二转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_十六进制",
+    "type": "Concept",
+    "name": "十六进制",
+    "raw_name": "十六进制",
+    "aliases": [
+      "十六进制",
+      "二进制",
+      "八进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_十进制",
+    "type": "Concept",
+    "name": "十进制",
+    "raw_name": "十进制",
+    "aliases": [
+      "十进制",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_十进制代码",
+    "type": "Concept",
+    "name": "十进制代码",
+    "raw_name": "十进制代码",
+    "aliases": [
+      "十进制代码",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换",
+      "8421",
+      "2421",
+      "5211",
+      "余3",
+      "余 3",
+      "BCD"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_反码_补码和补码运算",
+    "type": "Concept",
+    "name": "反码、补码和补码运算",
+    "raw_name": "反码、补码和补码运算",
+    "aliases": [
+      "反码、补码和补码运算",
+      "原码",
+      "反码",
+      "补码",
+      "补码运算"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [
+      "1.4.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch01_数制与进制转换",
+    "type": "Concept",
+    "name": "数制与进制转换",
+    "raw_name": "数制与进制转换",
+    "aliases": [
+      "数制",
+      "进制",
+      "进制转换",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "十-二转换",
+      "二-十转换"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [
+      "1.2",
+      "1.3"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ],
+    "skip_section_prereq": true
+  },
+  {
+    "id": "concept_ch01_格雷码",
+    "type": "Concept",
+    "name": "格雷码",
+    "raw_name": "格雷码",
+    "aliases": [
+      "格雷码",
+      "Gray码"
+    ],
+    "chapter_ids": [
+      "ch01"
+    ],
+    "primary_chapter_num": 1,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_代入定理",
+    "type": "Concept",
+    "name": "代入定理",
+    "raw_name": "代入定理",
+    "aliases": [
+      "代入定理"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.4.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_公式化简法",
+    "type": "Concept",
+    "name": "公式化简",
+    "raw_name": "公式化简法",
+    "aliases": [
+      "公式化简",
+      "公式化简法",
+      "公式",
+      "公式法",
+      "代数化简"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.6.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_卡诺图化简法",
+    "type": "Concept",
+    "name": "卡诺图",
+    "raw_name": "卡诺图化简法",
+    "aliases": [
+      "卡诺图化简法",
+      "卡诺图",
+      "卡诺图化简法的步骤",
+      "K图"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.6.2",
+      "2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_反演定理",
+    "type": "Concept",
+    "name": "反演定理",
+    "raw_name": "反演定理",
+    "aliases": [
+      "反演定理",
+      "求反"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.4.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_各种描述方法间的相互转换",
+    "type": "Concept",
+    "name": "各种描述方法间的相互转换",
+    "raw_name": "各种描述方法间的相互转换",
+    "aliases": [
+      "各种描述方法间的相互转换"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_吸收法",
+    "type": "Concept",
+    "name": "吸收法",
+    "raw_name": "吸收法",
+    "aliases": [
+      "吸收法"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_基本公式",
+    "type": "Concept",
+    "name": "基本公式",
+    "raw_name": "基本公式",
+    "aliases": [
+      "基本公式"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.3.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_多输出逻辑函数的化简",
+    "type": "Concept",
+    "name": "多输出逻辑函数的化简",
+    "raw_name": "多输出逻辑函数的化简",
+    "aliases": [
+      "多输出逻辑函数的化简"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.8"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_奎恩_麦克拉斯基化简法_Q_M_法_",
+    "type": "Concept",
+    "name": "奎恩-麦克拉斯基化简法 (Q-M 法)",
+    "raw_name": "奎恩-麦克拉斯基化简法 (Q-M 法)",
+    "aliases": [
+      "奎恩-麦克拉斯基化简法 (Q-M 法)",
+      "奎恩麦克拉斯基化简法 (QM 法)",
+      "奎恩-麦克拉斯基化简法",
+      "奎恩-麦克拉斯基",
+      "奎恩-麦克拉斯基化简法(Q-M法)"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.6.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_对偶定理",
+    "type": "Concept",
+    "name": "对偶定理",
+    "raw_name": "对偶定理",
+    "aliases": [
+      "对偶定理",
+      "对偶"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.4.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_并项法",
+    "type": "Concept",
+    "name": "并项法",
+    "raw_name": "并项法",
+    "aliases": [
+      "并项法"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_异或与同或",
+    "type": "Concept",
+    "name": "异或与同或",
+    "raw_name": "异或与同或",
+    "aliases": [
+      "异或",
+      "同或",
+      "异或运算",
+      "同或运算"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.2"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch02_无关项在化简逻辑函数中的应用",
+    "type": "Concept",
+    "name": "无关项在化简逻辑函数中",
+    "raw_name": "无关项在化简逻辑函数中的应用",
+    "aliases": [
+      "无关项在化简逻辑函数中",
+      "无关项在化简逻辑函数中的应用"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.7.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_最小项与最大项",
+    "type": "Concept",
+    "name": "最小项与最大项",
+    "raw_name": "最小项与最大项",
+    "aliases": [
+      "最小项",
+      "最大项",
+      "最小项之和",
+      "最大项之积"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.5.3"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch02_最小项和最大项",
+    "type": "Concept",
+    "name": "最小项和最大项",
+    "raw_name": "最小项和最大项",
+    "aliases": [
+      "最小项和最大项"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_消因子法",
+    "type": "Concept",
+    "name": "消因子法",
+    "raw_name": "消因子法",
+    "aliases": [
+      "消因子法"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_消项法",
+    "type": "Concept",
+    "name": "消项法",
+    "raw_name": "消项法",
+    "aliases": [
+      "消项法"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_用卡诺图化简逻辑函数",
+    "type": "Concept",
+    "name": "用卡诺图化简逻辑函数",
+    "raw_name": "用卡诺图化简逻辑函数",
+    "aliases": [
+      "用卡诺图化简逻辑函数",
+      "卡诺图",
+      "K图"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_约束项_任意项和逻辑函数式中的无关项",
+    "type": "Concept",
+    "name": "约束项、任意项和逻辑函数式中的无关项",
+    "raw_name": "约束项、任意项和逻辑函数式中的无关项",
+    "aliases": [
+      "约束项、任意项和逻辑函数式中的无关项"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.7.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_若干常用公式",
+    "type": "Concept",
+    "name": "若干常用公式",
+    "raw_name": "若干常用公式",
+    "aliases": [
+      "若干常用公式"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.3.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑代数中的三种基本运算",
+    "type": "Concept",
+    "name": "逻辑代数中的三种基本运算",
+    "raw_name": "逻辑代数中的三种基本运算",
+    "aliases": [
+      "逻辑代数中的三种基本运算",
+      "异或",
+      "同或",
+      "与门",
+      "或门",
+      "非门",
+      "与运算",
+      "或运算",
+      "非运算",
+      "与非",
+      "或非"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数",
+    "type": "Concept",
+    "name": "逻辑函数",
+    "raw_name": "逻辑函数",
+    "aliases": [
+      "逻辑函数"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.5.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数式",
+    "type": "Concept",
+    "name": "逻辑函数式",
+    "raw_name": "逻辑函数式",
+    "aliases": [
+      "逻辑函数式"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数式的变换",
+    "type": "Concept",
+    "name": "逻辑函数式的变换",
+    "raw_name": "逻辑函数式的变换",
+    "aliases": [
+      "逻辑函数式的变换"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数形式的变换",
+    "type": "Concept",
+    "name": "逻辑函数形式的变换",
+    "raw_name": "逻辑函数形式的变换",
+    "aliases": [
+      "逻辑函数形式的变换"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.9"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数的两种标准形式",
+    "type": "Concept",
+    "name": "逻辑函数的两种标准形式",
+    "raw_name": "逻辑函数的两种标准形式",
+    "aliases": [
+      "逻辑函数的两种标准形式",
+      "最小项",
+      "最大项",
+      "最小项之和",
+      "最大项之积"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.5.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数的化简",
+    "type": "Concept",
+    "name": "逻辑函数的化简",
+    "raw_name": "逻辑函数的化简",
+    "aliases": [
+      "逻辑函数的化简"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数的卡诺图表示法",
+    "type": "Concept",
+    "name": "逻辑函数的卡诺图表示法",
+    "raw_name": "逻辑函数的卡诺图表示法",
+    "aliases": [
+      "逻辑函数的卡诺图表示法",
+      "卡诺图",
+      "K图"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数的描述方法",
+    "type": "Concept",
+    "name": "逻辑函数的描述方法",
+    "raw_name": "逻辑函数的描述方法",
+    "aliases": [
+      "逻辑函数的描述方法"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.5.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑函数的最小项之和形式",
+    "type": "Concept",
+    "name": "逻辑函数的最小项之和形式",
+    "raw_name": "逻辑函数的最小项之和形式",
+    "aliases": [
+      "逻辑函数的最小项之和形式"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑真值表",
+    "type": "Concept",
+    "name": "逻辑真值表",
+    "raw_name": "逻辑真值表",
+    "aliases": [
+      "逻辑真值表"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑等式的证明",
+    "type": "Concept",
+    "name": "逻辑等式的证明",
+    "raw_name": "逻辑等式的证明",
+    "aliases": [
+      "逻辑等式的证明"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch02_逻辑等式证明",
+    "type": "Concept",
+    "name": "逻辑等式证明",
+    "raw_name": "逻辑等式证明",
+    "aliases": [
+      "证明下列",
+      "逻辑恒等式",
+      "互相排斥",
+      "恒等式"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [
+      "2.3"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch02_配项法",
+    "type": "Concept",
+    "name": "配项法",
+    "raw_name": "配项法",
+    "aliases": [
+      "配项法"
+    ],
+    "chapter_ids": [
+      "ch02"
+    ],
+    "primary_chapter_num": 2,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_Bi_CMOS_电路",
+    "type": "Concept",
+    "name": "Bi-CMOS 电路",
+    "raw_name": "Bi-CMOS 电路",
+    "aliases": [
+      "Bi-CMOS 电路",
+      "BiCMOS 电路",
+      "Bi-CMOS电路",
+      "CMOS",
+      "74HC",
+      "HC系列"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.6"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_Bi_CMOS_电路的基本结构和工作原理",
+    "type": "Concept",
+    "name": "Bi-CMOS 电路的基本结构和工作原理",
+    "raw_name": "Bi-CMOS 电路的基本结构和工作原理",
+    "aliases": [
+      "Bi-CMOS 电路的基本结构和工作原理",
+      "BiCMOS 电路的基本结构和工作原理",
+      "Bi-CMOS电路的基本结构和工作原理",
+      "CMOS",
+      "74HC",
+      "HC系列"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.6.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_CMOS_电路和_TTL_电路的接口",
+    "type": "Concept",
+    "name": "CMOS 电路和 TTL 电路的接口",
+    "raw_name": "CMOS 电路和 TTL 电路的接口",
+    "aliases": [
+      "CMOS 电路和 TTL 电路的接口",
+      "CMOS电路和TTL电路的接口",
+      "CMOS",
+      "74HC",
+      "HC系列",
+      "TTL",
+      "74LS",
+      "LS系列",
+      "74系列TTL",
+      "74系列",
+      "接口",
+      "上拉电阻",
+      "电平转换"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.7.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_CMOS传输门",
+    "type": "Concept",
+    "name": "CMOS传输门",
+    "raw_name": "CMOS传输门",
+    "aliases": [
+      "CMOS传输门",
+      "CMOS",
+      "74HC",
+      "HC系列"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_CMOS_反相器的电路结构和工作原理",
+    "type": "Concept",
+    "name": "CMOS反相器",
+    "raw_name": "CMOS 反相器的电路结构和工作原理",
+    "aliases": [
+      "CMOS反相器",
+      "CMOS 反相器",
+      "CMOS 反相器的电路结构和工作原理",
+      "CMOS反相器的动态特性",
+      "CMOS",
+      "74HC",
+      "HC系列"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.3.2",
+      "3.3.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_CMOS_反相器的静态输入特性和输出特性",
+    "type": "Concept",
+    "name": "CMOS反相器的静态输入特性和输出特性",
+    "raw_name": "CMOS 反相器的静态输入特性和输出特性",
+    "aliases": [
+      "CMOS反相器的静态输入特性和输出特性",
+      "CMOS 反相器的静态输入特性和输出特性",
+      "CMOS反相器",
+      "CMOS 反相器",
+      "CMOS",
+      "74HC",
+      "HC系列"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.3.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_CMOS门电路",
+    "type": "Concept",
+    "name": "CMOS门电路",
+    "raw_name": "CMOS门电路",
+    "aliases": [
+      "CMOS门电路",
+      "CMOS",
+      "74HC",
+      "HC系列"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_ECL_电路的基本结构和工作原理",
+    "type": "Concept",
+    "name": "ECL 电路的基本结构和工作原理",
+    "raw_name": "ECL 电路的基本结构和工作原理",
+    "aliases": [
+      "ECL 电路的基本结构和工作原理",
+      "ECL电路的基本结构和工作原理"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.5.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_ECL_集成电路",
+    "type": "Concept",
+    "name": "ECL 集成电路",
+    "raw_name": "ECL 集成电路",
+    "aliases": [
+      "ECL 集成电路",
+      "ECL集成电路"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_MOS_管的开关特性",
+    "type": "Concept",
+    "name": "MOS 管的开关特性",
+    "raw_name": "MOS 管的开关特性",
+    "aliases": [
+      "MOS 管的开关特性",
+      "MOS管的开关特性"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.3.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_MOS_管的开关等效电路",
+    "type": "Concept",
+    "name": "MOS 管的开关等效电路",
+    "raw_name": "MOS 管的开关等效电路",
+    "aliases": [
+      "MOS 管的开关等效电路",
+      "MOS管的开关等效电路"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_MOS管的四种类型",
+    "type": "Concept",
+    "name": "MOS管的四种类型",
+    "raw_name": "MOS管的四种类型",
+    "aliases": [
+      "MOS管的四种类型"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_MOS管的基本开关电路",
+    "type": "Concept",
+    "name": "MOS管的基本开关电路",
+    "raw_name": "MOS管的基本开关电路",
+    "aliases": [
+      "MOS管的基本开关电路"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_TTL门电路",
+    "type": "Concept",
+    "name": "TTL门电路",
+    "raw_name": "TTL门电路",
+    "aliases": [
+      "TTL门电路",
+      "TTL",
+      "74LS",
+      "LS系列",
+      "74系列TTL",
+      "74系列"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_三态输出",
+    "type": "Concept",
+    "name": "三态输出",
+    "raw_name": "三态输出",
+    "aliases": [
+      "三态",
+      "高阻",
+      "三态输出",
+      "TS"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.3"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch03_三态输出门电路_TS门_",
+    "type": "Concept",
+    "name": "三态输出门电路(TS门)",
+    "raw_name": "三态输出门电路(TS门)",
+    "aliases": [
+      "三态输出门电路(TS门)",
+      "三态输出门电路",
+      "三态",
+      "高阻",
+      "TS",
+      "三态输出"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_三极管接口电路的电路参数计算",
+    "type": "Concept",
+    "name": "三极管接口电路的电路参数计算",
+    "raw_name": "三极管接口电路的电路参数计算",
+    "aliases": [
+      "三极管接口电路的电路参数计算",
+      "接口",
+      "上拉电阻",
+      "电平转换"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_不同类型数字集成电路间的接口",
+    "type": "Concept",
+    "name": "不同类型数字集成电路间的接口",
+    "raw_name": "不同类型数字集成电路间的接口",
+    "aliases": [
+      "不同类型数字集成电路间的接口",
+      "接口",
+      "上拉电阻",
+      "电平转换"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.7"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_不同逻辑电平电路间的接口",
+    "type": "Concept",
+    "name": "不同逻辑电平电路间的接口",
+    "raw_name": "不同逻辑电平电路间的接口",
+    "aliases": [
+      "不同逻辑电平电路间的接口",
+      "接口",
+      "上拉电阻",
+      "电平转换"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.7.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_与或非门",
+    "type": "Concept",
+    "name": "与或非门",
+    "raw_name": "与或非门",
+    "aliases": [
+      "与或非门"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3"
+    ],
+    "confidence": "medium",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_二极管与门",
+    "type": "Concept",
+    "name": "二极管与门",
+    "raw_name": "二极管与门",
+    "aliases": [
+      "二极管与门",
+      "与门"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.2.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_二极管或门",
+    "type": "Concept",
+    "name": "二极管或门",
+    "raw_name": "二极管或门",
+    "aliases": [
+      "二极管或门",
+      "或门"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.2.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_交流噪声容限",
+    "type": "Concept",
+    "name": "交流噪声容限",
+    "raw_name": "交流噪声容限",
+    "aliases": [
+      "交流噪声容限"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_传输延迟时间",
+    "type": "Concept",
+    "name": "传输延迟时间",
+    "raw_name": "传输延迟时间",
+    "aliases": [
+      "传输延迟时间"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_其他逻辑功能的门电路",
+    "type": "Concept",
+    "name": "其他逻辑功能的门电路",
+    "raw_name": "其他逻辑功能的门电路",
+    "aliases": [
+      "其他逻辑功能的门电路"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_动态功耗",
+    "type": "Concept",
+    "name": "动态功耗",
+    "raw_name": "动态功耗",
+    "aliases": [
+      "动态功耗"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_半导体二极管的开关特性",
+    "type": "Concept",
+    "name": "半导体二极管的开关特性",
+    "raw_name": "半导体二极管的开关特性",
+    "aliases": [
+      "半导体二极管的开关特性"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.2.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_双极型三极管的开关特性",
+    "type": "Concept",
+    "name": "双极型三极管的开关特性",
+    "raw_name": "双极型三极管的开关特性",
+    "aliases": [
+      "双极型三极管的开关特性"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.4.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_双极型三极管的结构",
+    "type": "Concept",
+    "name": "双极型三极管的结构",
+    "raw_name": "双极型三极管的结构",
+    "aliases": [
+      "双极型三极管的结构"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_扇出",
+    "type": "Concept",
+    "name": "扇出",
+    "raw_name": "扇出",
+    "aliases": [
+      "扇出"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_漏极开路输出OD",
+    "type": "Concept",
+    "name": "漏极开路输出(OD)",
+    "raw_name": "漏极开路输出(OD)",
+    "aliases": [
+      "OD",
+      "OD门",
+      "漏极开路",
+      "OD输出"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.3"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch03_电压传输特性",
+    "type": "Concept",
+    "name": "电压传输特性",
+    "raw_name": "电压传输特性",
+    "aliases": [
+      "电压传输特性"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_电源的动态尖峰电流",
+    "type": "Concept",
+    "name": "电源的动态尖峰电流",
+    "raw_name": "电源的动态尖峰电流",
+    "aliases": [
+      "电源的动态尖峰电流"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_电路结构",
+    "type": "Concept",
+    "name": "电路结构",
+    "raw_name": "电路结构",
+    "aliases": [
+      "电路结构"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_输入特性",
+    "type": "Concept",
+    "name": "输入特性",
+    "raw_name": "输入特性",
+    "aliases": [
+      "输入特性"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_输入特性和输出特性的应用",
+    "type": "Concept",
+    "name": "输入特性和输出特性",
+    "raw_name": "输入特性和输出特性的应用",
+    "aliases": [
+      "输入特性和输出特性",
+      "输入特性和输出特性的应用"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_输入电路的过流保护",
+    "type": "Concept",
+    "name": "输入电路的过流保护",
+    "raw_name": "输入电路的过流保护",
+    "aliases": [
+      "输入电路的过流保护"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_输入电路的静电防护",
+    "type": "Concept",
+    "name": "输入电路的静电防护",
+    "raw_name": "输入电路的静电防护",
+    "aliases": [
+      "输入电路的静电防护"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_输入端噪声容限",
+    "type": "Concept",
+    "name": "输入端噪声容限",
+    "raw_name": "输入端噪声容限",
+    "aliases": [
+      "输入端噪声容限"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_输入端负载特性",
+    "type": "Concept",
+    "name": "输入端负载特性",
+    "raw_name": "输入端负载特性",
+    "aliases": [
+      "输入端负载特性"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_输出特性",
+    "type": "Concept",
+    "name": "输出特性",
+    "raw_name": "输出特性",
+    "aliases": [
+      "输出特性"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_集成门电路逻辑功能的分析",
+    "type": "Concept",
+    "name": "集成门电路逻辑功能的分析",
+    "raw_name": "集成门电路逻辑功能的分析",
+    "aliases": [
+      "集成门电路逻辑功能的分析"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch03_集电极开路输出OC",
+    "type": "Concept",
+    "name": "集电极开路输出(OC)",
+    "raw_name": "集电极开路输出(OC)",
+    "aliases": [
+      "OC",
+      "OC门",
+      "集电极开路",
+      "OC输出"
+    ],
+    "chapter_ids": [
+      "ch03"
+    ],
+    "primary_chapter_num": 3,
+    "section_codes": [
+      "3.4"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch04_1位加法器",
+    "type": "Concept",
+    "name": "1位加法器",
+    "raw_name": "1位加法器",
+    "aliases": [
+      "1位加法器",
+      "全加器",
+      "半加器",
+      "加法器"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_1位数值比较器",
+    "type": "Concept",
+    "name": "1位数值比较器",
+    "raw_name": "1位数值比较器",
+    "aliases": [
+      "1位数值比较器",
+      "比较器",
+      "74HC85"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_二_十进制译码器",
+    "type": "Concept",
+    "name": "二-十进制译码器",
+    "raw_name": "二-十进制译码器",
+    "aliases": [
+      "二-十进制译码器",
+      "二十进制译码器",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换",
+      "译码",
+      "74HC138",
+      "74LS154",
+      "74HC42"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_二进制译码器",
+    "type": "Concept",
+    "name": "二进制译码器",
+    "raw_name": "二进制译码器",
+    "aliases": [
+      "二进制译码器",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换",
+      "译码",
+      "74HC138",
+      "74LS154",
+      "74HC42"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_优先编码器",
+    "type": "Concept",
+    "name": "优先编码器",
+    "raw_name": "优先编码器",
+    "aliases": [
+      "优先编码器",
+      "编码",
+      "优先编码",
+      "74HC148"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_修改逻辑设计",
+    "type": "Concept",
+    "name": "修改逻辑设计",
+    "raw_name": "修改逻辑设计",
+    "aliases": [
+      "修改逻辑设计"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_写出逻辑函数式",
+    "type": "Concept",
+    "name": "写出逻辑函数式",
+    "raw_name": "写出逻辑函数式",
+    "aliases": [
+      "写出逻辑函数式"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_加法器",
+    "type": "Concept",
+    "name": "加法器",
+    "raw_name": "加法器",
+    "aliases": [
+      "加法器",
+      "全加器",
+      "半加器"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.4.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_可编程逻辑器件",
+    "type": "Concept",
+    "name": "可编程逻辑器件",
+    "raw_name": "可编程逻辑器件",
+    "aliases": [
+      "可编程逻辑器件"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.6"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_基本程序结构",
+    "type": "Concept",
+    "name": "基本程序结构",
+    "raw_name": "基本程序结构",
+    "aliases": [
+      "基本程序结构"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_多位加法器",
+    "type": "Concept",
+    "name": "多位加法器",
+    "raw_name": "多位加法器",
+    "aliases": [
+      "多位加法器",
+      "全加器",
+      "半加器",
+      "加法器"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_多位数值比较器",
+    "type": "Concept",
+    "name": "多位数值比较器",
+    "raw_name": "多位数值比较器",
+    "aliases": [
+      "多位数值比较器",
+      "比较器",
+      "74HC85"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_层次化和模块化的设计方法",
+    "type": "Concept",
+    "name": "层次化和模块化",
+    "raw_name": "层次化和模块化的设计方法",
+    "aliases": [
+      "层次化和模块化的设计方法",
+      "层次化和模块化",
+      "扩展",
+      "接成"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_引入选通脉冲",
+    "type": "Concept",
+    "name": "引入选通脉冲",
+    "raw_name": "引入选通脉冲",
+    "aliases": [
+      "引入选通脉冲"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_接入滤波电容",
+    "type": "Concept",
+    "name": "接入滤波电容",
+    "raw_name": "接入滤波电容",
+    "aliases": [
+      "接入滤波电容"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_描述组合逻辑电路的实例",
+    "type": "Concept",
+    "name": "描述组合逻辑电路的实例",
+    "raw_name": "描述组合逻辑电路的实例",
+    "aliases": [
+      "描述组合逻辑电路的实例"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_数值比较器",
+    "type": "Concept",
+    "name": "数值比较器",
+    "raw_name": "数值比较器",
+    "aliases": [
+      "数值比较器",
+      "数值比较器的应用",
+      "比较器",
+      "74HC85"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.4.5",
+      "4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_数据选择器",
+    "type": "Concept",
+    "name": "数据选择器",
+    "raw_name": "数据选择器",
+    "aliases": [
+      "数据选择器",
+      "数据选择",
+      "MUX",
+      "多路选择"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.4.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_显示译码器",
+    "type": "Concept",
+    "name": "显示译码器",
+    "raw_name": "显示译码器",
+    "aliases": [
+      "显示译码器",
+      "译码",
+      "74HC138",
+      "74LS154",
+      "74HC42"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_普通编码器",
+    "type": "Concept",
+    "name": "普通编码器",
+    "raw_name": "普通编码器",
+    "aliases": [
+      "普通编码器",
+      "编码",
+      "优先编码",
+      "74HC148"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_检查竞争_冒险现象的方法",
+    "type": "Concept",
+    "name": "检查竞争-冒险现象",
+    "raw_name": "检查竞争-冒险现象的方法",
+    "aliases": [
+      "检查竞争-冒险现象的方法",
+      "检查竞争冒险现象的方法",
+      "检查竞争-冒险现象",
+      "检查竞争冒险现象",
+      "竞争",
+      "冒险",
+      "竞争冒险",
+      "竞争-冒险"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.9.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_模块的两种描述方式",
+    "type": "Concept",
+    "name": "模块的两种描述方式",
+    "raw_name": "模块的两种描述方式",
+    "aliases": [
+      "模块的两种描述方式"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_硬件描述语言",
+    "type": "Concept",
+    "name": "硬件描述语言",
+    "raw_name": "硬件描述语言",
+    "aliases": [
+      "硬件描述语言",
+      "Verilog",
+      "HDL",
+      "verilog",
+      "Verilog HDL"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.7"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_竞争_冒险现象及其成因",
+    "type": "Concept",
+    "name": "竞争-冒险现象",
+    "raw_name": "竞争-冒险现象及其成因",
+    "aliases": [
+      "竞争-冒险现象及其成因",
+      "竞争冒险现象及其成因",
+      "竞争-冒险现象",
+      "竞争冒险现象",
+      "竞争",
+      "冒险",
+      "竞争冒险",
+      "竞争-冒险"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.9.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_组合逻辑电路的分析方法",
+    "type": "Concept",
+    "name": "组合逻辑电路",
+    "raw_name": "组合逻辑电路的分析方法",
+    "aliases": [
+      "组合逻辑电路",
+      "组合逻辑电路的分析方法",
+      "组合逻辑电路的基本设计方法",
+      "组合逻辑电路的特点"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.2",
+      "4.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_组合逻辑设计",
+    "type": "Concept",
+    "name": "组合逻辑电路设计",
+    "raw_name": "组合逻辑电路设计",
+    "aliases": [
+      "设计一个",
+      "逻辑电路",
+      "多数表决",
+      "代码转换",
+      "电灯"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.3"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch04_编码器",
+    "type": "Concept",
+    "name": "编码器",
+    "raw_name": "编码器",
+    "aliases": [
+      "编码器",
+      "编码",
+      "优先编码",
+      "74HC148"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.4.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_若干常用的组合逻辑电路模块",
+    "type": "Concept",
+    "name": "若干常用的组合逻辑电路模块",
+    "raw_name": "若干常用的组合逻辑电路模块",
+    "aliases": [
+      "若干常用的组合逻辑电路模块"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_设计验证",
+    "type": "Concept",
+    "name": "设计验证",
+    "raw_name": "设计验证",
+    "aliases": [
+      "设计验证"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_译码器",
+    "type": "Concept",
+    "name": "译码器",
+    "raw_name": "译码器",
+    "aliases": [
+      "译码器",
+      "译码",
+      "74HC138",
+      "74LS154",
+      "74HC42"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [
+      "4.4.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_进行逻辑抽象",
+    "type": "Concept",
+    "name": "进行逻辑抽象",
+    "raw_name": "进行逻辑抽象",
+    "aliases": [
+      "进行逻辑抽象"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_选定器件类型",
+    "type": "Concept",
+    "name": "选定器件类型",
+    "raw_name": "选定器件类型",
+    "aliases": [
+      "选定器件类型"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch04_逻辑功能的描述",
+    "type": "Concept",
+    "name": "逻辑功能的描述",
+    "raw_name": "逻辑功能的描述",
+    "aliases": [
+      "逻辑功能的描述"
+    ],
+    "chapter_ids": [
+      "ch04"
+    ],
+    "primary_chapter_num": 4,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_DRAM_的动态存储单元",
+    "type": "Concept",
+    "name": "DRAM 的动态存储单元",
+    "raw_name": "DRAM 的动态存储单元",
+    "aliases": [
+      "DRAM 的动态存储单元",
+      "DRAM的动态存储单元",
+      "DRAM"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_DRAM的总体结构",
+    "type": "Concept",
+    "name": "DRAM的总体结构",
+    "raw_name": "DRAM的总体结构",
+    "aliases": [
+      "DRAM的总体结构",
+      "DRAM"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_JK_触发器",
+    "type": "Concept",
+    "name": "JK 触发器",
+    "raw_name": "JK 触发器",
+    "aliases": [
+      "JK 触发器",
+      "JK触发器",
+      "触发器",
+      "FF",
+      "边沿触发"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_ROM的结构和工作原理",
+    "type": "Concept",
+    "name": "ROM",
+    "raw_name": "ROM的结构和工作原理",
+    "aliases": [
+      "ROM",
+      "ROM的结构和工作原理",
+      "只读存储器"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_ROM的分类",
+    "type": "Concept",
+    "name": "ROM的分类",
+    "raw_name": "ROM的分类",
+    "aliases": [
+      "ROM的分类",
+      "ROM",
+      "只读存储器"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_SR_触发器",
+    "type": "Concept",
+    "name": "SR 触发器",
+    "raw_name": "SR 触发器",
+    "aliases": [
+      "SR 触发器",
+      "SR触发器",
+      "触发器",
+      "FF",
+      "边沿触发"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_SR_锁存器",
+    "type": "Concept",
+    "name": "SR 锁存器",
+    "raw_name": "SR 锁存器",
+    "aliases": [
+      "SR 锁存器",
+      "SR锁存器",
+      "锁存",
+      "SR锁存"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_SRAM的结构和工作原理",
+    "type": "Concept",
+    "name": "SRAM",
+    "raw_name": "SRAM的结构和工作原理",
+    "aliases": [
+      "SRAM的结构和工作原理",
+      "SRAM",
+      "2114",
+      "RAM"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_SRAM的静态存储单元",
+    "type": "Concept",
+    "name": "SRAM的静态存储单元",
+    "raw_name": "SRAM的静态存储单元",
+    "aliases": [
+      "SRAM的静态存储单元",
+      "SRAM",
+      "2114",
+      "RAM"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_位扩展方式",
+    "type": "Concept",
+    "name": "位扩展方式",
+    "raw_name": "位扩展方式",
+    "aliases": [
+      "位扩展方式"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_只读存储器_ROM_",
+    "type": "Concept",
+    "name": "只读存储器(ROM)",
+    "raw_name": "只读存储器(ROM)",
+    "aliases": [
+      "只读存储器(ROM)",
+      "只读存储器",
+      "ROM"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.5.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_字扩展方式",
+    "type": "Concept",
+    "name": "字扩展方式",
+    "raw_name": "字扩展方式",
+    "aliases": [
+      "字扩展方式"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_存储器",
+    "type": "Concept",
+    "name": "存储器",
+    "raw_name": "存储器",
+    "aliases": [
+      "存储器"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_存储器容量的扩展",
+    "type": "Concept",
+    "name": "存储器容量的扩展",
+    "raw_name": "存储器容量的扩展",
+    "aliases": [
+      "存储器容量的扩展",
+      "2114",
+      "位扩展",
+      "字扩展",
+      "容量扩展"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.5.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_存储器扩展容量的方法",
+    "type": "Concept",
+    "name": "存储器扩展容量",
+    "raw_name": "存储器扩展容量的方法",
+    "aliases": [
+      "存储器扩展容量",
+      "存储器扩展容量的方法"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_寄存器",
+    "type": "Concept",
+    "name": "寄存器",
+    "raw_name": "寄存器",
+    "aliases": [
+      "寄存器",
+      "移位寄存器"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_用存储器实现组合逻辑函数",
+    "type": "Concept",
+    "name": "用存储器实现组合逻辑函数",
+    "raw_name": "用存储器实现组合逻辑函数",
+    "aliases": [
+      "用存储器实现组合逻辑函数"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.5.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_电平触发方式的动作特点",
+    "type": "Concept",
+    "name": "电平触发方式的动作特点",
+    "raw_name": "电平触发方式的动作特点",
+    "aliases": [
+      "电平触发方式的动作特点"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_电路结构和工作原理",
+    "type": "Concept",
+    "name": "电路结构和工作原理",
+    "raw_name": "电路结构和工作原理",
+    "aliases": [
+      "电路结构和工作原理"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_脉冲触发方式的动作特点",
+    "type": "Concept",
+    "name": "脉冲触发方式的动作特点",
+    "raw_name": "脉冲触发方式的动作特点",
+    "aliases": [
+      "脉冲触发方式的动作特点"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_触发器",
+    "type": "Concept",
+    "name": "触发器",
+    "raw_name": "触发器",
+    "aliases": [
+      "触发器",
+      "触发器的动态特性",
+      "触发器的应用",
+      "FF",
+      "边沿触发"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.3",
+      "5.3.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_触发器按逻辑功能的分类",
+    "type": "Concept",
+    "name": "触发器按逻辑功能的分类",
+    "raw_name": "触发器按逻辑功能的分类",
+    "aliases": [
+      "触发器按逻辑功能的分类",
+      "触发器",
+      "FF",
+      "边沿触发"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [
+      "5.3.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch05_边沿触发方式的动作特点",
+    "type": "Concept",
+    "name": "边沿触发方式的动作特点",
+    "raw_name": "边沿触发方式的动作特点",
+    "aliases": [
+      "边沿触发方式的动作特点"
+    ],
+    "chapter_ids": [
+      "ch05"
+    ],
+    "primary_chapter_num": 5,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_任意进制计数器的构成方法",
+    "type": "Concept",
+    "name": "任意进制计数器的构成方法",
+    "raw_name": "任意进制计数器的构成方法",
+    "aliases": [
+      "任意进制计数器的构成方法",
+      "二进制",
+      "八进制",
+      "十六进制",
+      "十进制",
+      "数制",
+      "进制转换",
+      "十-二转换",
+      "二-十转换",
+      "计数器",
+      "模"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_可以实现时序逻辑电路的可编程逻辑器件",
+    "type": "Concept",
+    "name": "可以实现时序逻辑电路的可编程逻辑器件",
+    "raw_name": "可以实现时序逻辑电路的可编程逻辑器件",
+    "aliases": [
+      "可以实现时序逻辑电路的可编程逻辑器件"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.5.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_同步与异步",
+    "type": "Concept",
+    "name": "同步时序与异步时序",
+    "raw_name": "同步时序与异步时序",
+    "aliases": [
+      "同步时序",
+      "异步时序",
+      "同步时序电路",
+      "异步时序电路"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.1",
+      "6.2"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch06_同步时序逻辑电路的分析方法",
+    "type": "Concept",
+    "name": "同步时序逻辑电路",
+    "raw_name": "同步时序逻辑电路的分析方法",
+    "aliases": [
+      "同步时序逻辑电路的分析方法",
+      "同步时序逻辑电路",
+      "同步时序逻辑电路的设计方法",
+      "同步时序"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.2.1",
+      "6.4.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_同步计数器",
+    "type": "Concept",
+    "name": "同步计数器",
+    "raw_name": "同步计数器",
+    "aliases": [
+      "同步计数器",
+      "计数器",
+      "模"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_复杂时序逻辑电路的设计",
+    "type": "Concept",
+    "name": "复杂时序逻辑电路的设计",
+    "raw_name": "复杂时序逻辑电路的设计",
+    "aliases": [
+      "复杂时序逻辑电路的设计"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.4.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_对时序逻辑电路的描述",
+    "type": "Concept",
+    "name": "对时序逻辑电路的描述",
+    "raw_name": "对时序逻辑电路的描述",
+    "aliases": [
+      "对时序逻辑电路的描述"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_对触发器的描述",
+    "type": "Concept",
+    "name": "对触发器的描述",
+    "raw_name": "对触发器的描述",
+    "aliases": [
+      "对触发器的描述",
+      "触发器",
+      "FF",
+      "边沿触发"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_序列信号发生器",
+    "type": "Concept",
+    "name": "序列信号发生器",
+    "raw_name": "序列信号发生器",
+    "aliases": [
+      "序列信号发生器"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.3.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_异步时序逻辑电路的分析方法",
+    "type": "Concept",
+    "name": "异步时序逻辑电路",
+    "raw_name": "异步时序逻辑电路的分析方法",
+    "aliases": [
+      "异步时序逻辑电路的分析方法",
+      "异步时序逻辑电路",
+      "异步时序逻辑电路的设计方法",
+      "异步时序"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.2.3",
+      "6.4.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_异步计数器",
+    "type": "Concept",
+    "name": "异步计数器",
+    "raw_name": "异步计数器",
+    "aliases": [
+      "异步计数器",
+      "计数器",
+      "模"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_时序图",
+    "type": "Concept",
+    "name": "时序图",
+    "raw_name": "时序图",
+    "aliases": [
+      "时序图"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_时序与组合区别",
+    "type": "Concept",
+    "name": "时序逻辑与组合逻辑的区别",
+    "raw_name": "时序逻辑与组合逻辑的区别",
+    "aliases": [
+      "时序逻辑电路",
+      "组合逻辑电路",
+      "逻辑功能与电路结构"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.1"
+    ],
+    "confidence": "seed",
+    "sources": [
+      "seed"
+    ]
+  },
+  {
+    "id": "concept_ch06_时序逻辑电路中的竞争_冒险现象",
+    "type": "Concept",
+    "name": "时序逻辑电路中的竞争-冒险现象",
+    "raw_name": "时序逻辑电路中的竞争-冒险现象",
+    "aliases": [
+      "时序逻辑电路中的竞争-冒险现象",
+      "时序逻辑电路中的竞争冒险现象",
+      "竞争",
+      "冒险",
+      "竞争冒险",
+      "竞争-冒险"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.6"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_时序逻辑电路的状态转换表_状态转换图_状态机流程图和时序图",
+    "type": "Concept",
+    "name": "时序逻辑电路的状态转换表、状态转换图、状态机流程图和时序图",
+    "raw_name": "时序逻辑电路的状态转换表、状态转换图、状态机流程图和时序图",
+    "aliases": [
+      "时序逻辑电路的状态转换表、状态转换图、状态机流程图和时序图"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.2.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_时序逻辑电路的自启动设计",
+    "type": "Concept",
+    "name": "时序逻辑电路的自启动设计",
+    "raw_name": "时序逻辑电路的自启动设计",
+    "aliases": [
+      "时序逻辑电路的自启动设计"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.4.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_检查设计的电路能否自启动",
+    "type": "Concept",
+    "name": "检查设计的电路能否自启动",
+    "raw_name": "检查设计的电路能否自启动",
+    "aliases": [
+      "检查设计的电路能否自启动"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_状态分配",
+    "type": "Concept",
+    "name": "状态分配",
+    "raw_name": "状态分配",
+    "aliases": [
+      "状态分配"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_状态化简",
+    "type": "Concept",
+    "name": "状态化简",
+    "raw_name": "状态化简",
+    "aliases": [
+      "状态化简"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_状态机流程图_SM_图_",
+    "type": "Concept",
+    "name": "状态机流程图（SM 图）",
+    "raw_name": "状态机流程图（SM 图）",
+    "aliases": [
+      "状态机流程图（SM 图）",
+      "状态机流程图",
+      "状态机流程图（SM图）"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_状态转换图",
+    "type": "Concept",
+    "name": "状态转换图",
+    "raw_name": "状态转换图",
+    "aliases": [
+      "状态转换图"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_状态转换表",
+    "type": "Concept",
+    "name": "状态转换表",
+    "raw_name": "状态转换表",
+    "aliases": [
+      "状态转换表"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_用硬件描述语言_Verilog_HDL_描述时序逻辑电路",
+    "type": "Concept",
+    "name": "用硬件描述语言 Verilog HDL 描述时序逻辑电路",
+    "raw_name": "用硬件描述语言 Verilog HDL 描述时序逻辑电路",
+    "aliases": [
+      "用硬件描述语言 Verilog HDL 描述时序逻辑电路",
+      "用硬件描述语言VerilogHDL描述时序逻辑电路",
+      "Verilog",
+      "HDL",
+      "verilog",
+      "Verilog HDL"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.5.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_移位寄存器",
+    "type": "Concept",
+    "name": "移位寄存器",
+    "raw_name": "移位寄存器",
+    "aliases": [
+      "移位寄存器",
+      "寄存器"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.3.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_移位寄存器型计数器",
+    "type": "Concept",
+    "name": "移位寄存器型计数器",
+    "raw_name": "移位寄存器型计数器",
+    "aliases": [
+      "移位寄存器型计数器",
+      "寄存器",
+      "移位寄存器",
+      "计数器",
+      "模"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_计数器",
+    "type": "Concept",
+    "name": "计数器",
+    "raw_name": "计数器",
+    "aliases": [
+      "计数器",
+      "模"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.3.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch06_顺序脉冲发生器",
+    "type": "Concept",
+    "name": "顺序脉冲发生器",
+    "raw_name": "顺序脉冲发生器",
+    "aliases": [
+      "顺序脉冲发生器"
+    ],
+    "chapter_ids": [
+      "ch06"
+    ],
+    "primary_chapter_num": 6,
+    "section_codes": [
+      "6.3.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_555定时器的电路结构与功能",
+    "type": "Concept",
+    "name": "555定时器的电路结构与功能",
+    "raw_name": "555定时器的电路结构与功能",
+    "aliases": [
+      "555定时器的电路结构与功能",
+      "555",
+      "定时器"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.5.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_单稳态电路",
+    "type": "Concept",
+    "name": "单稳态电路",
+    "raw_name": "单稳态电路",
+    "aliases": [
+      "单稳态电路",
+      "单稳态"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_多谐振荡电路",
+    "type": "Concept",
+    "name": "多谐振荡电路",
+    "raw_name": "多谐振荡电路",
+    "aliases": [
+      "多谐振荡电路",
+      "多谐振荡",
+      "振荡器"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_多谐振荡电路的分析计算",
+    "type": "Concept",
+    "name": "多谐振荡电路的分析计算",
+    "raw_name": "多谐振荡电路的分析计算",
+    "aliases": [
+      "多谐振荡电路的分析计算",
+      "多谐振荡",
+      "振荡器"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_定时器的输入电路",
+    "type": "Concept",
+    "name": "定时器的输入电路",
+    "raw_name": "定时器的输入电路",
+    "aliases": [
+      "定时器的输入电路"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "3.555"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_对称式多谐振荡电路",
+    "type": "Concept",
+    "name": "对称式多谐振荡电路",
+    "raw_name": "对称式多谐振荡电路",
+    "aliases": [
+      "对称式多谐振荡电路",
+      "多谐振荡",
+      "振荡器"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.4.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_微分型单稳态电路",
+    "type": "Concept",
+    "name": "微分型单稳态电路",
+    "raw_name": "微分型单稳态电路",
+    "aliases": [
+      "微分型单稳态电路",
+      "单稳态"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_施密特触发电路",
+    "type": "Concept",
+    "name": "施密特触发电路",
+    "raw_name": "施密特触发电路",
+    "aliases": [
+      "施密特触发电路",
+      "施密特触发电路的结构和工作原理",
+      "施密特"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.2",
+      "7.2.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_环形振荡电路",
+    "type": "Concept",
+    "name": "环形振荡电路",
+    "raw_name": "环形振荡电路",
+    "aliases": [
+      "环形振荡电路"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.4.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_用于波形变换",
+    "type": "Concept",
+    "name": "用于波形变换",
+    "raw_name": "用于波形变换",
+    "aliases": [
+      "用于波形变换"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_用于脉冲整形",
+    "type": "Concept",
+    "name": "用于脉冲整形",
+    "raw_name": "用于脉冲整形",
+    "aliases": [
+      "用于脉冲整形"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_用于脉冲鉴幅",
+    "type": "Concept",
+    "name": "用于脉冲鉴幅",
+    "raw_name": "用于脉冲鉴幅",
+    "aliases": [
+      "用于脉冲鉴幅"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_石英晶体多谐振荡电路",
+    "type": "Concept",
+    "name": "石英晶体多谐振荡电路",
+    "raw_name": "石英晶体多谐振荡电路",
+    "aliases": [
+      "石英晶体多谐振荡电路",
+      "多谐振荡",
+      "振荡器"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.4.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_积分型单稳态电路",
+    "type": "Concept",
+    "name": "积分型单稳态电路",
+    "raw_name": "积分型单稳态电路",
+    "aliases": [
+      "积分型单稳态电路",
+      "单稳态"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_集成单稳态电路",
+    "type": "Concept",
+    "name": "集成单稳态电路",
+    "raw_name": "集成单稳态电路",
+    "aliases": [
+      "集成单稳态电路",
+      "单稳态"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.3.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch07_非对称式多谐振荡电路",
+    "type": "Concept",
+    "name": "非对称式多谐振荡电路",
+    "raw_name": "非对称式多谐振荡电路",
+    "aliases": [
+      "非对称式多谐振荡电路",
+      "多谐振荡",
+      "振荡器"
+    ],
+    "chapter_ids": [
+      "ch07"
+    ],
+    "primary_chapter_num": 7,
+    "section_codes": [
+      "7.4.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_A_D_转换的基本原理",
+    "type": "Concept",
+    "name": "A/D 转换",
+    "raw_name": "A/D 转换的基本原理",
+    "aliases": [
+      "A/D 转换的基本原理",
+      "ADC 转换的基本原理",
+      "A/D 转换",
+      "ADC 转换",
+      "A/D转换",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_A_D_转换器的转换速度",
+    "type": "Concept",
+    "name": "A/D 转换器的转换速度",
+    "raw_name": "A/D 转换器的转换速度",
+    "aliases": [
+      "A/D 转换器的转换速度",
+      "ADC 转换器的转换速度",
+      "A/D转换器的转换速度",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.7.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_A_D转换器的转换精度",
+    "type": "Concept",
+    "name": "A/D转换器的转换精度",
+    "raw_name": "A/D转换器的转换精度",
+    "aliases": [
+      "A/D转换器的转换精度",
+      "ADC转换器的转换精度",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.7.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_D_A_转换器的应用",
+    "type": "Concept",
+    "name": "D/A 转换器",
+    "raw_name": "D/A 转换器的应用",
+    "aliases": [
+      "D/A 转换器的应用",
+      "DAC 转换器的应用",
+      "D/A 转换器",
+      "DAC 转换器",
+      "D/A转换器",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_D_A转换器的转换精度",
+    "type": "Concept",
+    "name": "D/A转换器的转换精度",
+    "raw_name": "D/A转换器的转换精度",
+    "aliases": [
+      "D/A转换器的转换精度",
+      "DAC转换器的转换精度",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.3.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_D_A转换器的转换速度",
+    "type": "Concept",
+    "name": "D/A转换器的转换速度",
+    "raw_name": "D/A转换器的转换速度",
+    "aliases": [
+      "D/A转换器的转换速度",
+      "DAC转换器的转换速度",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.3.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_V_F_变换型_A_D_转换器",
+    "type": "Concept",
+    "name": "V-F 变换型 A/D 转换器",
+    "raw_name": "V-F 变换型 A/D 转换器",
+    "aliases": [
+      "V-F 变换型 A/D 转换器",
+      "VF 变换型 A/D 转换器",
+      "V-F 变换型 ADC 转换器",
+      "V-F变换型A/D转换器",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.6.6"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_倒_T_形电阻网络_D_A_转换器",
+    "type": "Concept",
+    "name": "倒 T 形电阻网络 D/A 转换器",
+    "raw_name": "倒 T 形电阻网络 D/A 转换器",
+    "aliases": [
+      "倒 T 形电阻网络 D/A 转换器",
+      "倒 T 形电阻网络 DAC 转换器",
+      "倒T形电阻网络D/A转换器",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.2.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_具有双极性输出的_D_A_转换器",
+    "type": "Concept",
+    "name": "具有双极性输出的 D/A 转换器",
+    "raw_name": "具有双极性输出的 D/A 转换器",
+    "aliases": [
+      "具有双极性输出的 D/A 转换器",
+      "具有双极性输出的 DAC 转换器",
+      "具有双极性输出的D/A转换器",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.2.6"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_双积分型_A_D_转换器",
+    "type": "Concept",
+    "name": "双积分型 A/D 转换器",
+    "raw_name": "双积分型 A/D 转换器",
+    "aliases": [
+      "双积分型 A/D 转换器",
+      "双积分型 ADC 转换器",
+      "双积分型A/D转换器",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.6.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_取样_保持电路",
+    "type": "Concept",
+    "name": "取样-保持电路",
+    "raw_name": "取样-保持电路",
+    "aliases": [
+      "取样-保持电路",
+      "取样保持电路"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_取样定理",
+    "type": "Concept",
+    "name": "取样定理",
+    "raw_name": "取样定理",
+    "aliases": [
+      "取样定理"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_并联比较型_A_D_转换器",
+    "type": "Concept",
+    "name": "并联比较型 A/D 转换器",
+    "raw_name": "并联比较型 A/D 转换器",
+    "aliases": [
+      "并联比较型 A/D 转换器",
+      "并联比较型 ADC 转换器",
+      "并联比较型A/D转换器",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.6.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_开关树型_D_A_转换器",
+    "type": "Concept",
+    "name": "开关树型 D/A 转换器",
+    "raw_name": "开关树型 D/A 转换器",
+    "aliases": [
+      "开关树型 D/A 转换器",
+      "开关树型 DAC 转换器",
+      "开关树型D/A转换器",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.2.4"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_权电容网络_D_A_转换器",
+    "type": "Concept",
+    "name": "权电容网络 D/A 转换器",
+    "raw_name": "权电容网络 D/A 转换器",
+    "aliases": [
+      "权电容网络 D/A 转换器",
+      "权电容网络 DAC 转换器",
+      "权电容网络D/A转换器",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.2.5"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_权电流型_D_A_转换器",
+    "type": "Concept",
+    "name": "权电流型 D/A 转换器",
+    "raw_name": "权电流型 D/A 转换器",
+    "aliases": [
+      "权电流型 D/A 转换器",
+      "权电流型 DAC 转换器",
+      "权电流型D/A转换器",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.2.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_权电阻网络_D_A_转换器",
+    "type": "Concept",
+    "name": "权电阻网络 D/A 转换器",
+    "raw_name": "权电阻网络 D/A 转换器",
+    "aliases": [
+      "权电阻网络 D/A 转换器",
+      "权电阻网络 DAC 转换器",
+      "权电阻网络D/A转换器",
+      "D/A",
+      "DAC",
+      "数模"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.2.1"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_求和放大器的基本原理",
+    "type": "Concept",
+    "name": "求和放大器",
+    "raw_name": "求和放大器的基本原理",
+    "aliases": [
+      "求和放大器的基本原理",
+      "求和放大器"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_流水线型_A_D_转换器",
+    "type": "Concept",
+    "name": "流水线型 A/D 转换器",
+    "raw_name": "流水线型 A/D 转换器",
+    "aliases": [
+      "流水线型 A/D 转换器",
+      "流水线型 ADC 转换器",
+      "流水线型A/D转换器",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.6.2"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_逐次逼近型A_D转换器",
+    "type": "Concept",
+    "name": "逐次逼近型A/D转换器",
+    "raw_name": "逐次逼近型A/D转换器",
+    "aliases": [
+      "逐次逼近型A/D转换器",
+      "逐次逼近型ADC转换器",
+      "A/D",
+      "ADC",
+      "模数"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [
+      "8.6.3"
+    ],
+    "confidence": "high",
+    "sources": [
+      "section_title"
+    ]
+  },
+  {
+    "id": "concept_ch08_量化和编码",
+    "type": "Concept",
+    "name": "量化和编码",
+    "raw_name": "量化和编码",
+    "aliases": [
+      "量化和编码"
+    ],
+    "chapter_ids": [
+      "ch08"
+    ],
+    "primary_chapter_num": 8,
+    "section_codes": [],
+    "confidence": "low_kept",
+    "sources": [
+      "guide_enum_title"
+    ]
+  }
+]

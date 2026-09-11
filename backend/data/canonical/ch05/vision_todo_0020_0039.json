@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图5.3.11|images/7537cda515cd651853dbbe6b96c1a0ae31dcb9746e82884342acce6397175def.jpg",
+    "figure_id": "图5.3.11",
+    "caption": "例 5.3.4 的电压波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7537cda515cd651853dbbe6b96c1a0ae31dcb9746e82884342acce6397175def.jpg"
+  },
+  {
+    "key": "图5.3.12(a)|images/36dd432c03e6f9ede1f6d1d2468347cabc738e2b93a86c20b094ea0d72b1d418.jpg",
+    "figure_id": "图5.3.12(a)",
+    "caption": "正脉冲触发的 JK 触发器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\36dd432c03e6f9ede1f6d1d2468347cabc738e2b93a86c20b094ea0d72b1d418.jpg"
+  },
+  {
+    "key": "图5.3.12(b)|images/a35f59933463441a14d833e639766ea38b6bbc89e14b49d34210ffee4789f016.jpg",
+    "figure_id": "图5.3.12(b)",
+    "caption": "正脉冲触发的 JK 触发器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a35f59933463441a14d833e639766ea38b6bbc89e14b49d34210ffee4789f016.jpg"
+  },
+  {
+    "key": "图5.3.13(a)|images/69355ac6fec7cfa477556a7c00f292f5c9de89d73600d09d2b93ac6e90a7f5dd.jpg",
+    "figure_id": "图5.3.13(a)",
+    "caption": "具有多输入端的主从JK触发器（a）电路结构 （b）逻辑符号 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\69355ac6fec7cfa477556a7c00f292f5c9de89d73600d09d2b93ac6e90a7f5dd.jpg"
+  },
+  {
+    "key": "图5.3.13(b)|images/841cb5fe94cd87d13a9552dfeb64a532498084a78c276b94882bfa1ce91d6dbe.jpg",
+    "figure_id": "图5.3.13(b)",
+    "caption": "具有多输入端的主从JK触发器（a）电路结构 （b）逻辑符号 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\841cb5fe94cd87d13a9552dfeb64a532498084a78c276b94882bfa1ce91d6dbe.jpg"
+  },
+  {
+    "key": "图5.3.13(c)|images/d089008a71fb9c8884f4e95c1680f892d2c75b2ddc90e69524f25c65805c68fe.jpg",
+    "figure_id": "图5.3.13(c)",
+    "caption": "具有多输入端的主从JK触发器（a）电路结构 （b）逻辑符号 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d089008a71fb9c8884f4e95c1680f892d2c75b2ddc90e69524f25c65805c68fe.jpg"
+  },
+  {
+    "key": "图5.3.14|images/08e5ea46ecf2d9fc46732b25a65f50081a7c96074b874394618018d6f5206f69.jpg",
+    "figure_id": "图5.3.14",
+    "caption": "例5.3.5的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\08e5ea46ecf2d9fc46732b25a65f50081a7c96074b874394618018d6f5206f69.jpg"
+  },
+  {
+    "key": "图5.3.15|images/b540c8dc07ce58682b4990659988ccecf65cc2b87c5436b9c8468e2c6aee6d1e.jpg",
+    "figure_id": "图5.3.15",
+    "caption": "例 5.3.6 的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b540c8dc07ce58682b4990659988ccecf65cc2b87c5436b9c8468e2c6aee6d1e.jpg"
+  },
+  {
+    "key": "图5.3.16|images/d80d5417ea0d0af4a650d8e768cfbe1ace2c601bc19d88f2ef6f6e548b1c8853.jpg",
+    "figure_id": "图5.3.16",
+    "caption": "$T$ 触发器的图形逻辑符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d80d5417ea0d0af4a650d8e768cfbe1ace2c601bc19d88f2ef6f6e548b1c8853.jpg"
+  },
+  {
+    "key": "图5.3.17(a)|images/54d46fa1ce0192ad7a20f7e285e820e42b17ffd804ea25f11b3d57f7e683ee57.jpg",
+    "figure_id": "图5.3.17(a)",
+    "caption": "将 JK 触发器用作 SR、T 触发器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\54d46fa1ce0192ad7a20f7e285e820e42b17ffd804ea25f11b3d57f7e683ee57.jpg"
+  },
+  {
+    "key": "图5.3.17(b)|images/a480d52c7047f94d3aa164131b42b046424e51690cea16dbb89ee0cca4b12908.jpg",
+    "figure_id": "图5.3.17(b)",
+    "caption": "将 JK 触发器用作 SR、T 触发器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a480d52c7047f94d3aa164131b42b046424e51690cea16dbb89ee0cca4b12908.jpg"
+  },
+  {
+    "key": "图5.3.18|images/39119ef5bbf1056e110865b4903edaa754e6029739518ffc00be5402180a881b.jpg",
+    "figure_id": "图5.3.18",
+    "caption": "用两个电平触发 D 触发器构成的边沿触发 JK 触发器 (CC4027)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\39119ef5bbf1056e110865b4903edaa754e6029739518ffc00be5402180a881b.jpg"
+  },
+  {
+    "key": "图5.3.19(a)|images/9d0fd24ed85a19c741b417a7a636bacfe2f54d57229e157a4fa42947cd29336e.jpg",
+    "figure_id": "图5.3.19(a)",
+    "caption": "边沿触发 D 触发器动态特性的分析 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9d0fd24ed85a19c741b417a7a636bacfe2f54d57229e157a4fa42947cd29336e.jpg"
+  },
+  {
+    "key": "图5.3.19(b)|images/5160f8eec160ab5bfc503051a7c55cf562bbcd1a20540b2cd5c03edadc5b8b7c.jpg",
+    "figure_id": "图5.3.19(b)",
+    "caption": "边沿触发 D 触发器动态特性的分析 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5160f8eec160ab5bfc503051a7c55cf562bbcd1a20540b2cd5c03edadc5b8b7c.jpg"
+  },
+  {
+    "key": "图5.4.1|images/a972ad1411b4f31e78323021f7129dcd41b9a248a5a6f7965b23726b3be29ab4.jpg",
+    "figure_id": "图5.4.1",
+    "caption": "74LS75的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a972ad1411b4f31e78323021f7129dcd41b9a248a5a6f7965b23726b3be29ab4.jpg"
+  },
+  {
+    "key": "图5.4.2|images/f90cc5108c97f54af950a03cf05232c3726c017446f03a21585c11a61d219c25.jpg",
+    "figure_id": "图5.4.2",
+    "caption": "74HC175 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f90cc5108c97f54af950a03cf05232c3726c017446f03a21585c11a61d219c25.jpg"
+  },
+  {
+    "key": "图5.5.1|images/3f5ff486d09a52e7ccd9cd60a25fd1806f1b1813f971fd88b4542469e492b28e.jpg",
+    "figure_id": "图5.5.1",
+    "caption": "SRAM 的结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3f5ff486d09a52e7ccd9cd60a25fd1806f1b1813f971fd88b4542469e492b28e.jpg"
+  },
+  {
+    "key": "图5.5.2|images/30135dbcbc0b3aa076c784204e2d53a2cb7ec32a7d27488ebb5787b72ae93984.jpg",
+    "figure_id": "图5.5.2",
+    "caption": "1024×4 位 SRAM 的结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\30135dbcbc0b3aa076c784204e2d53a2cb7ec32a7d27488ebb5787b72ae93984.jpg"
+  },
+  {
+    "key": "图5.5.3|images/34725536c3622515b7c3c64fb183048986b01854ddbca5bc0ded1bea725b0581.jpg",
+    "figure_id": "图5.5.3",
+    "caption": "六管 CMOS 静态存储单元",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\34725536c3622515b7c3c64fb183048986b01854ddbca5bc0ded1bea725b0581.jpg"
+  },
+  {
+    "key": "图5.5.4|images/6e42567d76045260cd4a197849dc897330330079a0a56db3b961948171ce6e04.jpg",
+    "figure_id": "图5.5.4",
+    "caption": "单管动态MOS存储单元",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6e42567d76045260cd4a197849dc897330330079a0a56db3b961948171ce6e04.jpg"
+  }
+]

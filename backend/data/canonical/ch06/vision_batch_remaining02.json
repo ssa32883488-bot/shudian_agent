@@ -1,0 +1,18 @@
+{
+  "图P6.8|images/dc6c3a94251826b7520a044cd8d934ea9e48d0cfc88ce66d096719422ae0f3f5.jpg": "两只下降沿JK同步电路：输入X与共CLK；J/K由异或、与非门控制，Y由X与Q0、Q1经三路与非组合输出。",
+  "图P6.10|images/81122c604aee2d91c89d6f213d63dcfed7aa65bb36042bea0e3e1afcccf48776.jpg": "串行加法器：A3–A0与B3–B0移位寄存器、全加器Σ及进位D触发器共CLK；和S回写A，CO经触发器得下一拍CI。",
+  "图P6.11|images/2e0eb99d1ecd62feefa3a1d4375df33613514b24419be6a04d97cbc45a831dae.jpg": "74160同步十进制构成七进制：与非门检测1001反馈LD'，预置0011，实现3–9循环；CLK计数，Y为进位。",
+  "图P6.12|images/5e5a38eeb9b45fb556728af789181f3a137bcf1e1adc610a3b846d982069eac6.jpg": "74LS161模十计数：EP/ET/LD接1，D端接地；Q3Q1经与非门反馈异步清零RD，计至1010清零，Y取自Q3。",
+  "图P6.13|images/5808d03f63bc3075a48c52184172757defde297a3620d7801476aaa243ed4ec0.jpg": "74160可控模计数：与非门检Q3Q0置数；M控预置（M=0预置2模8，M=1预置4模6），CLK与Y。",
+  "图P6.15|images/1a8088b7ac68e9516b49cffaa24493379b1b1f096e92d273d70e1ca7823d4632.jpg": "74161由外部译码Y反馈LD'：Y=¬(A'Q3Q0+AQ2Q1)；D端接地，模值受A控制。",
+  "图P6.17|images/5ee6c5c82bf55a0eb7e06959f8ea53f99b86056a5be932962a358672c1ebae88.jpg": "74LS290异步计数：Q0接CP1成十进制接法；Q1、Q2经与非构成RS反馈置九端，Y取自Q3。",
+  "图P6.18|images/caf71c6d0ee6b8a35f890ae82e5216c1e743a298b8fc3ff45d3f9e6ce3e70f69.jpg": "两片74LS161级联：片1预置1001、片2预置0111；进位C经非门回LD并级联时钟，Y为片2进位。",
+  "图P6.19|images/9e572036dd31f3e8318e0d30115dfc9ea3a433f16126021e701b0ebb0d2bb48c.jpg": "两片74160同步级联：片1进位C接片2的EP/ET；片2进位经非门反馈两片LD，Y为进位输出。",
+  "图P6.20|images/9a86b102997d6fb89f8812f2b3a228fedbfbf69acd3cbeefd5fb991ee3cf357c.jpg": "两片74LS161同步级联任意进制：片1进位接片2使能；三输入与非门检指定态反馈两片LD'，D端接地。",
+  "图P6.24|images/031c9fb41950835df0b50382cceaf7e5d75cfe9c0cfa5e2de0b0cd525b5b5248.jpg": "74LS147优先编码器经四非门接74160的D0–D3；进位C经非门反馈LD，实现可变预置循环计数。",
+  "图P6.26|images/4d9c17a24c100bd7564f5984f3157b256e83e80e25883b59717ccbd811024810.jpg": "三只同步D触发器：D1由Q2、Q3经异或/或非/或门产生，Q1→D2、Q2→D3；Y=Q2·Q3。",
+  "图P6.27|images/d95382bf64b0ea87dfc5237b38337ad841b216bb403f25a281e2228979ffc773.jpg": "四位同步LFSR：FF0–FF3共CLK级联移位；Q2⊕Q3反馈至FF0的D，用于伪随机序列或计数。",
+  "图P6.34|images/b2b10eeb4a7a16abe29992872bcedd8e9cdf82e9b9d3cff70ad41e708ef0b6ae.jpg": "六态Mealy状态图：状态100/110/010/011/001/101；弧标输入M/输出ABC，输出与起始态编码一致。",
+  "图5|images/8db8168d02c0b8680a4963bea1bf4e18d3b1c67effc3e7986129c9ed7908af1b.jpg": "例5-3-5存储器接法：A0–A3接变量A–D，A4–A9接地；CS'常有效，D0–D3出Y0–Y3，R/W'控读写。",
+  "图6(a)|images/9cc5770f8ccfeb7bf9935497ee1f6462f126329fe9939379ae489fbde1e364c1.jpg": "时序电路一般框图：组合逻辑接输入X与状态Q，产生输出Y与激励Z；存储电路由Z更新得次态Q。"
+}

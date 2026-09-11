@@ -1,0 +1,68 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "nand_net_2_9_2",
+  "inputs": [
+    "A",
+    "B'",
+    "C'",
+    "A'",
+    "B"
+  ],
+  "gates": {
+    "G1": {
+      "type": "NAND",
+      "inputs": [
+        "A",
+        "B'"
+      ]
+    },
+    "G2": {
+      "type": "NAND",
+      "inputs": [
+        "A'",
+        "B"
+      ]
+    },
+    "G3": {
+      "type": "NAND",
+      "inputs": [
+        "G1",
+        "G1"
+      ]
+    },
+    "G4": {
+      "type": "NAND",
+      "inputs": [
+        "G2",
+        "G2"
+      ]
+    },
+    "G5": {
+      "type": "NAND",
+      "inputs": [
+        "G3",
+        "C'"
+      ]
+    },
+    "G6": {
+      "type": "NAND",
+      "inputs": [
+        "C'",
+        "G4"
+      ]
+    },
+    "G7": {
+      "type": "NAND",
+      "inputs": [
+        "G5",
+        "G6"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "G7"
+  },
+  "notes": "图2.9.2：七与非门；B'/C'/A' 为初级输入；G3/G4 双端短接作非"
+}

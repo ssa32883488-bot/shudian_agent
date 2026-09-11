@@ -1,0 +1,15 @@
+logic "sync_bin_counter_T" style: iec
+input CLK
+output Q0, Q1, Q2, Q3, C
+nCLK = NOT(CLK)
+ONE = OR(CLK, nCLK)
+Q0 = TFF(ONE, CLK)
+Q1 = TFF(Q0, CLK)
+T2 = AND(Q0, Q1)
+Q2 = TFF(T2, CLK)
+T3a = AND(Q0, Q1)
+T3 = AND(T3a, Q2)
+Q3 = TFF(T3, CLK)
+Ca = AND(Q0, Q1)
+Cb = AND(Q2, Q3)
+C = AND(Ca, Cb)

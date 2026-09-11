@@ -1,0 +1,22 @@
+{
+  "图8.2.1|images/0a60f0b414e0b10fcafb0aa6039a0358bb411e0fa4e84c9927c11b5e8da2fecb.jpg": "4位权电阻DAC：运放反相求和，反馈Rf=R/2；支路R、2R、4R、8R经S3–S0接VREF或地，对应d3(MSB)–d0，电流汇成iΣ得vO。",
+  "图8.2.2|images/80c9d0099daf356b85ddbe8746144d19b3c664a30f3c7f18c2d51975cefc2a36.jpg": "8位双级权电阻DAC：高低各4位R–8R网络，经Rs=8R耦合；S0–S7接VREF/地，运放反馈R/2，d0为LSB、d7为MSB。",
+  "图8.2.3|images/3dfddf0cb04b4d739d7cf5dcec8d78282a7743efd9c7bf9cccf408f65d47cdc3.jpg": "4位倒T形R-2R DAC：电流逐级对半I/2…I/16，开关把支路接到运放虚地或地；d3为MSB、d0为LSB，反馈R，vO=-iΣR。",
+  "图8.2.4|images/c7bcb54ba3b8fc634205a0f1f2ece363d7544862a3aca8548949314a81ec2f3b.jpg": "倒T网络电流分配：VREF注入I，竖支2R依次I/2、I/4、I/8、I/16，末端2R亦I/16；虚地汇iΣ，位标A–D。",
+  "图8.2.5|images/19d5bb069e036ff2edb2564c73b04140602fd4a8dd201fd32bdf6d037b6f5ffc.jpg": "AD7520十位R-2R：片内R=10kΩ、2R=20kΩ与开关S0–S9；d9(MSB)–d0(LSB)舵电流至Iout1/Iout2，外接运放与片内RF完成I/V。",
+  "图8.2.6|images/c888b9d878967d0556122a373091852c7f1f805eeb59754c0085f58693a97ee4.jpg": "AD7520的CMOS开关Si：di经反相缓冲驱动两MOS，将2R支路电流在Iout1与Iout2间切换。",
+  "图8.2.7|images/211905510b405dbdce4cdfe5ff000ab891d2605bf4e8c320d9279bf18412b50a.jpg": "4位权电流DAC：恒流I/16…I/2由S0–S3在地与运放求和点切换；d0为LSB、d3为MSB，反馈Rf，vO=iΣ·Rf。",
+  "图8.2.8|images/ccee2c7e67676dc83d9425e0e25b1d1fa6e64c27d73f452f243411db60d6a245.jpg": "权电流源实现：理想电流源Ii等效为NPN管，基极偏置VB，发射极电阻REi接VEE，集电极输出恒流Ii。",
+  "图8.2.9|images/03a7df55820107578e2ca141e01e98c8c05428cdfa1e2ee00a899bb105caad6f.jpg": "倒T电阻权电流DAC：A1与TR产生IREF=VREF/RR；T3–T0按面积得I/2…I/16，底接R-2R；S3–S0选通至A2，RF得vO，含偏置补偿IB0。",
+  "图8.2.10|images/9ee04b7d5c2c60164d98cab233719f2b2a0595076de6d2a15782e4aa8081c346.jpg": "DAC0808结构框图：模拟开关、倒T电阻网、偏置与基准电流源；d0(LSB)–d7(MSB)入，IO出，含VR+/VR-、COMP、VCC/VEE引脚。",
+  "图8.2.11|images/ff35a08657bfcc6395f22cce77bc72a1a036af36bbef0e0773e21409ab2870fd.jpg": "DAC0808典型应用：d0–d7数字输入，VCC=+5V、VEE=-15V；VREF经5k、COMP接0.01μF，IO经运放与RF=5k转为模拟vO。",
+  "图8.2.12|images/54402443060e7a6a20ca77cf35a3effe9defc13472e86af7886301b5d413d4a2.jpg": "3位开关树DAC：8只R串联得0…7/8 VREF抽头；d0/d1/d2及其反控制三级开关树，选出一路至vO，d0为LSB、d2为MSB。",
+  "图8.2.13|images/794bdc8d4ae79d7903ca367e91205945e15a229526fab76406666881d917a9b6.jpg": "4位权电容DAC：并联2^0Cx…2^3Cx及接地哑元，顶板共接vO与复位SD；S0–S3将底板接VREF或地，d0为LSB、d3为MSB。",
+  "图8.2.14|images/9a964c56a3e24f4056f31c1b8edaecde86a02a878c22f3a4866d134dc09b7fc9.jpg": "权电容在输入1000时等效：上臂C3=8Cx接VREF，下臂C2+C1+C0+C0'=8Cx接地，中点vO≈VREF/2，示MSB分压。",
+  "图8.2.15|images/19fa59ad078020b542ed26d04fab428f9f3d7b63131a39b9d83d0488fdb3873e.jpg": "双极性输出DAC：3位R-2R接VREF=-8V，开关入运放求和；另有VB经RB注入偏置IB，使vO可正可负。",
+  "图8.3.1|images/23816482539e578ca6201efa2d9b0b1fc7671bc51ef894be9169e7757a2fb0ab.jpg": "4位DAC转换特性：横轴数字0000–1111，纵轴|vO/VREF|至15/16；虚线理想、实线实际斜率偏差，标ΔvO示比例/满度误差。",
+  "图8.3.2|images/f7e94e51fe7c96119e84afd4e8fe68d589ae456292dc830e73de036dc7d3eb5b.jpg": "4位DAC阶梯特性与理想斜线对照，纵轴按1/16刻度；台阶高度标ΔvO1，对应1LSB分辨率/比例系数相关误差示意。",
+  "图8.3.3|images/4731edaa85cae27295443a956ebb6b4185fc09fe61d83bb1e2fa2aea05a9a170.jpg": "4位DAC阶梯相对理想斜线平移偏离，中部标ΔvO2，示漂移/偏移类误差使实际台阶整体偏离理想带。",
+  "图8.3.4|images/8d8f85dc863eaca2364981d70ca068907579e3e0b2cb0ef0eccba2c60346a18f.jpg": "4位DAC非线性：台阶忽窄忽宽，约1001处出现下降非单调，标ΔvO3/ΔvO4示微分非线性与失码风险。",
+  "图8.3.5|images/d31fecd9cacee340a27d12572a3f8fad9d985dda00bc86f6a61258718207b12b.jpg": "DAC建立时间：vO阶跃后过冲振铃，进入±0.5LSB（标1LSB带宽）不再越出的时刻为tset。"
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": "第02章 逻辑代数基础",
+  "sections": 51,
+  "blocks": 103,
+  "figures_textbook": 58,
+  "figures_keypoints": 14,
+  "exercises_merged": {
+    "matched": 27,
+    "missing_answer": [],
+    "extra_solutions": [],
+    "appendix_fallback": []
+  },
+  "chunks_total": 161,
+  "vision_updated": 77,
+  "orphan_figures": 0,
+  "orphan_figure_ids": [],
+  "chunks_by_type": {
+    "theory": 95,
+    "review": 13,
+    "example": 26,
+    "exercise_merged": 27
+  }
+}

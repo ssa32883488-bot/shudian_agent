@@ -1,0 +1,49 @@
+{
+  "schema_version": "logic_acceptance_v1",
+  "accepted_at": "2026-09-02T13:45:00+08:00",
+  "reviewer": "user",
+  "textbook": "阎石《数字电子技术基础》逻辑符号图 L/C/F",
+  "gold_standard": {
+    "format": "课本原图 | IR 摘要 | netlistsvg 自动布线",
+    "exemplar": {
+      "id": "C07",
+      "fig_id": "4.7.4",
+      "caption": "1位全加器电路",
+      "note": "用户指定：全加器对照组（课本 XOR/AND/OR 标注 vs netlistsvg）为逻辑图金标样式"
+    },
+    "gallery": "netlist_workbench/gold/level1/review_gallery.html",
+    "cards": "L01–L10 · C01–C10 · F01–F10（30 张）"
+  },
+  "pipeline": {
+    "ir": "logic_ir_v1",
+    "workbench": "netlist_workbench",
+    "primary_tool": "netlistsvg",
+    "skin": "skins/textbook.svg",
+    "steps": [
+      "schematex_workbench/gold/level1/cards/{id}/ir.json",
+      "lib/sim_logic_ir.mjs",
+      "lib/ir_to_yosys_json.mjs",
+      "netlistsvg → gen_netlist.svg"
+    ],
+    "rebuild": "cd netlist_workbench && npm run all",
+    "sync_gallery_50": "cd schematex_workbench && npm run build-review-gallery"
+  },
+  "deprecated": {
+    "tool": "renderers/tbx_logic.mjs",
+    "dsl": "gold.tbx",
+    "reason": "手调 TBX 已弃用；金标以 netlistsvg 为准"
+  },
+  "summary": {
+    "render_ok": 27,
+    "render_pending": 3,
+    "pending_ids": ["F05", "F06", "F09"],
+    "pending_reason": "LATCH_D / JKFF 暂无 yosys skin 映射"
+  },
+  "limits": {
+    "sim_skip": {
+      "cyclic": ["F01", "F02", "F03", "F04"],
+      "msi": ["C08", "C09"],
+      "sequential": ["F07", "F08", "F10"]
+    }
+  }
+}

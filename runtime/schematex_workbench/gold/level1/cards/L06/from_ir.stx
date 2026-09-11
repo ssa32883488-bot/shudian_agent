@@ -1,0 +1,13 @@
+logic "nand_net_2_9_2" style: iec
+input A, B, C
+output Y
+nB = NOT(B)
+nA = NOT(A)
+nC = NOT(C)
+G1 = NAND(A, nB)
+G2 = NAND(nA, B)
+G3 = NOT(G1)
+G4 = NOT(G2)
+G5 = NAND(G3, nC)
+G6 = NAND(nC, G4)
+Y = NAND(G5, G6)

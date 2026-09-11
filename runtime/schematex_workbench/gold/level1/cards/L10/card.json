@@ -1,0 +1,18 @@
+{
+  "id": "L10",
+  "bucket": "basic_gates",
+  "fig_id": "4.1.1",
+  "caption": "组合逻辑电路实例",
+  "image": "../../textbook_figures/logic_dag/fig_4_1_1.jpg",
+  "image_exists": true,
+  "tier_guess": "B",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_tbx_v1",
+  "reviewed_at": "2026-09-02T04:30:21.764Z",
+  "notes": "主路径 netlistsvg；gold.tbx 已弃用"
+}

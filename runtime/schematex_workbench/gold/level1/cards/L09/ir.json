@@ -1,0 +1,14 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "nor_aoi_2_9_5",
+  "inputs": ["B", "C", "A", "C'"],
+  "gates": {
+    "G1": { "type": "NOR", "inputs": ["B", "C"] },
+    "G2": { "type": "NOR", "inputs": ["A", "C'"] },
+    "Y": { "type": "NOR", "inputs": ["G1", "G2"] }
+  },
+  "outputs": { "Y": "Y" },
+  "notes": "图2.9.5；C' 不用 Cn"
+}

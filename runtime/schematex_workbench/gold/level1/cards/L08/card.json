@@ -1,0 +1,20 @@
+{
+  "id": "L08",
+  "bucket": "basic_gates",
+  "fig_id": "2.9.4",
+  "caption": "按式(2.9.5)接成的逻辑电路",
+  "image": "../../textbook_figures/logic_dag/fig_2_9_4.jpg",
+  "image_exists": true,
+  "tier_guess": "A",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TOPOLOGY_OK",
+  "fail_reasons": [
+    "BUBBLE_ATTACH"
+  ],
+  "reviewer": "hand_fix_bubble_v1",
+  "reviewed_at": "2026-09-02T04:30:21.700Z",
+  "notes": "主路径 netlistsvg；gold.tbx 已弃用"
+}

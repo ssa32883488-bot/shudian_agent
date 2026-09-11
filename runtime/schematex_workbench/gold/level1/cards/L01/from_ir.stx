@@ -1,0 +1,6 @@
+logic "referee" style: iec
+input A, B, C
+output Y
+G1 = OR(B, C)
+G2 = AND(A, G1)
+Y <- G2

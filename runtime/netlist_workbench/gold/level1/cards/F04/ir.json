@@ -1,0 +1,50 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "gated_d",
+  "inputs": [
+    "D",
+    "CLK"
+  ],
+  "gates": {
+    "nD": {
+      "type": "NOT",
+      "inputs": [
+        "D"
+      ]
+    },
+    "Sn": {
+      "type": "NAND",
+      "inputs": [
+        "D",
+        "CLK"
+      ]
+    },
+    "Rn": {
+      "type": "NAND",
+      "inputs": [
+        "nD",
+        "CLK"
+      ]
+    },
+    "G1": {
+      "type": "NAND",
+      "inputs": [
+        "Sn",
+        "G2"
+      ]
+    },
+    "G2": {
+      "type": "NAND",
+      "inputs": [
+        "Rn",
+        "G1"
+      ]
+    }
+  },
+  "outputs": {
+    "Q": "G1",
+    "Qn": "G2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "C09",
+  "bucket": "combinational",
+  "fig_id": "4.4.9",
+  "caption": "二-十进制译码器74HC42",
+  "image": "../../textbook_figures/logic_dag/fig_4_4_9.jpg",
+  "image_exists": true,
+  "tier_guess": "C",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_msi_v1",
+  "reviewed_at": "2026-09-02T04:29:23.968Z",
+  "notes": "logic_ir_v1 → 仿真 → yosys JSON → netlistsvg 自动布线（主路径）",
+  "engine": "netlist_workbench_v2"
+}

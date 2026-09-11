@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图4.1.1|images/c580ee467d2ebea42e990062fbacbd4dc343095a4951c46d65dc080e7b01be5a.jpg",
+    "figure_id": "图4.1.1",
+    "caption": "组合逻辑电路实例",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c580ee467d2ebea42e990062fbacbd4dc343095a4951c46d65dc080e7b01be5a.jpg"
+  },
+  {
+    "key": "图4.1.2|images/794d919174eb2b179c3a25ffd6fcbad6c0a0cad59fd03dd4325ff6d23d3ec75c.jpg",
+    "figure_id": "图4.1.2",
+    "caption": "组合逻辑电路的框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\794d919174eb2b179c3a25ffd6fcbad6c0a0cad59fd03dd4325ff6d23d3ec75c.jpg"
+  },
+  {
+    "key": "图4.2.1|images/c5eb778f4833c2ac7e9a2a3b9f601d7c4539c38f380ac3899d2cc53cbac841e0.jpg",
+    "figure_id": "图4.2.1",
+    "caption": "例4.2.1的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c5eb778f4833c2ac7e9a2a3b9f601d7c4539c38f380ac3899d2cc53cbac841e0.jpg"
+  },
+  {
+    "key": "图4.3.1|images/057e37adba1c86cf1eca96da77c737778479cf0531fd4214424774210b9e7578.jpg",
+    "figure_id": "图4.3.1",
+    "caption": "组合逻辑电路的基本设计过程",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\057e37adba1c86cf1eca96da77c737778479cf0531fd4214424774210b9e7578.jpg"
+  },
+  {
+    "key": "图4.3.2|images/9022dc5f7fd646f4f256a9d91e08da117423f15b0061c8963b6d5ca4d89893aa.jpg",
+    "figure_id": "图4.3.2",
+    "caption": "交通信号灯的正常工作状态和故障状态",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9022dc5f7fd646f4f256a9d91e08da117423f15b0061c8963b6d5ca4d89893aa.jpg"
+  },
+  {
+    "key": "图4.3.3|images/bdeab0c69ad672d3738ca50386bcd051fac96e1ec792e20a6d9c8fe20cc8d62b.jpg",
+    "figure_id": "图4.3.3",
+    "caption": "例4.3.1的逻辑图之一",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bdeab0c69ad672d3738ca50386bcd051fac96e1ec792e20a6d9c8fe20cc8d62b.jpg"
+  },
+  {
+    "key": "图4.3.4|images/90e503b47ed55f2198fcb9d9d9dc913df8f8cdb4da8e0cb8df49504b79d11bc3.jpg",
+    "figure_id": "图4.3.4",
+    "caption": "例4.3.1的逻辑图之二",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\90e503b47ed55f2198fcb9d9d9dc913df8f8cdb4da8e0cb8df49504b79d11bc3.jpg"
+  },
+  {
+    "key": "图4.3.5|images/c2649cb396106d312cd5fa1510a00c3ab0d8c759b1ea6d2f0b239d09a61dca44.jpg",
+    "figure_id": "图4.3.5",
+    "caption": "例4.3.1的卡诺图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c2649cb396106d312cd5fa1510a00c3ab0d8c759b1ea6d2f0b239d09a61dca44.jpg"
+  },
+  {
+    "key": "图4.3.6|images/bd3b0f09770a2d31df3d96d1f717cd9e23c062159ba5877d8ee196bd05aafe4e.jpg",
+    "figure_id": "图4.3.6",
+    "caption": "例4.3.1的逻辑图之三",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bd3b0f09770a2d31df3d96d1f717cd9e23c062159ba5877d8ee196bd05aafe4e.jpg"
+  },
+  {
+    "key": "图4.4.1|images/f2da7457ae902ffbd6f0b8f37a204ad11efed2d7603e4af2479243ea16c1e470.jpg",
+    "figure_id": "图4.4.1",
+    "caption": "3 位二进制",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f2da7457ae902ffbd6f0b8f37a204ad11efed2d7603e4af2479243ea16c1e470.jpg"
+  },
+  {
+    "key": "图4.4.2|images/2e7b37c375cc2c94b19f597b358473af86312695e9ca1148bc03aa415bfd4abd.jpg",
+    "figure_id": "图4.4.2",
+    "caption": "3 位二进制编码器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2e7b37c375cc2c94b19f597b358473af86312695e9ca1148bc03aa415bfd4abd.jpg"
+  },
+  {
+    "key": "图4.4.3|images/c2fc46ddd951f1b401142fca716c97de4e01a0f8a444e92e89a5840d0448bd93.jpg",
+    "figure_id": "图4.4.3",
+    "caption": "8 线-3 线优先编码器 74HC148",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c2fc46ddd951f1b401142fca716c97de4e01a0f8a444e92e89a5840d0448bd93.jpg"
+  },
+  {
+    "key": "图4.4.4(a)|images/9b745934737b24274bc4b8fb256d9774c708f0536dfe2d56bac7453488d4a48a.jpg",
+    "figure_id": "图4.4.4(a)",
+    "caption": "(a) 是二-十进制优先编码器 74HC147 的内部逻辑图。由图得到 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9b745934737b24274bc4b8fb256d9774c708f0536dfe2d56bac7453488d4a48a.jpg"
+  },
+  {
+    "key": "图4.4.4(b)|images/cca682448f330b997cfe4b2bebc55e23cc4c0d1e0e38ed64f2ab180af5886b42.jpg",
+    "figure_id": "图4.4.4(b)",
+    "caption": "(a) 是二-十进制优先编码器 74HC147 的内部逻辑图。由图得到 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cca682448f330b997cfe4b2bebc55e23cc4c0d1e0e38ed64f2ab180af5886b42.jpg"
+  },
+  {
+    "key": "图4.4.4(c)|images/33a25fe36e2d1655850a8a32c7baf0047d126690f480ccdebae62aaecfcb59c7.jpg",
+    "figure_id": "图4.4.4(c)",
+    "caption": "(a) 是二-十进制优先编码器 74HC147 的内部逻辑图。由图得到 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\33a25fe36e2d1655850a8a32c7baf0047d126690f480ccdebae62aaecfcb59c7.jpg"
+  },
+  {
+    "key": "图4.4.5|images/f9b9a19a158804824cdc0d25bf86001d6c5fff43f9ca06174015ce8ffe16a5d1.jpg",
+    "figure_id": "图4.4.5",
+    "caption": "3 位二进制",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f9b9a19a158804824cdc0d25bf86001d6c5fff43f9ca06174015ce8ffe16a5d1.jpg"
+  },
+  {
+    "key": "图4.4.6|images/73ba048926f740ccb739e7b9b294cebcb67be4a81c27b1127b96cedb6b0299b7.jpg",
+    "figure_id": "图4.4.6",
+    "caption": "用二极管与门阵列组成的 3 线-8 线译码器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\73ba048926f740ccb739e7b9b294cebcb67be4a81c27b1127b96cedb6b0299b7.jpg"
+  },
+  {
+    "key": "图4.4.7(a)|images/10ef829e6f519656a986985946171e403740f924c0ff3e66414e0513648f7dec.jpg",
+    "figure_id": "图4.4.7(a)",
+    "caption": "用与非门组成的 3 线-8 线译码器 74HC138 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\10ef829e6f519656a986985946171e403740f924c0ff3e66414e0513648f7dec.jpg"
+  },
+  {
+    "key": "图4.4.7(b)|images/736e6ebb5f78b007efa2281021b55b08a0289907c7325a6fa6103ec185bcc54c.jpg",
+    "figure_id": "图4.4.7(b)",
+    "caption": "用与非门组成的 3 线-8 线译码器 74HC138 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\736e6ebb5f78b007efa2281021b55b08a0289907c7325a6fa6103ec185bcc54c.jpg"
+  },
+  {
+    "key": "图4.4.8|images/d27bdc27bb1e7c38d58591e3481d9bf04fc9578f7bc14117e807cb4dfe37aff2.jpg",
+    "figure_id": "图4.4.8",
+    "caption": "门电路输入端反相记号的等效替代",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d27bdc27bb1e7c38d58591e3481d9bf04fc9578f7bc14117e807cb4dfe37aff2.jpg"
+  }
+]

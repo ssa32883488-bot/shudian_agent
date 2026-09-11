@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图8.6.4|images/b8050a3605340a3157242b5f35b0aeeae246751bf7a937760826a1ada344f35a.jpg",
+    "figure_id": "图8.6.4",
+    "caption": "图 8.6.3 中第 1、2 级转换电路的结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b8050a3605340a3157242b5f35b0aeeae246751bf7a937760826a1ada344f35a.jpg"
+  },
+  {
+    "key": "图8.6.5|images/7846640f3680435e2195538ec85624254ec033301fb0752862f6c7dd747788a7.jpg",
+    "figure_id": "图8.6.5",
+    "caption": "流水线型 A/D 转换器输入、输出信号的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7846640f3680435e2195538ec85624254ec033301fb0752862f6c7dd747788a7.jpg"
+  },
+  {
+    "key": "图8.6.6|images/2e8d7271c8b84aa8c8a55a7bb0b179728695a396ac0de01377ae0f5896741c65.jpg",
+    "figure_id": "图8.6.6",
+    "caption": "逐次逼近型 A/D 转换器的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2e8d7271c8b84aa8c8a55a7bb0b179728695a396ac0de01377ae0f5896741c65.jpg"
+  },
+  {
+    "key": "图8.6.7|images/d010623bb599931f5135fd4bca31885861454c9e0e00d69975b202f3483070c4.jpg",
+    "figure_id": "图8.6.7",
+    "caption": "3 位逐次逼近型 A/D 转换器的电路原理图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d010623bb599931f5135fd4bca31885861454c9e0e00d69975b202f3483070c4.jpg"
+  },
+  {
+    "key": "图8.6.8|images/a53a138bc1584337178ff6a09b86c347782c8523ebd1743fe7967dbefe3d6657.jpg",
+    "figure_id": "图8.6.8",
+    "caption": "双积分型 A/D 转换器的结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a53a138bc1584337178ff6a09b86c347782c8523ebd1743fe7967dbefe3d6657.jpg"
+  },
+  {
+    "key": "图8.6.9|images/6707d847197683028611cec3c3eab1634230a3160dcc6bcea32085bb01cd88c5.jpg",
+    "figure_id": "图8.6.9",
+    "caption": "双积分型 A/D 转换器的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6707d847197683028611cec3c3eab1634230a3160dcc6bcea32085bb01cd88c5.jpg"
+  },
+  {
+    "key": "图8.6.10|images/89bd1210a3e43f73f560d7523d717894a0f040c03cc5470802d3e8e3b58143d6.jpg",
+    "figure_id": "图8.6.10",
+    "caption": "双积分型 A/D 转换器的控制逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\89bd1210a3e43f73f560d7523d717894a0f040c03cc5470802d3e8e3b58143d6.jpg"
+  },
+  {
+    "key": "图8.6.11|images/9a44fef2984d2d90d07228f944dc3ae868152989d7ed1981c9b74b724715055b.jpg",
+    "figure_id": "图8.6.11",
+    "caption": "Σ-Δ 型 A/D 转换器的方块图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9a44fef2984d2d90d07228f944dc3ae868152989d7ed1981c9b74b724715055b.jpg"
+  },
+  {
+    "key": "图8.6.12|images/520eacd2e309041c77ddbfde3046897204bab3a576c1102ffbcd045d105c6801.jpg",
+    "figure_id": "图8.6.12",
+    "caption": "$\\Sigma-\\Delta$ 型 A/D 转换器的电路结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\520eacd2e309041c77ddbfde3046897204bab3a576c1102ffbcd045d105c6801.jpg"
+  },
+  {
+    "key": "图8.6.13(a)|images/083e6c68fccf60529562c810d706e40fe2e58747d48e95829fc2f530d3b4001a.jpg",
+    "figure_id": "图8.6.13(a)",
+    "caption": "图 8.6.12 电路中各点的电压波形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\083e6c68fccf60529562c810d706e40fe2e58747d48e95829fc2f530d3b4001a.jpg"
+  },
+  {
+    "key": "图8.6.13(b)|images/cd1400da837acb1559ec743c80f31c6b46355aaa6f0ee19ba35273dde743ac63.jpg",
+    "figure_id": "图8.6.13(b)",
+    "caption": "图 8.6.12 电路中各点的电压波形 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cd1400da837acb1559ec743c80f31c6b46355aaa6f0ee19ba35273dde743ac63.jpg"
+  },
+  {
+    "key": "图8.6.13(c)|images/8fb91c0710e157bcd0b64ca0892cea9fdfee4279e07c1bbdabf13e6122b16012.jpg",
+    "figure_id": "图8.6.13(c)",
+    "caption": "图 8.6.12 电路中各点的电压波形 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8fb91c0710e157bcd0b64ca0892cea9fdfee4279e07c1bbdabf13e6122b16012.jpg"
+  },
+  {
+    "key": "图8.6.14|images/aa47e30d114595c6be8ddbdc0aa505c164d4f3bfbf02f427aa3950fa21936209.jpg",
+    "figure_id": "图8.6.14",
+    "caption": "并行数据输出的 $\\Sigma-\\Delta$ 型 A/D 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\aa47e30d114595c6be8ddbdc0aa505c164d4f3bfbf02f427aa3950fa21936209.jpg"
+  },
+  {
+    "key": "图8.6.15|images/d77ff2591df3c2719da61d9f4807caa65d7c665a68f3f5d901ea776f9533375c.jpg",
+    "figure_id": "图8.6.15",
+    "caption": "V-F 变换型 A/D 转换器的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d77ff2591df3c2719da61d9f4807caa65d7c665a68f3f5d901ea776f9533375c.jpg"
+  },
+  {
+    "key": "图8.6.16|images/c363afc990f202a1468c500e960aa2418c74ded2417c0019c87260f58ee5545e.jpg",
+    "figure_id": "图8.6.16",
+    "caption": "积分器型电荷平衡式 V-F 变换器的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c363afc990f202a1468c500e960aa2418c74ded2417c0019c87260f58ee5545e.jpg"
+  },
+  {
+    "key": "图8.6.17|images/1ef2ffcebdc8574fd3065749f5187a6c766f5128c611daabb5981511393084ed.jpg",
+    "figure_id": "图8.6.17",
+    "caption": "AD650 的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1ef2ffcebdc8574fd3065749f5187a6c766f5128c611daabb5981511393084ed.jpg"
+  },
+  {
+    "key": "图8.6.18|images/126b8571dcd0d4c0637686f8d05bc3a2d1f79f4742f9bf03d3bc6c80821feaeb.jpg",
+    "figure_id": "图8.6.18",
+    "caption": "LM331 的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\126b8571dcd0d4c0637686f8d05bc3a2d1f79f4742f9bf03d3bc6c80821feaeb.jpg"
+  },
+  {
+    "key": "图P8.5|images/f43a6ec14b272b54de64378e3a2ebfc8a3d073d3261ed538f08014aef0f549f6.jpg",
+    "figure_id": "图P8.5",
+    "caption": "图 P8.5",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f43a6ec14b272b54de64378e3a2ebfc8a3d073d3261ed538f08014aef0f549f6.jpg"
+  },
+  {
+    "key": "图P8.6|images/5961ec52dd9ee8930c3d3584e82cd86bed1a828df86db0d8070cff3a7fc957dc.jpg",
+    "figure_id": "图P8.6",
+    "caption": "图 P8.6",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5961ec52dd9ee8930c3d3584e82cd86bed1a828df86db0d8070cff3a7fc957dc.jpg"
+  },
+  {
+    "key": "图P8.7|images/e34bb4c6740d74eb33ef8e371323eed83e4a7358e15d1f56332ce14cd6024ddf.jpg",
+    "figure_id": "图P8.7",
+    "caption": "图P8.7",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e34bb4c6740d74eb33ef8e371323eed83e4a7358e15d1f56332ce14cd6024ddf.jpg"
+  },
+  {
+    "key": "图P8.8|images/7db5c4cab36e99851aba4500a4683201e7710074fd2b4cfff9a5bf4a1a36af03.jpg",
+    "figure_id": "图P8.8",
+    "caption": "图 P8.8",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7db5c4cab36e99851aba4500a4683201e7710074fd2b4cfff9a5bf4a1a36af03.jpg"
+  },
+  {
+    "key": "图P8.9|images/24860354018ded63b3870ca31a9e9e9e3c6345e0fe751f04cb60f2b4ba6fc1d4.jpg",
+    "figure_id": "图P8.9",
+    "caption": "图P8.9",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\24860354018ded63b3870ca31a9e9e9e3c6345e0fe751f04cb60f2b4ba6fc1d4.jpg"
+  },
+  {
+    "key": "图P8.10|images/5ca37edfe4c37854ad1ac90f58a4cc28c52176ed9d4d074ebc43776abfb8e889.jpg",
+    "figure_id": "图P8.10",
+    "caption": "图 P8.10",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5ca37edfe4c37854ad1ac90f58a4cc28c52176ed9d4d074ebc43776abfb8e889.jpg"
+  },
+  {
+    "key": "图P8.11|images/34086569f8d1b4bc4d1d7378ed086466ef4c18700f0bd2896f358f5a65b289a3.jpg",
+    "figure_id": "图P8.11",
+    "caption": "图P8.11",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\34086569f8d1b4bc4d1d7378ed086466ef4c18700f0bd2896f358f5a65b289a3.jpg"
+  },
+  {
+    "key": "图P8.12|images/c0d7023909a6c7173889ec940dbbf18585d1508a55e53f529feb6827e9641cca.jpg",
+    "figure_id": "图P8.12",
+    "caption": "图 P8.12",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c0d7023909a6c7173889ec940dbbf18585d1508a55e53f529feb6827e9641cca.jpg"
+  },
+  {
+    "key": "图P8.13|images/ab9c8f677c7018bf4128a1d4699de9f8295af43d34eab2f5d5d482ef65a3eb2a.jpg",
+    "figure_id": "图P8.13",
+    "caption": "图 P8.13",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ab9c8f677c7018bf4128a1d4699de9f8295af43d34eab2f5d5d482ef65a3eb2a.jpg"
+  },
+  {
+    "key": "图P8.14|images/7b350c9af5761e70a23a49da0af103e7e910cfcc6bd3701ccf4f05f514e6456e.jpg",
+    "figure_id": "图P8.14",
+    "caption": "图 P8.14",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7b350c9af5761e70a23a49da0af103e7e910cfcc6bd3701ccf4f05f514e6456e.jpg"
+  },
+  {
+    "key": "图8(a)|images/d142059d35f8ca3a9de4377f51ec55d92903e0f807ac6013839315a51b0aef12.jpg",
+    "figure_id": "图8(a)",
+    "caption": "-2-1 求和放大器的基本原理 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\d142059d35f8ca3a9de4377f51ec55d92903e0f807ac6013839315a51b0aef12.jpg"
+  },
+  {
+    "key": "图8(b)|images/2a775bf01706bffe77e4dd8b12c9a43f6454e1f859002c6617a5a7adf2fea6c0.jpg",
+    "figure_id": "图8(b)",
+    "caption": "-2-1 求和放大器的基本原理 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\2a775bf01706bffe77e4dd8b12c9a43f6454e1f859002c6617a5a7adf2fea6c0.jpg"
+  },
+  {
+    "key": "图8(c)|images/a3e2b63e5499e12cd508e9dc89ae49152c5b0b82e07b196640bd6b872c4afa75.jpg",
+    "figure_id": "图8(c)",
+    "caption": "-2-1 求和放大器的基本原理 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\a3e2b63e5499e12cd508e9dc89ae49152c5b0b82e07b196640bd6b872c4afa75.jpg"
+  }
+]

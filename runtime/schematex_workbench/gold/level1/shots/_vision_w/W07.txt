@@ -1,0 +1,9 @@
+﻿Based on the timing diagram provided, here are the discrete 0/1 patterns for each signal across the 6 time slots:
+
+CLK: 101010101010
+S: 011001100110
+R: 001110001110
+Q1: 010010110010
+Q1': 101101001101
+Q: 001001100101
+Q': 110110011010

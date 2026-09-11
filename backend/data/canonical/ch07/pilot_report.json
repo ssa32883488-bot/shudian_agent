@@ -1,0 +1,23 @@
+{
+  "chapter": "第07章 脉冲波形的产生和整形电路",
+  "sections": 33,
+  "blocks": 69,
+  "figures_textbook": 81,
+  "figures_keypoints": 36,
+  "exercises_merged": {
+    "matched": 27,
+    "missing_answer": [],
+    "extra_solutions": [],
+    "appendix_fallback": []
+  },
+  "chunks_total": 117,
+  "vision_updated": 119,
+  "orphan_figures": 0,
+  "orphan_figure_ids": [],
+  "chunks_by_type": {
+    "theory": 72,
+    "example": 5,
+    "review": 13,
+    "exercise_merged": 27
+  }
+}

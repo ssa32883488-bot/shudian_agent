@@ -1,0 +1,26 @@
+﻿### 1. Four AND Gates (Left-to-Right)  
+- **Leftmost AND**: Inputs from horizontal lines: \( A' \) (2nd line), \( B' \) (4th), \( C \) (5th), \( D \) (7th) → Product: \( \boldsymbol{A' \cdot B' \cdot C \cdot D} \).  
+- **Second AND**: Inputs from horizontal lines: \( B \) (3rd), \( D' \) (8th) → Product: \( \boldsymbol{B \cdot D'} \).  
+- **Third AND**: Inputs from horizontal lines: \( A \) (1st), \( B' \) (4th), \( C \) (5th), \( D \) (7th) → Product: \( \boldsymbol{A \cdot B' \cdot C \cdot D} \).  
+- **Rightmost AND**: Inputs from horizontal lines: \( A \) (1st), \( B' \) (4th), \( C' \) (6th), \( D \) (7th) → Product: \( \boldsymbol{A \cdot B' \cdot C' \cdot D} \).  
+
+
+### 2. OR Gates (\( Y_1, Y_2, Y_3 \))  
+Arranged in a **horizontal row** (left-to-right: \( Y_1 \) (left), \( Y_2 \) (middle), \( Y_3 \) (right)).  
+
+
+### 3. Inputs to Each \( Y_i \)  
+- \( \boldsymbol{Y_1} \): Inputs = (output of leftmost AND: \( A' \cdot B' \cdot C \cdot D \)) + (literal \( B \) (direct from \( B \) line, no AND gate)).  
+- \( \boldsymbol{Y_2} \): Inputs = (output of second AND: \( B \cdot D' \)) + (output of third AND: \( A \cdot B' \cdot C \cdot D \)).  
+- \( \boldsymbol{Y_3} \): Inputs = (output of third AND: \( A \cdot B' \cdot C \cdot D \)) + (output of rightmost AND: \( A \cdot B' \cdot C' \cdot D \)).  
+
+
+### 4. Product Verticals Tapping OR Inputs  
+- **Leftmost AND output (P1)**: Taps into \( Y_1 \)’s OR input (dot on \( Y_1 \)’s horizontal input line).  
+- **Second AND output (P2)**: Taps into \( Y_2 \)’s OR input (dot on \( Y_2 \)’s horizontal input line).  
+- **Third AND output (P3)**: Taps into \( Y_2 \)’s AND \( Y_3 \)’s OR inputs (dots on both \( Y_2 \) and \( Y_3 \) horizontal input lines).  
+- **Rightmost AND output (P4)**: Taps into \( Y_3 \)’s OR input (dot on \( Y_3 \)’s horizontal input line).  
+- **Literal \( B \)**: Taps into \( Y_1 \)’s OR input (dot on \( Y_1 \)’s horizontal input line, direct from \( B \)’s horizontal line).  
+
+
+(Note: The vertical “product lines” (AND outputs) are connected to OR inputs via dots (taps) on the OR’s horizontal input lines. Literal \( B \) is a direct horizontal line (no AND gate) tapping \( Y_1 \).)

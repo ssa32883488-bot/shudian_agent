@@ -1,0 +1,51 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "s1",
+      "base": "XOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "S",
+      "base": "XOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "c1",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "c2",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "nor1",
+      "base": "NOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "CO",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    }
+  ],
+  "cellCount": 6,
+  "multiGates": 0,
+  "fallbackSplits": []
+}

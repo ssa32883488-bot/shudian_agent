@@ -1,0 +1,716 @@
+[
+  {
+    "key": "图7.1.1|images/abf5bd72d053edd2a9e1302dbd39d575970cb8b7be860025ce2e1f29f47b6989.jpg",
+    "figure_id": "图7.1.1",
+    "caption": "描述矩形脉冲特性的主要参数",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\abf5bd72d053edd2a9e1302dbd39d575970cb8b7be860025ce2e1f29f47b6989.jpg"
+  },
+  {
+    "key": "图7.2.1|images/c14f2120a031a2423411dff6b3e4df618dcc34da58dc6d794719f51620b0980d.jpg",
+    "figure_id": "图7.2.1",
+    "caption": "施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c14f2120a031a2423411dff6b3e4df618dcc34da58dc6d794719f51620b0980d.jpg"
+  },
+  {
+    "key": "图7.2.2|images/1f0de4818a229d5e12fe392128780fabfa001f5d72690d4afc0e554c11ee039d.jpg",
+    "figure_id": "图7.2.2",
+    "caption": "图7.2.1电路的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1f0de4818a229d5e12fe392128780fabfa001f5d72690d4afc0e554c11ee039d.jpg"
+  },
+  {
+    "key": "图7.2.3|images/e395ed627840d446e6d1ff0948075a6b4ccd5dbabb6f9c240c336c380c66996f.jpg",
+    "figure_id": "图7.2.3",
+    "caption": "带与非功能的 TTL 集成施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e395ed627840d446e6d1ff0948075a6b4ccd5dbabb6f9c240c336c380c66996f.jpg"
+  },
+  {
+    "key": "图7.2.4|images/c60966ed02af1455ca0f7ab30577e5e499a949d297ce49732ccd18400e06e2c2.jpg",
+    "figure_id": "图7.2.4",
+    "caption": "集成施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c60966ed02af1455ca0f7ab30577e5e499a949d297ce49732ccd18400e06e2c2.jpg"
+  },
+  {
+    "key": "图7.2.5|images/55e09b6d98df3807404764148b4ef7f4874cea23d679af06d17fe7ff41768cb0.jpg",
+    "figure_id": "图7.2.5",
+    "caption": "用 CMOS 反相器构成的施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\55e09b6d98df3807404764148b4ef7f4874cea23d679af06d17fe7ff41768cb0.jpg"
+  },
+  {
+    "key": "图7.2.6(a)|images/47db3526fd20edda38662d7c35e481c29310b98750061c11f4ec3e678070b9bf.jpg",
+    "figure_id": "图7.2.6(a)",
+    "caption": "图 7.2.5 电路的电压传输特性 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\47db3526fd20edda38662d7c35e481c29310b98750061c11f4ec3e678070b9bf.jpg"
+  },
+  {
+    "key": "图7.2.6(b)|images/b373ea17c090fcd12b131d51f3fc5f486786cbd31b4af113c88eb03c4130ccea.jpg",
+    "figure_id": "图7.2.6(b)",
+    "caption": "图 7.2.5 电路的电压传输特性 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b373ea17c090fcd12b131d51f3fc5f486786cbd31b4af113c88eb03c4130ccea.jpg"
+  },
+  {
+    "key": "图7.2.7|images/4e1c53a76b44e1c380846e072957e2745fc1e518ac8400646aeb5c202090b4fc.jpg",
+    "figure_id": "图7.2.7",
+    "caption": "用施密特触发电路实现波形变换",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4e1c53a76b44e1c380846e072957e2745fc1e518ac8400646aeb5c202090b4fc.jpg"
+  },
+  {
+    "key": "图7.2.8(a)|images/cf7d0fca6f5c18a51f9b8e79c8d577ebe4de7b0b5918d0fd2d23bc7858baae2c.jpg",
+    "figure_id": "图7.2.8(a)",
+    "caption": "用施密特触发电路对脉冲整形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cf7d0fca6f5c18a51f9b8e79c8d577ebe4de7b0b5918d0fd2d23bc7858baae2c.jpg"
+  },
+  {
+    "key": "图7.2.8(b)|images/4bac4d344ffa844e410f9acc15c6bc01f23e5ed77fa5f8461bb959de0f938939.jpg",
+    "figure_id": "图7.2.8(b)",
+    "caption": "用施密特触发电路对脉冲整形 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4bac4d344ffa844e410f9acc15c6bc01f23e5ed77fa5f8461bb959de0f938939.jpg"
+  },
+  {
+    "key": "图7.2.8(c)|images/ab3f6fed4951d6c68ae3c3a9e3819a7235fc491ea7dbe167a4249dce7d7ad1ea.jpg",
+    "figure_id": "图7.2.8(c)",
+    "caption": "用施密特触发电路对脉冲整形 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ab3f6fed4951d6c68ae3c3a9e3819a7235fc491ea7dbe167a4249dce7d7ad1ea.jpg"
+  },
+  {
+    "key": "图7.2.8(d)|images/1264b9a3ed988d85dc96065b69f2a145a35d196c364bcdf2f06324225e45ac95.jpg",
+    "figure_id": "图7.2.8(d)",
+    "caption": "用施密特触发电路对脉冲整形 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1264b9a3ed988d85dc96065b69f2a145a35d196c364bcdf2f06324225e45ac95.jpg"
+  },
+  {
+    "key": "图7.2.8(e)|images/f82979b77e792d074dfb18c7efa9b13a4ac651f63ca014943a4c62459291bffc.jpg",
+    "figure_id": "图7.2.8(e)",
+    "caption": "用施密特触发电路对脉冲整形 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f82979b77e792d074dfb18c7efa9b13a4ac651f63ca014943a4c62459291bffc.jpg"
+  },
+  {
+    "key": "图7.2.8(f)|images/ed26e27bbb4dbbf436ef5afdf81df62b01098c9da7df94619b228eb16e842e24.jpg",
+    "figure_id": "图7.2.8(f)",
+    "caption": "用施密特触发电路对脉冲整形 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ed26e27bbb4dbbf436ef5afdf81df62b01098c9da7df94619b228eb16e842e24.jpg"
+  },
+  {
+    "key": "图7.2.9|images/62e1483d1becff44bf4db35ab93283c67105a7b4c9a968e6b3390eaf4aa58f4d.jpg",
+    "figure_id": "图7.2.9",
+    "caption": "用施密特触发电路鉴别脉冲幅度",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\62e1483d1becff44bf4db35ab93283c67105a7b4c9a968e6b3390eaf4aa58f4d.jpg"
+  },
+  {
+    "key": "图7.3.1|images/9093ed974e3dec49c02d80b09e2ef26fd96d9f61fbf654a045f4a50676418a4c.jpg",
+    "figure_id": "图7.3.1",
+    "caption": "微分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9093ed974e3dec49c02d80b09e2ef26fd96d9f61fbf654a045f4a50676418a4c.jpg"
+  },
+  {
+    "key": "图7.3.2|images/4e0df5ed33f1df08643daf1e6bf0a7791895559182f907066b058bc645455a2d.jpg",
+    "figure_id": "图7.3.2",
+    "caption": "图 7.3.1 电路的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4e0df5ed33f1df08643daf1e6bf0a7791895559182f907066b058bc645455a2d.jpg"
+  },
+  {
+    "key": "图7.3.3|images/4a36746ab8b74c530d7342e3bfe5ab670f18ed9b96b9bfc1d3832056cbc34207.jpg",
+    "figure_id": "图7.3.3",
+    "caption": "图 7.3.1 电路中电容 C 充电的等效电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4a36746ab8b74c530d7342e3bfe5ab670f18ed9b96b9bfc1d3832056cbc34207.jpg"
+  },
+  {
+    "key": "图7.3.4|images/d446ef711fbdb72fee6884f2609c7303b9c3707f8aa88ce75728b8f1bc6b10de.jpg",
+    "figure_id": "图7.3.4",
+    "caption": "图 7.3.1 电路中电",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d446ef711fbdb72fee6884f2609c7303b9c3707f8aa88ce75728b8f1bc6b10de.jpg"
+  },
+  {
+    "key": "图7.3.5|images/0de8837a368ed43e051ce8257abb93782c976debd9d2e0ee20fc5e278d96028d.jpg",
+    "figure_id": "图7.3.5",
+    "caption": "积分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0de8837a368ed43e051ce8257abb93782c976debd9d2e0ee20fc5e278d96028d.jpg"
+  },
+  {
+    "key": "图7.3.6|images/b27432c15583a2f3807817539baa6be4a1cb85cf02845ea532df8c9c57941f77.jpg",
+    "figure_id": "图7.3.6",
+    "caption": "图 7.3.5 电路的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b27432c15583a2f3807817539baa6be4a1cb85cf02845ea532df8c9c57941f77.jpg"
+  },
+  {
+    "key": "图7.3.7|images/e13c2bc4de97b7268c576efa57bf930bfc84992c154eb0ae78d004440db3fe33.jpg",
+    "figure_id": "图7.3.7",
+    "caption": "图 7.3.5 电路中电容 C 的放电回路和 $v_{A}$ 的波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e13c2bc4de97b7268c576efa57bf930bfc84992c154eb0ae78d004440db3fe33.jpg"
+  },
+  {
+    "key": "图7.3.8|images/d8bad8aecbeb6158717ec6c008883609a2cecd06a784d2e329210414602dafe0.jpg",
+    "figure_id": "图7.3.8",
+    "caption": "窄脉冲可以触发的积分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d8bad8aecbeb6158717ec6c008883609a2cecd06a784d2e329210414602dafe0.jpg"
+  },
+  {
+    "key": "图7.3.9|images/5dea0f71cd3c38a96dd23d2aebdd63a344e434ee4232e5e419532fac56c67f35.jpg",
+    "figure_id": "图7.3.9",
+    "caption": "集成单稳态电路 74121 简化的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5dea0f71cd3c38a96dd23d2aebdd63a344e434ee4232e5e419532fac56c67f35.jpg"
+  },
+  {
+    "key": "图7.3.10|images/27e41aa606ad23cfd228e91eb5de475f442054581358d6234e1345351f45192e.jpg",
+    "figure_id": "图7.3.10",
+    "caption": "集成单稳态电路 74121 的工作波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\27e41aa606ad23cfd228e91eb5de475f442054581358d6234e1345351f45192e.jpg"
+  },
+  {
+    "key": "图7.3.11(a)|images/31229b8de3c1126b18369bb2a3e706ff9f1b5784a3ef6e002f39499e1f787d5e.jpg",
+    "figure_id": "图7.3.11(a)",
+    "caption": "集成单稳态电路 74121 的外部连接方法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\31229b8de3c1126b18369bb2a3e706ff9f1b5784a3ef6e002f39499e1f787d5e.jpg"
+  },
+  {
+    "key": "图7.3.11(b)|images/9cd05e96fddb8fbd672e6d6ec9ccf750212303bdc006188862295d0d78af76dd.jpg",
+    "figure_id": "图7.3.11(b)",
+    "caption": "集成单稳态电路 74121 的外部连接方法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9cd05e96fddb8fbd672e6d6ec9ccf750212303bdc006188862295d0d78af76dd.jpg"
+  },
+  {
+    "key": "图7.3.12(a)|images/953e9b362ed37606db8d505443ea9d266bf3204451ae0d6ea9ca83b155b50308.jpg",
+    "figure_id": "图7.3.12(a)",
+    "caption": "不可重复触发型与可重复触发型单稳态电路的工作波形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\953e9b362ed37606db8d505443ea9d266bf3204451ae0d6ea9ca83b155b50308.jpg"
+  },
+  {
+    "key": "图7.3.12(b)|images/fd8766f22ea183ecae1bd4b8649e191d131b08f1c1829a182f25b98990195418.jpg",
+    "figure_id": "图7.3.12(b)",
+    "caption": "不可重复触发型与可重复触发型单稳态电路的工作波形 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fd8766f22ea183ecae1bd4b8649e191d131b08f1c1829a182f25b98990195418.jpg"
+  },
+  {
+    "key": "图7.4.1|images/c3b2e1316dd59c2c0fa8c22d7839d275be20668595e990673ef727c3e76822c1.jpg",
+    "figure_id": "图7.4.1",
+    "caption": "对称式多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c3b2e1316dd59c2c0fa8c22d7839d275be20668595e990673ef727c3e76822c1.jpg"
+  },
+  {
+    "key": "图7.4.2|images/f84e75885c7af0b3f6e4fc833417b06ff3644ec5ae08cbf59861654fb866fd75.jpg",
+    "figure_id": "图7.4.2",
+    "caption": "TTL 反相器(7404)的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f84e75885c7af0b3f6e4fc833417b06ff3644ec5ae08cbf59861654fb866fd75.jpg"
+  },
+  {
+    "key": "图7.4.3|images/1e2956ae963a65a1d6e2a3053a38c8f0557dff9f122a413b93baaa69a47625d8.jpg",
+    "figure_id": "图7.4.3",
+    "caption": "计算 TTL 反相器静态工作点的等效电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1e2956ae963a65a1d6e2a3053a38c8f0557dff9f122a413b93baaa69a47625d8.jpg"
+  },
+  {
+    "key": "图7.4.4(a)|images/03a25599528938446d89802e92493b246f4d6be004997a3a08329514b90a3e9f.jpg",
+    "figure_id": "图7.4.4(a)",
+    "caption": "图 7.4.1 电路中电容的充、放电等效电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\03a25599528938446d89802e92493b246f4d6be004997a3a08329514b90a3e9f.jpg"
+  },
+  {
+    "key": "图7.4.4(b)|images/e9fdc376bc838c56dddf114ae5c6ea9b9c1499057a8d65ee4a1ee4302539f845.jpg",
+    "figure_id": "图7.4.4(b)",
+    "caption": "图 7.4.1 电路中电容的充、放电等效电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e9fdc376bc838c56dddf114ae5c6ea9b9c1499057a8d65ee4a1ee4302539f845.jpg"
+  },
+  {
+    "key": "图7.4.5|images/fcaff3ea1451946d4315b87bdb0f21579129fc41c3e7e22d5a2a19817265c948.jpg",
+    "figure_id": "图7.4.5",
+    "caption": "图7.4.1电路中各点电压的波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fcaff3ea1451946d4315b87bdb0f21579129fc41c3e7e22d5a2a19817265c948.jpg"
+  },
+  {
+    "key": "图7.4.6|images/1dce724ee71eeafdb98862184ea7a3d00d53808687a967f7581532cc5a6abf52.jpg",
+    "figure_id": "图7.4.6",
+    "caption": "非对称式多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1dce724ee71eeafdb98862184ea7a3d00d53808687a967f7581532cc5a6abf52.jpg"
+  },
+  {
+    "key": "图7.4.7|images/6ac86c2e734cc2a4bbfd2523f54456805cab19945fea4c3857a88fdde41bf6aa.jpg",
+    "figure_id": "图7.4.7",
+    "caption": "图7.4.6电路中CMOS反相器静态工作点的确定",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6ac86c2e734cc2a4bbfd2523f54456805cab19945fea4c3857a88fdde41bf6aa.jpg"
+  },
+  {
+    "key": "图7.4.8(a)|images/c6cc9dab47bb7c40f7b32beebb881f861b471ccc9b4fb54dcb46b8e6617ea3c2.jpg",
+    "figure_id": "图7.4.8(a)",
+    "caption": "图 7.4.6 电路中电容的充、放电等效电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c6cc9dab47bb7c40f7b32beebb881f861b471ccc9b4fb54dcb46b8e6617ea3c2.jpg"
+  },
+  {
+    "key": "图7.4.8(b)|images/aca2524f757ba8b8b9335d5544eebfa281b447a1050001beda11c56decf376b5.jpg",
+    "figure_id": "图7.4.8(b)",
+    "caption": "图 7.4.6 电路中电容的充、放电等效电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\aca2524f757ba8b8b9335d5544eebfa281b447a1050001beda11c56decf376b5.jpg"
+  },
+  {
+    "key": "图7.4.9(a)|images/db77d07c48854d84842b8741699150a2077d0c2f0849fa23ea2693ca21665e69.jpg",
+    "figure_id": "图7.4.9(a)",
+    "caption": "图 7.4.6 电路的工作波形图 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\db77d07c48854d84842b8741699150a2077d0c2f0849fa23ea2693ca21665e69.jpg"
+  },
+  {
+    "key": "图7.4.9(b)|images/5975f2238d95e1fbab3c6b543bbe58b2b68142fd5ffe10d48b60d6da574cf788.jpg",
+    "figure_id": "图7.4.9(b)",
+    "caption": "图 7.4.6 电路的工作波形图 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5975f2238d95e1fbab3c6b543bbe58b2b68142fd5ffe10d48b60d6da574cf788.jpg"
+  },
+  {
+    "key": "图7.4.12|images/c95f84792c571041b206032f50c09a35bcc37be9fde3047e220f00be02a8cc50.jpg",
+    "figure_id": "图7.4.12",
+    "caption": "带 RC 延迟电路的环形振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c95f84792c571041b206032f50c09a35bcc37be9fde3047e220f00be02a8cc50.jpg"
+  },
+  {
+    "key": "图7.4.10|images/9e534e991793f55bee23c6f3227f9a05e75a8ff3c5ed1eaead7c5a9f0fd343c5.jpg",
+    "figure_id": "图7.4.10",
+    "caption": "最简单的环形振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9e534e991793f55bee23c6f3227f9a05e75a8ff3c5ed1eaead7c5a9f0fd343c5.jpg"
+  },
+  {
+    "key": "图7.4.11|images/97fe9d60d4591099d121378faf3a46a789dca9eb0829d42f9416748b138e5a93.jpg",
+    "figure_id": "图7.4.11",
+    "caption": "图 7.4.10 电路的工作波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\97fe9d60d4591099d121378faf3a46a789dca9eb0829d42f9416748b138e5a93.jpg"
+  },
+  {
+    "key": "图7.4.13|images/eb5741c732bfd6feb1195a24c76e3ab80f8140d5b31a00e2a52c06fd2aa342af.jpg",
+    "figure_id": "图7.4.13",
+    "caption": "图 7.4.12(b) 电路的工作波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\eb5741c732bfd6feb1195a24c76e3ab80f8140d5b31a00e2a52c06fd2aa342af.jpg"
+  },
+  {
+    "key": "图7.4.14(a)|images/b56ed5e55d68f7699218477b9af2c7313d2c9a0c4e8d1648f27adcf18f4b53f6.jpg",
+    "figure_id": "图7.4.14(a)",
+    "caption": "图 7.4.12(b) 电路中电容 C 的充、放电等效电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b56ed5e55d68f7699218477b9af2c7313d2c9a0c4e8d1648f27adcf18f4b53f6.jpg"
+  },
+  {
+    "key": "图7.4.14(b)|images/0159f1be245a73ef688a15019a13208477dbd5df6f0339e7bcf4ee0eac6f2976.jpg",
+    "figure_id": "图7.4.14(b)",
+    "caption": "图 7.4.12(b) 电路中电容 C 的充、放电等效电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0159f1be245a73ef688a15019a13208477dbd5df6f0339e7bcf4ee0eac6f2976.jpg"
+  },
+  {
+    "key": "图7.4.15(a)|images/691cbbcc0796c9b7dbb710de380d70ef3cccce65cb6b504052b26e246f3501f9.jpg",
+    "figure_id": "图7.4.15(a)",
+    "caption": "用施密特触发电路构成的多谐振荡电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\691cbbcc0796c9b7dbb710de380d70ef3cccce65cb6b504052b26e246f3501f9.jpg"
+  },
+  {
+    "key": "图7.4.15(b)|images/3f73f2f02cd3a66508fb074aa54de656742a18b2798aa5151face15f40d3c3e4.jpg",
+    "figure_id": "图7.4.15(b)",
+    "caption": "用施密特触发电路构成的多谐振荡电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3f73f2f02cd3a66508fb074aa54de656742a18b2798aa5151face15f40d3c3e4.jpg"
+  },
+  {
+    "key": "图7.4.17|images/5b9186d76c1dac52463f5654d67004105c651884ecfe3dfbce6578adb8f3a010.jpg",
+    "figure_id": "图7.4.17",
+    "caption": "脉冲占空比可调的多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5b9186d76c1dac52463f5654d67004105c651884ecfe3dfbce6578adb8f3a010.jpg"
+  },
+  {
+    "key": "图7.4.18|images/9dd62d991ec8eb67cb027c80f576677353fcb92ba4aea48a68c8107fc28810ff.jpg",
+    "figure_id": "图7.4.18",
+    "caption": "石英晶体的电抗频率特性和符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9dd62d991ec8eb67cb027c80f576677353fcb92ba4aea48a68c8107fc28810ff.jpg"
+  },
+  {
+    "key": "图7.4.19|images/1e3e52df298ba801ebf4d61c1d78b13a8dd0a11518db2a2a023131dfe3ab5c16.jpg",
+    "figure_id": "图7.4.19",
+    "caption": "石英晶体多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1e3e52df298ba801ebf4d61c1d78b13a8dd0a11518db2a2a023131dfe3ab5c16.jpg"
+  },
+  {
+    "key": "图7.5.1|images/5dd5d6fbb81a77558dabc09aee11492148deb2e5588fb90c250c9f30836b6b1e.jpg",
+    "figure_id": "图7.5.1",
+    "caption": "555 定时器的电路结构图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5dd5d6fbb81a77558dabc09aee11492148deb2e5588fb90c250c9f30836b6b1e.jpg"
+  },
+  {
+    "key": "图7.5.2|images/4384112757eb6bca677bdac26740c781482e605187ea20e0d063e14261266978.jpg",
+    "figure_id": "图7.5.2",
+    "caption": "用 555 定时器接成的施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4384112757eb6bca677bdac26740c781482e605187ea20e0d063e14261266978.jpg"
+  },
+  {
+    "key": "图7.5.3|images/ea14eb007ab46de7100e3508d8c7df9e59f75f6df098df86b897466f137b8c99.jpg",
+    "figure_id": "图7.5.3",
+    "caption": "图7.5.2电路的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ea14eb007ab46de7100e3508d8c7df9e59f75f6df098df86b897466f137b8c99.jpg"
+  },
+  {
+    "key": "图7.5.4_0|images/cde332c188db3dae85b5239d08db02c908000cf066bdb757c7b86f0d6b367c98.jpg",
+    "figure_id": "图7.5.4",
+    "caption": "用 555 定时器接成的单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cde332c188db3dae85b5239d08db02c908000cf066bdb757c7b86f0d6b367c98.jpg"
+  },
+  {
+    "key": "图7.5.4_1|images/5fe9cb79f2df89ff90a9ddb62b03cd8367b70b779674c77b579a67056e7a4c8a.jpg",
+    "figure_id": "图7.5.4",
+    "caption": "用 555 定时器接成的单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5fe9cb79f2df89ff90a9ddb62b03cd8367b70b779674c77b579a67056e7a4c8a.jpg"
+  },
+  {
+    "key": "图7.5.5|images/7ca369de9c84089b2dae940b3e186365169062a647f0c0cd7b87ceb893337dbb.jpg",
+    "figure_id": "图7.5.5",
+    "caption": "图7.5.4电路的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7ca369de9c84089b2dae940b3e186365169062a647f0c0cd7b87ceb893337dbb.jpg"
+  },
+  {
+    "key": "图7.5.6|images/ca6efe8efbb7500cab66777a1d4c2ea1dff76b1d727c713a542eca589571e3d7.jpg",
+    "figure_id": "图7.5.6",
+    "caption": "用 555 定时器接成的多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ca6efe8efbb7500cab66777a1d4c2ea1dff76b1d727c713a542eca589571e3d7.jpg"
+  },
+  {
+    "key": "图7.5.7|images/df740500809ab0f82767cfef1307e8e1a95197f019fb115e0179fa7b0b9df41b.jpg",
+    "figure_id": "图7.5.7",
+    "caption": "图 7.5.6 电路的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\df740500809ab0f82767cfef1307e8e1a95197f019fb115e0179fa7b0b9df41b.jpg"
+  },
+  {
+    "key": "图7.5.8|images/c19906bc6e2faa92080d1037a55cec30a4f71c714e29d54f2e73102da47614a6.jpg",
+    "figure_id": "图7.5.8",
+    "caption": "用 555 定时器组成的占空比可调多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c19906bc6e2faa92080d1037a55cec30a4f71c714e29d54f2e73102da47614a6.jpg"
+  },
+  {
+    "key": "图7.5.9|images/704415fbb7cbde8f5b446a4600714cb67b2512e8a3d5781816ae97b26260c107.jpg",
+    "figure_id": "图7.5.9",
+    "caption": "例 7.5.1 设计的多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\704415fbb7cbde8f5b446a4600714cb67b2512e8a3d5781816ae97b26260c107.jpg"
+  },
+  {
+    "key": "图P7.1(a)|images/e3a180b84851b5364432a2fbad7af6d35590d62be0026200b0640097463b832c.jpg",
+    "figure_id": "图P7.1(a)",
+    "caption": "图P7.1 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e3a180b84851b5364432a2fbad7af6d35590d62be0026200b0640097463b832c.jpg"
+  },
+  {
+    "key": "图P7.1(b)|images/9d1e7ce7e9b9a415f70002038d180cd6f66947247e9e0b114dbe8fd8c12b9cde.jpg",
+    "figure_id": "图P7.1(b)",
+    "caption": "图P7.1 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9d1e7ce7e9b9a415f70002038d180cd6f66947247e9e0b114dbe8fd8c12b9cde.jpg"
+  },
+  {
+    "key": "图P7.3(a)|images/08b91c6cd1d645c4d59d14ec80e9c5d678aff8c8b31e48c9f1d4a27ce8cbfec8.jpg",
+    "figure_id": "图P7.3(a)",
+    "caption": "图P7.3 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\08b91c6cd1d645c4d59d14ec80e9c5d678aff8c8b31e48c9f1d4a27ce8cbfec8.jpg"
+  },
+  {
+    "key": "图P7.3(b)|images/02bb183652452266d7b2cf977c82f0c57963e4dac7ba8c2552324f21b79101b6.jpg",
+    "figure_id": "图P7.3(b)",
+    "caption": "图P7.3 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\02bb183652452266d7b2cf977c82f0c57963e4dac7ba8c2552324f21b79101b6.jpg"
+  },
+  {
+    "key": "图P7.4|images/7a3098c6f98d1afa7fe1fea670f21a80530b3954e0bfa8ceda5c4dfb616149d2.jpg",
+    "figure_id": "图P7.4",
+    "caption": "图 P7.4",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7a3098c6f98d1afa7fe1fea670f21a80530b3954e0bfa8ceda5c4dfb616149d2.jpg"
+  },
+  {
+    "key": "图P7.6|images/1ed8527384bbe8c7e802e04fc2fa835abf9b7736bd939ddbe5ec07497b87cc74.jpg",
+    "figure_id": "图P7.6",
+    "caption": "图 P7.6",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1ed8527384bbe8c7e802e04fc2fa835abf9b7736bd939ddbe5ec07497b87cc74.jpg"
+  },
+  {
+    "key": "图P7.9|images/d33bde1cde08b268565d513059fde059b0b70a9a8b253b37f20c64bd0fd0a688.jpg",
+    "figure_id": "图P7.9",
+    "caption": "图 P7.9",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d33bde1cde08b268565d513059fde059b0b70a9a8b253b37f20c64bd0fd0a688.jpg"
+  },
+  {
+    "key": "图P7.11(a)|images/849251b2d96a8540ca09d9a61df8520c7cfb877773718969ffa9a291adee1a16.jpg",
+    "figure_id": "图P7.11(a)",
+    "caption": "图 P7.11 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\849251b2d96a8540ca09d9a61df8520c7cfb877773718969ffa9a291adee1a16.jpg"
+  },
+  {
+    "key": "图P7.11(b)|images/86e1e61204c59497cabbaa08c581f966742ec5552255b7ddf7fbc6efecd9ca51.jpg",
+    "figure_id": "图P7.11(b)",
+    "caption": "图 P7.11 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\86e1e61204c59497cabbaa08c581f966742ec5552255b7ddf7fbc6efecd9ca51.jpg"
+  },
+  {
+    "key": "图P7.16_0|images/1055093079a7b4aa2f339044891bb90540d63a366564403a4cf08ef1c29af5e0.jpg",
+    "figure_id": "图P7.16",
+    "caption": "图 P7.16",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1055093079a7b4aa2f339044891bb90540d63a366564403a4cf08ef1c29af5e0.jpg"
+  },
+  {
+    "key": "图P7.16_1|images/c53c55b0b61f541f2cec1ad0ad7b164bedf9e32ff903c1deb2e7f0d97b9d0ebf.jpg",
+    "figure_id": "图P7.16",
+    "caption": "图 P7.16",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c53c55b0b61f541f2cec1ad0ad7b164bedf9e32ff903c1deb2e7f0d97b9d0ebf.jpg"
+  },
+  {
+    "key": "图P7.20|images/ad7fee303f6ddb6605d55e831167849d349cf2d5a0ff7b05a0b9612afa2995aa.jpg",
+    "figure_id": "图P7.20",
+    "caption": "图 P7.20",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ad7fee303f6ddb6605d55e831167849d349cf2d5a0ff7b05a0b9612afa2995aa.jpg"
+  },
+  {
+    "key": "图P7.23|images/6181594dd0cbe254fe33983e3aef327601a7acb744e2d423b73661ca65338398.jpg",
+    "figure_id": "图P7.23",
+    "caption": "图 P7.23",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6181594dd0cbe254fe33983e3aef327601a7acb744e2d423b73661ca65338398.jpg"
+  },
+  {
+    "key": "图P7.24|images/c8fcd9f21ec9893b67d09e6236b58bb58ced40e5fdbcd9315d32cd5746bd3e01.jpg",
+    "figure_id": "图P7.24",
+    "caption": "图 P7.24",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c8fcd9f21ec9893b67d09e6236b58bb58ced40e5fdbcd9315d32cd5746bd3e01.jpg"
+  },
+  {
+    "key": "图P7.25|images/3760dd0deeaf026c1ded2de566930adc63f2c33c106a180d3fb8606675551aff.jpg",
+    "figure_id": "图P7.25",
+    "caption": "图 P7.25",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3760dd0deeaf026c1ded2de566930adc63f2c33c106a180d3fb8606675551aff.jpg"
+  },
+  {
+    "key": "图P7.26|images/57e67bc70392d50e2dcd6af1fa069c4689067815703ccd954056b7f13ee44c19.jpg",
+    "figure_id": "图P7.26",
+    "caption": "图 P7.26",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\57e67bc70392d50e2dcd6af1fa069c4689067815703ccd954056b7f13ee44c19.jpg"
+  },
+  {
+    "key": "图P7.27(a)|images/72abd8ac6ba21c0a903717aff1a436515cb075dcabe3a5cb39725bba11f2fcb7.jpg",
+    "figure_id": "图P7.27(a)",
+    "caption": "图 P7.27 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\72abd8ac6ba21c0a903717aff1a436515cb075dcabe3a5cb39725bba11f2fcb7.jpg"
+  },
+  {
+    "key": "图P7.27(b)|images/1ec861a3ea302cd6b86d5b21b36b87856d94c62ba6b42c53208521e215b27705.jpg",
+    "figure_id": "图P7.27(b)",
+    "caption": "图 P7.27 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1ec861a3ea302cd6b86d5b21b36b87856d94c62ba6b42c53208521e215b27705.jpg"
+  },
+  {
+    "key": "图7.2.8|images/036fd7635dd9c022e2432f2c7f3d2722cecbb41fb1fb3f799bda2f5b809f647e.jpg",
+    "figure_id": "图7.2.8",
+    "caption": "图7.2.8",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\036fd7635dd9c022e2432f2c7f3d2722cecbb41fb1fb3f799bda2f5b809f647e.jpg"
+  },
+  {
+    "key": "图P7.1|images/e2f9d6918b91d3d97b336be2a078e99708c96f51c699ff6e3ca1ba411bdabfd0.jpg",
+    "figure_id": "图P7.1",
+    "caption": "图P7.1",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e2f9d6918b91d3d97b336be2a078e99708c96f51c699ff6e3ca1ba411bdabfd0.jpg"
+  },
+  {
+    "key": "图7(a)|images/64727e29e49abc61e87f79b9db6c641bc8144a9569850eb2d8c8e1f79e28e132.jpg",
+    "figure_id": "图7(a)",
+    "caption": "-2-1 环形振荡电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\64727e29e49abc61e87f79b9db6c641bc8144a9569850eb2d8c8e1f79e28e132.jpg"
+  },
+  {
+    "key": "图7(b)|images/e6dffb2222d8c271f861bb6c6b28b62b3d5538b8d7bab13ae691b3ae6b206329.jpg",
+    "figure_id": "图7(b)",
+    "caption": "-2-1 环形振荡电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\e6dffb2222d8c271f861bb6c6b28b62b3d5538b8d7bab13ae691b3ae6b206329.jpg"
+  },
+  {
+    "key": "图7(c)|images/7317880d87e9deef58e526a5a3f631bd1f45a954d9122c9eed96a1aa09f9da3a.jpg",
+    "figure_id": "图7(c)",
+    "caption": "-2-1 环形振荡电路 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\7317880d87e9deef58e526a5a3f631bd1f45a954d9122c9eed96a1aa09f9da3a.jpg"
+  },
+  {
+    "key": "图7(d)|images/3b18cd9c437d4effe58647d02f22dcaf26945cec3482a3d51f499d0e71e87be5.jpg",
+    "figure_id": "图7(d)",
+    "caption": "-2-1 环形振荡电路 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\3b18cd9c437d4effe58647d02f22dcaf26945cec3482a3d51f499d0e71e87be5.jpg"
+  },
+  {
+    "key": "图7(e)|images/4c0e1ae19a5f79aaf73f721edfdff7ed570a3538571526edc6d779833e339f04.jpg",
+    "figure_id": "图7(e)",
+    "caption": "-2-1 环形振荡电路 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\4c0e1ae19a5f79aaf73f721edfdff7ed570a3538571526edc6d779833e339f04.jpg"
+  },
+  {
+    "key": "图7(f)|images/274831e6dc2dfc1c70688098aed46bdc9b3fec4596a69332d0f71c0990084f40.jpg",
+    "figure_id": "图7(f)",
+    "caption": "-2-1 环形振荡电路 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\274831e6dc2dfc1c70688098aed46bdc9b3fec4596a69332d0f71c0990084f40.jpg"
+  },
+  {
+    "key": "图7(g)|images/d3c8c8ca1383db659ef55604ea95d0f80657870f57d6fdf99b807b6f8ce9333f.jpg",
+    "figure_id": "图7(g)",
+    "caption": "-2-1 环形振荡电路 子图(g)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\d3c8c8ca1383db659ef55604ea95d0f80657870f57d6fdf99b807b6f8ce9333f.jpg"
+  },
+  {
+    "key": "图7(h)|images/78f027423c1d1a6f18d0e3c0214d102ccf08d6f2f2afc1522c713401bf263397.jpg",
+    "figure_id": "图7(h)",
+    "caption": "-2-1 环形振荡电路 子图(h)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\78f027423c1d1a6f18d0e3c0214d102ccf08d6f2f2afc1522c713401bf263397.jpg"
+  },
+  {
+    "key": "图7(i)|images/511f573701f1e8c28b2675fd5694ac6e3ee4ce4319337c784a258d61e5badc8e.jpg",
+    "figure_id": "图7(i)",
+    "caption": "-2-1 环形振荡电路 子图(i)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\511f573701f1e8c28b2675fd5694ac6e3ee4ce4319337c784a258d61e5badc8e.jpg"
+  },
+  {
+    "key": "图7(j)|images/f0531d3c7b43db44e7b53fd2ab028198fc1106bf5dfaa0663c5a58cf0c1ba15d.jpg",
+    "figure_id": "图7(j)",
+    "caption": "-2-1 环形振荡电路 子图(j)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\f0531d3c7b43db44e7b53fd2ab028198fc1106bf5dfaa0663c5a58cf0c1ba15d.jpg"
+  },
+  {
+    "key": "图7(11)|images/e69d3cea21f3882d162a9dd1908ca4dd8e3c82d4df79fde6990a8ea210dae3f8.jpg",
+    "figure_id": "图7(11)",
+    "caption": "-2-1 环形振荡电路 子图(11)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\e69d3cea21f3882d162a9dd1908ca4dd8e3c82d4df79fde6990a8ea210dae3f8.jpg"
+  },
+  {
+    "key": "图7(12)|images/d76b2eb7ca3768f0d6a909f3f3a52e891f1939b6608d9a0b9037a5b3c07d7646.jpg",
+    "figure_id": "图7(12)",
+    "caption": "-2-1 环形振荡电路 子图(12)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\d76b2eb7ca3768f0d6a909f3f3a52e891f1939b6608d9a0b9037a5b3c07d7646.jpg"
+  },
+  {
+    "key": "图7(13)|images/48eeb77f32a7d549841b893e2d45aaea0dd1e367b0ea5b435fe6b3643d75a721.jpg",
+    "figure_id": "图7(13)",
+    "caption": "-2-1 环形振荡电路 子图(13)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\48eeb77f32a7d549841b893e2d45aaea0dd1e367b0ea5b435fe6b3643d75a721.jpg"
+  },
+  {
+    "key": "图7(14)|images/4553dcd15eff02e498187ffc9d8cb72bd041a38d4605b2b3e00280d2121793d8.jpg",
+    "figure_id": "图7(14)",
+    "caption": "-2-1 环形振荡电路 子图(14)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\4553dcd15eff02e498187ffc9d8cb72bd041a38d4605b2b3e00280d2121793d8.jpg"
+  },
+  {
+    "key": "图7(15)|images/224289b18bb219e5528fc27a3abca446c6650240e5e7ee511b14e3b438ee7656.jpg",
+    "figure_id": "图7(15)",
+    "caption": "-2-1 环形振荡电路 子图(15)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\224289b18bb219e5528fc27a3abca446c6650240e5e7ee511b14e3b438ee7656.jpg"
+  },
+  {
+    "key": "图7(16)|images/cd4ff3967ec66890af93e6db91b20f580888f11b6e41695b8721a2b8b91504b7.jpg",
+    "figure_id": "图7(16)",
+    "caption": "-2-1 环形振荡电路 子图(16)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\cd4ff3967ec66890af93e6db91b20f580888f11b6e41695b8721a2b8b91504b7.jpg"
+  },
+  {
+    "key": "图7(17)|images/5d41f48201bb74b3615da3e7fe47e8005da5aec18213a680ed8915066661db45.jpg",
+    "figure_id": "图7(17)",
+    "caption": "-2-1 环形振荡电路 子图(17)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\5d41f48201bb74b3615da3e7fe47e8005da5aec18213a680ed8915066661db45.jpg"
+  },
+  {
+    "key": "图7(18)|images/12bac9e9faeb78444e01053f58a3f26f5b0c53c51bfdf2210476e754f6c201dc.jpg",
+    "figure_id": "图7(18)",
+    "caption": "-2-1 环形振荡电路 子图(18)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\12bac9e9faeb78444e01053f58a3f26f5b0c53c51bfdf2210476e754f6c201dc.jpg"
+  },
+  {
+    "key": "图7(19)|images/53b65bcdda642a46129e3159c0bc596374882e62d15005f5131acb2178059d0a.jpg",
+    "figure_id": "图7(19)",
+    "caption": "-2-1 环形振荡电路 子图(19)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\53b65bcdda642a46129e3159c0bc596374882e62d15005f5131acb2178059d0a.jpg"
+  },
+  {
+    "key": "图7(20)|images/010f383de4170d2cd30397f297c53bfb81bba80351596b7a428e8f57ff9aee61.jpg",
+    "figure_id": "图7(20)",
+    "caption": "-2-1 环形振荡电路 子图(20)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\010f383de4170d2cd30397f297c53bfb81bba80351596b7a428e8f57ff9aee61.jpg"
+  },
+  {
+    "key": "图7(21)|images/65295ef74ed1af646df75cb2225c24cc05ef0d804abb01259bdd86425288970d.jpg",
+    "figure_id": "图7(21)",
+    "caption": "-2-1 环形振荡电路 子图(21)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\65295ef74ed1af646df75cb2225c24cc05ef0d804abb01259bdd86425288970d.jpg"
+  },
+  {
+    "key": "图7(22)|images/43316e8ef2d675ed1cb5600906fe963fa8ee67d3542539b3cc5a5c8908ca3e8b.jpg",
+    "figure_id": "图7(22)",
+    "caption": "-2-1 环形振荡电路 子图(22)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\43316e8ef2d675ed1cb5600906fe963fa8ee67d3542539b3cc5a5c8908ca3e8b.jpg"
+  },
+  {
+    "key": "图7(23)|images/f4752dbdc12398f5194047e6e7c109ca2b91f28478f065b1da301f19b2f6d840.jpg",
+    "figure_id": "图7(23)",
+    "caption": "-2-1 环形振荡电路 子图(23)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\f4752dbdc12398f5194047e6e7c109ca2b91f28478f065b1da301f19b2f6d840.jpg"
+  },
+  {
+    "key": "图7(24)|images/32b5ded1695d8c2726d57034ffc0dde5579a13b7b6669f15e959e5ec4f2ecc04.jpg",
+    "figure_id": "图7(24)",
+    "caption": "-2-1 环形振荡电路 子图(24)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\32b5ded1695d8c2726d57034ffc0dde5579a13b7b6669f15e959e5ec4f2ecc04.jpg"
+  },
+  {
+    "key": "图7(25)|images/235da4cf366311132f458a9cc4a7bce0c1b465bf802d1876d302bef4ae058afa.jpg",
+    "figure_id": "图7(25)",
+    "caption": "-2-1 环形振荡电路 子图(25)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\235da4cf366311132f458a9cc4a7bce0c1b465bf802d1876d302bef4ae058afa.jpg"
+  },
+  {
+    "key": "图7(26)|images/98ec90208413c4e86752952ccc6e5482264cabb8510a5c113094c313a4072dbf.jpg",
+    "figure_id": "图7(26)",
+    "caption": "-2-1 环形振荡电路 子图(26)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\98ec90208413c4e86752952ccc6e5482264cabb8510a5c113094c313a4072dbf.jpg"
+  },
+  {
+    "key": "图7(27)|images/ca4d3079c203cb384508c07672ba8e68b3c969c286a08ab00eeaa3494c68dfa1.jpg",
+    "figure_id": "图7(27)",
+    "caption": "-2-1 环形振荡电路 子图(27)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\ca4d3079c203cb384508c07672ba8e68b3c969c286a08ab00eeaa3494c68dfa1.jpg"
+  },
+  {
+    "key": "图7(28)|images/b3602fda14f44c6cbe197aadb52f9a5bc27127ee5f7a8ad70bf073982ddfe704.jpg",
+    "figure_id": "图7(28)",
+    "caption": "-2-1 环形振荡电路 子图(28)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\b3602fda14f44c6cbe197aadb52f9a5bc27127ee5f7a8ad70bf073982ddfe704.jpg"
+  },
+  {
+    "key": "图7(29)|images/74d704b8321cadb3b47d088e7191f8a8430d38d4488968d5f925a504a944999c.jpg",
+    "figure_id": "图7(29)",
+    "caption": "-2-1 环形振荡电路 子图(29)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\74d704b8321cadb3b47d088e7191f8a8430d38d4488968d5f925a504a944999c.jpg"
+  },
+  {
+    "key": "图7(30)|images/ac3cb29b075d4754a8507d67d8324463cdf11891aa01499d5c632ecd2642906e.jpg",
+    "figure_id": "图7(30)",
+    "caption": "-2-1 环形振荡电路 子图(30)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\ac3cb29b075d4754a8507d67d8324463cdf11891aa01499d5c632ecd2642906e.jpg"
+  },
+  {
+    "key": "图7(31)|images/a716f420157ded872b93a305a6a4b193c0d4b71c139804db3ffe5566ca2c119c.jpg",
+    "figure_id": "图7(31)",
+    "caption": "-2-1 环形振荡电路 子图(31)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\a716f420157ded872b93a305a6a4b193c0d4b71c139804db3ffe5566ca2c119c.jpg"
+  },
+  {
+    "key": "图7(32)|images/2932b55fc1da7e9d6fe6d5a179381989a6611c0c3dc71eff8ff3249c94a3777d.jpg",
+    "figure_id": "图7(32)",
+    "caption": "-2-1 环形振荡电路 子图(32)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\2932b55fc1da7e9d6fe6d5a179381989a6611c0c3dc71eff8ff3249c94a3777d.jpg"
+  },
+  {
+    "key": "图7(33)|images/f901d1c4cf9cc34177232d1e1dba50c1f007fa10c3b4d5ab7b607db500045cdf.jpg",
+    "figure_id": "图7(33)",
+    "caption": "-2-1 环形振荡电路 子图(33)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\f901d1c4cf9cc34177232d1e1dba50c1f007fa10c3b4d5ab7b607db500045cdf.jpg"
+  },
+  {
+    "key": "图7(34)|images/feff11adca1aca3d323e7b0934784b3c10e25b0ff56ac7149aee7c8d879aeba1.jpg",
+    "figure_id": "图7(34)",
+    "caption": "-2-1 环形振荡电路 子图(34)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\feff11adca1aca3d323e7b0934784b3c10e25b0ff56ac7149aee7c8d879aeba1.jpg"
+  },
+  {
+    "key": "图7(35)|images/1b7bba8736bf4223af056be98db36b654f55b2577a0d7f0cfcbba31039197ba2.jpg",
+    "figure_id": "图7(35)",
+    "caption": "-2-1 环形振荡电路 子图(35)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\1b7bba8736bf4223af056be98db36b654f55b2577a0d7f0cfcbba31039197ba2.jpg"
+  },
+  {
+    "key": "图7(36)|images/6c5ab67e0f2c70a9d0ebed57e1853b2e2b82be15279bb159544adfafc523bf07.jpg",
+    "figure_id": "图7(36)",
+    "caption": "-2-1 环形振荡电路 子图(36)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\6c5ab67e0f2c70a9d0ebed57e1853b2e2b82be15279bb159544adfafc523bf07.jpg"
+  }
+]

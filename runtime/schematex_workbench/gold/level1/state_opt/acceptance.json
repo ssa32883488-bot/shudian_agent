@@ -1,0 +1,207 @@
+{
+  "schema_version": "state_acceptance_v1",
+  "accepted_at": "2026-09-02T12:00:00+08:00",
+  "reviewer": "user",
+  "textbook": "阎石《数字电子技术基础》状态转换图 S01–S10",
+  "pipeline": {
+    "ir": "state_ir_v1",
+    "layout": [
+      "free(positions)",
+      "square",
+      "triangle",
+      "racetrack",
+      "ring"
+    ],
+    "renderers": [
+      "adapters/state_ir_to_svg.mjs",
+      "adapters/state_ir_to_tikz.mjs + node-tikzjax"
+    ],
+    "edge_routing": "lib/state_edge_route.mjs（双向眼形双弧 / 虚线 / 叉号）",
+    "rejected": [
+      "Graphviz 自动布局作为主路径"
+    ]
+  },
+  "galleries": {
+    "textbook": "review_textbook.html",
+    "tikz": "review_tikz.html",
+    "index": "index.html"
+  },
+  "rebuild": {
+    "all": "npm run rebuild-state-accepted",
+    "textbook": "npm run rebuild-state-textbook",
+    "tikz": "npm run rebuild-state-tikz",
+    "freeze": "npm run freeze-state-acceptance"
+  },
+  "cards": [
+    {
+      "id": "S01",
+      "fig_id": "6.2.2",
+      "caption": "图6.2.1电路的状态转换图",
+      "layout_mode": "free",
+      "has_positions": true,
+      "ir_layout": "free",
+      "states": 8,
+      "transitions": 8,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S01/gen.svg",
+        "tikz_tex": "../cards/S01/gen.tikz.tex",
+        "tikz_svg": "../cards/S01/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S02",
+      "fig_id": "6.2.4",
+      "caption": "图6.2.3电路的状态转换图",
+      "layout_mode": "square",
+      "has_positions": false,
+      "ir_layout": "auto",
+      "states": 4,
+      "transitions": 8,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S02/gen.svg",
+        "tikz_tex": "../cards/S02/gen.tikz.tex",
+        "tikz_svg": "../cards/S02/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S03",
+      "fig_id": "6.2.11",
+      "caption": "图6.2.10电路的状态转换图",
+      "layout_mode": "free",
+      "has_positions": true,
+      "ir_layout": "free",
+      "states": 16,
+      "transitions": 16,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S03/gen.svg",
+        "tikz_tex": "../cards/S03/gen.tikz.tex",
+        "tikz_svg": "../cards/S03/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S04",
+      "fig_id": "6.3.9",
+      "caption": "图6.3.8电路的状态转换图",
+      "layout_mode": "racetrack",
+      "has_positions": false,
+      "ir_layout": "auto",
+      "states": 16,
+      "transitions": 16,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S04/gen.svg",
+        "tikz_tex": "../cards/S04/gen.tikz.tex",
+        "tikz_svg": "../cards/S04/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S05",
+      "fig_id": "6.4.2",
+      "caption": "例6.4.1的状态转换图",
+      "layout_mode": "racetrack",
+      "has_positions": false,
+      "ir_layout": "auto",
+      "states": 13,
+      "transitions": 13,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S05/gen.svg",
+        "tikz_tex": "../cards/S05/gen.tikz.tex",
+        "tikz_svg": "../cards/S05/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S06",
+      "fig_id": "6.4.7",
+      "caption": "例6.4.2的状态转换图",
+      "layout_mode": "square",
+      "has_positions": false,
+      "ir_layout": "auto",
+      "states": 4,
+      "transitions": 8,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S06/gen.svg",
+        "tikz_tex": "../cards/S06/gen.tikz.tex",
+        "tikz_svg": "../cards/S06/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S07",
+      "fig_id": "6.4.8",
+      "caption": "化简后的例6.4.2状态转换图",
+      "layout_mode": "triangle",
+      "has_positions": false,
+      "ir_layout": "auto",
+      "states": 3,
+      "transitions": 6,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S07/gen.svg",
+        "tikz_tex": "../cards/S07/gen.tikz.tex",
+        "tikz_svg": "../cards/S07/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S08",
+      "fig_id": "6.4.14",
+      "caption": "例6.4.3的状态转换图",
+      "layout_mode": "triangle",
+      "has_positions": false,
+      "ir_layout": "auto",
+      "states": 3,
+      "transitions": 9,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S08/gen.svg",
+        "tikz_tex": "../cards/S08/gen.tikz.tex",
+        "tikz_svg": "../cards/S08/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S09",
+      "fig_id": "6.4.19",
+      "caption": "例6.4.4的状态转换图",
+      "layout_mode": "racetrack",
+      "has_positions": false,
+      "ir_layout": "auto",
+      "states": 7,
+      "transitions": 7,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S09/gen.svg",
+        "tikz_tex": "../cards/S09/gen.tikz.tex",
+        "tikz_svg": "../cards/S09/gen_tikz.svg"
+      }
+    },
+    {
+      "id": "S10",
+      "fig_id": "6.4.26",
+      "caption": "例6.4.5电路的状态转换图",
+      "layout_mode": "free",
+      "has_positions": true,
+      "ir_layout": "free",
+      "states": 8,
+      "transitions": 12,
+      "struct_ok": true,
+      "tikz_ok": true,
+      "outputs": {
+        "svg": "../cards/S10/gen.svg",
+        "tikz_tex": "../cards/S10/gen.tikz.tex",
+        "tikz_svg": "../cards/S10/gen_tikz.svg"
+      }
+    }
+  ]
+}

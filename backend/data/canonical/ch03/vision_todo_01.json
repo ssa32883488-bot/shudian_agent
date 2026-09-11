@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图3.1.1(a)|images/545cd093645a3c052b079697b4d29feea03c5f8416c81e0aaa5ad6a26b71c64f.jpg",
+    "figure_id": "图3.1.1(a)",
+    "caption": "用来获得高、低电平的基本开关电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\545cd093645a3c052b079697b4d29feea03c5f8416c81e0aaa5ad6a26b71c64f.jpg"
+  },
+  {
+    "key": "图3.1.1(b)|images/69ae816ed112f3af0b76197552df416c7c59e5f4afe4872da7ec6bda4d0515df.jpg",
+    "figure_id": "图3.1.1(b)",
+    "caption": "用来获得高、低电平的基本开关电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\69ae816ed112f3af0b76197552df416c7c59e5f4afe4872da7ec6bda4d0515df.jpg"
+  },
+  {
+    "key": "图3.1.2|images/0426e57f109b70fdd993df681755a5aede12066baaf624626052900020fe3173.jpg",
+    "figure_id": "图3.1.2",
+    "caption": "正逻辑与负逻辑表示法",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0426e57f109b70fdd993df681755a5aede12066baaf624626052900020fe3173.jpg"
+  },
+  {
+    "key": "图3.2.1|images/7de1a6b0d104c3ab82b8bc6a895ef78e542dfdda8af306f0437df627dc5a89d0.jpg",
+    "figure_id": "图3.2.1",
+    "caption": "二极管开关电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7de1a6b0d104c3ab82b8bc6a895ef78e542dfdda8af306f0437df627dc5a89d0.jpg"
+  },
+  {
+    "key": "图3.2.2|images/7e84a5a6eaa1a4b06f8ccccc197d035b5003c294958d2d160313ed2dc4fc36ef.jpg",
+    "figure_id": "图3.2.2",
+    "caption": "二极管的伏安特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7e84a5a6eaa1a4b06f8ccccc197d035b5003c294958d2d160313ed2dc4fc36ef.jpg"
+  },
+  {
+    "key": "图3.2.3(a)|images/5da6febb1d50cbbaf1a6ec0773643ce1b6bcbb370bdb4cfdbbfd66ce8e9b21cf.jpg",
+    "figure_id": "图3.2.3(a)",
+    "caption": "二极管伏安特性的几种近似方法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5da6febb1d50cbbaf1a6ec0773643ce1b6bcbb370bdb4cfdbbfd66ce8e9b21cf.jpg"
+  },
+  {
+    "key": "图3.2.3(b)|images/7a06fd356033c59555cff801e2f854fc2ef22016e92e9237f52b2eb905043d66.jpg",
+    "figure_id": "图3.2.3(b)",
+    "caption": "二极管伏安特性的几种近似方法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7a06fd356033c59555cff801e2f854fc2ef22016e92e9237f52b2eb905043d66.jpg"
+  },
+  {
+    "key": "图3.2.3(c)|images/71a4e1d04c4a4be0b51c627cec63b7f4ab1849bda88d105d7df971942c20dd70.jpg",
+    "figure_id": "图3.2.3(c)",
+    "caption": "二极管伏安特性的几种近似方法 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\71a4e1d04c4a4be0b51c627cec63b7f4ab1849bda88d105d7df971942c20dd70.jpg"
+  },
+  {
+    "key": "图3.2.3(d)|images/522329f07064a3bfbf1d561ac92a1f7bd289c4150783576334b1bad651062497.jpg",
+    "figure_id": "图3.2.3(d)",
+    "caption": "二极管伏安特性的几种近似方法 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\522329f07064a3bfbf1d561ac92a1f7bd289c4150783576334b1bad651062497.jpg"
+  },
+  {
+    "key": "图3.2.3(e)|images/7223c07b048df60bd1e0740c535389f3811c3b0946bd07540c16d3fa923c50ae.jpg",
+    "figure_id": "图3.2.3(e)",
+    "caption": "二极管伏安特性的几种近似方法 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7223c07b048df60bd1e0740c535389f3811c3b0946bd07540c16d3fa923c50ae.jpg"
+  },
+  {
+    "key": "图3.2.3(f)|images/09ba54624782284fe0d4d5e78c935871c8a995520c11f3cfaa87a0dbbe026c2b.jpg",
+    "figure_id": "图3.2.3(f)",
+    "caption": "二极管伏安特性的几种近似方法 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\09ba54624782284fe0d4d5e78c935871c8a995520c11f3cfaa87a0dbbe026c2b.jpg"
+  },
+  {
+    "key": "图3.2.3(g)|images/031f22ee5e9d51026b9bcc74e25ff1d14829b784832e27d7854ca0012059bfb5.jpg",
+    "figure_id": "图3.2.3(g)",
+    "caption": "二极管伏安特性的几种近似方法 子图(g)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\031f22ee5e9d51026b9bcc74e25ff1d14829b784832e27d7854ca0012059bfb5.jpg"
+  },
+  {
+    "key": "图3.2.4(a)|images/ec814579bc3513c94d9897645bcaa5b63ec4f552f7c7e17fec0a71b852e26328.jpg",
+    "figure_id": "图3.2.4(a)",
+    "caption": "二极管的动态电流波形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ec814579bc3513c94d9897645bcaa5b63ec4f552f7c7e17fec0a71b852e26328.jpg"
+  },
+  {
+    "key": "图3.2.4(b)|images/81bb5b6735dd0975e4590d604cb1ed66d8a1f281cc4c82902eb5d68067b0605c.jpg",
+    "figure_id": "图3.2.4(b)",
+    "caption": "二极管的动态电流波形 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\81bb5b6735dd0975e4590d604cb1ed66d8a1f281cc4c82902eb5d68067b0605c.jpg"
+  },
+  {
+    "key": "图3.2.5|images/88a51eb81e93481a8b4be02657e5b9ef013d9f8b4fb56fcc9d4be3ad1eca3718.jpg",
+    "figure_id": "图3.2.5",
+    "caption": "二极管与门",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\88a51eb81e93481a8b4be02657e5b9ef013d9f8b4fb56fcc9d4be3ad1eca3718.jpg"
+  },
+  {
+    "key": "图3.2.6|images/c290d51dac0d31d2827184704aaa6e4f331ab2b88c9667f879c788d07d9e0403.jpg",
+    "figure_id": "图3.2.6",
+    "caption": "二极管或门",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c290d51dac0d31d2827184704aaa6e4f331ab2b88c9667f879c788d07d9e0403.jpg"
+  },
+  {
+    "key": "图3.3.1|images/c579c3d0308a6d78f267bee4807880b10e11622910fba9c4395fe7ca956e6530.jpg",
+    "figure_id": "图3.3.1",
+    "caption": "MOS 管的结构和符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c579c3d0308a6d78f267bee4807880b10e11622910fba9c4395fe7ca956e6530.jpg"
+  },
+  {
+    "key": "图3.3.2(a)|images/6717ae790227bd7eb79c4242df5029c7ba41e260e2e90ab2cbf87a5552fe25a4.jpg",
+    "figure_id": "图3.3.2(a)",
+    "caption": "MOS 管共源接法及其输出特性曲线 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6717ae790227bd7eb79c4242df5029c7ba41e260e2e90ab2cbf87a5552fe25a4.jpg"
+  },
+  {
+    "key": "图3.3.2(b)|images/8333f7ebd03d9871265e488042a359f0c0847856f4a1f08a63ba6df651b02ae4.jpg",
+    "figure_id": "图3.3.2(b)",
+    "caption": "MOS 管共源接法及其输出特性曲线 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8333f7ebd03d9871265e488042a359f0c0847856f4a1f08a63ba6df651b02ae4.jpg"
+  },
+  {
+    "key": "图3.3.3|images/fd2cd266d30763106419fe45ee6b35a2ea0be671b5d4626f152ae06b47931368.jpg",
+    "figure_id": "图3.3.3",
+    "caption": "MOS 管",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fd2cd266d30763106419fe45ee6b35a2ea0be671b5d4626f152ae06b47931368.jpg"
+  },
+  {
+    "key": "图3.3.4|images/d4eb77d18aa7617dd9ce12bc1114efbcd2e39fab4af8cb1817aec575f4ec2283.jpg",
+    "figure_id": "图3.3.4",
+    "caption": "MOS 管的基本开关电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d4eb77d18aa7617dd9ce12bc1114efbcd2e39fab4af8cb1817aec575f4ec2283.jpg"
+  },
+  {
+    "key": "图3.3.5(a)|images/1cf3819998b2cefce776149edd69e9a0007bf8f28473782becfbf9315f282516.jpg",
+    "figure_id": "图3.3.5(a)",
+    "caption": "MOS 管的开关等效电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1cf3819998b2cefce776149edd69e9a0007bf8f28473782becfbf9315f282516.jpg"
+  },
+  {
+    "key": "图3.3.5(b)|images/1f76bcf92b8f7d7ddbe76d9e43685578557a2efa37accaefc4a39933902c59e6.jpg",
+    "figure_id": "图3.3.5(b)",
+    "caption": "MOS 管的开关等效电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1f76bcf92b8f7d7ddbe76d9e43685578557a2efa37accaefc4a39933902c59e6.jpg"
+  },
+  {
+    "key": "图3.3.6|images/269baebc81a0d1709439ccbb993f99aa2ce0c0a4fd1d78acccb37355c3bc406e.jpg",
+    "figure_id": "图3.3.6",
+    "caption": "P 沟道增强型 MOS 管的结构与符号",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\269baebc81a0d1709439ccbb993f99aa2ce0c0a4fd1d78acccb37355c3bc406e.jpg"
+  },
+  {
+    "key": "图3.3.7|images/e1548f335bd6dd4c1cb5df420feb09f6715d7bfe14a6204a9a69fbc43ebfe59f.jpg",
+    "figure_id": "图3.3.7",
+    "caption": "P 沟道增强型 MOS 管的漏极特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e1548f335bd6dd4c1cb5df420feb09f6715d7bfe14a6204a9a69fbc43ebfe59f.jpg"
+  },
+  {
+    "key": "图3.3.8|images/577aaf2b98a0bd4f16e4a0c23d9f54c37a6cb46f18ec47fce65a4776aa86306a.jpg",
+    "figure_id": "图3.3.8",
+    "caption": "用 P 沟道增强型 MOS 管接成的开关电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\577aaf2b98a0bd4f16e4a0c23d9f54c37a6cb46f18ec47fce65a4776aa86306a.jpg"
+  },
+  {
+    "key": "图3.3.9|images/0714959d216ace5ae3a333c6bc6abff00487e83ca16d6a5650cad8b4dde0d1b8.jpg",
+    "figure_id": "图3.3.9",
+    "caption": "N 沟道耗尽",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0714959d216ace5ae3a333c6bc6abff00487e83ca16d6a5650cad8b4dde0d1b8.jpg"
+  },
+  {
+    "key": "图3.3.11(a)|images/ceedf79be6080b62b89eae6f86ddf8dfeb10a8d7c762561e1bd867c1bff6ba02.jpg",
+    "figure_id": "图3.3.11(a)",
+    "caption": "CMOS 反相器 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ceedf79be6080b62b89eae6f86ddf8dfeb10a8d7c762561e1bd867c1bff6ba02.jpg"
+  },
+  {
+    "key": "图3.3.11(b)|images/eba26a6274d11d9c23be0ba0c851db6d2491ee79d53def8d0b4f3be726fcc1f1.jpg",
+    "figure_id": "图3.3.11(b)",
+    "caption": "CMOS 反相器 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\eba26a6274d11d9c23be0ba0c851db6d2491ee79d53def8d0b4f3be726fcc1f1.jpg"
+  },
+  {
+    "key": "图3.3.11(c)|images/a338c804360d68e2ba7fbe2a92e9c8c40dfa4da4805bc78cc0fd11f1b223b366.jpg",
+    "figure_id": "图3.3.11(c)",
+    "caption": "CMOS 反相器 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a338c804360d68e2ba7fbe2a92e9c8c40dfa4da4805bc78cc0fd11f1b223b366.jpg"
+  }
+]

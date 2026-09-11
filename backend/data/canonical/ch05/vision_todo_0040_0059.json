@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图5.5.5|images/97f2dfb36e25f1017df62fd75a1c9eda6d90c893fe0cda1fceff1e255f1a332c.jpg",
+    "figure_id": "图5.5.5",
+    "caption": "$1\\mathrm{M}\\times 1$ 位DRAM的结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\97f2dfb36e25f1017df62fd75a1c9eda6d90c893fe0cda1fceff1e255f1a332c.jpg"
+  },
+  {
+    "key": "图5.5.6|images/ebcb97264eb28d567f5233445c5c5bafe6055f0d57569ca46af97a3b1da76c99.jpg",
+    "figure_id": "图5.5.6",
+    "caption": "ROM的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ebcb97264eb28d567f5233445c5c5bafe6055f0d57569ca46af97a3b1da76c99.jpg"
+  },
+  {
+    "key": "图5.5.7|images/b40f214fc8bb17ca88955aec1da76886d67509e31c97da4a50b55e085d098599.jpg",
+    "figure_id": "图5.5.7",
+    "caption": "二极管 ROM 的电路结构图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b40f214fc8bb17ca88955aec1da76886d67509e31c97da4a50b55e085d098599.jpg"
+  },
+  {
+    "key": "图5.5.8|images/21bb707711d4356f13d570670681f0daf6261c071e2d37b68516afbb2380d312.jpg",
+    "figure_id": "图5.5.8",
+    "caption": "用MOS管构成的存储矩阵",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\21bb707711d4356f13d570670681f0daf6261c071e2d37b68516afbb2380d312.jpg"
+  },
+  {
+    "key": "图5.5.9|images/6adf3951163096fc7574925528beb1c982792b60fee7031228da661b64dee014.jpg",
+    "figure_id": "图5.5.9",
+    "caption": "熔丝型PROM的存储单元",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6adf3951163096fc7574925528beb1c982792b60fee7031228da661b64dee014.jpg"
+  },
+  {
+    "key": "图5.5.10|images/c9ed199afe7340f047902c136681ecf3ce60de801cf5a1b816a8b4dd57c45a1f.jpg",
+    "figure_id": "图5.5.10",
+    "caption": "PROM 的结构原理图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c9ed199afe7340f047902c136681ecf3ce60de801cf5a1b816a8b4dd57c45a1f.jpg"
+  },
+  {
+    "key": "图5.5.11|images/8d678ab55894a952fe7cc34a8a0093fa6fd3bc5e340c61aa4be4c176617a465a.jpg",
+    "figure_id": "图5.5.11",
+    "caption": "闪存中的浮栅 MOS 管",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8d678ab55894a952fe7cc34a8a0093fa6fd3bc5e340c61aa4be4c176617a465a.jpg"
+  },
+  {
+    "key": "图5.5.12|images/5ddc49caed2d3e78de82b41c6931041ee1bbf1eebf40034ab34406adbb5716e9.jpg",
+    "figure_id": "图5.5.12",
+    "caption": "闪存的存储单元",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5ddc49caed2d3e78de82b41c6931041ee1bbf1eebf40034ab34406adbb5716e9.jpg"
+  },
+  {
+    "key": "图5.5.13|images/d15bb77a19f6d21cea54bd82a0fb94ab0de9cae5da5724123aaafa1b88c0d9fe.jpg",
+    "figure_id": "图5.5.13",
+    "caption": "RAM 的位扩展接法",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d15bb77a19f6d21cea54bd82a0fb94ab0de9cae5da5724123aaafa1b88c0d9fe.jpg"
+  },
+  {
+    "key": "图5.5.14|images/c2fd56889fe5c6987a035e3d970fcee878ec01e7c9f2f367952f0199df7150ef.jpg",
+    "figure_id": "图5.5.14",
+    "caption": "RAM 的字扩展接法",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c2fd56889fe5c6987a035e3d970fcee878ec01e7c9f2f367952f0199df7150ef.jpg"
+  },
+  {
+    "key": "图5.5.15|images/494e7a944c67d6c18022d75f005e2915750e0d317208c5d3560cc451ddf569b9.jpg",
+    "figure_id": "图5.5.15",
+    "caption": "例5.5.1的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\494e7a944c67d6c18022d75f005e2915750e0d317208c5d3560cc451ddf569b9.jpg"
+  },
+  {
+    "key": "图5.5.16_0|images/efdf2806fee54b7fbe5cc3a8e01edbe5e3e498a0d5f845242e62fe1fbbe69da6.jpg",
+    "figure_id": "图5.5.16",
+    "caption": "例5.5.2的ROM点阵图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\efdf2806fee54b7fbe5cc3a8e01edbe5e3e498a0d5f845242e62fe1fbbe69da6.jpg"
+  },
+  {
+    "key": "图5.5.16_1|images/1b53e777cca31e9284a468e661d808035d1c86129d7c68cb3e239beeeae471bc.jpg",
+    "figure_id": "图5.5.16",
+    "caption": "例5.5.2的ROM点阵图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1b53e777cca31e9284a468e661d808035d1c86129d7c68cb3e239beeeae471bc.jpg"
+  },
+  {
+    "key": "图P5.1_0|images/c84c832f92382142142536a78263410f7e6bdc49b7ffc888e8857363597fb147.jpg",
+    "figure_id": "图P5.1",
+    "caption": "图P5.1",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c84c832f92382142142536a78263410f7e6bdc49b7ffc888e8857363597fb147.jpg"
+  },
+  {
+    "key": "图P5.1_1|images/5ded298649aa94aaf1606e27e6725329b44d4544df5ef036fcb3cb7ad3deb55c.jpg",
+    "figure_id": "图P5.1",
+    "caption": "图P5.1",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5ded298649aa94aaf1606e27e6725329b44d4544df5ef036fcb3cb7ad3deb55c.jpg"
+  },
+  {
+    "key": "图P5.2|images/68d5200b6a9b27b3b07fd10b8ed46464abfc17a89fd85e0918d4affd3e50b3bc.jpg",
+    "figure_id": "图P5.2",
+    "caption": "图 P5.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\68d5200b6a9b27b3b07fd10b8ed46464abfc17a89fd85e0918d4affd3e50b3bc.jpg"
+  },
+  {
+    "key": "图P5.3|images/261fd59ecc90ca99df2459e60780f8d0c9c8ef029354759bf376188b597ed775.jpg",
+    "figure_id": "图P5.3",
+    "caption": "图 P5.3",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\261fd59ecc90ca99df2459e60780f8d0c9c8ef029354759bf376188b597ed775.jpg"
+  },
+  {
+    "key": "图P5.4(a)|images/9d707bdf18913107b42a086a3f7fdcae10fa679eeb9a7bd4d5bb799085c6d862.jpg",
+    "figure_id": "图P5.4(a)",
+    "caption": "图P5.4 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9d707bdf18913107b42a086a3f7fdcae10fa679eeb9a7bd4d5bb799085c6d862.jpg"
+  },
+  {
+    "key": "图P5.4(b)|images/de40c6d27b8b5368d32f7e6406a627cfc670ac4ad74ab6d5b84ec6a63fc7152f.jpg",
+    "figure_id": "图P5.4(b)",
+    "caption": "图P5.4 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\de40c6d27b8b5368d32f7e6406a627cfc670ac4ad74ab6d5b84ec6a63fc7152f.jpg"
+  },
+  {
+    "key": "图P5.5|images/c485f2b6a5ec00b5b5205a9f3c485dfe5d36449145eb1a89f09f9aaa8dc8a5be.jpg",
+    "figure_id": "图P5.5",
+    "caption": "图P5.5",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c485f2b6a5ec00b5b5205a9f3c485dfe5d36449145eb1a89f09f9aaa8dc8a5be.jpg"
+  }
+]

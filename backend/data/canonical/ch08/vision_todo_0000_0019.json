@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图8.2.1|images/0a60f0b414e0b10fcafb0aa6039a0358bb411e0fa4e84c9927c11b5e8da2fecb.jpg",
+    "figure_id": "图8.2.1",
+    "caption": "权电阻网络 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0a60f0b414e0b10fcafb0aa6039a0358bb411e0fa4e84c9927c11b5e8da2fecb.jpg"
+  },
+  {
+    "key": "图8.2.2|images/80c9d0099daf356b85ddbe8746144d19b3c664a30f3c7f18c2d51975cefc2a36.jpg",
+    "figure_id": "图8.2.2",
+    "caption": "双级权电阻网络 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\80c9d0099daf356b85ddbe8746144d19b3c664a30f3c7f18c2d51975cefc2a36.jpg"
+  },
+  {
+    "key": "图8.2.3|images/3dfddf0cb04b4d739d7cf5dcec8d78282a7743efd9c7bf9cccf408f65d47cdc3.jpg",
+    "figure_id": "图8.2.3",
+    "caption": "倒 T 形电阻网络 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3dfddf0cb04b4d739d7cf5dcec8d78282a7743efd9c7bf9cccf408f65d47cdc3.jpg"
+  },
+  {
+    "key": "图8.2.4|images/c7bcb54ba3b8fc634205a0f1f2ece363d7544862a3aca8548949314a81ec2f3b.jpg",
+    "figure_id": "图8.2.4",
+    "caption": "计算倒 T 形电阻网络支路电流的等效电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c7bcb54ba3b8fc634205a0f1f2ece363d7544862a3aca8548949314a81ec2f3b.jpg"
+  },
+  {
+    "key": "图8.2.5|images/19d5bb069e036ff2edb2564c73b04140602fd4a8dd201fd32bdf6d037b6f5ffc.jpg",
+    "figure_id": "图8.2.5",
+    "caption": "AD7520 的电路原理图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\19d5bb069e036ff2edb2564c73b04140602fd4a8dd201fd32bdf6d037b6f5ffc.jpg"
+  },
+  {
+    "key": "图8.2.6|images/c888b9d878967d0556122a373091852c7f1f805eeb59754c0085f58693a97ee4.jpg",
+    "figure_id": "图8.2.6",
+    "caption": "AD7520 中的 CMOS 模拟开关电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c888b9d878967d0556122a373091852c7f1f805eeb59754c0085f58693a97ee4.jpg"
+  },
+  {
+    "key": "图8.2.7|images/211905510b405dbdce4cdfe5ff000ab891d2605bf4e8c320d9279bf18412b50a.jpg",
+    "figure_id": "图8.2.7",
+    "caption": "权电流型 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\211905510b405dbdce4cdfe5ff000ab891d2605bf4e8c320d9279bf18412b50a.jpg"
+  },
+  {
+    "key": "图8.2.8|images/ccee2c7e67676dc83d9425e0e25b1d1fa6e64c27d73f452f243411db60d6a245.jpg",
+    "figure_id": "图8.2.8",
+    "caption": "权电流型D/A转换器中的恒流源",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ccee2c7e67676dc83d9425e0e25b1d1fa6e64c27d73f452f243411db60d6a245.jpg"
+  },
+  {
+    "key": "图8.2.9|images/03a7df55820107578e2ca141e01e98c8c05428cdfa1e2ee00a899bb105caad6f.jpg",
+    "figure_id": "图8.2.9",
+    "caption": "利用倒 T 形电阻网络的权电流型 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\03a7df55820107578e2ca141e01e98c8c05428cdfa1e2ee00a899bb105caad6f.jpg"
+  },
+  {
+    "key": "图8.2.10|images/9ee04b7d5c2c60164d98cab233719f2b2a0595076de6d2a15782e4aa8081c346.jpg",
+    "figure_id": "图8.2.10",
+    "caption": "DAC0808 的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9ee04b7d5c2c60164d98cab233719f2b2a0595076de6d2a15782e4aa8081c346.jpg"
+  },
+  {
+    "key": "图8.2.11|images/ff35a08657bfcc6395f22cce77bc72a1a036af36bbef0e0773e21409ab2870fd.jpg",
+    "figure_id": "图8.2.11",
+    "caption": "DAC0808 的典型应用",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ff35a08657bfcc6395f22cce77bc72a1a036af36bbef0e0773e21409ab2870fd.jpg"
+  },
+  {
+    "key": "图8.2.12|images/54402443060e7a6a20ca77cf35a3effe9defc13472e86af7886301b5d413d4a2.jpg",
+    "figure_id": "图8.2.12",
+    "caption": "开关树型 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\54402443060e7a6a20ca77cf35a3effe9defc13472e86af7886301b5d413d4a2.jpg"
+  },
+  {
+    "key": "图8.2.13|images/794bdc8d4ae79d7903ca367e91205945e15a229526fab76406666881d917a9b6.jpg",
+    "figure_id": "图8.2.13",
+    "caption": "权电容网络 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\794bdc8d4ae79d7903ca367e91205945e15a229526fab76406666881d917a9b6.jpg"
+  },
+  {
+    "key": "图8.2.14|images/9a964c56a3e24f4056f31c1b8edaecde86a02a878c22f3a4866d134dc09b7fc9.jpg",
+    "figure_id": "图8.2.14",
+    "caption": "输入为1000时",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9a964c56a3e24f4056f31c1b8edaecde86a02a878c22f3a4866d134dc09b7fc9.jpg"
+  },
+  {
+    "key": "图8.2.15|images/19fa59ad078020b542ed26d04fab428f9f3d7b63131a39b9d83d0488fdb3873e.jpg",
+    "figure_id": "图8.2.15",
+    "caption": "具有双极性输出电压的 D/A 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\19fa59ad078020b542ed26d04fab428f9f3d7b63131a39b9d83d0488fdb3873e.jpg"
+  },
+  {
+    "key": "图8.3.1|images/23816482539e578ca6201efa2d9b0b1fc7671bc51ef894be9169e7757a2fb0ab.jpg",
+    "figure_id": "图8.3.1",
+    "caption": "D/A转换器的转换特性曲线",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\23816482539e578ca6201efa2d9b0b1fc7671bc51ef894be9169e7757a2fb0ab.jpg"
+  },
+  {
+    "key": "图8.3.2|images/f7e94e51fe7c96119e84afd4e8fe68d589ae456292dc830e73de036dc7d3eb5b.jpg",
+    "figure_id": "图8.3.2",
+    "caption": "比例系数误差",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f7e94e51fe7c96119e84afd4e8fe68d589ae456292dc830e73de036dc7d3eb5b.jpg"
+  },
+  {
+    "key": "图8.3.3|images/4731edaa85cae27295443a956ebb6b4185fc09fe61d83bb1e2fa2aea05a9a170.jpg",
+    "figure_id": "图8.3.3",
+    "caption": "漂移误差",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4731edaa85cae27295443a956ebb6b4185fc09fe61d83bb1e2fa2aea05a9a170.jpg"
+  },
+  {
+    "key": "图8.3.4|images/8d8f85dc863eaca2364981d70ca068907579e3e0b2cb0ef0eccba2c60346a18f.jpg",
+    "figure_id": "图8.3.4",
+    "caption": "非线性误差",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8d8f85dc863eaca2364981d70ca068907579e3e0b2cb0ef0eccba2c60346a18f.jpg"
+  },
+  {
+    "key": "图8.3.5|images/d31fecd9cacee340a27d12572a3f8fad9d985dda00bc86f6a61258718207b12b.jpg",
+    "figure_id": "图8.3.5",
+    "caption": "D/A 转换器的建立时间",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d31fecd9cacee340a27d12572a3f8fad9d985dda00bc86f6a61258718207b12b.jpg"
+  }
+]

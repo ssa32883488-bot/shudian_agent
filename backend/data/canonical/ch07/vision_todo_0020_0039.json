@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图7.3.5|images/0de8837a368ed43e051ce8257abb93782c976debd9d2e0ee20fc5e278d96028d.jpg",
+    "figure_id": "图7.3.5",
+    "caption": "积分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0de8837a368ed43e051ce8257abb93782c976debd9d2e0ee20fc5e278d96028d.jpg"
+  },
+  {
+    "key": "图7.3.6|images/b27432c15583a2f3807817539baa6be4a1cb85cf02845ea532df8c9c57941f77.jpg",
+    "figure_id": "图7.3.6",
+    "caption": "图 7.3.5 电路的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b27432c15583a2f3807817539baa6be4a1cb85cf02845ea532df8c9c57941f77.jpg"
+  },
+  {
+    "key": "图7.3.7|images/e13c2bc4de97b7268c576efa57bf930bfc84992c154eb0ae78d004440db3fe33.jpg",
+    "figure_id": "图7.3.7",
+    "caption": "图 7.3.5 电路中电容 C 的放电回路和 $v_{A}$ 的波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e13c2bc4de97b7268c576efa57bf930bfc84992c154eb0ae78d004440db3fe33.jpg"
+  },
+  {
+    "key": "图7.3.8|images/d8bad8aecbeb6158717ec6c008883609a2cecd06a784d2e329210414602dafe0.jpg",
+    "figure_id": "图7.3.8",
+    "caption": "窄脉冲可以触发的积分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d8bad8aecbeb6158717ec6c008883609a2cecd06a784d2e329210414602dafe0.jpg"
+  },
+  {
+    "key": "图7.3.9|images/5dea0f71cd3c38a96dd23d2aebdd63a344e434ee4232e5e419532fac56c67f35.jpg",
+    "figure_id": "图7.3.9",
+    "caption": "集成单稳态电路 74121 简化的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5dea0f71cd3c38a96dd23d2aebdd63a344e434ee4232e5e419532fac56c67f35.jpg"
+  },
+  {
+    "key": "图7.3.10|images/27e41aa606ad23cfd228e91eb5de475f442054581358d6234e1345351f45192e.jpg",
+    "figure_id": "图7.3.10",
+    "caption": "集成单稳态电路 74121 的工作波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\27e41aa606ad23cfd228e91eb5de475f442054581358d6234e1345351f45192e.jpg"
+  },
+  {
+    "key": "图7.3.11(a)|images/31229b8de3c1126b18369bb2a3e706ff9f1b5784a3ef6e002f39499e1f787d5e.jpg",
+    "figure_id": "图7.3.11(a)",
+    "caption": "集成单稳态电路 74121 的外部连接方法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\31229b8de3c1126b18369bb2a3e706ff9f1b5784a3ef6e002f39499e1f787d5e.jpg"
+  },
+  {
+    "key": "图7.3.11(b)|images/9cd05e96fddb8fbd672e6d6ec9ccf750212303bdc006188862295d0d78af76dd.jpg",
+    "figure_id": "图7.3.11(b)",
+    "caption": "集成单稳态电路 74121 的外部连接方法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9cd05e96fddb8fbd672e6d6ec9ccf750212303bdc006188862295d0d78af76dd.jpg"
+  },
+  {
+    "key": "图7.3.12(a)|images/953e9b362ed37606db8d505443ea9d266bf3204451ae0d6ea9ca83b155b50308.jpg",
+    "figure_id": "图7.3.12(a)",
+    "caption": "不可重复触发型与可重复触发型单稳态电路的工作波形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\953e9b362ed37606db8d505443ea9d266bf3204451ae0d6ea9ca83b155b50308.jpg"
+  },
+  {
+    "key": "图7.3.12(b)|images/fd8766f22ea183ecae1bd4b8649e191d131b08f1c1829a182f25b98990195418.jpg",
+    "figure_id": "图7.3.12(b)",
+    "caption": "不可重复触发型与可重复触发型单稳态电路的工作波形 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fd8766f22ea183ecae1bd4b8649e191d131b08f1c1829a182f25b98990195418.jpg"
+  },
+  {
+    "key": "图7.4.1|images/c3b2e1316dd59c2c0fa8c22d7839d275be20668595e990673ef727c3e76822c1.jpg",
+    "figure_id": "图7.4.1",
+    "caption": "对称式多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c3b2e1316dd59c2c0fa8c22d7839d275be20668595e990673ef727c3e76822c1.jpg"
+  },
+  {
+    "key": "图7.4.2|images/f84e75885c7af0b3f6e4fc833417b06ff3644ec5ae08cbf59861654fb866fd75.jpg",
+    "figure_id": "图7.4.2",
+    "caption": "TTL 反相器(7404)的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f84e75885c7af0b3f6e4fc833417b06ff3644ec5ae08cbf59861654fb866fd75.jpg"
+  },
+  {
+    "key": "图7.4.3|images/1e2956ae963a65a1d6e2a3053a38c8f0557dff9f122a413b93baaa69a47625d8.jpg",
+    "figure_id": "图7.4.3",
+    "caption": "计算 TTL 反相器静态工作点的等效电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1e2956ae963a65a1d6e2a3053a38c8f0557dff9f122a413b93baaa69a47625d8.jpg"
+  },
+  {
+    "key": "图7.4.4(a)|images/03a25599528938446d89802e92493b246f4d6be004997a3a08329514b90a3e9f.jpg",
+    "figure_id": "图7.4.4(a)",
+    "caption": "图 7.4.1 电路中电容的充、放电等效电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\03a25599528938446d89802e92493b246f4d6be004997a3a08329514b90a3e9f.jpg"
+  },
+  {
+    "key": "图7.4.4(b)|images/e9fdc376bc838c56dddf114ae5c6ea9b9c1499057a8d65ee4a1ee4302539f845.jpg",
+    "figure_id": "图7.4.4(b)",
+    "caption": "图 7.4.1 电路中电容的充、放电等效电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e9fdc376bc838c56dddf114ae5c6ea9b9c1499057a8d65ee4a1ee4302539f845.jpg"
+  },
+  {
+    "key": "图7.4.5|images/fcaff3ea1451946d4315b87bdb0f21579129fc41c3e7e22d5a2a19817265c948.jpg",
+    "figure_id": "图7.4.5",
+    "caption": "图7.4.1电路中各点电压的波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fcaff3ea1451946d4315b87bdb0f21579129fc41c3e7e22d5a2a19817265c948.jpg"
+  },
+  {
+    "key": "图7.4.6|images/1dce724ee71eeafdb98862184ea7a3d00d53808687a967f7581532cc5a6abf52.jpg",
+    "figure_id": "图7.4.6",
+    "caption": "非对称式多谐振荡电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1dce724ee71eeafdb98862184ea7a3d00d53808687a967f7581532cc5a6abf52.jpg"
+  },
+  {
+    "key": "图7.4.7|images/6ac86c2e734cc2a4bbfd2523f54456805cab19945fea4c3857a88fdde41bf6aa.jpg",
+    "figure_id": "图7.4.7",
+    "caption": "图7.4.6电路中CMOS反相器静态工作点的确定",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6ac86c2e734cc2a4bbfd2523f54456805cab19945fea4c3857a88fdde41bf6aa.jpg"
+  },
+  {
+    "key": "图7.4.8(a)|images/c6cc9dab47bb7c40f7b32beebb881f861b471ccc9b4fb54dcb46b8e6617ea3c2.jpg",
+    "figure_id": "图7.4.8(a)",
+    "caption": "图 7.4.6 电路中电容的充、放电等效电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c6cc9dab47bb7c40f7b32beebb881f861b471ccc9b4fb54dcb46b8e6617ea3c2.jpg"
+  },
+  {
+    "key": "图7.4.8(b)|images/aca2524f757ba8b8b9335d5544eebfa281b447a1050001beda11c56decf376b5.jpg",
+    "figure_id": "图7.4.8(b)",
+    "caption": "图 7.4.6 电路中电容的充、放电等效电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\aca2524f757ba8b8b9335d5544eebfa281b447a1050001beda11c56decf376b5.jpg"
+  }
+]

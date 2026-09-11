@@ -1,0 +1,110 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "decoder_74hc138_approx",
+  "inputs": [
+    "A0",
+    "A1",
+    "A2",
+    "S1",
+    "S2n",
+    "S3n"
+  ],
+  "gates": {
+    "nS1": {
+      "type": "NOT",
+      "inputs": [
+        "S1"
+      ]
+    },
+    "enA": {
+      "type": "AND",
+      "inputs": [
+        "nS1",
+        "S2n"
+      ]
+    },
+    "S": {
+      "type": "AND",
+      "inputs": [
+        "enA",
+        "S3n"
+      ]
+    },
+    "nA0": {
+      "type": "NOT",
+      "inputs": [
+        "A0"
+      ]
+    },
+    "nA1": {
+      "type": "NOT",
+      "inputs": [
+        "A1"
+      ]
+    },
+    "nA2": {
+      "type": "NOT",
+      "inputs": [
+        "A2"
+      ]
+    },
+    "D": {
+      "type": "DECODER",
+      "inputs": [
+        "A0",
+        "A1",
+        "A2"
+      ]
+    },
+    "y0a": {
+      "type": "AND",
+      "inputs": [
+        "nA0",
+        "nA1"
+      ]
+    },
+    "y0b": {
+      "type": "AND",
+      "inputs": [
+        "y0a",
+        "nA2"
+      ]
+    },
+    "Y0n": {
+      "type": "NAND",
+      "inputs": [
+        "S",
+        "y0b"
+      ]
+    },
+    "y7a": {
+      "type": "AND",
+      "inputs": [
+        "A0",
+        "A1"
+      ]
+    },
+    "y7b": {
+      "type": "AND",
+      "inputs": [
+        "y7a",
+        "A2"
+      ]
+    },
+    "Y7n": {
+      "type": "NAND",
+      "inputs": [
+        "S",
+        "y7b"
+      ]
+    }
+  },
+  "outputs": {
+    "Y0n": "Y0n",
+    "Y7n": "Y7n",
+    "D": "D"
+  },
+  "notes": "138 门级过密；IR 示意 enable+两端译码，完整 8 路建议 C"
+}

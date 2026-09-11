@@ -1,0 +1,58 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "full_adder_4_1_1",
+  "inputs": [
+    "A",
+    "B",
+    "CI"
+  ],
+  "gates": {
+    "s1": {
+      "type": "XOR",
+      "inputs": [
+        "A",
+        "B"
+      ]
+    },
+    "S": {
+      "type": "XOR",
+      "inputs": [
+        "s1",
+        "CI"
+      ]
+    },
+    "c1": {
+      "type": "AND",
+      "inputs": [
+        "A",
+        "B"
+      ]
+    },
+    "c2": {
+      "type": "AND",
+      "inputs": [
+        "s1",
+        "CI"
+      ]
+    },
+    "nor1": {
+      "type": "NOR",
+      "inputs": [
+        "c1",
+        "c2"
+      ]
+    },
+    "CO": {
+      "type": "NOT",
+      "inputs": [
+        "nor1"
+      ]
+    }
+  },
+  "outputs": {
+    "S": "S",
+    "CO": "CO"
+  }
+}

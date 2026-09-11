@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="237" height="127">
+  <style>svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .portlabel {
+    font-size: 11px;
+  }
+  .outPortLabel {
+    text-anchor: start;
+    font-size: 11px;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g s:type="nand" transform="translate(136,13)" s:width="30" s:height="25" id="cell_c0">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_c0"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_c0"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="nand" transform="translate(65,61.5)" s:width="30" s:height="25" id="cell_c1">
+    <s:alias val="$nand"/>
+    <s:alias val="$logic_nand"/>
+    <s:alias val="$_NAND_"/>
+    <s:alias val="$_ANDNOT_"/>
+    <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="cell_c1"/>
+    <circle cx="34" cy="12.5" r="3" class="cell_c1"/>
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="20" s:pid="B"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(77,12)" s:width="18" s:height="12" id="cell_SDn">
+    <text x="-3" y="9.5" class="portlabel inputPortLabel cell_SDn" s:attribute="ref">SDn</text>
+    <s:alias val="$_inputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_SDn"/>
+    <g s:x="18" s:y="6" s:pid="Y"/>
+  </g>
+  <g s:type="inputExt" transform="translate(12,60.5)" s:width="18" s:height="12" id="cell_RDn">
+    <text x="-3" y="9.5" class="portlabel inputPortLabel cell_RDn" s:attribute="ref">RDn</text>
+    <s:alias val="$_inputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_RDn"/>
+    <g s:x="18" s:y="6" s:pid="Y"/>
+  </g>
+  <g s:type="outputExt" transform="translate(207,19.5)" s:width="18" s:height="12" id="cell_Q">
+    <text x="21" y="9.5" class="outPortLabel cell_Q" s:attribute="ref">Q</text>
+    <s:alias val="$_outputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_Q"/>
+    <g s:x="0" s:y="6" s:pid="A"/>
+  </g>
+  <g s:type="outputExt" transform="translate(207,100.5)" s:width="18" s:height="12" id="cell_Qn">
+    <text x="21" y="9.5" class="outPortLabel cell_Qn" s:attribute="ref">Qn</text>
+    <s:alias val="$_outputExt_"/>
+    <line x1="0" y1="6" x2="18" y2="6" class="cell_Qn"/>
+    <g s:x="0" s:y="6" s:pid="A"/>
+  </g>
+  <line x1="95" x2="136" y1="18" y2="18" class="net_2"/>
+  <line x1="101" x2="111" y1="74" y2="74" class="net_5"/>
+  <line x1="111" x2="111" y1="74" y2="33" class="net_5"/>
+  <circle cx="111" cy="74" r="2" style="fill:#000" class="net_5"/>
+  <line x1="111" x2="136" y1="33" y2="33" class="net_5"/>
+  <line x1="101" x2="111" y1="74" y2="74" class="net_5"/>
+  <line x1="111" x2="111" y1="74" y2="106.5" class="net_5"/>
+  <line x1="111" x2="207" y1="106.5" y2="106.5" class="net_5"/>
+  <line x1="30" x2="65" y1="66.5" y2="66.5" class="net_3"/>
+  <line x1="172" x2="182" y1="25.5" y2="25.5" class="net_4"/>
+  <line x1="182" x2="182" y1="25.5" y2="96.5" class="net_4"/>
+  <line x1="182" x2="40" y1="96.5" y2="96.5" class="net_4"/>
+  <line x1="40" x2="40" y1="96.5" y2="81.5" class="net_4"/>
+  <circle cx="182" cy="25.5" r="2" style="fill:#000" class="net_4"/>
+  <line x1="40" x2="65" y1="81.5" y2="81.5" class="net_4"/>
+  <line x1="172" x2="207" y1="25.5" y2="25.5" class="net_4"/>
+</svg>

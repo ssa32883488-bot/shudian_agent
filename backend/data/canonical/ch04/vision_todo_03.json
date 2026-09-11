@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图4.5.2|images/fee4b6880ab6bc0b659a65a6ebb405ac87cb395683664bece92e1e060ff9b7bb.jpg",
+    "figure_id": "图4.5.2",
+    "caption": "用两片 74HCI38 接成的 4 线 -16 线译码器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fee4b6880ab6bc0b659a65a6ebb405ac87cb395683664bece92e1e060ff9b7bb.jpg"
+  },
+  {
+    "key": "图4.5.3|images/c924589e4a32a2b0e013ee68c0c0d94e2f6f58e5792b7ebd35978f51aecd77fe.jpg",
+    "figure_id": "图4.5.3",
+    "caption": "将两片 74HC85 接成 8 位数值比较器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c924589e4a32a2b0e013ee68c0c0d94e2f6f58e5792b7ebd35978f51aecd77fe.jpg"
+  },
+  {
+    "key": "图4.5.4|images/20ad605cd67023cb5cd3a4640f84148e720eb83c426e3bb2b8da1af4f799ef68.jpg",
+    "figure_id": "图4.5.4",
+    "caption": "例4.5.4的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\20ad605cd67023cb5cd3a4640f84148e720eb83c426e3bb2b8da1af4f799ef68.jpg"
+  },
+  {
+    "key": "图4.5.5|images/526abf96aff5d56fb0d62f78a062b9a705e5230836ba9f63ec585f7b7fdac9e0.jpg",
+    "figure_id": "图4.5.5",
+    "caption": "例4.5.5的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\526abf96aff5d56fb0d62f78a062b9a705e5230836ba9f63ec585f7b7fdac9e0.jpg"
+  },
+  {
+    "key": "图4.6.1(a)|images/0ec990a44738b6ae3db8c7649ae9b6b32bc202f33cc59af3fd02a24220220891.jpg",
+    "figure_id": "图4.6.1(a)",
+    "caption": "PLD 电路中门电路的惯用画法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0ec990a44738b6ae3db8c7649ae9b6b32bc202f33cc59af3fd02a24220220891.jpg"
+  },
+  {
+    "key": "图4.6.1(b)|images/b9de05e2142fe0a727f34178262a1f66a96e13003dfab811e596003978d1b48b.jpg",
+    "figure_id": "图4.6.1(b)",
+    "caption": "PLD 电路中门电路的惯用画法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b9de05e2142fe0a727f34178262a1f66a96e13003dfab811e596003978d1b48b.jpg"
+  },
+  {
+    "key": "图4.6.1(c)|images/c740fa5df617d90977292dc25a310239ad3fdf4f163e8d5ab57403008cc64e3f.jpg",
+    "figure_id": "图4.6.1(c)",
+    "caption": "PLD 电路中门电路的惯用画法 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c740fa5df617d90977292dc25a310239ad3fdf4f163e8d5ab57403008cc64e3f.jpg"
+  },
+  {
+    "key": "图4.6.1(d)|images/1127b15e67e2e5a82f35071b4d48eef9028374177892c80a06e888f3d90ba484.jpg",
+    "figure_id": "图4.6.1(d)",
+    "caption": "PLD 电路中门电路的惯用画法 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1127b15e67e2e5a82f35071b4d48eef9028374177892c80a06e888f3d90ba484.jpg"
+  },
+  {
+    "key": "图4.6.1(e)|images/072c155b60b9e77148e318b73f54122ce87905e160c3c496ae705003730f14d8.jpg",
+    "figure_id": "图4.6.1(e)",
+    "caption": "PLD 电路中门电路的惯用画法 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\072c155b60b9e77148e318b73f54122ce87905e160c3c496ae705003730f14d8.jpg"
+  },
+  {
+    "key": "图4.6.2|images/798daf62d5dac3dc7979335beebcabcaa658e8a13a69de0612bbf10284c35c92.jpg",
+    "figure_id": "图4.6.2",
+    "caption": "PLA 的基本电路结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\798daf62d5dac3dc7979335beebcabcaa658e8a13a69de0612bbf10284c35c92.jpg"
+  },
+  {
+    "key": "图4.7.1|images/6c4b7ab4c066a79d2a441e00fc73ed9704e460d1b4aa74beeb51816cae2230f6.jpg",
+    "figure_id": "图4.7.1",
+    "caption": "2选1数据选择器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6c4b7ab4c066a79d2a441e00fc73ed9704e460d1b4aa74beeb51816cae2230f6.jpg"
+  },
+  {
+    "key": "图4.7.2|images/16c06988ad6e5f9276b8d77959d6ba81f6fe8dea086e8dd37931354ba75d1697.jpg",
+    "figure_id": "图4.7.2",
+    "caption": "2选1数据选择器的电路原理图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\16c06988ad6e5f9276b8d77959d6ba81f6fe8dea086e8dd37931354ba75d1697.jpg"
+  },
+  {
+    "key": "图4.7.3|images/dff1aac986e52f03dc97273562987c5e1596edebf10174de09139a4f152f7ac8.jpg",
+    "figure_id": "图4.7.3",
+    "caption": "例 4.7.1 的 4 位加法器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dff1aac986e52f03dc97273562987c5e1596edebf10174de09139a4f152f7ac8.jpg"
+  },
+  {
+    "key": "图4.7.4_0|images/cb02491cda5ff2800380669584e26b1538a249a384d961e0eb37d0ee5c19a4f0.jpg",
+    "figure_id": "图4.7.4",
+    "caption": "例 4.7.1 中的 1 位全加器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cb02491cda5ff2800380669584e26b1538a249a384d961e0eb37d0ee5c19a4f0.jpg"
+  },
+  {
+    "key": "图4.7.4_1|images/fff1d421d32374dd6273c7357a944f891234818eca05de3e431d48ccce7a77f1.jpg",
+    "figure_id": "图4.7.4",
+    "caption": "例 4.7.1 中的 1 位全加器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fff1d421d32374dd6273c7357a944f891234818eca05de3e431d48ccce7a77f1.jpg"
+  },
+  {
+    "key": "图4.8.1|images/7e4f1c4a4559301491a236e8f203cc5fed94ada269481b4922e149e79b17870d.jpg",
+    "figure_id": "图4.8.1",
+    "caption": "例4.8.1的电路框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7e4f1c4a4559301491a236e8f203cc5fed94ada269481b4922e149e79b17870d.jpg"
+  },
+  {
+    "key": "图4.9.1(a)|images/ac69d1101e7b1d8ddc37d115b5f9447f7df702676a683e8ae30849118d900252.jpg",
+    "figure_id": "图4.9.1(a)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ac69d1101e7b1d8ddc37d115b5f9447f7df702676a683e8ae30849118d900252.jpg"
+  },
+  {
+    "key": "图4.9.1(b)|images/91e99c60f8293aca1cd17268e61ea2b13772e19bc01b866d40ce9847247a3b3b.jpg",
+    "figure_id": "图4.9.1(b)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\91e99c60f8293aca1cd17268e61ea2b13772e19bc01b866d40ce9847247a3b3b.jpg"
+  },
+  {
+    "key": "图4.9.1(c)|images/dbe2c2626cc0d668b0fab3ad2d253beceef3a73fcfe80ef4671c8ca68f2e5996.jpg",
+    "figure_id": "图4.9.1(c)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dbe2c2626cc0d668b0fab3ad2d253beceef3a73fcfe80ef4671c8ca68f2e5996.jpg"
+  },
+  {
+    "key": "图4.9.1(d)|images/4a576e4eb941abf6a7a76c9e5501609e159c00e15d74659161ec0d99fb3a224a.jpg",
+    "figure_id": "图4.9.1(d)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4a576e4eb941abf6a7a76c9e5501609e159c00e15d74659161ec0d99fb3a224a.jpg"
+  },
+  {
+    "key": "图4.9.1(e)|images/7faf5abbffecefb6cad26b0f6365f87fe394adec4c2fb17214eba7810f00942d.jpg",
+    "figure_id": "图4.9.1(e)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7faf5abbffecefb6cad26b0f6365f87fe394adec4c2fb17214eba7810f00942d.jpg"
+  },
+  {
+    "key": "图4.9.1(f)|images/710fb39fac1db1382fc9bb971653490c958ba21dc22f5ab34479b25fd1827b8f.jpg",
+    "figure_id": "图4.9.1(f)",
+    "caption": "由于竞争而产生的尖峰脉冲 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\710fb39fac1db1382fc9bb971653490c958ba21dc22f5ab34479b25fd1827b8f.jpg"
+  },
+  {
+    "key": "图4.9.2(a)|images/14b1da62cbf40d9b3379df5dabfb836e672b5a85e1465506b65b95edd3fe54a3.jpg",
+    "figure_id": "图4.9.2(a)",
+    "caption": "2 线-4 线译码器中的竞争-冒险现象 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\14b1da62cbf40d9b3379df5dabfb836e672b5a85e1465506b65b95edd3fe54a3.jpg"
+  },
+  {
+    "key": "图4.9.2(b)|images/9e82d1e13a1bf5273ebf120be226e28ffe75a9b78dfdcd08999f3469496424b8.jpg",
+    "figure_id": "图4.9.2(b)",
+    "caption": "2 线-4 线译码器中的竞争-冒险现象 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9e82d1e13a1bf5273ebf120be226e28ffe75a9b78dfdcd08999f3469496424b8.jpg"
+  },
+  {
+    "key": "图4.9.3(a)|images/6f2bf05621595542fd3147cf27e3e6d31894f3c8834cf340aebe00ad175fbfdb.jpg",
+    "figure_id": "图4.9.3(a)",
+    "caption": "同一输入变量经不同途径到达输出门的情况 (m, n 均为正整数) 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6f2bf05621595542fd3147cf27e3e6d31894f3c8834cf340aebe00ad175fbfdb.jpg"
+  },
+  {
+    "key": "图4.9.3(b)|images/4f00407aef234a62627cbcd3d768d28744a69ac276b2cfb6d02181cacd164003.jpg",
+    "figure_id": "图4.9.3(b)",
+    "caption": "同一输入变量经不同途径到达输出门的情况 (m, n 均为正整数) 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4f00407aef234a62627cbcd3d768d28744a69ac276b2cfb6d02181cacd164003.jpg"
+  },
+  {
+    "key": "图4.9.4(a)|images/4dde9a2f3e0c695ef1e2375bfd6bf4cf7a657f1a35ee290fac413a3ee08f76c4.jpg",
+    "figure_id": "图4.9.4(a)",
+    "caption": "例4.9.1的电路 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4dde9a2f3e0c695ef1e2375bfd6bf4cf7a657f1a35ee290fac413a3ee08f76c4.jpg"
+  },
+  {
+    "key": "图4.9.4(b)|images/660def8afe40971e65d3f94c615fad386cde1a22d64c21b2130f2e9b6b0b16ac.jpg",
+    "figure_id": "图4.9.4(b)",
+    "caption": "例4.9.1的电路 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\660def8afe40971e65d3f94c615fad386cde1a22d64c21b2130f2e9b6b0b16ac.jpg"
+  },
+  {
+    "key": "图4.9.5(a)|images/d52128b398843b84f3c9864b1007369b284f222c9c97bd3f7deb20e31a16a683.jpg",
+    "figure_id": "图4.9.5(a)",
+    "caption": "消除竞争-冒险现象的几种方法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d52128b398843b84f3c9864b1007369b284f222c9c97bd3f7deb20e31a16a683.jpg"
+  },
+  {
+    "key": "图4.9.5(b)|images/9f1081b426fa44f97dff47af931ae4449ad42f550a1af8cfcc3b13fc1b6b292b.jpg",
+    "figure_id": "图4.9.5(b)",
+    "caption": "消除竞争-冒险现象的几种方法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9f1081b426fa44f97dff47af931ae4449ad42f550a1af8cfcc3b13fc1b6b292b.jpg"
+  }
+]

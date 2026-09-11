@@ -1,0 +1,8 @@
+logic "ms_d_ff" style: iec
+input D, CLK
+output Q, Qn
+nCLK = NOT(CLK)
+FF1 = LATCH_D(D, nCLK)
+FF2 = LATCH_D(FF1, CLK)
+Qn = NOT(FF2)
+Q <- FF2

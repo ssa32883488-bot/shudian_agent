@@ -1,0 +1,47 @@
+% state_ir_v1 → TikZ (generated)
+\begin{document}
+\begin{tikzpicture}[
+  x=1pt, y=-1pt,
+  >=Stealth,
+  every node/.style={font=\rmfamily},
+  state/.style={circle, draw=black!75, line width=0.95pt, minimum size=52.0pt, inner sep=0pt, font=\bfseries},
+  every edge/.style={draw=black!75, line width=0.95pt},
+  edge label/.style={font=\rmfamily, fill=white, inner sep=1pt}
+]
+  \node[state] (s0000) at (70, 70) {\small0000};
+  \node[state] (s0001) at (180, 70) {\small0001};
+  \node[state] (s0010) at (290, 70) {\small0010};
+  \node[state] (s0011) at (400, 70) {\small0011};
+  \node[state] (s0100) at (510, 70) {\small0100};
+  \node[state] (s0101) at (620, 70) {\small0101};
+  \node[state] (s0110) at (730, 70) {\small0110};
+  \node[state] (s0111) at (840, 70) {\small0111};
+  \node[state] (s1000) at (840, 210) {\small1000};
+  \node[state] (s1001) at (730, 210) {\small1001};
+  \node[state] (s1010) at (620, 210) {\small1010};
+  \node[state] (s1011) at (510, 210) {\small1011};
+  \node[state] (s1100) at (400, 210) {\small1100};
+  \node[state] (s1101) at (290, 210) {\small1101};
+  \node[state] (s1110) at (180, 210) {\small1110};
+  \node[state] (s1111) at (70, 210) {\small1111};
+  \draw[->] (s0000) -- node[edge label, above] {/0} (s0001);
+  \draw[->] (s0001) -- node[edge label, above] {/0} (s0010);
+  \draw[->] (s0010) -- node[edge label, above] {/0} (s0011);
+  \draw[->] (s0011) -- node[edge label, above] {/0} (s0100);
+  \draw[->] (s0100) -- node[edge label, above] {/0} (s0101);
+  \draw[->] (s0101) -- node[edge label, above] {/0} (s0110);
+  \draw[->] (s0110) -- node[edge label, above] {/0} (s0111);
+  \draw[->] (s0111) -- node[edge label, right] {/0} (s1000);
+  \draw[->] (s1000) -- node[edge label, above] {/0} (s1001);
+  \draw[->] (s1001) -- node[edge label, above] {/0} (s1010);
+  \draw[->] (s1010) -- node[edge label, above] {/0} (s1011);
+  \draw[->] (s1011) -- node[edge label, above] {/0} (s1100);
+  \draw[->] (s1100) -- node[edge label, above] {/0} (s1101);
+  \draw[->] (s1101) -- node[edge label, above] {/0} (s1110);
+  \draw[->] (s1110) -- node[edge label, above] {/0} (s1111);
+  \draw[->] (s1111) -- node[edge label, right] {/1} (s0000);
+  \node[circle, draw=black!75, line width=0.95pt, minimum size=72pt, inner sep=0pt] (legend) at (940, 140) {};
+  \node at (940, 136) {\small Q3Q2Q1Q0};
+  \node at (940, 154) {/Y};
+\end{tikzpicture}
+\end{document}

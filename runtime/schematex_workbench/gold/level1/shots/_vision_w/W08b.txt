@@ -1,0 +1,13 @@
+﻿### Signal Labels (Top to Bottom) and HIGH/LOW Sequences (0 = LOW, 1 = HIGH)
+
+| Signal | Sequence of HIGH/LOW States Across Major Time Slots |
+|--------|------------------------------------------------------|
+| **CLK** | 0 1 0 1 0 1 0 1 0 1                                 |
+| **J**   | 0 0 1 1 0 0 1 1 0 0                                 |
+| **K**   | 1 1 0 0 1 1 0 0 1 1                                 |
+| **Q**   | 0 1 1 0 0 1 1 0 0 1                                 |
+| **Q'**  | 1 0 0 1 1 0 0 1 1 0                                 |
+
+
+### Analysis of Sequences:
+1. **CLK**: Clock signal alternates between LOW (0) and HIGH (1) in regular intervals.

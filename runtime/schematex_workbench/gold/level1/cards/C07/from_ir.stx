@@ -1,0 +1,10 @@
+logic "full_adder" style: iec
+input CI, A, B
+output Sum, Cout
+XOR1 = XOR(A, B)
+Sum = XOR(CI, XOR1)
+AND1 = AND(A, B)
+AND2 = AND(B, CI)
+AND3 = AND(A, CI)
+t1 = OR(AND1, AND2)
+Cout = OR(t1, AND3)

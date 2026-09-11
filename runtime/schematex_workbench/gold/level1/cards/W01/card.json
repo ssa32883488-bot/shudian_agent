@@ -1,0 +1,18 @@
+{
+  "id": "W01",
+  "bucket": "waveform",
+  "fig_id": "2.5.3",
+  "caption": "图2.5.1电路逻辑功能波形图",
+  "image": "../../textbook_figures/timing_wave/fig_2_5_3.jpg",
+  "image_exists": true,
+  "tier_guess": "C",
+  "ir_schema": "wave_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "svg_timing_textbook",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_tbx_v1",
+  "reviewed_at": "2026-08-29T15:25:00.000Z",
+  "notes": "wave_ir 教材风；A/B/C 二进制计数 Y=00000111"
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"/>
+<title>状态图优化验收</title>
+<style>
+body{margin:0;font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:#f3efe8;color:#1c1916}
+header{position:sticky;top:0;background:rgba(243,239,232,.95);padding:14px 18px;border-bottom:1px solid #d9d2c8}
+h1{margin:0;font-size:1.15rem} p{margin:4px 0 0;color:#6b6560;font-size:.9rem}
+.nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.nav a{text-decoration:none;color:inherit;border:1px solid #d9d2c8;background:#fffdf9;padding:2px 8px;border-radius:6px;font-size:.82rem}
+article{max-width:1100px;margin:16px auto;background:#fffdf9;border:1px solid #d9d2c8;border-radius:10px;overflow:hidden}
+article h2{margin:0;padding:12px 14px;font-size:1rem;border-bottom:1px solid #d9d2c8}
+.badge{font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:999px;border:1px solid}
+.ok{color:#1f6b3a;background:#eef8f1;border-color:#b7d8c2}
+.bad{color:#9b2c2c;background:#fdf0f0;border-color:#e5bcbc}
+.grid{display:grid;grid-template-columns:1fr 1fr}
+section{padding:12px;border-top:1px solid #d9d2c8}
+@media(min-width:900px){section:first-child{border-right:1px solid #d9d2c8;border-top:0} section:nth-child(2){border-top:0}}
+h3{margin:0 0 8px;font-size:.78rem;letter-spacing:.06em;color:#6b6560;text-transform:uppercase}
+img{max-width:100%;background:#fff;border:1px solid #e7e0d6}
+.meta{font-size:.85rem;color:#6b6560}
+</style></head><body>
+<header>
+  <h1>状态图专用优化验收 · 课本 vs 新渲染</h1>
+  <p>跑道布局 / 圆周截断箭头 / 图例 / 自检 · 10/10 SELF_OK</p>
+  <div class="nav"><a href="#S01">S01</a><a href="#S02">S02</a><a href="#S03">S03</a><a href="#S04">S04</a><a href="#S05">S05</a><a href="#S06">S06</a><a href="#S07">S07</a><a href="#S08">S08</a><a href="#S09">S09</a><a href="#S10">S10</a></div>
+</header>
+<article id="S01">
+  <h2>S01 · 图6.2.2 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=racetrack · 图6.2.1电路的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_2_2.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S01.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S02">
+  <h2>S02 · 图6.2.4 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 图6.2.3电路的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_2_4.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S02.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S03">
+  <h2>S03 · 图6.2.11 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 图6.2.10电路的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_2_11.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S03.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S04">
+  <h2>S04 · 图6.3.9 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 图6.3.8电路的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_3_9.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S04.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S05">
+  <h2>S05 · 图6.4.2 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 例6.4.1的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_4_2.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S05.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S06">
+  <h2>S06 · 图6.4.7 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 例6.4.2的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_4_7.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S06.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S07">
+  <h2>S07 · 图6.4.8 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 化简后的例6.4.2状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_4_8.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S07.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S08">
+  <h2>S08 · 图6.4.14 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 例6.4.3的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_4_14.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S08.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S09">
+  <h2>S09 · 图6.4.19 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 例6.4.4的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_4_19.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S09.png" alt="gen"/></section>
+  </div>
+</article>
+<article id="S10">
+  <h2>S10 · 图6.4.26 <span class="badge ok">SELF_OK</span>
+  <span class="meta"> layout=auto · 例6.4.5电路的状态转换图</span></h2>
+  <div class="grid">
+    <section><h3>课本原图</h3><img src="../../../textbook_figures/state_machine/fig_6_4_26.jpg" alt="tb"/></section>
+    <section><h3>优化后渲染</h3><img src="shots/S10.png" alt="gen"/></section>
+  </div>
+</article>
+</body></html>

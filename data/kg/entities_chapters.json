@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ch01",
+    "type": "Chapter",
+    "name": "第01章 数制和码制",
+    "chapter_num": 1
+  },
+  {
+    "id": "ch02",
+    "type": "Chapter",
+    "name": "第02章 逻辑代数基础",
+    "chapter_num": 2
+  },
+  {
+    "id": "ch03",
+    "type": "Chapter",
+    "name": "第03章 门电路",
+    "chapter_num": 3
+  },
+  {
+    "id": "ch04",
+    "type": "Chapter",
+    "name": "第04章 组合逻辑电路",
+    "chapter_num": 4
+  },
+  {
+    "id": "ch05",
+    "type": "Chapter",
+    "name": "第05章 半导体存储电路",
+    "chapter_num": 5
+  },
+  {
+    "id": "ch06",
+    "type": "Chapter",
+    "name": "第06章 时序逻辑电路",
+    "chapter_num": 6
+  },
+  {
+    "id": "ch07",
+    "type": "Chapter",
+    "name": "第07章 脉冲波形的产生和整形电路",
+    "chapter_num": 7
+  },
+  {
+    "id": "ch08",
+    "type": "Chapter",
+    "name": "第08章 数模和模数转换",
+    "chapter_num": 8
+  }
+]

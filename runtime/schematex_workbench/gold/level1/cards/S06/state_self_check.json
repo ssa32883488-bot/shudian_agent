@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "grade": "STATE_SELF_OK",
+  "checks": [
+    {
+      "id": "HAS_CIRCLES",
+      "ok": true,
+      "detail": "states=4"
+    },
+    {
+      "id": "HAS_EDGES",
+      "ok": true,
+      "detail": "edges=8"
+    },
+    {
+      "id": "LABELS",
+      "ok": true,
+      "detail": "labels"
+    },
+    {
+      "id": "NO_NAN",
+      "ok": true,
+      "detail": "coords"
+    }
+  ]
+}

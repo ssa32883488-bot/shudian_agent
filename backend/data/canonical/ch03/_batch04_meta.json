@@ -1,0 +1,576 @@
+[
+  {
+    "i": 150,
+    "key": "图3.7.5(c)|images/9c50f741aff70b264cdf949b3f3f343cd40db8f8618a73cfbb2abbb99617fd0f.jpg",
+    "figure_id": "图3.7.5(c)",
+    "caption": "用 OD 输出的缓冲/驱动器实现逻辑电平转换 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9c50f741aff70b264cdf949b3f3f343cd40db8f8618a73cfbb2abbb99617fd0f.jpg"
+  },
+  {
+    "i": 151,
+    "key": "图3.7.5(d)|images/b73d3afc0430ac9e3af5c2b37b4875a9e3c95dc12ddf466a5dac9e673e3a12bd.jpg",
+    "figure_id": "图3.7.5(d)",
+    "caption": "用 OD 输出的缓冲/驱动器实现逻辑电平转换 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b73d3afc0430ac9e3af5c2b37b4875a9e3c95dc12ddf466a5dac9e673e3a12bd.jpg"
+  },
+  {
+    "i": 152,
+    "key": "图3.7.6(a)|images/cbc777decaa0fe38a51fd1306fa5c1a0455817445f051f1fc097ab7f79df1e78.jpg",
+    "figure_id": "图3.7.6(a)",
+    "caption": "用双电源总线接口电路实现逻辑电平转换 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cbc777decaa0fe38a51fd1306fa5c1a0455817445f051f1fc097ab7f79df1e78.jpg"
+  },
+  {
+    "i": 153,
+    "key": "图3.7.6(b)|images/68bc2e2ddbeb67d321c0ede9745b22d363765db646f9c2fe57151858d2228d96.jpg",
+    "figure_id": "图3.7.6(b)",
+    "caption": "用双电源总线接口电路实现逻辑电平转换 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\68bc2e2ddbeb67d321c0ede9745b22d363765db646f9c2fe57151858d2228d96.jpg"
+  },
+  {
+    "i": 154,
+    "key": "图P3.2_0|images/1786ef2d8e934e447a67c8f037684cbda2e474d4eed2dc37da24590902a6f515.jpg",
+    "figure_id": "图P3.2",
+    "caption": "图 P3.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1786ef2d8e934e447a67c8f037684cbda2e474d4eed2dc37da24590902a6f515.jpg"
+  },
+  {
+    "i": 155,
+    "key": "图P3.2_1|images/4c450f90c252b0f43daf1ddcfca6263e8158cbe62f0387cbb643108e38c75efc.jpg",
+    "figure_id": "图P3.2",
+    "caption": "图 P3.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4c450f90c252b0f43daf1ddcfca6263e8158cbe62f0387cbb643108e38c75efc.jpg"
+  },
+  {
+    "i": 156,
+    "key": "图P3.2_2|images/b8fa5483904b775ccb2064df61a87ecb3813011cb9a81f22cdd819ed240bb039.jpg",
+    "figure_id": "图P3.2",
+    "caption": "图 P3.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b8fa5483904b775ccb2064df61a87ecb3813011cb9a81f22cdd819ed240bb039.jpg"
+  },
+  {
+    "i": 157,
+    "key": "图P3.2_3|images/c8688f229a7f7475791d63eb1aac8b99e56c7ff87489a20d4cb85988f43b1e88.jpg",
+    "figure_id": "图P3.2",
+    "caption": "图 P3.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c8688f229a7f7475791d63eb1aac8b99e56c7ff87489a20d4cb85988f43b1e88.jpg"
+  },
+  {
+    "i": 158,
+    "key": "图P3.2_4|images/c2a4b7e2fc2241c9039cf19ea8212502b8bf0979eb90c23b2a702c8088e1c490.jpg",
+    "figure_id": "图P3.2",
+    "caption": "图 P3.2",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c2a4b7e2fc2241c9039cf19ea8212502b8bf0979eb90c23b2a702c8088e1c490.jpg"
+  },
+  {
+    "i": 159,
+    "key": "图P3.4|images/bf886c7635f9c568cee8833ce559d5a6d2f34b40a4931e17cad05fb68fc714f4.jpg",
+    "figure_id": "图P3.4",
+    "caption": "图P3.4",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bf886c7635f9c568cee8833ce559d5a6d2f34b40a4931e17cad05fb68fc714f4.jpg"
+  },
+  {
+    "i": 160,
+    "key": "图P3.7(a)|images/afc09a1769660d5feeb538ac93fe0f5832d66614b22c029157a76694a0a70ad9.jpg",
+    "figure_id": "图P3.7(a)",
+    "caption": "图P3.7 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\afc09a1769660d5feeb538ac93fe0f5832d66614b22c029157a76694a0a70ad9.jpg"
+  },
+  {
+    "i": 161,
+    "key": "图P3.7(b)|images/b42eea28b147d6bd1a8f08e528504b217724cee360b98cb4edc0f65a5c90b23e.jpg",
+    "figure_id": "图P3.7(b)",
+    "caption": "图P3.7 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b42eea28b147d6bd1a8f08e528504b217724cee360b98cb4edc0f65a5c90b23e.jpg"
+  },
+  {
+    "i": 162,
+    "key": "图P3.7(c)|images/24a2a7770b96886ccf80fa24d8acd983d404474be3174ebfa95553ba367d7f9e.jpg",
+    "figure_id": "图P3.7(c)",
+    "caption": "图P3.7 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\24a2a7770b96886ccf80fa24d8acd983d404474be3174ebfa95553ba367d7f9e.jpg"
+  },
+  {
+    "i": 163,
+    "key": "图P3.7(d)|images/468587de684a4c47172cb9374f04a28c949f443ae2334491d8c17aa6b23ce58b.jpg",
+    "figure_id": "图P3.7(d)",
+    "caption": "图P3.7 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\468587de684a4c47172cb9374f04a28c949f443ae2334491d8c17aa6b23ce58b.jpg"
+  },
+  {
+    "i": 164,
+    "key": "图P3.8(a)|images/979989ef4696a005c95056b5bbf795176d00fcf64a001dde2ce8eb7f53794bf3.jpg",
+    "figure_id": "图P3.8(a)",
+    "caption": "图 P3.8 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\979989ef4696a005c95056b5bbf795176d00fcf64a001dde2ce8eb7f53794bf3.jpg"
+  },
+  {
+    "i": 165,
+    "key": "图P3.8(b)|images/bc965ada9499069f19f9a5acce490708aa9eb9da18de20e88e726a7297acf496.jpg",
+    "figure_id": "图P3.8(b)",
+    "caption": "图 P3.8 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bc965ada9499069f19f9a5acce490708aa9eb9da18de20e88e726a7297acf496.jpg"
+  },
+  {
+    "i": 166,
+    "key": "图P3.8(c)|images/2c0a7d0372f9e44db28dfc08d48abbbdd262764627720cbe3c6ff88406227c1d.jpg",
+    "figure_id": "图P3.8(c)",
+    "caption": "图 P3.8 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2c0a7d0372f9e44db28dfc08d48abbbdd262764627720cbe3c6ff88406227c1d.jpg"
+  },
+  {
+    "i": 167,
+    "key": "图P3.9|images/f723b12237c987c44ca09ad6858bdff4a9eaeb1e7e78c2280f4fd2563fa2ea5f.jpg",
+    "figure_id": "图P3.9",
+    "caption": "图P3.9",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f723b12237c987c44ca09ad6858bdff4a9eaeb1e7e78c2280f4fd2563fa2ea5f.jpg"
+  },
+  {
+    "i": 168,
+    "key": "图P3.10|images/bd2dc1c6752e33a56c371f184c32ad5d35ebf10683330d9cf87f557a49ebba60.jpg",
+    "figure_id": "图P3.10",
+    "caption": "图 P3.10",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\bd2dc1c6752e33a56c371f184c32ad5d35ebf10683330d9cf87f557a49ebba60.jpg"
+  },
+  {
+    "i": 169,
+    "key": "图P3.11|images/da6f612e4860620215a11f98a91597efde8206262a4ef4001ad26ad04fbd67a0.jpg",
+    "figure_id": "图P3.11",
+    "caption": "图 P3.11",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\da6f612e4860620215a11f98a91597efde8206262a4ef4001ad26ad04fbd67a0.jpg"
+  },
+  {
+    "i": 170,
+    "key": "图P3.12|images/b8a66f110071e9752e4e984003275bb664c45499b2826141412d71e857cdaca0.jpg",
+    "figure_id": "图P3.12",
+    "caption": "图P3.12",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b8a66f110071e9752e4e984003275bb664c45499b2826141412d71e857cdaca0.jpg"
+  },
+  {
+    "i": 171,
+    "key": "图P3.13|images/af1758406801705755115b85b5958145e6053e5b9e2748a4a6389e3904812bf2.jpg",
+    "figure_id": "图P3.13",
+    "caption": "图P3.13",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\af1758406801705755115b85b5958145e6053e5b9e2748a4a6389e3904812bf2.jpg"
+  },
+  {
+    "i": 172,
+    "key": "图P3.16|images/58bb4e0f496b10f624c67149d9c473a6f47fc00f3f2664d4a1165dd0b1bdf551.jpg",
+    "figure_id": "图P3.16",
+    "caption": "图 P3.16",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\58bb4e0f496b10f624c67149d9c473a6f47fc00f3f2664d4a1165dd0b1bdf551.jpg"
+  },
+  {
+    "i": 173,
+    "key": "图P3.17|images/5ced144d34c6909c283ffaa241952d0351aec067c5d4b3da4bffbdee26615708.jpg",
+    "figure_id": "图P3.17",
+    "caption": "图 P3.17",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5ced144d34c6909c283ffaa241952d0351aec067c5d4b3da4bffbdee26615708.jpg"
+  },
+  {
+    "i": 174,
+    "key": "图P3.18|images/b66223ae489544b57f3059c1dd4aeb77cb5059b2b87ca99f45b8847df5595172.jpg",
+    "figure_id": "图P3.18",
+    "caption": "图 P3.18",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b66223ae489544b57f3059c1dd4aeb77cb5059b2b87ca99f45b8847df5595172.jpg"
+  },
+  {
+    "i": 175,
+    "key": "图P3.19|images/eba440a6166cc65294f5aa2bad107b70df98441458b7b058cebef49f69908c31.jpg",
+    "figure_id": "图P3.19",
+    "caption": "图 P3.19",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\eba440a6166cc65294f5aa2bad107b70df98441458b7b058cebef49f69908c31.jpg"
+  },
+  {
+    "i": 176,
+    "key": "图P3.20|images/0093ffbd5f8fe0062dca5e326b4ec5d5c98e6ed8ab9dccc8f5a9707e935b9c78.jpg",
+    "figure_id": "图P3.20",
+    "caption": "图 P3.20",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0093ffbd5f8fe0062dca5e326b4ec5d5c98e6ed8ab9dccc8f5a9707e935b9c78.jpg"
+  },
+  {
+    "i": 177,
+    "key": "图P3.21|images/748242f30e5089360cb875c3e01f616ec371b97e9c1b53770e9a5795094c8897.jpg",
+    "figure_id": "图P3.21",
+    "caption": "图 P3.21",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\748242f30e5089360cb875c3e01f616ec371b97e9c1b53770e9a5795094c8897.jpg"
+  },
+  {
+    "i": 178,
+    "key": "图P3.22|images/5ae1d7796b4cd3a56da6fe351205611e719021ee3e3b00a343a22648eb23076c.jpg",
+    "figure_id": "图P3.22",
+    "caption": "图 P3.22",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5ae1d7796b4cd3a56da6fe351205611e719021ee3e3b00a343a22648eb23076c.jpg"
+  },
+  {
+    "i": 179,
+    "key": "图P3.23|images/8d02c3f6a75b81c9b1ca1311619f857bb4e22d80939e86b2a5b5b121c54cf585.jpg",
+    "figure_id": "图P3.23",
+    "caption": "图 P3.23",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8d02c3f6a75b81c9b1ca1311619f857bb4e22d80939e86b2a5b5b121c54cf585.jpg"
+  },
+  {
+    "i": 180,
+    "key": "图P3.24|images/e94b311d682ba43d3f4f35077a797fa0bf836ca21a98a972e114ad4b1541d10d.jpg",
+    "figure_id": "图P3.24",
+    "caption": "图 P3.24",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e94b311d682ba43d3f4f35077a797fa0bf836ca21a98a972e114ad4b1541d10d.jpg"
+  },
+  {
+    "i": 181,
+    "key": "图P3.25_0|images/dbef047f37aa097f997ee0ad94266dcd7fff7407a2179e3a081c08490b5e148c.jpg",
+    "figure_id": "图P3.25",
+    "caption": "图 P3.25",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dbef047f37aa097f997ee0ad94266dcd7fff7407a2179e3a081c08490b5e148c.jpg"
+  },
+  {
+    "i": 182,
+    "key": "图P3.25_1|images/9c0208732e3c5097f338a50f2f9cbca55b0dad6ac962d4909a0ee5bad195ae00.jpg",
+    "figure_id": "图P3.25",
+    "caption": "图 P3.25",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9c0208732e3c5097f338a50f2f9cbca55b0dad6ac962d4909a0ee5bad195ae00.jpg"
+  },
+  {
+    "i": 183,
+    "key": "图P3.26|images/37b0b627d2cd8180407c470692bb29fd15be8c29e09e12bd3b3cb4d5a6a394aa.jpg",
+    "figure_id": "图P3.26",
+    "caption": "图 P3.26",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\37b0b627d2cd8180407c470692bb29fd15be8c29e09e12bd3b3cb4d5a6a394aa.jpg"
+  },
+  {
+    "i": 184,
+    "key": "图3.7.6_0|images/5a1b6d1e63339f9669c33f2b7880037c15ba8581df0827bc7a571125a062cf03.jpg",
+    "figure_id": "图3.7.6",
+    "caption": "图3.7.6",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5a1b6d1e63339f9669c33f2b7880037c15ba8581df0827bc7a571125a062cf03.jpg"
+  },
+  {
+    "i": 185,
+    "key": "图3.7.6_1|images/30f1fb10a4413620e99a0729ca6e5aea251567d7fc9b21563c746090fa2e1824.jpg",
+    "figure_id": "图3.7.6",
+    "caption": "图3.7.6",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\30f1fb10a4413620e99a0729ca6e5aea251567d7fc9b21563c746090fa2e1824.jpg"
+  },
+  {
+    "i": 186,
+    "key": "图2(a)|images/c090ce0d33caa7983131b2fd56da31bbba9683b73aa63f60eecf267dc3f921ec.jpg",
+    "figure_id": "图2(a)",
+    "caption": "-3-11 例3-2-20的卡诺图与逻辑图 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\c090ce0d33caa7983131b2fd56da31bbba9683b73aa63f60eecf267dc3f921ec.jpg"
+  },
+  {
+    "i": 187,
+    "key": "图2(b)|images/5843cb04cac3110fabed58b35ddc94a3e42927bee302554fe036c55d8ad7881d.jpg",
+    "figure_id": "图2(b)",
+    "caption": "-3-11 例3-2-20的卡诺图与逻辑图 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\5843cb04cac3110fabed58b35ddc94a3e42927bee302554fe036c55d8ad7881d.jpg"
+  },
+  {
+    "i": 188,
+    "key": "图2(c)|images/c519c70c628eb382c51248d43cb18aef75ffa438ba1e22d5f1f848682e8371f1.jpg",
+    "figure_id": "图2(c)",
+    "caption": "-3-11 例3-2-20的卡诺图与逻辑图 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\c519c70c628eb382c51248d43cb18aef75ffa438ba1e22d5f1f848682e8371f1.jpg"
+  },
+  {
+    "i": 189,
+    "key": "图2(d)|images/88efa2954952c09424b44c613746c9fc621b038dbc841869c2adb9c66249afbc.jpg",
+    "figure_id": "图2(d)",
+    "caption": "-3-11 例3-2-20的卡诺图与逻辑图 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\88efa2954952c09424b44c613746c9fc621b038dbc841869c2adb9c66249afbc.jpg"
+  },
+  {
+    "i": 190,
+    "key": "图3(a)|images/c78c36f89499bb0655cb89a5bd50fcca2f17e30cab02dbcd1264d4955cb5c6e8.jpg",
+    "figure_id": "图3(a)",
+    "caption": "-2-1 二极管的伏安特性 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\c78c36f89499bb0655cb89a5bd50fcca2f17e30cab02dbcd1264d4955cb5c6e8.jpg"
+  },
+  {
+    "i": 191,
+    "key": "图3(b)|images/27ce4ac39b4934b270ffe4dff7b8f6279b96cb74633f33e361f0045e444c729e.jpg",
+    "figure_id": "图3(b)",
+    "caption": "-2-1 二极管的伏安特性 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\27ce4ac39b4934b270ffe4dff7b8f6279b96cb74633f33e361f0045e444c729e.jpg"
+  },
+  {
+    "i": 192,
+    "key": "图3(c)|images/071edc069a764f53a809a62caf50891fdd2329b51534f2a090f997373a9982d7.jpg",
+    "figure_id": "图3(c)",
+    "caption": "-2-1 二极管的伏安特性 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\071edc069a764f53a809a62caf50891fdd2329b51534f2a090f997373a9982d7.jpg"
+  },
+  {
+    "i": 193,
+    "key": "图3(d)|images/195afa60ba7782c83f473ae9bb20fa596827c25fa71dc7f2a494fce3538245a4.jpg",
+    "figure_id": "图3(d)",
+    "caption": "-2-1 二极管的伏安特性 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\195afa60ba7782c83f473ae9bb20fa596827c25fa71dc7f2a494fce3538245a4.jpg"
+  },
+  {
+    "i": 194,
+    "key": "图3(e)|images/ba37a43cf89ad93872ecb8c373503be777861527148cd19a0ea5454dcce13d6e.jpg",
+    "figure_id": "图3(e)",
+    "caption": "-2-1 二极管的伏安特性 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\ba37a43cf89ad93872ecb8c373503be777861527148cd19a0ea5454dcce13d6e.jpg"
+  },
+  {
+    "i": 195,
+    "key": "图3(f)|images/e04e511d1cf47d163970a15a81598126af2aa7934bab67d24c110b3e79b47958.jpg",
+    "figure_id": "图3(f)",
+    "caption": "-2-1 二极管的伏安特性 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\e04e511d1cf47d163970a15a81598126af2aa7934bab67d24c110b3e79b47958.jpg"
+  },
+  {
+    "i": 196,
+    "key": "图3(g)|images/9dfd51338b604f92490b051bbba2a844252f70fb1560b4944c06a0accc90bfd0.jpg",
+    "figure_id": "图3(g)",
+    "caption": "-2-1 二极管的伏安特性 子图(g)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\9dfd51338b604f92490b051bbba2a844252f70fb1560b4944c06a0accc90bfd0.jpg"
+  },
+  {
+    "i": 197,
+    "key": "图3(h)|images/28b567ddd18e425896b19121d8668ba6d7af8a16810c3421d8d5ab0700bf2db9.jpg",
+    "figure_id": "图3(h)",
+    "caption": "-2-1 二极管的伏安特性 子图(h)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\28b567ddd18e425896b19121d8668ba6d7af8a16810c3421d8d5ab0700bf2db9.jpg"
+  },
+  {
+    "i": 198,
+    "key": "图3(i)|images/e349ed49ea37a4083296766b98fa6b1eabe6e761333d688898de11ed7b8900b0.jpg",
+    "figure_id": "图3(i)",
+    "caption": "-2-1 二极管的伏安特性 子图(i)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\e349ed49ea37a4083296766b98fa6b1eabe6e761333d688898de11ed7b8900b0.jpg"
+  },
+  {
+    "i": 199,
+    "key": "图3(j)|images/50fe4928308d97b11a5e87eaafc32f25ea109546b671fef439d8fe62525fafe3.jpg",
+    "figure_id": "图3(j)",
+    "caption": "-2-1 二极管的伏安特性 子图(j)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\50fe4928308d97b11a5e87eaafc32f25ea109546b671fef439d8fe62525fafe3.jpg"
+  },
+  {
+    "i": 200,
+    "key": "图3(11)|images/c5e8a58ea418fee8d2fb69b4d542b2211d3ea90ced8d14cb70cd5aa820fe3271.jpg",
+    "figure_id": "图3(11)",
+    "caption": "-2-1 二极管的伏安特性 子图(11)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\c5e8a58ea418fee8d2fb69b4d542b2211d3ea90ced8d14cb70cd5aa820fe3271.jpg"
+  },
+  {
+    "i": 201,
+    "key": "图3(12)|images/44ea35927e539240f06cf0ede5ffec1d1538aacc48944a4ce1f0385b17d8e810.jpg",
+    "figure_id": "图3(12)",
+    "caption": "-2-1 二极管的伏安特性 子图(12)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\44ea35927e539240f06cf0ede5ffec1d1538aacc48944a4ce1f0385b17d8e810.jpg"
+  },
+  {
+    "i": 202,
+    "key": "图3(13)|images/6df098da3793f058029f949c54b7d3795eed101c5d5176391ac6aae4acd2193d.jpg",
+    "figure_id": "图3(13)",
+    "caption": "-2-1 二极管的伏安特性 子图(13)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\6df098da3793f058029f949c54b7d3795eed101c5d5176391ac6aae4acd2193d.jpg"
+  },
+  {
+    "i": 203,
+    "key": "图3(14)|images/315b9a3ac2ebd252d9470f372e879a1a5e136ad166ef65a6a7d39e49541b4d1f.jpg",
+    "figure_id": "图3(14)",
+    "caption": "-2-1 二极管的伏安特性 子图(14)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\315b9a3ac2ebd252d9470f372e879a1a5e136ad166ef65a6a7d39e49541b4d1f.jpg"
+  },
+  {
+    "i": 204,
+    "key": "图3(15)|images/5ae013dc5d132e843dc745cff2cc813cc07dc2b62924eef1da578211ff220bf9.jpg",
+    "figure_id": "图3(15)",
+    "caption": "-2-1 二极管的伏安特性 子图(15)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\5ae013dc5d132e843dc745cff2cc813cc07dc2b62924eef1da578211ff220bf9.jpg"
+  },
+  {
+    "i": 205,
+    "key": "图3(16)|images/53c873c2430716a9e1234783b931abf2441a94192bec6b9548d82c5b0b0adf5a.jpg",
+    "figure_id": "图3(16)",
+    "caption": "-2-1 二极管的伏安特性 子图(16)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\53c873c2430716a9e1234783b931abf2441a94192bec6b9548d82c5b0b0adf5a.jpg"
+  },
+  {
+    "i": 206,
+    "key": "图3(17)|images/2ba3be1d9340a378a3f9414dae2a406ecdd08fe59e6b51a8ef55382cdf2f7f34.jpg",
+    "figure_id": "图3(17)",
+    "caption": "-2-1 二极管的伏安特性 子图(17)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\2ba3be1d9340a378a3f9414dae2a406ecdd08fe59e6b51a8ef55382cdf2f7f34.jpg"
+  },
+  {
+    "i": 207,
+    "key": "图3(18)|images/0862b4d7b32b1d447093d6e9661e8ffb951fda77a5f7cd61490030affe63c25f.jpg",
+    "figure_id": "图3(18)",
+    "caption": "-2-1 二极管的伏安特性 子图(18)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\0862b4d7b32b1d447093d6e9661e8ffb951fda77a5f7cd61490030affe63c25f.jpg"
+  },
+  {
+    "i": 208,
+    "key": "图3(19)|images/63de3d7bdfec067789c838a8b1f02676679d993ed30c470202942b46fa2b79c9.jpg",
+    "figure_id": "图3(19)",
+    "caption": "-2-1 二极管的伏安特性 子图(19)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\63de3d7bdfec067789c838a8b1f02676679d993ed30c470202942b46fa2b79c9.jpg"
+  },
+  {
+    "i": 209,
+    "key": "图3(20)|images/2d88104d54aabd6fe4d3d0baf577e935c01543b828c59d0884e4d0ad49795033.jpg",
+    "figure_id": "图3(20)",
+    "caption": "-2-1 二极管的伏安特性 子图(20)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\2d88104d54aabd6fe4d3d0baf577e935c01543b828c59d0884e4d0ad49795033.jpg"
+  },
+  {
+    "i": 210,
+    "key": "图3(21)|images/fc308b40a51316db4ebc9f4f497a63747c0bf23a2141548d2fc2c9a2a85f6f59.jpg",
+    "figure_id": "图3(21)",
+    "caption": "-2-1 二极管的伏安特性 子图(21)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\fc308b40a51316db4ebc9f4f497a63747c0bf23a2141548d2fc2c9a2a85f6f59.jpg"
+  },
+  {
+    "i": 211,
+    "key": "图3(22)|images/a39e62d530e3422573180576164a24ea034f0eee4d2299cbc8f08824aac77f61.jpg",
+    "figure_id": "图3(22)",
+    "caption": "-2-1 二极管的伏安特性 子图(22)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\a39e62d530e3422573180576164a24ea034f0eee4d2299cbc8f08824aac77f61.jpg"
+  },
+  {
+    "i": 212,
+    "key": "图3(23)|images/d288d4247925d898d08e39a19710ff5c33cc11f7c70645113a25c8a4205710a5.jpg",
+    "figure_id": "图3(23)",
+    "caption": "-2-1 二极管的伏安特性 子图(23)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\d288d4247925d898d08e39a19710ff5c33cc11f7c70645113a25c8a4205710a5.jpg"
+  },
+  {
+    "i": 213,
+    "key": "图3(24)|images/0d8691f4963a8b9aba0f4261d4810089588464959576abdb17896818350a24e3.jpg",
+    "figure_id": "图3(24)",
+    "caption": "-2-1 二极管的伏安特性 子图(24)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\0d8691f4963a8b9aba0f4261d4810089588464959576abdb17896818350a24e3.jpg"
+  },
+  {
+    "i": 214,
+    "key": "图3(25)|images/034ee72133ce8641d81e8ec3b8ade0fa6e5adeebe6a84dee9a3681180a0f3b32.jpg",
+    "figure_id": "图3(25)",
+    "caption": "-2-1 二极管的伏安特性 子图(25)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\034ee72133ce8641d81e8ec3b8ade0fa6e5adeebe6a84dee9a3681180a0f3b32.jpg"
+  },
+  {
+    "i": 215,
+    "key": "图3(26)|images/121f82d090e9aea6ba63aeeb9dc7f03be742afd58bd6367caa35f0bece1b55d2.jpg",
+    "figure_id": "图3(26)",
+    "caption": "-2-1 二极管的伏安特性 子图(26)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\121f82d090e9aea6ba63aeeb9dc7f03be742afd58bd6367caa35f0bece1b55d2.jpg"
+  },
+  {
+    "i": 216,
+    "key": "图3(27)|images/d14915f094d0ea842e6f2a7faaef44dd15a0cfa35db0c618ad2444849da51a9d.jpg",
+    "figure_id": "图3(27)",
+    "caption": "-2-1 二极管的伏安特性 子图(27)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\d14915f094d0ea842e6f2a7faaef44dd15a0cfa35db0c618ad2444849da51a9d.jpg"
+  },
+  {
+    "i": 217,
+    "key": "图3(28)|images/331ba3ffa94c23146d5c1b6a2bcdca7dec773b20022caa84ab98d6b326d7b07a.jpg",
+    "figure_id": "图3(28)",
+    "caption": "-2-1 二极管的伏安特性 子图(28)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\331ba3ffa94c23146d5c1b6a2bcdca7dec773b20022caa84ab98d6b326d7b07a.jpg"
+  },
+  {
+    "i": 218,
+    "key": "图3(29)|images/4a76451be11fdddc14e94042f3b67334ed1b652826da6573eb9eaa73b6d09b0e.jpg",
+    "figure_id": "图3(29)",
+    "caption": "-2-1 二极管的伏安特性 子图(29)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\4a76451be11fdddc14e94042f3b67334ed1b652826da6573eb9eaa73b6d09b0e.jpg"
+  },
+  {
+    "i": 219,
+    "key": "图3(30)|images/1a7c81d9e7737050693df25f9e5f41778a4401e17fd34a73aec2ea78f84e4fe7.jpg",
+    "figure_id": "图3(30)",
+    "caption": "-2-1 二极管的伏安特性 子图(30)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\1a7c81d9e7737050693df25f9e5f41778a4401e17fd34a73aec2ea78f84e4fe7.jpg"
+  },
+  {
+    "i": 220,
+    "key": "图3(31)|images/f6ab95703dba8ea585f1263d79fcab8d177ffa662c9bc56963790d4758e1daba.jpg",
+    "figure_id": "图3(31)",
+    "caption": "-2-1 二极管的伏安特性 子图(31)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\f6ab95703dba8ea585f1263d79fcab8d177ffa662c9bc56963790d4758e1daba.jpg"
+  },
+  {
+    "i": 221,
+    "key": "图3(32)|images/3eef152b7207f0b0a7cd1b72d8ad251cce45d2a2d07e8ec7b33d32ff2bc237ab.jpg",
+    "figure_id": "图3(32)",
+    "caption": "-2-1 二极管的伏安特性 子图(32)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\3eef152b7207f0b0a7cd1b72d8ad251cce45d2a2d07e8ec7b33d32ff2bc237ab.jpg"
+  },
+  {
+    "i": 222,
+    "key": "图3(33)|images/f295f6b6d008c3151fd8f1620466bab7b2aef2e3f92f8e59ca3cba3e6b37dfb6.jpg",
+    "figure_id": "图3(33)",
+    "caption": "-2-1 二极管的伏安特性 子图(33)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\f295f6b6d008c3151fd8f1620466bab7b2aef2e3f92f8e59ca3cba3e6b37dfb6.jpg"
+  },
+  {
+    "i": 223,
+    "key": "图3(34)|images/b530d68a706b713dbde1ad691570b08d7785c4b8f49cb6c3794cb483816bcded.jpg",
+    "figure_id": "图3(34)",
+    "caption": "-2-1 二极管的伏安特性 子图(34)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\b530d68a706b713dbde1ad691570b08d7785c4b8f49cb6c3794cb483816bcded.jpg"
+  },
+  {
+    "i": 224,
+    "key": "图3(35)|images/64c25d98265bb8012a9bae69d1e9c16022dfdce25347c64acad0b79e3702b663.jpg",
+    "figure_id": "图3(35)",
+    "caption": "-2-1 二极管的伏安特性 子图(35)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\64c25d98265bb8012a9bae69d1e9c16022dfdce25347c64acad0b79e3702b663.jpg"
+  },
+  {
+    "i": 225,
+    "key": "图3(36)|images/f45664539f2bacc546b24ea2c825c0e98778ee3fbe66a2ab1e2be7d5f54b001b.jpg",
+    "figure_id": "图3(36)",
+    "caption": "-2-1 二极管的伏安特性 子图(36)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\f45664539f2bacc546b24ea2c825c0e98778ee3fbe66a2ab1e2be7d5f54b001b.jpg"
+  },
+  {
+    "i": 226,
+    "key": "图3(37)|images/af7c376646d1cf8031843d68d57422749a0ed6148840a570295c7d0bd5539652.jpg",
+    "figure_id": "图3(37)",
+    "caption": "-2-1 二极管的伏安特性 子图(37)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\af7c376646d1cf8031843d68d57422749a0ed6148840a570295c7d0bd5539652.jpg"
+  },
+  {
+    "i": 227,
+    "key": "图3(38)|images/420186c75d67d09346841e49ac34750a9d9a6aa409fa57e09b32149927f4cba5.jpg",
+    "figure_id": "图3(38)",
+    "caption": "-2-1 二极管的伏安特性 子图(38)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\420186c75d67d09346841e49ac34750a9d9a6aa409fa57e09b32149927f4cba5.jpg"
+  },
+  {
+    "i": 228,
+    "key": "图3(39)|images/b22a4c758b2fd3c5e41709dbbbf916443ba995e4691f45aafd577ca7b7f1c8f1.jpg",
+    "figure_id": "图3(39)",
+    "caption": "-2-1 二极管的伏安特性 子图(39)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\b22a4c758b2fd3c5e41709dbbbf916443ba995e4691f45aafd577ca7b7f1c8f1.jpg"
+  },
+  {
+    "i": 229,
+    "key": "图3(40)|images/18f999961959800c177fa1c573dcb96eb3200a022af22fb8b45324f41ef50696.jpg",
+    "figure_id": "图3(40)",
+    "caption": "-2-1 二极管的伏安特性 子图(40)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\18f999961959800c177fa1c573dcb96eb3200a022af22fb8b45324f41ef50696.jpg"
+  },
+  {
+    "i": 230,
+    "key": "图3_0|images/a48608838962afbd6aa07c374ae93949cb56de8f9d9504f68efc00117eaf4bc6.jpg",
+    "figure_id": "图3",
+    "caption": "图3",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\a48608838962afbd6aa07c374ae93949cb56de8f9d9504f68efc00117eaf4bc6.jpg"
+  },
+  {
+    "i": 231,
+    "key": "图3_1|images/7d6c8c61660138c0b2596104b8cf7826d5dae20b13b7de48c2b6223c0be644be.jpg",
+    "figure_id": "图3",
+    "caption": "图3",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\学习辅导按章节拆分\\images\\7d6c8c61660138c0b2596104b8cf7826d5dae20b13b7de48c2b6223c0be644be.jpg"
+  }
+]

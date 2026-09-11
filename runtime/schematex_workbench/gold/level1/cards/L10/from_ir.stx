@@ -1,0 +1,9 @@
+logic "full_adder_4_1_1" style: iec
+input A, B, CI
+output S, CO
+s1 = XOR(A, B)
+S = XOR(s1, CI)
+c1 = AND(A, B)
+c2 = AND(s1, CI)
+nor1 = NOR(c1, c2)
+CO = NOT(nor1)

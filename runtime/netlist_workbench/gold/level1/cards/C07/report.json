@@ -1,0 +1,134 @@
+{
+  "id": "C07",
+  "fig_id": "4.7.4",
+  "caption": "1位全加器电路",
+  "image": "../../textbook_figures/logic_dag/fig_4_7_4.jpg",
+  "combinational": true,
+  "sim_ok": true,
+  "sim_reason": "ok",
+  "sim_rows": 8,
+  "sim_samples": [
+    {
+      "inputs": {
+        "CI": 0,
+        "A": 0,
+        "B": 0
+      },
+      "outputs": {
+        "Sum": 0,
+        "Cout": 0
+      }
+    },
+    {
+      "inputs": {
+        "CI": 0,
+        "A": 0,
+        "B": 1
+      },
+      "outputs": {
+        "Sum": 1,
+        "Cout": 0
+      }
+    },
+    {
+      "inputs": {
+        "CI": 0,
+        "A": 1,
+        "B": 0
+      },
+      "outputs": {
+        "Sum": 1,
+        "Cout": 0
+      }
+    },
+    {
+      "inputs": {
+        "CI": 0,
+        "A": 1,
+        "B": 1
+      },
+      "outputs": {
+        "Sum": 0,
+        "Cout": 1
+      }
+    },
+    {
+      "inputs": {
+        "CI": 1,
+        "A": 0,
+        "B": 0
+      },
+      "outputs": {
+        "Sum": 1,
+        "Cout": 0
+      }
+    },
+    {
+      "inputs": {
+        "CI": 1,
+        "A": 0,
+        "B": 1
+      },
+      "outputs": {
+        "Sum": 0,
+        "Cout": 1
+      }
+    },
+    {
+      "inputs": {
+        "CI": 1,
+        "A": 1,
+        "B": 0
+      },
+      "outputs": {
+        "Sum": 0,
+        "Cout": 1
+      }
+    },
+    {
+      "inputs": {
+        "CI": 1,
+        "A": 1,
+        "B": 1
+      },
+      "outputs": {
+        "Sum": 1,
+        "Cout": 1
+      }
+    }
+  ],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": true,
+  "self_grade": "SELF_OK",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=8"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=0"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=7 ir_gates=7"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=7509"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "multi_gates": 0,
+  "fallback_splits": 0,
+  "notes": ""
+}

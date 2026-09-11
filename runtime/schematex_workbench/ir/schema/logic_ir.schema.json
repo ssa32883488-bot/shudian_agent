@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shudian.local/ir/logic_ir.schema.json",
+  "title": "DigitalLogicIR",
+  "description": "数电功能逻辑图中间表示。LLM/人工只填语义；不含坐标。默认国标 iec。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "diagram_type", "style", "inputs", "gates", "outputs"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "logic_ir_v1" },
+    "diagram_type": { "type": "string", "const": "logic" },
+    "style": {
+      "type": "string",
+      "enum": ["iec", "ansi"],
+      "default": "iec",
+      "description": "产品默认 iec（国标矩形）"
+    },
+    "title": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_ \\-]{1,40}$",
+      "description": "短 ASCII 标题，禁止中文"
+    },
+    "inputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/signalName" },
+      "uniqueItems": true
+    },
+    "gates": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/$defs/gate" }
+    },
+    "outputs": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/$defs/signalName" },
+      "description": "输出端口名 → 驱动它的 gate id 或 input 名"
+    },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "signalName": {
+      "type": "string",
+      "pattern": "^[A-Za-z_][A-Za-z0-9_]*$",
+      "description": "信号/门 id，禁止中文与空格"
+    },
+    "gateType": {
+      "type": "string",
+      "enum": [
+        "AND", "OR", "NOT", "NAND", "NOR", "XOR", "XNOR", "BUF",
+        "MUX", "DEMUX", "DECODER", "ENCODER",
+        "DFF", "JKFF", "SRFF", "TFF", "LATCH_SR", "LATCH_D",
+        "TRISTATE_BUF", "TRISTATE_INV", "OPEN_DRAIN", "SCHMITT",
+        "COUNTER", "SHIFT_REG"
+      ]
+    },
+    "gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "inputs"],
+      "properties": {
+        "type": { "$ref": "#/$defs/gateType" },
+        "inputs": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/signalName" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "pla_y123_a",
+  "inputs": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "gates": {
+    "nA": {
+      "type": "NOT",
+      "inputs": [
+        "A"
+      ]
+    },
+    "nB": {
+      "type": "NOT",
+      "inputs": [
+        "B"
+      ]
+    },
+    "nC": {
+      "type": "NOT",
+      "inputs": [
+        "C"
+      ]
+    },
+    "nD": {
+      "type": "NOT",
+      "inputs": [
+        "D"
+      ]
+    },
+    "ac": {
+      "type": "AND",
+      "inputs": [
+        "A",
+        "C"
+      ]
+    },
+    "nacd": {
+      "type": "AND",
+      "inputs": [
+        "nA",
+        "nC",
+        "D"
+      ]
+    },
+    "Y1": {
+      "type": "OR",
+      "inputs": [
+        "B",
+        "ac",
+        "nacd"
+      ]
+    },
+    "nad": {
+      "type": "AND",
+      "inputs": [
+        "nA",
+        "D"
+      ]
+    },
+    "bnd": {
+      "type": "AND",
+      "inputs": [
+        "B",
+        "nD"
+      ]
+    },
+    "Y2": {
+      "type": "OR",
+      "inputs": [
+        "nad",
+        "bnd"
+      ]
+    },
+    "nacD": {
+      "type": "AND",
+      "inputs": [
+        "nA",
+        "C",
+        "D"
+      ]
+    },
+    "anbc": {
+      "type": "AND",
+      "inputs": [
+        "A",
+        "nB",
+        "C"
+      ]
+    },
+    "Y3": {
+      "type": "OR",
+      "inputs": [
+        "nacD",
+        "anbc"
+      ]
+    }
+  },
+  "outputs": {
+    "Y1": "Y1",
+    "Y2": "Y2",
+    "Y3": "Y3"
+  },
+  "notes": "式(2.8.2)：Y1=B+AC+A'C'D；Y2=A'D+BD'；Y3=A'CD+AB'C。图2.8.2 PLA总线布局"
+}

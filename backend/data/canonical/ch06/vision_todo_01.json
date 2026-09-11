@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图6.1.1|images/375ae7adacc0296d1e1fada4422b6c6407dd3782352dd3905f542e00a3f4df27.jpg",
+    "figure_id": "图6.1.1",
+    "caption": "串行加法器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\375ae7adacc0296d1e1fada4422b6c6407dd3782352dd3905f542e00a3f4df27.jpg"
+  },
+  {
+    "key": "图6.1.2|images/f1e27956fb668caac37c2db723e73b0644bd81b107501df3152482d67b39019a.jpg",
+    "figure_id": "图6.1.2",
+    "caption": "时序逻辑电路的结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f1e27956fb668caac37c2db723e73b0644bd81b107501df3152482d67b39019a.jpg"
+  },
+  {
+    "key": "图6.2.1|images/060f3115f5515c4ab5986ded16f861042cb03d07e7f9f18d57bb7a42d1c48019.jpg",
+    "figure_id": "图6.2.1",
+    "caption": "例6.2.1的时序逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\060f3115f5515c4ab5986ded16f861042cb03d07e7f9f18d57bb7a42d1c48019.jpg"
+  },
+  {
+    "key": "图6.2.2|images/9c8228b0125b9c6ab0b178d583958aebf4e7c7edf82630b0ff799373c33ba26b.jpg",
+    "figure_id": "图6.2.2",
+    "caption": "图6.2.1电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9c8228b0125b9c6ab0b178d583958aebf4e7c7edf82630b0ff799373c33ba26b.jpg"
+  },
+  {
+    "key": "图6.2.3|images/4754111cda78bfb18247f7e73de37c9e60d51821fb9c0fb60331b8bb66954478.jpg",
+    "figure_id": "图6.2.3",
+    "caption": "例6.2.3的时序逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4754111cda78bfb18247f7e73de37c9e60d51821fb9c0fb60331b8bb66954478.jpg"
+  },
+  {
+    "key": "图6.2.4|images/c711245a19fe3a212f687357b8b69964cc986d168c0d935dfe78c0d51c60a40f.jpg",
+    "figure_id": "图6.2.4",
+    "caption": "图 6.2.3 电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c711245a19fe3a212f687357b8b69964cc986d168c0d935dfe78c0d51c60a40f.jpg"
+  },
+  {
+    "key": "图6.2.5(a)|images/1f0dd20111a88f6c377fe9d26c4d582b7aa209a3e95796e350ad1148bb0d356b.jpg",
+    "figure_id": "图6.2.5(a)",
+    "caption": "SM 图中使用的三种图形符号 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1f0dd20111a88f6c377fe9d26c4d582b7aa209a3e95796e350ad1148bb0d356b.jpg"
+  },
+  {
+    "key": "图6.2.5(b)|images/305e23dcb64e59fab6b509f48f226d44eb1591b3d4ed1f70c5b00789cfa76055.jpg",
+    "figure_id": "图6.2.5(b)",
+    "caption": "SM 图中使用的三种图形符号 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\305e23dcb64e59fab6b509f48f226d44eb1591b3d4ed1f70c5b00789cfa76055.jpg"
+  },
+  {
+    "key": "图6.2.6|images/b3f57d079d0ddec33b376a43e8f60ccf935534f1d4f63daad0628343417ecd10.jpg",
+    "figure_id": "图6.2.6",
+    "caption": "SM模块举例",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b3f57d079d0ddec33b376a43e8f60ccf935534f1d4f63daad0628343417ecd10.jpg"
+  },
+  {
+    "key": "图6.2.7_0|images/ddc2ac6bbabf051e479cd2433d55ac516279de51b99ba8dfb1146b6b1c88959a.jpg",
+    "figure_id": "图6.2.7",
+    "caption": "图6.2.3电路的SM图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ddc2ac6bbabf051e479cd2433d55ac516279de51b99ba8dfb1146b6b1c88959a.jpg"
+  },
+  {
+    "key": "图6.2.7_1|images/93c236c47f761bedb60db106f4dd560a25eccff1da4436798bd441492e8c8782.jpg",
+    "figure_id": "图6.2.7",
+    "caption": "图6.2.3电路的SM图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\93c236c47f761bedb60db106f4dd560a25eccff1da4436798bd441492e8c8782.jpg"
+  },
+  {
+    "key": "图6.2.8|images/5c578dc187ade7b23cae136f78f4e95a121e16d122c4d5085b697af0b40590d7.jpg",
+    "figure_id": "图6.2.8",
+    "caption": "图6.2.1电路的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5c578dc187ade7b23cae136f78f4e95a121e16d122c4d5085b697af0b40590d7.jpg"
+  },
+  {
+    "key": "图6.2.9|images/451df60fe6f8b97bef257becf02f8c238fa941786d94394f3255112f6460b67f.jpg",
+    "figure_id": "图6.2.9",
+    "caption": "图6.2.3电路的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\451df60fe6f8b97bef257becf02f8c238fa941786d94394f3255112f6460b67f.jpg"
+  },
+  {
+    "key": "图6.2.10|images/1f27a11c22b4d4d07252776c11b62b3e794edd43ed1dac8fcbd11be899c422dd.jpg",
+    "figure_id": "图6.2.10",
+    "caption": "例 6.2.4 的异步时序逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1f27a11c22b4d4d07252776c11b62b3e794edd43ed1dac8fcbd11be899c422dd.jpg"
+  },
+  {
+    "key": "图6.2.11|images/f1ab928ad9bc4ed5926e094e10f17f5c8269343380b655ad26c0b4b4bd40143a.jpg",
+    "figure_id": "图6.2.11",
+    "caption": "图6.2.10电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f1ab928ad9bc4ed5926e094e10f17f5c8269343380b655ad26c0b4b4bd40143a.jpg"
+  },
+  {
+    "key": "图6.3.1|images/914e9f5d0684a8ecc11469ef1910148b99c607b8d4b68081df93039f2e5e6f2e.jpg",
+    "figure_id": "图6.3.1",
+    "caption": "用 D 触发器构成的移位寄存器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\914e9f5d0684a8ecc11469ef1910148b99c607b8d4b68081df93039f2e5e6f2e.jpg"
+  },
+  {
+    "key": "图6.3.2|images/df5f5bf0b2b80144509ddce9f0092bdb0f7f0f16464c224a75a2ecaf7e8dea51.jpg",
+    "figure_id": "图6.3.2",
+    "caption": "图6.3.1电路的电压波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\df5f5bf0b2b80144509ddce9f0092bdb0f7f0f16464c224a75a2ecaf7e8dea51.jpg"
+  },
+  {
+    "key": "图6.3.3|images/b4bb5b7ca539f472c86d2f28b2a3778b399ad55cdfc1447afce544e53486baf5.jpg",
+    "figure_id": "图6.3.3",
+    "caption": "用 JK 触发器构成的移位寄存器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b4bb5b7ca539f472c86d2f28b2a3778b399ad55cdfc1447afce544e53486baf5.jpg"
+  },
+  {
+    "key": "图6.3.4|images/2e1d2b3f0ad2d3edc061c91b0fce6d681db2d9c95da53a254430ce15d4ae7c6e.jpg",
+    "figure_id": "图6.3.4",
+    "caption": "双向移位寄存器 74HC194A 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2e1d2b3f0ad2d3edc061c91b0fce6d681db2d9c95da53a254430ce15d4ae7c6e.jpg"
+  },
+  {
+    "key": "图6.3.5|images/d5da7e1a8cc2b96d6a4e00a478fdeed46047ec3fb04fb08033a11c3ca6238617.jpg",
+    "figure_id": "图6.3.5",
+    "caption": "用两片 74HC194A 接成 8 位双向移位寄存器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d5da7e1a8cc2b96d6a4e00a478fdeed46047ec3fb04fb08033a11c3ca6238617.jpg"
+  },
+  {
+    "key": "图6.3.6|images/e705bea54b503f0d46ea7028c74086d57544912046ccabcc8fb8415e2e117b60.jpg",
+    "figure_id": "图6.3.6",
+    "caption": "例6.3.1的电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e705bea54b503f0d46ea7028c74086d57544912046ccabcc8fb8415e2e117b60.jpg"
+  },
+  {
+    "key": "图6.3.7|images/77dcbbe57f2241abfa4f8698e60def40126a529a947b0fae5355bafa68169caa.jpg",
+    "figure_id": "图6.3.7",
+    "caption": "例6.3.1电路的波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\77dcbbe57f2241abfa4f8698e60def40126a529a947b0fae5355bafa68169caa.jpg"
+  },
+  {
+    "key": "图6.3.8(a)|images/ba5fc24674e4d9aea6dbbb3b41944bf728ed769cea3b24f33e0d44ca9a5bb89f.jpg",
+    "figure_id": "图6.3.8(a)",
+    "caption": "所示电路就是按式(6.3.1)接成的 4 位二进制同步加法计数器。由图可见, 各触发器的驱动方程为 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ba5fc24674e4d9aea6dbbb3b41944bf728ed769cea3b24f33e0d44ca9a5bb89f.jpg"
+  },
+  {
+    "key": "图6.3.8(b)|images/01faea9ba5eeb528fd0acd71e8e128837c774783f5c8ff48d0c1faf3dc8dc965.jpg",
+    "figure_id": "图6.3.8(b)",
+    "caption": "所示电路就是按式(6.3.1)接成的 4 位二进制同步加法计数器。由图可见, 各触发器的驱动方程为 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\01faea9ba5eeb528fd0acd71e8e128837c774783f5c8ff48d0c1faf3dc8dc965.jpg"
+  },
+  {
+    "key": "图6.3.9|images/d6047ef22f1185dd678fdda9e65cbe9a1f7e133e9562bec77c5922d5ce94487f.jpg",
+    "figure_id": "图6.3.9",
+    "caption": "图 6.3.8 电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d6047ef22f1185dd678fdda9e65cbe9a1f7e133e9562bec77c5922d5ce94487f.jpg"
+  },
+  {
+    "key": "图6.3.10|images/8c9398007bbd5389d4e99cad2c90c857a73f984606b4cb2b343f547477688cec.jpg",
+    "figure_id": "图6.3.10",
+    "caption": "图6.3.8电路的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8c9398007bbd5389d4e99cad2c90c857a73f984606b4cb2b343f547477688cec.jpg"
+  },
+  {
+    "key": "图6.3.11|images/83a8cbe92453bea702c141f94312505544567cf9e5da134c50a9333ce16cb24a.jpg",
+    "figure_id": "图6.3.11",
+    "caption": "4 位同步二进制计数器 74161 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\83a8cbe92453bea702c141f94312505544567cf9e5da134c50a9333ce16cb24a.jpg"
+  },
+  {
+    "key": "图6.3.12|images/01b669482ccfd990a05379f26cb289f0c28bbe9a688e41c7bc5d6ae1227f48d4.jpg",
+    "figure_id": "图6.3.12",
+    "caption": "4 位同步二进制计数器的另一种结构形式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\01b669482ccfd990a05379f26cb289f0c28bbe9a688e41c7bc5d6ae1227f48d4.jpg"
+  },
+  {
+    "key": "图6.3.13|images/448ba52b0e4e95c7cb1714ddcd3952962036a1644e8b8fc944879a0522821e04.jpg",
+    "figure_id": "图6.3.13",
+    "caption": "用 T 触发器接成的同步二进制减法计数器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\448ba52b0e4e95c7cb1714ddcd3952962036a1644e8b8fc944879a0522821e04.jpg"
+  },
+  {
+    "key": "图6.3.14|images/93d973474c444d49bdfcc28eda4e790432ea86ff56ebb03b1dd57f213f45f4cb.jpg",
+    "figure_id": "图6.3.14",
+    "caption": "单时钟同步十六进制加/减计数器 74LS191 的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\93d973474c444d49bdfcc28eda4e790432ea86ff56ebb03b1dd57f213f45f4cb.jpg"
+  }
+]

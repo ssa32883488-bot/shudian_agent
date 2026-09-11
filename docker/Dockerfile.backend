@@ -1,0 +1,45 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential libpq-dev curl \
+    nodejs npm \
+    openjdk-21-jre-headless \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    && pip install --no-cache-dir minio -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+COPY backend/app ./app
+COPY backend/alembic ./alembic
+COPY backend/alembic.ini .
+COPY backend/scripts ./scripts
+COPY data/kg /app/kg
+COPY data/ingest_graph.py /app/ingest_graph.py
+COPY runtime /app/runtime
+
+# Node workbench 依赖（node_modules 不进 Git）
+RUN cd /app/runtime/netlist_workbench && npm ci --omit=dev \
+    && cd /app/runtime/schematex_workbench && npm ci --omit=dev
+
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
+ENV DRAW_RUNTIME_ROOT=/app/runtime
+ENV NODE_BIN=node
+# MSI：构建前把 Digital.jar 放到 backend/app/tools/draw/digital_dig/vendor/，或运行时设 DIGITAL_JAR
+ENV DIGITAL_JAR=/app/app/tools/draw/digital_dig/vendor/Digital.jar
+
+EXPOSE 8000
+
+# 启动前自检（无 Digital.jar 时 MSI 会 FAIL，但服务仍启动；部署方应挂载 jar）
+CMD ["sh", "-c", "python -m scripts.check_draw_runtime || true; \
+  python -c 'from app.db import init_db; init_db()' && \
+  python -c \"import json,shutil; from pathlib import Path; \
+src=Path('/app/kg/path_graph.json'); dst=Path('/app/data/knowledge_graph.json'); \
+dst.parent.mkdir(parents=True, exist_ok=True); \
+shutil.copy(src,dst) if src.exists() else None; print('kg ready')\" && \
+  python -m scripts.seed_questions && \
+  python -m scripts.seed_teacher && \
+  uvicorn app.main:app --host 0.0.0.0 --port 8000"]

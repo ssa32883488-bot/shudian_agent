@@ -1,0 +1,86 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "encoder_3bit",
+  "inputs": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6",
+    "I7"
+  ],
+  "gates": {
+    "y2a": {
+      "type": "OR",
+      "inputs": [
+        "I4",
+        "I5"
+      ]
+    },
+    "y2b": {
+      "type": "OR",
+      "inputs": [
+        "I6",
+        "I7"
+      ]
+    },
+    "Y2": {
+      "type": "OR",
+      "inputs": [
+        "y2a",
+        "y2b"
+      ]
+    },
+    "y1a": {
+      "type": "OR",
+      "inputs": [
+        "I2",
+        "I3"
+      ]
+    },
+    "y1b": {
+      "type": "OR",
+      "inputs": [
+        "I6",
+        "I7"
+      ]
+    },
+    "Y1": {
+      "type": "OR",
+      "inputs": [
+        "y1a",
+        "y1b"
+      ]
+    },
+    "y0a": {
+      "type": "OR",
+      "inputs": [
+        "I1",
+        "I3"
+      ]
+    },
+    "y0b": {
+      "type": "OR",
+      "inputs": [
+        "I5",
+        "I7"
+      ]
+    },
+    "Y0": {
+      "type": "OR",
+      "inputs": [
+        "y0a",
+        "y0b"
+      ]
+    }
+  },
+  "outputs": {
+    "Y2": "Y2",
+    "Y1": "Y1",
+    "Y0": "Y0"
+  },
+  "notes": "总线型编码器；版式难"
+}

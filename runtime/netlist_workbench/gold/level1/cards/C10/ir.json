@@ -1,0 +1,123 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "mux_74hc153_approx",
+  "inputs": [
+    "A0",
+    "A1",
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "Sn"
+  ],
+  "gates": {
+    "nA0": {
+      "type": "NOT",
+      "inputs": [
+        "A0"
+      ]
+    },
+    "nA1": {
+      "type": "NOT",
+      "inputs": [
+        "A1"
+      ]
+    },
+    "nSn": {
+      "type": "NOT",
+      "inputs": [
+        "Sn"
+      ]
+    },
+    "m0a": {
+      "type": "AND",
+      "inputs": [
+        "D0",
+        "nA0"
+      ]
+    },
+    "m0": {
+      "type": "AND",
+      "inputs": [
+        "m0a",
+        "nA1"
+      ]
+    },
+    "m1a": {
+      "type": "AND",
+      "inputs": [
+        "D1",
+        "A0"
+      ]
+    },
+    "m1": {
+      "type": "AND",
+      "inputs": [
+        "m1a",
+        "nA1"
+      ]
+    },
+    "m2a": {
+      "type": "AND",
+      "inputs": [
+        "D2",
+        "nA0"
+      ]
+    },
+    "m2": {
+      "type": "AND",
+      "inputs": [
+        "m2a",
+        "A1"
+      ]
+    },
+    "m3a": {
+      "type": "AND",
+      "inputs": [
+        "D3",
+        "A0"
+      ]
+    },
+    "m3": {
+      "type": "AND",
+      "inputs": [
+        "m3a",
+        "A1"
+      ]
+    },
+    "s01": {
+      "type": "OR",
+      "inputs": [
+        "m0",
+        "m1"
+      ]
+    },
+    "s23": {
+      "type": "OR",
+      "inputs": [
+        "m2",
+        "m3"
+      ]
+    },
+    "sum": {
+      "type": "OR",
+      "inputs": [
+        "s01",
+        "s23"
+      ]
+    },
+    "Y": {
+      "type": "AND",
+      "inputs": [
+        "sum",
+        "nSn"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "Y"
+  },
+  "notes": "单路 4 选 1（课本双路）；TG 树简化为 AND-OR"
+}

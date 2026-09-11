@@ -1,0 +1,40 @@
+{
+  "id": "C09",
+  "fig_id": "4.4.9",
+  "caption": "二-十进制译码器74HC42",
+  "image": "../../textbook_figures/logic_dag/fig_4_4_9.jpg",
+  "combinational": false,
+  "sim_ok": false,
+  "sim_reason": "msi_unsupported",
+  "sim_rows": 0,
+  "sim_samples": [],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": false,
+  "self_grade": "SELF_FAIL",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": false,
+      "detail": "msi_unsupported"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": false,
+      "detail": "fallback=none high=D"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=7 ir_gates=8"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=6125"
+    }
+  ],
+  "multi_gates": 0,
+  "fallback_splits": 0,
+  "notes": "BCD 译码器总线图 → C/B"
+}

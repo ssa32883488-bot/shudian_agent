@@ -1,0 +1,18 @@
+{
+  "id": "W10",
+  "bucket": "waveform",
+  "fig_id": "6.3.7",
+  "caption": "例6.3.1电路的波形图",
+  "image": "../../textbook_figures/timing_wave/fig_6_3_7.jpg",
+  "image_exists": true,
+  "tier_guess": "C",
+  "ir_schema": "wave_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "svg_timing_textbook",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_batch_v2",
+  "reviewed_at": "2026-08-29T15:50:00.000Z",
+  "notes": "wave_ir 教材风；对照课本波形轴与电平"
+}

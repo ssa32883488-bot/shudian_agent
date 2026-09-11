@@ -1,0 +1,95 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "F01": {
+      "ports": {
+        "VI1": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "VI2": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "VO1": {
+          "direction": "output",
+          "bits": [
+            4
+          ]
+        },
+        "VO2": {
+          "direction": "output",
+          "bits": [
+            5
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NOR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              5
+            ],
+            "Y": [
+              4
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NOR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              5
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "VI1": {
+          "bits": [
+            2
+          ]
+        },
+        "VI2": {
+          "bits": [
+            3
+          ]
+        },
+        "G1": {
+          "bits": [
+            4
+          ]
+        },
+        "G2": {
+          "bits": [
+            5
+          ]
+        }
+      }
+    }
+  }
+}

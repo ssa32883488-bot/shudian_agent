@@ -1,0 +1,17 @@
+﻿Let's break down each gate **left-to-right, top-to-bottom**, as requested:
+
+### 1. Left Column (NOT Gates, top 鈫?bottom):
+| Gate # | Type | Exact Input Signals |
+|--------|------|---------------------|
+| 1 | **NOT Inverter** | $R$ (the input signal R) |
+| 2 | **NOT Inverter** | $A$ (the input signal A) |
+| 3 | **NOT Inverter** | $G$ (the input signal G) |
+
+---
+
+### 2. Middle Column (NAND Gates, top 鈫?bottom):
+| Gate # | Type | Exact Input Signals |
+|--------|------|---------------------|
+| 4 | **NAND (2-input)** | $R$, $\overline{A}$ (complement of A, output of Gate 2) |
+| 5 | **NAND (2-input)** | $A$, $\overline{G}$ (complement of G, output of Gate 3) |
+| 6 | **NAND (2-input

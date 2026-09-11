@@ -1,0 +1,80 @@
+{
+  "schema_version": "tier_b_acceptance_v1",
+  "accepted_at": "2026-09-02T13:37:12+08:00",
+  "reviewer": "user",
+  "textbook": "阎石《数字电子技术基础》七段数码管 · 特性曲线",
+  "pipeline": {
+    "workbench": "shudian_agent/backend",
+    "tools": [
+      "app/tools/draw/truth_and_misc.py::draw_seven_seg",
+      "app/tools/draw/char_curve_mpl.py::draw_char_curve"
+    ],
+    "agent_tools": [
+      "draw_seven_seg",
+      "draw_char_curve"
+    ],
+    "seven_seg": {
+      "engine": "svg_seven_seg",
+      "style": "textbook_white",
+      "digit": "0-9 共阴点亮"
+    },
+    "char_curve": {
+      "engine": "matplotlib_vtc",
+      "backend": "matplotlib",
+      "curves": [
+        "ttl_vtc",
+        "cmos_vtc"
+      ],
+      "axis": "实际电压数值（V），非 VDD 符号刻度"
+    },
+    "rebuild": ".venv/Scripts/python.exe scripts/build_seven_curve_gallery.py",
+    "gallery": "gold/tier_b/seven_curve/review_gallery.html"
+  },
+  "limits": {
+    "seven_seg": "点亮示意；外形引脚图不生成（用课本扫描）",
+    "char_curve": "仅 ttl_vtc / cmos_vtc；无施密特/二极管/MOS 族曲线",
+    "char_curve_note": "参数示意，非器件实测"
+  },
+  "cards": [
+    {
+      "id": "SG01",
+      "kind": "seven_seg",
+      "title": "七段管外形 vs 数字5点亮",
+      "textbook": "图 4.4.10 · BS201A 外形",
+      "tool": "draw_seven_seg",
+      "status": "OK"
+    },
+    {
+      "id": "SG02",
+      "kind": "seven_seg",
+      "title": "显示数字 0",
+      "textbook": "（无单独扫描图）",
+      "tool": "draw_seven_seg",
+      "status": "OK"
+    },
+    {
+      "id": "SG03",
+      "kind": "seven_seg",
+      "title": "显示数字 8",
+      "textbook": "（全段亮）",
+      "tool": "draw_seven_seg",
+      "status": "OK"
+    },
+    {
+      "id": "CV01",
+      "kind": "char_curve",
+      "title": "TTL 电压传输特性 VTC",
+      "textbook": "图 3.4.10",
+      "tool": "draw_char_curve",
+      "status": "OK"
+    },
+    {
+      "id": "CV02",
+      "kind": "char_curve",
+      "title": "CMOS 反相器 VTC",
+      "textbook": "图 7.4.7 · 工作点示意",
+      "tool": "draw_char_curve",
+      "status": "OK"
+    }
+  ]
+}

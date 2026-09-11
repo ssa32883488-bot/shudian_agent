@@ -1,0 +1,14 @@
+logic "ex_4_3_1_andor" style: iec
+input R, A, G
+output Z
+nR = NOT(R)
+nA = NOT(A)
+nG = NOT(G)
+t1 = AND(R, A)
+t2 = AND(A, G)
+t3 = AND(R, G)
+t4a = AND(nR, nA)
+t4 = AND(t4a, nG)
+u1 = OR(t1, t2)
+u2 = OR(t3, t4)
+Z = OR(u1, u2)

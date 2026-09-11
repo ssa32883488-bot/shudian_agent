@@ -1,0 +1,15 @@
+﻿Based on the circuit diagram provided:
+
+**Gate Arrangement:**
+The diagram depicts a **Full Adder** circuit constructed using standard logic gates.
+
+1.  **Inputs:** There are three inputs labeled **A**, **B**, and **CI** (Carry In).
+2.  **First Stage:**
+    *   **XOR Gate 1:** Inputs **A** and **B** connect to the first XOR gate. The output is $(A \oplus B)$.
+    *   **AND Gate 1:** Inputs **A** and **B** also connect to a 2-input AND gate. The output is $(A \cdot B)$.
+3.  **Second Stage:**
+    *   **XOR Gate 2:** The output of the first XOR gate ($(A \oplus B)$) and the input **CI** feed into the second XOR gate.
+    *   **AND Gate 2:** The output of the first XOR gate ($(A \oplus B)$) and the input **CI** also connect to a second 2-input AND gate. The output is $((A \oplus B) \cdot CI)$.
+4.  **Third Stage (Carry Out Logic):**
+    *   **NOR Gate:** The outputs from the two AND gates ($(A \cdot B)$ and $((A \oplus B) \cdot CI)$) serve as inputs to a 2-input NOR gate. The output is $\overline{(A \cdot B) + ((A \oplus B) \cdot CI)}$.
+    *   **NOT Gate (Inverter):** The output of the NOR gate feeds into a NOT gate (inverter) to produce the final Carry Out (**CO

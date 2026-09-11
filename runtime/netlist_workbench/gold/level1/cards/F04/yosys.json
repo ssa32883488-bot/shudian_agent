@@ -1,0 +1,163 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "F04": {
+      "ports": {
+        "D": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [
+            7
+          ]
+        },
+        "Qn": {
+          "direction": "output",
+          "bits": [
+            8
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "Y": [
+              4
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              5
+            ],
+            "B": [
+              8
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c4": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              7
+            ],
+            "Y": [
+              8
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "D": {
+          "bits": [
+            2
+          ]
+        },
+        "CLK": {
+          "bits": [
+            3
+          ]
+        },
+        "nD": {
+          "bits": [
+            4
+          ]
+        },
+        "Sn": {
+          "bits": [
+            5
+          ]
+        },
+        "Rn": {
+          "bits": [
+            6
+          ]
+        },
+        "G1": {
+          "bits": [
+            7
+          ]
+        },
+        "G2": {
+          "bits": [
+            8
+          ]
+        }
+      }
+    }
+  }
+}

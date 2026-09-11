@@ -1,0 +1,22 @@
+{
+  "图P3.7(a)|images/afc09a1769660d5feeb538ac93fe0f5832d66614b22c029157a76694a0a70ad9.jpg": "CMOS复合门：左为A、B、C逻辑级（PMOS上拉为A管与B–C串联管并联，NMOS下拉为A管与B∥C管串联），经右侧CMOS反相器得Y，实现Y=A(B+C)。",
+  "图P3.7(b)|images/b42eea28b147d6bd1a8f08e528504b217724cee360b98cb4edc0f65a5c90b23e.jpg": "多管CMOS静态组合电路：输入A、B、C经复杂互补PMOS/NMOS串并联网络，再经两级CMOS反相器缓冲后输出Y，顶接VDD、底接地。",
+  "图P3.7(c)|images/24a2a7770b96886ccf80fa24d8acd983d404474be3174ebfa95553ba367d7f9e.jpg": "CMOS复合逻辑：左有A/B与C/D两组类与非结构及控制端NH，中间组合后经三级CMOS反相器缓冲，右侧输出Y，电源为VDD。",
+  "图P3.7(d)|images/468587de684a4c47172cb9374f04a28c949f443ae2334491d8c17aa6b23ce58b.jpg": "传输门异或非：反相器T1/T2、T3/T4与传输门TG1、TG2；A控制互补选通，使Y在B与B'间切换，实现XNOR。",
+  "图P3.8(a)|images/979989ef4696a005c95056b5bbf795176d00fcf64a001dde2ce8eb7f53794bf3.jpg": "两OD与非门（输入A/B与C/D）输出并联，经RL上拉至VDD得Y1；右侧大与门符号示意线与关系。",
+  "图P3.8(b)|images/bc965ada9499069f19f9a5acce490708aa9eb9da18de20e88e726a7297acf496.jpg": "三输入与非门(A,B,C)驱动带▽标志的三态反相器，使能端接D，输出为Y2。",
+  "图P3.8(c)|images/2c0a7d0372f9e44db28dfc08d48abbbdd262764627720cbe3c6ff88406227c1d.jpg": "时序波形：A为约50%占空比方波；B约为A的二分频，C、D与B同频但相位错开，竖虚线标边沿对齐关系。",
+  "图P3.9|images/f723b12237c987c44ca09ad6858bdff4a9eaeb1e7e78c2280f4fd2563fa2ea5f.jpg": "两只74HC03 OD与非门G1、G2线与，经RL上拉至VDD得vo；再驱动三只74HC27三输入或非门G3–G5（各输入短接作反相负载）。",
+  "图P3.10|images/bd2dc1c6752e33a56c371f184c32ad5d35ebf10683330d9cf87f557a49ebba60.jpg": "四只74HC03 OD与非门G1–G4输出线与，经RL上拉得vo；负载为两只74HC20四输入与非门G5/G6（输入全并）与两只74HC04反相器G7/G8。",
+  "图P3.11|images/da6f612e4860620215a11f98a91597efde8206262a4ef4001ad26ad04fbd67a0.jpg": "八组门电路Y1–Y8：含与非、或、或非、反相、同或及与或非；输入分别接VCC、VIH/VIL、电阻（51Ω、10kΩ、5.1kΩ等）或悬空。",
+  "图P3.12|images/b8a66f110071e9752e4e984003275bb664c45499b2826141412d71e857cdaca0.jpg": "四组输入处理：Y1或非门一输入VIL、另一10kΩ下拉；Y2与非门一输入VIH、另一51kΩ下拉；Y3两与门加或非；Y4两OD与非线与经RL上拉再驱与门。",
+  "图P3.13|images/af1758406801705755115b85b5958145e6053e5b9e2748a4a6389e3904812bf2.jpg": "二输入与非门：输入vI1、vI2，输出Y；vI2对地之间接电压表V以监测该端电平。",
+  "图P3.16|images/58bb4e0f496b10f624c67149d9c473a6f47fc00f3f2664d4a1165dd0b1bdf551.jpg": "扇出示意：驱动门GM为二输入与非门，输出总线并联驱动多个同类与非门负载（各门两输入短接），中间虚线表示省略若干负载。",
+  "图P3.17|images/5ced144d34c6909c283ffaa241952d0351aec067c5d4b3da4bffbdee26615708.jpg": "扇出示意：驱动门GM为二输入或非门，输出并联驱动多个或非门负载（各门两输入短接），虚线表示省略的中间负载。",
+  "图P3.18|images/b66223ae489544b57f3059c1dd4aeb77cb5059b2b87ca99f45b8847df5595172.jpg": "VCC=5V经R1与开关S，再经R2–C的RC网络，同时驱动五个并联反相器G1–G5的输入。",
+  "图P3.19|images/eba440a6166cc65294f5aa2bad107b70df98441458b7b058cebef49f69908c31.jpg": "两只OC与非门（输入各短接接vI1、vI2）输出并联，经RL上拉至VCC得vo，箭头标负载电流iL。",
+  "图P3.20|images/0093ffbd5f8fe0062dca5e326b4ec5d5c98e6ed8ab9dccc8f5a9707e935b9c78.jpg": "三只OC与非门G1–G3线与经RL上拉得vo，再驱动后级三只与非门G4–G6。",
+  "图P3.21|images/748242f30e5089360cb875c3e01f616ec371b97e9c1b53770e9a5795094c8897.jpg": "两只OC与非门G1、G2线与经RL上拉至VCC，驱动三只或非门G3–G5（各输入短接作反相负载）。",
+  "图P3.22|images/5ae1d7796b4cd3a56da6fe351205611e719021ee3e3b00a343a22648eb23076c.jpg": "OC与非门（输入短接接vI）经R1上拉至12V，再经R2/R3分压驱动NPN管T；集电极接感性负载（并续流二极管D）至12V，R3另接VEE=-8V。",
+  "图P3.23|images/8d02c3f6a75b81c9b1ca1311619f857bb4e22d80939e86b2a5b5b121c54cf585.jpg": "OC与非门G1驱动NPN：基极经RB上拉+5V，集电极经4.7kΩ接+5V得vc；vc驱动反相器G2、与非门G3/G4及或非门G5（后三者输入短接）。"
+}

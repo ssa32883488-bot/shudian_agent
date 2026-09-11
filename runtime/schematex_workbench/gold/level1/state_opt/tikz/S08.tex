@@ -1,0 +1,26 @@
+% state_ir_v1 → TikZ (generated)
+\begin{document}
+\begin{tikzpicture}[
+  x=1pt, y=-1pt,
+  >=Stealth,
+  every node/.style={font=\rmfamily},
+  state/.style={circle, draw=black!75, line width=0.95pt, minimum size=56.0pt, inner sep=0pt, font=\bfseries},
+  every edge/.style={draw=black!75, line width=0.95pt},
+  edge label/.style={font=\rmfamily, fill=white, inner sep=1pt}
+]
+  \node[state] (sS0) at (70, 70) {S0};
+  \node[state] (sS1) at (220, 70) {S1};
+  \node[state] (sS2) at (145, 210) {S2};
+  \draw[->] (sS0) edge[loop left, min distance=60pt] node[edge label, left] {00/00} (sS0);
+  \draw[->] (sS0) .. controls (145.0, 38.0) .. node[edge label, above] {01/00} (sS1);
+  \draw[->] (sS0) .. controls (80.3, 156.9) .. node[edge label, left] {10/00} (sS2);
+  \draw[->] (sS1) edge[loop right, min distance=60pt] node[edge label, right] {00/00} (sS1);
+  \draw[->] (sS1) -- node[edge label, above left] {01/00} (sS2);
+  \draw[->] (sS1) .. controls (145.0, 102.0) .. node[edge label, below] {10/10} (sS0);
+  \draw[->] (sS2) edge[loop above, min distance=60pt] node[edge label, above] {00/00} (sS2);
+  \draw[->] (sS2) .. controls (134.7, 123.1) .. node[edge label, right] {01/10} (sS0);
+  \draw[->] (sS2) .. controls (134.7, 123.1) .. node[edge label, right] {10/11} (sS0);
+  \node[circle, draw=black!75, line width=0.95pt, minimum size=72pt, inner sep=0pt] (legend) at (320, 140) {};
+  \node at (320, 154) {X/Y};
+\end{tikzpicture}
+\end{document}

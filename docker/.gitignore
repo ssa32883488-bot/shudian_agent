@@ -1,0 +1,5 @@
+# 本地密钥，勿提交
+.env
+.env.local
+!.env.example
+!.env.slim

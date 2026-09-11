@@ -1,0 +1,131 @@
+{
+  "id": "C01",
+  "fig_id": "4.3.3",
+  "caption": "例4.3.1逻辑图之一",
+  "image": "../../textbook_figures/logic_dag/fig_4_3_3.jpg",
+  "combinational": true,
+  "sim_ok": true,
+  "sim_reason": "ok",
+  "sim_rows": 8,
+  "sim_samples": [
+    {
+      "inputs": {
+        "R": 0,
+        "A": 0,
+        "G": 0
+      },
+      "outputs": {
+        "Z": 1
+      }
+    },
+    {
+      "inputs": {
+        "R": 0,
+        "A": 0,
+        "G": 1
+      },
+      "outputs": {
+        "Z": 0
+      }
+    },
+    {
+      "inputs": {
+        "R": 0,
+        "A": 1,
+        "G": 0
+      },
+      "outputs": {
+        "Z": 0
+      }
+    },
+    {
+      "inputs": {
+        "R": 0,
+        "A": 1,
+        "G": 1
+      },
+      "outputs": {
+        "Z": 1
+      }
+    },
+    {
+      "inputs": {
+        "R": 1,
+        "A": 0,
+        "G": 0
+      },
+      "outputs": {
+        "Z": 0
+      }
+    },
+    {
+      "inputs": {
+        "R": 1,
+        "A": 0,
+        "G": 1
+      },
+      "outputs": {
+        "Z": 1
+      }
+    },
+    {
+      "inputs": {
+        "R": 1,
+        "A": 1,
+        "G": 0
+      },
+      "outputs": {
+        "Z": 1
+      }
+    },
+    {
+      "inputs": {
+        "R": 1,
+        "A": 1,
+        "G": 1
+      },
+      "outputs": {
+        "Z": 1
+      }
+    }
+  ],
+  "render_ok": true,
+  "render_error": null,
+  "self_ok": true,
+  "self_grade": "SELF_OK",
+  "self_checks": [
+    {
+      "id": "SIM",
+      "ok": true,
+      "detail": "rows=8"
+    },
+    {
+      "id": "SYMBOL_MULTI",
+      "ok": true,
+      "detail": "multi_gates=2"
+    },
+    {
+      "id": "CELL_COUNT",
+      "ok": true,
+      "detail": "cells=8 ir_gates=8"
+    },
+    {
+      "id": "RENDER_SVG",
+      "ok": true,
+      "detail": "bytes=7845"
+    },
+    {
+      "id": "PEER_EQ",
+      "ok": true,
+      "detail": "eq_C02 rows=8"
+    },
+    {
+      "id": "EVAL_SMOKE",
+      "ok": true,
+      "detail": "ok"
+    }
+  ],
+  "multi_gates": 2,
+  "fallback_splits": 0,
+  "notes": "课本：t4 三输入与、Z 四输入或；Z=RA+AG+RG+R'A'G'"
+}

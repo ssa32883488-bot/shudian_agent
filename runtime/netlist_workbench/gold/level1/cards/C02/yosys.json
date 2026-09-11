@@ -1,0 +1,244 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "C02": {
+      "ports": {
+        "R": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "G": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "Z": {
+          "direction": "output",
+          "bits": [
+            12
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              8
+            ]
+          }
+        },
+        "c4": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              9
+            ]
+          }
+        },
+        "c5": {
+          "type": "$_NAND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              10
+            ]
+          }
+        },
+        "c6": {
+          "type": "$_NAND3_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input"
+          },
+          "connections": {
+            "Y": [
+              11
+            ],
+            "A": [
+              5
+            ],
+            "B": [
+              6
+            ],
+            "C": [
+              7
+            ]
+          }
+        },
+        "c7": {
+          "type": "$_NAND4_",
+          "port_directions": {
+            "Y": "output",
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input"
+          },
+          "connections": {
+            "Y": [
+              12
+            ],
+            "A": [
+              8
+            ],
+            "B": [
+              9
+            ],
+            "C": [
+              10
+            ],
+            "D": [
+              11
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "R": {
+          "bits": [
+            2
+          ]
+        },
+        "A": {
+          "bits": [
+            3
+          ]
+        },
+        "G": {
+          "bits": [
+            4
+          ]
+        },
+        "nR": {
+          "bits": [
+            5
+          ]
+        },
+        "nA": {
+          "bits": [
+            6
+          ]
+        },
+        "nG": {
+          "bits": [
+            7
+          ]
+        },
+        "n1": {
+          "bits": [
+            8
+          ]
+        },
+        "n2": {
+          "bits": [
+            9
+          ]
+        },
+        "n3": {
+          "bits": [
+            10
+          ]
+        },
+        "n4": {
+          "bits": [
+            11
+          ]
+        },
+        "Z": {
+          "bits": [
+            12
+          ]
+        }
+      }
+    }
+  }
+}

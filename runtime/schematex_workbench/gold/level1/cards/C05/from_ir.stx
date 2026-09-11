@@ -1,0 +1,7 @@
+logic "mux2_1" style: iec
+input A, SEL, B
+output Y
+G1 = AND(A, SEL)
+G2 = NOT(SEL)
+G3 = AND(G2, B)
+Y = OR(G1, G3)

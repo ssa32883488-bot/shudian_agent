@@ -1,0 +1,6 @@
+logic "nor_aoi_2_9_5" style: iec
+input B, C, A, Cn
+output Y
+G1 = NOR(B, C)
+G2 = NOR(A, Cn)
+Y = NOR(G1, G2)

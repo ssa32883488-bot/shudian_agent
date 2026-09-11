@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图8.4.1(a)|images/2ad9c66a43431c3bdff39d0e4c2aa6cab4698bd10c2737b90941bfa4acd26f4c.jpg",
+    "figure_id": "图8.4.1(a)",
+    "caption": "对输入模拟信号的取样 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2ad9c66a43431c3bdff39d0e4c2aa6cab4698bd10c2737b90941bfa4acd26f4c.jpg"
+  },
+  {
+    "key": "图8.4.1(b)|images/b33ee69a37a6d6d514de296b717f7058a075d56c245640b54fa6116abcb3e27e.jpg",
+    "figure_id": "图8.4.1(b)",
+    "caption": "对输入模拟信号的取样 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b33ee69a37a6d6d514de296b717f7058a075d56c245640b54fa6116abcb3e27e.jpg"
+  },
+  {
+    "key": "图8.4.2|images/5bc92b4ba446eede63f7a115dbff82ea72b291f79660d0d802d9373a4c12c423.jpg",
+    "figure_id": "图8.4.2",
+    "caption": "还原取样信号所用滤波器的频率特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5bc92b4ba446eede63f7a115dbff82ea72b291f79660d0d802d9373a4c12c423.jpg"
+  },
+  {
+    "key": "图8.4.4|images/331e01b78a1f44766a2c0c7c9ccc4bf2e9300cab9c22161086cd9a34837ebcbe.jpg",
+    "figure_id": "图8.4.4",
+    "caption": "对双极性模拟电压的量化和编码",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\331e01b78a1f44766a2c0c7c9ccc4bf2e9300cab9c22161086cd9a34837ebcbe.jpg"
+  },
+  {
+    "key": "图8.5.1|images/e52957557cfb24900835f331f20541a0d7fc299f6210098d863bedf11b4ddf4b.jpg",
+    "figure_id": "图8.5.1",
+    "caption": "取样-保持电路的基本形式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e52957557cfb24900835f331f20541a0d7fc299f6210098d863bedf11b4ddf4b.jpg"
+  },
+  {
+    "key": "图8.5.2(a)|images/b2c746ed54f341ab6f9482b1bee439ffd8720cb4c36cb23988b4163b32dea2fd.jpg",
+    "figure_id": "图8.5.2(a)",
+    "caption": "集成取样-保持电路 LF398 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b2c746ed54f341ab6f9482b1bee439ffd8720cb4c36cb23988b4163b32dea2fd.jpg"
+  },
+  {
+    "key": "图8.5.2(b)|images/b46d1d8d748f1c673ad365aad4db0726e54ed82095b4daa64f8b556640c888b5.jpg",
+    "figure_id": "图8.5.2(b)",
+    "caption": "集成取样-保持电路 LF398 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b46d1d8d748f1c673ad365aad4db0726e54ed82095b4daa64f8b556640c888b5.jpg"
+  },
+  {
+    "key": "图8.6.1|images/36b292129b35739f4047353ed7775a586c0180f12d690eab1ad03f2a01c3fc94.jpg",
+    "figure_id": "图8.6.1",
+    "caption": "并联比较型 A/D 转换器(闪速 A/D 转换器)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\36b292129b35739f4047353ed7775a586c0180f12d690eab1ad03f2a01c3fc94.jpg"
+  },
+  {
+    "key": "图8.6.2|images/ab03f54fc859dfb16c15c4e3958774d3aba8587b90a927c8f1bcd4b580906c02.jpg",
+    "figure_id": "图8.6.2",
+    "caption": "半闪速型 A/D 转换器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ab03f54fc859dfb16c15c4e3958774d3aba8587b90a927c8f1bcd4b580906c02.jpg"
+  },
+  {
+    "key": "图8.6.3|images/23e32bfc911a056ceb2c3cc83ef2fe0129a235b739d6f69cc6f991592b023bb8.jpg",
+    "figure_id": "图8.6.3",
+    "caption": "流水线型 A/D 转换器电路结构示意图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\23e32bfc911a056ceb2c3cc83ef2fe0129a235b739d6f69cc6f991592b023bb8.jpg"
+  },
+  {
+    "key": "图8.6.4|images/b8050a3605340a3157242b5f35b0aeeae246751bf7a937760826a1ada344f35a.jpg",
+    "figure_id": "图8.6.4",
+    "caption": "图 8.6.3 中第 1、2 级转换电路的结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b8050a3605340a3157242b5f35b0aeeae246751bf7a937760826a1ada344f35a.jpg"
+  },
+  {
+    "key": "图8.6.5|images/7846640f3680435e2195538ec85624254ec033301fb0752862f6c7dd747788a7.jpg",
+    "figure_id": "图8.6.5",
+    "caption": "流水线型 A/D 转换器输入、输出信号的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7846640f3680435e2195538ec85624254ec033301fb0752862f6c7dd747788a7.jpg"
+  },
+  {
+    "key": "图8.6.6|images/2e8d7271c8b84aa8c8a55a7bb0b179728695a396ac0de01377ae0f5896741c65.jpg",
+    "figure_id": "图8.6.6",
+    "caption": "逐次逼近型 A/D 转换器的电路结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2e8d7271c8b84aa8c8a55a7bb0b179728695a396ac0de01377ae0f5896741c65.jpg"
+  },
+  {
+    "key": "图8.6.7|images/d010623bb599931f5135fd4bca31885861454c9e0e00d69975b202f3483070c4.jpg",
+    "figure_id": "图8.6.7",
+    "caption": "3 位逐次逼近型 A/D 转换器的电路原理图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d010623bb599931f5135fd4bca31885861454c9e0e00d69975b202f3483070c4.jpg"
+  },
+  {
+    "key": "图8.6.8|images/a53a138bc1584337178ff6a09b86c347782c8523ebd1743fe7967dbefe3d6657.jpg",
+    "figure_id": "图8.6.8",
+    "caption": "双积分型 A/D 转换器的结构框图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a53a138bc1584337178ff6a09b86c347782c8523ebd1743fe7967dbefe3d6657.jpg"
+  },
+  {
+    "key": "图8.6.9|images/6707d847197683028611cec3c3eab1634230a3160dcc6bcea32085bb01cd88c5.jpg",
+    "figure_id": "图8.6.9",
+    "caption": "双积分型 A/D 转换器的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6707d847197683028611cec3c3eab1634230a3160dcc6bcea32085bb01cd88c5.jpg"
+  },
+  {
+    "key": "图8.6.10|images/89bd1210a3e43f73f560d7523d717894a0f040c03cc5470802d3e8e3b58143d6.jpg",
+    "figure_id": "图8.6.10",
+    "caption": "双积分型 A/D 转换器的控制逻辑电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\89bd1210a3e43f73f560d7523d717894a0f040c03cc5470802d3e8e3b58143d6.jpg"
+  },
+  {
+    "key": "图8.6.11|images/9a44fef2984d2d90d07228f944dc3ae868152989d7ed1981c9b74b724715055b.jpg",
+    "figure_id": "图8.6.11",
+    "caption": "Σ-Δ 型 A/D 转换器的方块图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9a44fef2984d2d90d07228f944dc3ae868152989d7ed1981c9b74b724715055b.jpg"
+  },
+  {
+    "key": "图8.6.12|images/520eacd2e309041c77ddbfde3046897204bab3a576c1102ffbcd045d105c6801.jpg",
+    "figure_id": "图8.6.12",
+    "caption": "$\\Sigma-\\Delta$ 型 A/D 转换器的电路结构",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\520eacd2e309041c77ddbfde3046897204bab3a576c1102ffbcd045d105c6801.jpg"
+  },
+  {
+    "key": "图8.6.13(a)|images/083e6c68fccf60529562c810d706e40fe2e58747d48e95829fc2f530d3b4001a.jpg",
+    "figure_id": "图8.6.13(a)",
+    "caption": "图 8.6.12 电路中各点的电压波形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\083e6c68fccf60529562c810d706e40fe2e58747d48e95829fc2f530d3b4001a.jpg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "content": "组合逻辑电路的输出仅由当前输入信号决定，电路中不含存储元件。（数字电子技术·第3章）",
+    "metadata": {"chapter": "第3章", "section": "3.1", "source": "教材占位"}
+  },
+  {
+    "content": "时序逻辑电路的输出不仅取决于当前输入，还取决于电路原来的状态，含有存储元件。（第5章）",
+    "metadata": {"chapter": "第5章", "section": "5.1", "source": "教材占位"}
+  },
+  {
+    "content": "卡诺图化简时，相邻的 1 应圈成 2 的幂次方个，且圈尽量大。（第4章）",
+    "metadata": {"chapter": "第4章", "section": "4.3", "source": "教材占位"}
+  },
+  {
+    "content": "竞争冒险是组合逻辑电路中因门电路延迟时间不同，在输入变化时输出出现瞬时错误毛刺的现象。（第3章）",
+    "metadata": {"chapter": "第3章", "section": "3.6", "source": "教材占位"}
+  },
+  {
+    "content": "D 触发器特性方程：Q* = D，在时钟有效沿采样 D 端输入。（第5章）",
+    "metadata": {"chapter": "第5章", "section": "5.3", "source": "教材占位"}
+  },
+  {
+    "content": "德摩根定律：\\overline{A+B} = \\overline{A}·\\overline{B}，\\overline{A·B} = \\overline{A}+\\overline{B}。（第2章）",
+    "metadata": {"chapter": "第2章", "section": "2.4", "source": "教材占位"}
+  }
+]

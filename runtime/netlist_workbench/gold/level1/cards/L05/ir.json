@@ -1,0 +1,98 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "pla_y123_b",
+  "inputs": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "gates": {
+    "nA": {
+      "type": "NOT",
+      "inputs": [
+        "A"
+      ]
+    },
+    "nB": {
+      "type": "NOT",
+      "inputs": [
+        "B"
+      ]
+    },
+    "nC": {
+      "type": "NOT",
+      "inputs": [
+        "C"
+      ]
+    },
+    "nD": {
+      "type": "NOT",
+      "inputs": [
+        "D"
+      ]
+    },
+    "t_acd": {
+      "type": "AND",
+      "inputs": [
+        "nA",
+        "nC",
+        "D"
+      ]
+    },
+    "t_bd": {
+      "type": "AND",
+      "inputs": [
+        "B",
+        "nD"
+      ]
+    },
+    "t_abc": {
+      "type": "AND",
+      "inputs": [
+        "A",
+        "nB",
+        "C"
+      ]
+    },
+    "t_acD": {
+      "type": "AND",
+      "inputs": [
+        "nA",
+        "C",
+        "D"
+      ]
+    },
+    "Y1": {
+      "type": "OR",
+      "inputs": [
+        "B",
+        "t_abc",
+        "t_acd"
+      ]
+    },
+    "Y2": {
+      "type": "OR",
+      "inputs": [
+        "t_acd",
+        "t_acD",
+        "t_bd"
+      ]
+    },
+    "Y3": {
+      "type": "OR",
+      "inputs": [
+        "t_acD",
+        "t_abc"
+      ]
+    }
+  },
+  "outputs": {
+    "Y1": "Y1",
+    "Y2": "Y2",
+    "Y3": "Y3"
+  },
+  "notes": "式(2.8.3)：Y1=B+AB'C+A'C'D；Y2=A'C'D+A'CD+BD'；Y3=A'CD+AB'C；积项独立竖轨"
+}

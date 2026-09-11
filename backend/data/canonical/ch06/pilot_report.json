@@ -1,0 +1,23 @@
+{
+  "chapter": "第06章 时序逻辑电路",
+  "sections": 47,
+  "blocks": 99,
+  "figures_textbook": 148,
+  "figures_keypoints": 26,
+  "exercises_merged": {
+    "matched": 35,
+    "missing_answer": [],
+    "extra_solutions": [],
+    "appendix_fallback": []
+  },
+  "chunks_total": 159,
+  "vision_updated": 176,
+  "orphan_figures": 0,
+  "orphan_figure_ids": [],
+  "chunks_by_type": {
+    "theory": 94,
+    "review": 12,
+    "example": 18,
+    "exercise_merged": 35
+  }
+}

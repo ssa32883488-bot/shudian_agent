@@ -1,0 +1,226 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "C07": {
+      "ports": {
+        "CI": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "A": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "Sum": {
+          "direction": "output",
+          "bits": [
+            6
+          ]
+        },
+        "Cout": {
+          "direction": "output",
+          "bits": [
+            11
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_XOR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_XOR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              5
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "B": [
+              2
+            ],
+            "Y": [
+              8
+            ]
+          }
+        },
+        "c4": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              2
+            ],
+            "Y": [
+              9
+            ]
+          }
+        },
+        "c5": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              7
+            ],
+            "B": [
+              8
+            ],
+            "Y": [
+              10
+            ]
+          }
+        },
+        "c6": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              10
+            ],
+            "B": [
+              9
+            ],
+            "Y": [
+              11
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "CI": {
+          "bits": [
+            2
+          ]
+        },
+        "A": {
+          "bits": [
+            3
+          ]
+        },
+        "B": {
+          "bits": [
+            4
+          ]
+        },
+        "XOR1": {
+          "bits": [
+            5
+          ]
+        },
+        "Sum": {
+          "bits": [
+            6
+          ]
+        },
+        "AND1": {
+          "bits": [
+            7
+          ]
+        },
+        "AND2": {
+          "bits": [
+            8
+          ]
+        },
+        "AND3": {
+          "bits": [
+            9
+          ]
+        },
+        "t1": {
+          "bits": [
+            10
+          ]
+        },
+        "Cout": {
+          "bits": [
+            11
+          ]
+        }
+      }
+    }
+  }
+}

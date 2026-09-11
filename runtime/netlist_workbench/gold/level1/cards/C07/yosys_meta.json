@@ -1,0 +1,58 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "XOR1",
+      "base": "XOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Sum",
+      "base": "XOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "AND1",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "AND2",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "AND3",
+      "base": "AND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "t1",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "Cout",
+      "base": "OR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    }
+  ],
+  "cellCount": 7,
+  "multiGates": 0,
+  "fallbackSplits": []
+}

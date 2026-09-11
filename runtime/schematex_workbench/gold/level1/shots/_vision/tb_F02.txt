@@ -1,0 +1,20 @@
+﻿Let's break down this **NAND SR Asynchronous, No-Clock Latch** with its labels, cross-coupling behavior, and operating states:
+
+1.  **Component & Label Definitions**
+    -   This is a bi-stable latch built from **2 cross-coupled NAND gates**: the output of each gate is fed back as an input to the other gate, creating a feedback loop that creates memory.
+    -   Inputs:
+        -   $\boldsymbol{S'_D}$ (Set Direct, active-low): When this input is low 0, it forces the latch into the *Set* state.
+        -   $\boldsymbol{R'_D}$ (Reset Direct, active-low): When this input is low 0, it forces the latch into the *Reset* state.
+    -   Outputs:
+        -   $\boldsymbol{Q}$: The primary output of the latch.
+        -   $\boldsymbol{Q'}$: The complementary output, always opposite to $Q$ in valid states.
+
+2.  **Cross-Coupling & Operating States**
+    The cross-linked feedback is what gives the latch its memory capability. Let's walk through all valid/invalid states:
+    -   **1. Set State ($S'_D = 0$, $R'_D = 1$):**
+        The top NAND gate has a 0 input, so its output $Q=1$ (any 0 input to a NAND gate forces a 1 output). This $Q=1$ feeds to the bottom NAND gate, which now has two 1 inputs, so $Q'=0$. This $Q'=0$ feeds back to the top NAND gate, reinforcing that $Q$ stays 1. This is a stable state: $Q=1$, $Q'=0$.
+    -   **2. Reset State ($S'_D = 1$, $R'_D = 0$):**
+        The bottom NAND gate has a 0 input, so $Q'=1$. This feeds to the top NAND gate, which now has two 1 inputs, so $Q=0$. This $Q=0$ feeds back to the bottom NAND, reinforcing $Q'=1$. This is a stable state: $Q=0$, $Q'=1$.
+    -   **3. Hold/No-Change State ($S'_D = 1$, $R'_D = 1$):**
+        Both inputs are 1. The latch retains its current state:
+        -   If $Q=1, Q'=0$: The top NAND gate receives $1$ (from $S'_D$) and $0$

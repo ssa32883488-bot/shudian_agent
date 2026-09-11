@@ -1,0 +1,429 @@
+{
+  "level": 1,
+  "target": 50,
+  "count": 50,
+  "generated_at": "2026-08-29T14:04:38.190Z",
+  "grade_enum": [
+    "PARSE_OK",
+    "RENDER_OK",
+    "TOPOLOGY_OK",
+    "TEXTBOOK_OK",
+    null
+  ],
+  "fail_reason_enum": [
+    "TOPOLOGY_ERROR",
+    "WRONG_GATE",
+    "MISSING_WIRE",
+    "EXTRA_WIRE",
+    "FANOUT_ERROR",
+    "JUNCTION_MISSING",
+    "CROSSING",
+    "LABEL_POSITION",
+    "SPACING",
+    "SYMBOL_STYLE",
+    "LAYOUT",
+    "UNSUPPORTED"
+  ],
+  "cards": [
+    {
+      "id": "L01",
+      "bucket": "basic_gates",
+      "fig_id": "2.5.2",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L02",
+      "bucket": "basic_gates",
+      "fig_id": "2.5.4",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L03",
+      "bucket": "basic_gates",
+      "fig_id": "2.5.5",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L04",
+      "bucket": "basic_gates",
+      "fig_id": "2.8.2",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L05",
+      "bucket": "basic_gates",
+      "fig_id": "2.8.4",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L06",
+      "bucket": "basic_gates",
+      "fig_id": "2.9.2",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L07",
+      "bucket": "basic_gates",
+      "fig_id": "2.9.3",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L08",
+      "bucket": "basic_gates",
+      "fig_id": "2.9.4",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L09",
+      "bucket": "basic_gates",
+      "fig_id": "2.9.5",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "L10",
+      "bucket": "basic_gates",
+      "fig_id": "4.1.1",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C01",
+      "bucket": "combinational",
+      "fig_id": "4.3.3",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C02",
+      "bucket": "combinational",
+      "fig_id": "4.3.4",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C03",
+      "bucket": "combinational",
+      "fig_id": "4.3.6",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C04",
+      "bucket": "combinational",
+      "fig_id": "4.4.2",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C05",
+      "bucket": "combinational",
+      "fig_id": "4.4.19",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C06",
+      "bucket": "combinational",
+      "fig_id": "4.4.21",
+      "tier_guess": "A",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C07",
+      "bucket": "combinational",
+      "fig_id": "4.7.4",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C08",
+      "bucket": "combinational",
+      "fig_id": "4.4.7",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C09",
+      "bucket": "combinational",
+      "fig_id": "4.4.9",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "C10",
+      "bucket": "combinational",
+      "fig_id": "4.4.20",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F01",
+      "bucket": "flipflop_seq",
+      "fig_id": "5.2.1",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F02",
+      "bucket": "flipflop_seq",
+      "fig_id": "5.2.2",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F03",
+      "bucket": "flipflop_seq",
+      "fig_id": "5.3.1",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F04",
+      "bucket": "flipflop_seq",
+      "fig_id": "5.3.4",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F05",
+      "bucket": "flipflop_seq",
+      "fig_id": "5.3.7",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F06",
+      "bucket": "flipflop_seq",
+      "fig_id": "6.2.1",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F07",
+      "bucket": "flipflop_seq",
+      "fig_id": "6.2.3",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F08",
+      "bucket": "flipflop_seq",
+      "fig_id": "6.3.1",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F09",
+      "bucket": "flipflop_seq",
+      "fig_id": "6.3.8",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "F10",
+      "bucket": "flipflop_seq",
+      "fig_id": "6.4.17",
+      "tier_guess": "B",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S01",
+      "bucket": "state",
+      "fig_id": "6.2.2",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S02",
+      "bucket": "state",
+      "fig_id": "6.2.4",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S03",
+      "bucket": "state",
+      "fig_id": "6.2.11",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S04",
+      "bucket": "state",
+      "fig_id": "6.3.9",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S05",
+      "bucket": "state",
+      "fig_id": "6.4.2",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S06",
+      "bucket": "state",
+      "fig_id": "6.4.7",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S07",
+      "bucket": "state",
+      "fig_id": "6.4.8",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S08",
+      "bucket": "state",
+      "fig_id": "6.4.14",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S09",
+      "bucket": "state",
+      "fig_id": "6.4.19",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "S10",
+      "bucket": "state",
+      "fig_id": "6.4.26",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W01",
+      "bucket": "waveform",
+      "fig_id": "2.5.3",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W02",
+      "bucket": "waveform",
+      "fig_id": "2.5.6",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W03",
+      "bucket": "waveform",
+      "fig_id": "5.2.3",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W04",
+      "bucket": "waveform",
+      "fig_id": "5.3.3",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W05",
+      "bucket": "waveform",
+      "fig_id": "5.3.6",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W06",
+      "bucket": "waveform",
+      "fig_id": "5.3.9",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W07",
+      "bucket": "waveform",
+      "fig_id": "5.3.11",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W08",
+      "bucket": "waveform",
+      "fig_id": "5.3.14",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W09",
+      "bucket": "waveform",
+      "fig_id": "6.3.2",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    },
+    {
+      "id": "W10",
+      "bucket": "waveform",
+      "fig_id": "6.3.7",
+      "tier_guess": "C",
+      "image_exists": true,
+      "grade": null
+    }
+  ]
+}

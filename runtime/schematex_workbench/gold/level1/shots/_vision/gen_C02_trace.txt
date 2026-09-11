@@ -1,0 +1,21 @@
+﻿Based on the circuit diagram provided:
+
+**Middle 4 NAND Columns (Top to Bottom):**
+
+1.  **Top-most (1st):** Inputs are $R$, $A$, $G$.
+2.  **Second (Top-Middle):** Inputs are $R$, $\bar{A}$, $G$.
+3.  **Third (Bottom-Middle):** Inputs are $R$, $A$, $\bar{G}$.
+4.  **Bottom-most (4th):** Inputs are $\bar{R}$, $\bar{A}$, $\bar{G}$.
+
+**Regarding your questions:**
+
+*   **Inputs of the middle column (specifically the bottom-middle one, the 3rd gate down):**
+    Tracing the lines backwards from the inputs of the 3rd NAND gate:
+    *   Top input line connects to the line coming directly from **$R$**.
+    *   Middle input line connects to the line coming directly from **$A$**.
+    *   Bottom input line connects to the output of the inverter connected to $G$, which is **$\bar{G}$**.
+    *   Therefore, the inputs are **$R, A, \bar{G}$**.
+
+*   **Is the bottom 3-input and final 4-input NAND?**
+    *   **Bottom NAND (4th gate):** It has **3 inputs**.
+    *   **Final NAND (Output gate $Z$):** It receives the outputs from the top four NAND gates. Therefore, it is a **4-input NAND gate**.

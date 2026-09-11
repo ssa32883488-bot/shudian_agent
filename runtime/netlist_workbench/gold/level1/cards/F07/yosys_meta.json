@@ -1,0 +1,79 @@
+{
+  "preferMulti": true,
+  "multiMax": 4,
+  "gateMeta": [
+    {
+      "id": "nQ1",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "FF1",
+      "base": "DFF",
+      "arity": 2,
+      "mode": "seq",
+      "cells": 1
+    },
+    {
+      "id": "x1",
+      "base": "XOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "D2",
+      "base": "XOR",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    },
+    {
+      "id": "FF2",
+      "base": "DFF",
+      "arity": 2,
+      "mode": "seq",
+      "cells": 1
+    },
+    {
+      "id": "nA",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "nQ2",
+      "base": "NOT",
+      "arity": 1,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "t1",
+      "base": "NAND",
+      "arity": 3,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "t2",
+      "base": "NAND",
+      "arity": 3,
+      "mode": "multi",
+      "cells": 1
+    },
+    {
+      "id": "Y",
+      "base": "NAND",
+      "arity": 2,
+      "mode": "binary",
+      "cells": 1
+    }
+  ],
+  "cellCount": 10,
+  "multiGates": 2,
+  "fallbackSplits": []
+}

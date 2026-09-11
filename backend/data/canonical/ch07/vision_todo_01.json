@@ -1,0 +1,182 @@
+[
+  {
+    "key": "图7.1.1|images/abf5bd72d053edd2a9e1302dbd39d575970cb8b7be860025ce2e1f29f47b6989.jpg",
+    "figure_id": "图7.1.1",
+    "caption": "描述矩形脉冲特性的主要参数",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\abf5bd72d053edd2a9e1302dbd39d575970cb8b7be860025ce2e1f29f47b6989.jpg"
+  },
+  {
+    "key": "图7.2.1|images/c14f2120a031a2423411dff6b3e4df618dcc34da58dc6d794719f51620b0980d.jpg",
+    "figure_id": "图7.2.1",
+    "caption": "施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c14f2120a031a2423411dff6b3e4df618dcc34da58dc6d794719f51620b0980d.jpg"
+  },
+  {
+    "key": "图7.2.2|images/1f0de4818a229d5e12fe392128780fabfa001f5d72690d4afc0e554c11ee039d.jpg",
+    "figure_id": "图7.2.2",
+    "caption": "图7.2.1电路的电压传输特性",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1f0de4818a229d5e12fe392128780fabfa001f5d72690d4afc0e554c11ee039d.jpg"
+  },
+  {
+    "key": "图7.2.3|images/e395ed627840d446e6d1ff0948075a6b4ccd5dbabb6f9c240c336c380c66996f.jpg",
+    "figure_id": "图7.2.3",
+    "caption": "带与非功能的 TTL 集成施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e395ed627840d446e6d1ff0948075a6b4ccd5dbabb6f9c240c336c380c66996f.jpg"
+  },
+  {
+    "key": "图7.2.4|images/c60966ed02af1455ca0f7ab30577e5e499a949d297ce49732ccd18400e06e2c2.jpg",
+    "figure_id": "图7.2.4",
+    "caption": "集成施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c60966ed02af1455ca0f7ab30577e5e499a949d297ce49732ccd18400e06e2c2.jpg"
+  },
+  {
+    "key": "图7.2.5|images/55e09b6d98df3807404764148b4ef7f4874cea23d679af06d17fe7ff41768cb0.jpg",
+    "figure_id": "图7.2.5",
+    "caption": "用 CMOS 反相器构成的施密特触发电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\55e09b6d98df3807404764148b4ef7f4874cea23d679af06d17fe7ff41768cb0.jpg"
+  },
+  {
+    "key": "图7.2.6(a)|images/47db3526fd20edda38662d7c35e481c29310b98750061c11f4ec3e678070b9bf.jpg",
+    "figure_id": "图7.2.6(a)",
+    "caption": "图 7.2.5 电路的电压传输特性 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\47db3526fd20edda38662d7c35e481c29310b98750061c11f4ec3e678070b9bf.jpg"
+  },
+  {
+    "key": "图7.2.6(b)|images/b373ea17c090fcd12b131d51f3fc5f486786cbd31b4af113c88eb03c4130ccea.jpg",
+    "figure_id": "图7.2.6(b)",
+    "caption": "图 7.2.5 电路的电压传输特性 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b373ea17c090fcd12b131d51f3fc5f486786cbd31b4af113c88eb03c4130ccea.jpg"
+  },
+  {
+    "key": "图7.2.7|images/4e1c53a76b44e1c380846e072957e2745fc1e518ac8400646aeb5c202090b4fc.jpg",
+    "figure_id": "图7.2.7",
+    "caption": "用施密特触发电路实现波形变换",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4e1c53a76b44e1c380846e072957e2745fc1e518ac8400646aeb5c202090b4fc.jpg"
+  },
+  {
+    "key": "图7.2.8(a)|images/cf7d0fca6f5c18a51f9b8e79c8d577ebe4de7b0b5918d0fd2d23bc7858baae2c.jpg",
+    "figure_id": "图7.2.8(a)",
+    "caption": "用施密特触发电路对脉冲整形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\cf7d0fca6f5c18a51f9b8e79c8d577ebe4de7b0b5918d0fd2d23bc7858baae2c.jpg"
+  },
+  {
+    "key": "图7.2.8(b)|images/4bac4d344ffa844e410f9acc15c6bc01f23e5ed77fa5f8461bb959de0f938939.jpg",
+    "figure_id": "图7.2.8(b)",
+    "caption": "用施密特触发电路对脉冲整形 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4bac4d344ffa844e410f9acc15c6bc01f23e5ed77fa5f8461bb959de0f938939.jpg"
+  },
+  {
+    "key": "图7.2.8(c)|images/ab3f6fed4951d6c68ae3c3a9e3819a7235fc491ea7dbe167a4249dce7d7ad1ea.jpg",
+    "figure_id": "图7.2.8(c)",
+    "caption": "用施密特触发电路对脉冲整形 子图(c)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ab3f6fed4951d6c68ae3c3a9e3819a7235fc491ea7dbe167a4249dce7d7ad1ea.jpg"
+  },
+  {
+    "key": "图7.2.8(d)|images/1264b9a3ed988d85dc96065b69f2a145a35d196c364bcdf2f06324225e45ac95.jpg",
+    "figure_id": "图7.2.8(d)",
+    "caption": "用施密特触发电路对脉冲整形 子图(d)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1264b9a3ed988d85dc96065b69f2a145a35d196c364bcdf2f06324225e45ac95.jpg"
+  },
+  {
+    "key": "图7.2.8(e)|images/f82979b77e792d074dfb18c7efa9b13a4ac651f63ca014943a4c62459291bffc.jpg",
+    "figure_id": "图7.2.8(e)",
+    "caption": "用施密特触发电路对脉冲整形 子图(e)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\f82979b77e792d074dfb18c7efa9b13a4ac651f63ca014943a4c62459291bffc.jpg"
+  },
+  {
+    "key": "图7.2.8(f)|images/ed26e27bbb4dbbf436ef5afdf81df62b01098c9da7df94619b228eb16e842e24.jpg",
+    "figure_id": "图7.2.8(f)",
+    "caption": "用施密特触发电路对脉冲整形 子图(f)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\ed26e27bbb4dbbf436ef5afdf81df62b01098c9da7df94619b228eb16e842e24.jpg"
+  },
+  {
+    "key": "图7.2.9|images/62e1483d1becff44bf4db35ab93283c67105a7b4c9a968e6b3390eaf4aa58f4d.jpg",
+    "figure_id": "图7.2.9",
+    "caption": "用施密特触发电路鉴别脉冲幅度",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\62e1483d1becff44bf4db35ab93283c67105a7b4c9a968e6b3390eaf4aa58f4d.jpg"
+  },
+  {
+    "key": "图7.3.1|images/9093ed974e3dec49c02d80b09e2ef26fd96d9f61fbf654a045f4a50676418a4c.jpg",
+    "figure_id": "图7.3.1",
+    "caption": "微分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9093ed974e3dec49c02d80b09e2ef26fd96d9f61fbf654a045f4a50676418a4c.jpg"
+  },
+  {
+    "key": "图7.3.2|images/4e0df5ed33f1df08643daf1e6bf0a7791895559182f907066b058bc645455a2d.jpg",
+    "figure_id": "图7.3.2",
+    "caption": "图 7.3.1 电路的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4e0df5ed33f1df08643daf1e6bf0a7791895559182f907066b058bc645455a2d.jpg"
+  },
+  {
+    "key": "图7.3.3|images/4a36746ab8b74c530d7342e3bfe5ab670f18ed9b96b9bfc1d3832056cbc34207.jpg",
+    "figure_id": "图7.3.3",
+    "caption": "图 7.3.1 电路中电容 C 充电的等效电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4a36746ab8b74c530d7342e3bfe5ab670f18ed9b96b9bfc1d3832056cbc34207.jpg"
+  },
+  {
+    "key": "图7.3.4|images/d446ef711fbdb72fee6884f2609c7303b9c3707f8aa88ce75728b8f1bc6b10de.jpg",
+    "figure_id": "图7.3.4",
+    "caption": "图 7.3.1 电路中电",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d446ef711fbdb72fee6884f2609c7303b9c3707f8aa88ce75728b8f1bc6b10de.jpg"
+  },
+  {
+    "key": "图7.3.5|images/0de8837a368ed43e051ce8257abb93782c976debd9d2e0ee20fc5e278d96028d.jpg",
+    "figure_id": "图7.3.5",
+    "caption": "积分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0de8837a368ed43e051ce8257abb93782c976debd9d2e0ee20fc5e278d96028d.jpg"
+  },
+  {
+    "key": "图7.3.6|images/b27432c15583a2f3807817539baa6be4a1cb85cf02845ea532df8c9c57941f77.jpg",
+    "figure_id": "图7.3.6",
+    "caption": "图 7.3.5 电路的电压波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b27432c15583a2f3807817539baa6be4a1cb85cf02845ea532df8c9c57941f77.jpg"
+  },
+  {
+    "key": "图7.3.7|images/e13c2bc4de97b7268c576efa57bf930bfc84992c154eb0ae78d004440db3fe33.jpg",
+    "figure_id": "图7.3.7",
+    "caption": "图 7.3.5 电路中电容 C 的放电回路和 $v_{A}$ 的波形",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\e13c2bc4de97b7268c576efa57bf930bfc84992c154eb0ae78d004440db3fe33.jpg"
+  },
+  {
+    "key": "图7.3.8|images/d8bad8aecbeb6158717ec6c008883609a2cecd06a784d2e329210414602dafe0.jpg",
+    "figure_id": "图7.3.8",
+    "caption": "窄脉冲可以触发的积分型单稳态电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\d8bad8aecbeb6158717ec6c008883609a2cecd06a784d2e329210414602dafe0.jpg"
+  },
+  {
+    "key": "图7.3.9|images/5dea0f71cd3c38a96dd23d2aebdd63a344e434ee4232e5e419532fac56c67f35.jpg",
+    "figure_id": "图7.3.9",
+    "caption": "集成单稳态电路 74121 简化的逻辑图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5dea0f71cd3c38a96dd23d2aebdd63a344e434ee4232e5e419532fac56c67f35.jpg"
+  },
+  {
+    "key": "图7.3.10|images/27e41aa606ad23cfd228e91eb5de475f442054581358d6234e1345351f45192e.jpg",
+    "figure_id": "图7.3.10",
+    "caption": "集成单稳态电路 74121 的工作波形图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\27e41aa606ad23cfd228e91eb5de475f442054581358d6234e1345351f45192e.jpg"
+  },
+  {
+    "key": "图7.3.11(a)|images/31229b8de3c1126b18369bb2a3e706ff9f1b5784a3ef6e002f39499e1f787d5e.jpg",
+    "figure_id": "图7.3.11(a)",
+    "caption": "集成单稳态电路 74121 的外部连接方法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\31229b8de3c1126b18369bb2a3e706ff9f1b5784a3ef6e002f39499e1f787d5e.jpg"
+  },
+  {
+    "key": "图7.3.11(b)|images/9cd05e96fddb8fbd672e6d6ec9ccf750212303bdc006188862295d0d78af76dd.jpg",
+    "figure_id": "图7.3.11(b)",
+    "caption": "集成单稳态电路 74121 的外部连接方法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\9cd05e96fddb8fbd672e6d6ec9ccf750212303bdc006188862295d0d78af76dd.jpg"
+  },
+  {
+    "key": "图7.3.12(a)|images/953e9b362ed37606db8d505443ea9d266bf3204451ae0d6ea9ca83b155b50308.jpg",
+    "figure_id": "图7.3.12(a)",
+    "caption": "不可重复触发型与可重复触发型单稳态电路的工作波形 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\953e9b362ed37606db8d505443ea9d266bf3204451ae0d6ea9ca83b155b50308.jpg"
+  },
+  {
+    "key": "图7.3.12(b)|images/fd8766f22ea183ecae1bd4b8649e191d131b08f1c1829a182f25b98990195418.jpg",
+    "figure_id": "图7.3.12(b)",
+    "caption": "不可重复触发型与可重复触发型单稳态电路的工作波形 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\fd8766f22ea183ecae1bd4b8649e191d131b08f1c1829a182f25b98990195418.jpg"
+  }
+]

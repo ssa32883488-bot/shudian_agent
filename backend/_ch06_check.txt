@@ -1,0 +1,54 @@
+need=24 covered=24 missing=0
+图6(b): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 同步4位二进制加法计数器：左侧组合与门使能，右侧四只JK触发器Q0–Q3共CLK，产生进位输出C。
+图6(c): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 组合逻辑与D触发器交替级联的同步结构：DI经四级缓冲与三级共CLK的D触发器传至DO。
+图6(d): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 四位计数状态环0000–1111；标注0000经11个CP至1011、1000经3个CP至1011的跨步跳转。
+图6(e): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 三位计数状态图：有效环000→100→110→111→011→001；无效101↔010，虚线101→110示自启动。
+图6(f): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 三张次态卡诺图：化简得Q2*=Q0'、Q1*=Q2、Q0*=Q1；圈含1与×。
+图6(g): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 次态方程Q2*=Q0'+Q2Q1'、Q1*=Q2、Q0*=Q1；左为总次态图，右为Q2*圈选验证。
+图6(h): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 三只同步D触发器：D2=(Q2·Q1')+Q0'，D1=Q2、D0=Q1，共CLK移位反馈结构。
+图6(i): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 三只同步D触发器接输入A：激励含与/异或/非；Y=AQ1Q2+A'Q2Q3（两组与门或出）。
+图6(j): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 八态转换图Q1Q2Q3：弧标A/Y；主路径000→001→010→011，111/101/110等汇入主环。
+图6(11): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 两片74HC161A同步级联模36：片1进位接片2使能，D端接地；与非门检态35反馈LD，Y经非门输出。
+图6(12): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 74LS161工作波形：示异步清零、同步预置、连续计数与保持；自预置12计数至溢出后因使能保持。
+图6(13): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] 流水线瓶盖光电检测示意：光源照射传送带瓶盖，反射光经光电头输出A/B，区分深浅顶盖。
+图6(14): ok=True files=['vision_batch_remaining03.json', 'vision_batch_remaining_03.json']
+  [vision_batch_remaining03.json] 三态Mealy状态图S0(00)、S1(01)、S2(10)；弧标AB/Y，描述各输入组合下的转移与输出。
+  [vision_batch_remaining_03.json] 三态Mealy图S0/S1/S2(编码Q1Q2)；弧标AB/Y，如S0在01/1或00/0自持、10/0至S1。
+图6(15): ok=True files=['vision_batch_remaining03.json']
+  [vision_batch_remaining03.json] Mealy型次态-输出表（类卡诺图）：行AB、列Q1Q0格雷码；格内斜线分次态与输出，AB=11为×。
+图6(16): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 四变量卡诺图AB×Q1Q0：含0/1/×；横圈顶行×与1，2×2圈含底行1与多处×，用于激励化简。
+图6(17): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] Q0*四变量卡诺图：圈得A'B'Q0与AQ1'Q0'，化简Q0*=AQ1'Q0'+A'B'Q0。
+图6(18): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 四变量卡诺图AB×D1D0：两处2×2圈分别覆盖左列与右下区域，含1与×用于化简。
+图6(19): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 同步状态机：组合与非/非门驱动两只D触发器Q0、Q1；输入A/B、CLK，按钮AN与电阻R复位，输出Y。
+图6(20): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 四态Mealy状态图00/01/10/11：弧标AB/Y，给出各输入组合下的转移与输出。
+图6(21): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 74LS160电路：D端接地，EP/ET/LD接1；四输入与门反馈异步清零RD，另一与门译码得Y。
+图6(22): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 十进制计数状态图S0–S9：仅S9→S0时C=1；另有S6、S7指向S0的复位/特殊跳转。
+图6(23): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] (a)74LS161A：D端接地，C经非门回LD；(b)十六进制环S0–S15，仅S15→S0时C=1。
+图6(24): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 两片74LS160同步级联：片1进位接片2使能；与/与非门译码反馈两片LD，经非门得Y。
+图6(25): ok=True files=['vision_batch_remaining04.json']
+  [vision_batch_remaining04.json] 两片74LS160级联：各片与门检态经非门回LD，D端接地；片1检测兼控片2使能，与门输出Y。
+job14_key=图6(14)|images/e8ed45ce894c8892b4266e5be21b4625ceaec48933a8ae7afd41f4e69236c5ed.jpg
+vision_batch_remaining03.json has14=['图6(14)|images/e8ed45ce894c8892b4266e5be21b4625ceaec48933a8ae7afd41f4e80636c5ed.jpg']
+vision_batch_remaining04.json has14=[]
+vision_batch_remaining_03.json has14=['图6(14)|images/e8ed45ce894c8892b4266e5be21b4625ceaec48933a8ae7afd41f4e69236c5ed.jpg']

@@ -1,0 +1,212 @@
+{
+  "chapters": [
+    "ch01",
+    "ch02",
+    "ch03",
+    "ch04",
+    "ch05",
+    "ch06",
+    "ch07",
+    "ch08"
+  ],
+  "chunks_total": 1154,
+  "vision_jobs_total": 925,
+  "reports": {
+    "ch01": {
+      "chapter": "第01章 数制和码制",
+      "sections": 28,
+      "blocks": 46,
+      "figures_textbook": 2,
+      "figures_keypoints": 1,
+      "exercises_merged": {
+        "matched": 15,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": []
+      },
+      "chunks_total": 68,
+      "vision_updated": 3,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 40,
+        "review": 11,
+        "example": 2,
+        "exercise_merged": 15
+      },
+      "vision_jobs": 3
+    },
+    "ch02": {
+      "chapter": "第02章 逻辑代数基础",
+      "sections": 51,
+      "blocks": 103,
+      "figures_textbook": 58,
+      "figures_keypoints": 14,
+      "exercises_merged": {
+        "matched": 27,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": []
+      },
+      "chunks_total": 161,
+      "vision_updated": 77,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 95,
+        "review": 13,
+        "example": 26,
+        "exercise_merged": 27
+      },
+      "vision_jobs": 77
+    },
+    "ch03": {
+      "chapter": "第03章 门电路",
+      "sections": 105,
+      "blocks": 138,
+      "figures_textbook": 180,
+      "figures_keypoints": 45,
+      "exercises_merged": {
+        "matched": 27,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": []
+      },
+      "chunks_total": 206,
+      "vision_updated": 232,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 148,
+        "review": 24,
+        "example": 7,
+        "exercise_merged": 27
+      },
+      "vision_jobs": 232
+    },
+    "ch04": {
+      "chapter": "第04章 组合逻辑电路",
+      "sections": 55,
+      "blocks": 101,
+      "figures_textbook": 101,
+      "figures_keypoints": 19,
+      "exercises_merged": {
+        "matched": 36,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": [
+          "题4.36"
+        ]
+      },
+      "chunks_total": 183,
+      "vision_updated": 123,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 123,
+        "example": 11,
+        "review": 13,
+        "exercise_merged": 36
+      },
+      "vision_jobs": 123
+    },
+    "ch05": {
+      "chapter": "第05章 半导体存储电路",
+      "sections": 53,
+      "blocks": 102,
+      "figures_textbook": 94,
+      "figures_keypoints": 22,
+      "exercises_merged": {
+        "matched": 40,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": []
+      },
+      "chunks_total": 148,
+      "vision_updated": 121,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 80,
+        "example": 9,
+        "review": 19,
+        "exercise_merged": 40
+      },
+      "vision_jobs": 121
+    },
+    "ch06": {
+      "chapter": "第06章 时序逻辑电路",
+      "sections": 47,
+      "blocks": 99,
+      "figures_textbook": 148,
+      "figures_keypoints": 26,
+      "exercises_merged": {
+        "matched": 35,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": []
+      },
+      "chunks_total": 159,
+      "vision_updated": 176,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 94,
+        "review": 12,
+        "example": 18,
+        "exercise_merged": 35
+      },
+      "vision_jobs": 176
+    },
+    "ch07": {
+      "chapter": "第07章 脉冲波形的产生和整形电路",
+      "sections": 33,
+      "blocks": 69,
+      "figures_textbook": 81,
+      "figures_keypoints": 36,
+      "exercises_merged": {
+        "matched": 27,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": []
+      },
+      "chunks_total": 117,
+      "vision_updated": 119,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 72,
+        "example": 5,
+        "review": 13,
+        "exercise_merged": 27
+      },
+      "vision_jobs": 119
+    },
+    "ch08": {
+      "chapter": "第08章 数模和模数转换",
+      "sections": 36,
+      "blocks": 58,
+      "figures_textbook": 57,
+      "figures_keypoints": 17,
+      "exercises_merged": {
+        "matched": 20,
+        "missing_answer": [],
+        "extra_solutions": [],
+        "appendix_fallback": [
+          "题8.20"
+        ]
+      },
+      "chunks_total": 112,
+      "vision_updated": 74,
+      "orphan_figures": 0,
+      "orphan_figure_ids": [],
+      "chunks_by_type": {
+        "theory": 77,
+        "review": 11,
+        "example": 4,
+        "exercise_merged": 20
+      },
+      "vision_jobs": 74
+    }
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "SG01",
+    "kind": "seven_seg",
+    "title": "七段管外形 vs 数字5点亮",
+    "textbook": "图 4.4.10 · BS201A 外形",
+    "note": "左：段名/引脚外形图；右：共阴点亮示意（不同子类，对照用途）",
+    "ref": "refs/d328a944f5f893136e96b63bf79d06848808ec6c9198d328faa312920ffc5524.jpg",
+    "gen": {
+      "ok": true,
+      "engine": "svg_seven_seg",
+      "tier": "B",
+      "error": null,
+      "local": "gen/SG01.svg",
+      "meta": {
+        "digit": 5,
+        "segments": [
+          "a",
+          "c",
+          "d",
+          "f",
+          "g"
+        ],
+        "style": "textbook_white"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "id": "SG02",
+    "kind": "seven_seg",
+    "title": "显示数字 0",
+    "textbook": "（无单独扫描图）",
+    "note": "段 a~f 亮，g 灭",
+    "ref": null,
+    "gen": {
+      "ok": true,
+      "engine": "svg_seven_seg",
+      "tier": "B",
+      "error": null,
+      "local": "gen/SG02.svg",
+      "meta": {
+        "digit": 0,
+        "segments": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "style": "textbook_white"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "id": "SG03",
+    "kind": "seven_seg",
+    "title": "显示数字 8",
+    "textbook": "（全段亮）",
+    "note": "段 a~g 全亮",
+    "ref": null,
+    "gen": {
+      "ok": true,
+      "engine": "svg_seven_seg",
+      "tier": "B",
+      "error": null,
+      "local": "gen/SG03.svg",
+      "meta": {
+        "digit": 8,
+        "segments": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "style": "textbook_white"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "id": "CV01",
+    "kind": "char_curve",
+    "title": "TTL 电压传输特性 VTC",
+    "textbook": "图 3.4.10",
+    "note": "Matplotlib 参数示意 · 非实测",
+    "ref": "refs/6ad7b29a337ec116e907a871e90c3a276006cf8f4ae10d5d795cb070cfb219ca.jpg",
+    "gen": {
+      "ok": true,
+      "engine": "matplotlib_vtc",
+      "tier": "B",
+      "error": null,
+      "local": "gen/CV01.svg",
+      "meta": {
+        "curve": "ttl_vtc",
+        "backend": "matplotlib",
+        "style": "textbook_vtc_volts"
+      },
+      "warnings": [
+        "教材级示意曲线（Matplotlib 参数模型），非器件实测"
+      ]
+    }
+  },
+  {
+    "id": "CV02",
+    "kind": "char_curve",
+    "title": "CMOS 反相器 VTC",
+    "textbook": "图 7.4.7 · 工作点示意",
+    "note": "Matplotlib 对称陡降模型",
+    "ref": "refs/6ac86c2e734cc2a4bbfd2523f54456805cab19945fea4c3857a88fdde41bf6aa.jpg",
+    "gen": {
+      "ok": true,
+      "engine": "matplotlib_vtc",
+      "tier": "B",
+      "error": null,
+      "local": "gen/CV02.svg",
+      "meta": {
+        "curve": "cmos_vtc",
+        "backend": "matplotlib",
+        "style": "textbook_vtc_volts"
+      },
+      "warnings": [
+        "教材级示意曲线（Matplotlib 参数模型），非器件实测"
+      ]
+    }
+  }
+]

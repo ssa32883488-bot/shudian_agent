@@ -1,0 +1,10 @@
+logic "gated_d" style: iec
+input D, CLK
+output Q, Qn
+nD = NOT(D)
+Sn = NAND(D, CLK)
+Rn = NAND(nD, CLK)
+G1 = NAND(Sn, G2)
+G2 = NAND(Rn, G1)
+Q <- G1
+Qn <- G2

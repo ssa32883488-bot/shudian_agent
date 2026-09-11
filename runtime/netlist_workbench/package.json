@@ -1,0 +1,16 @@
+{
+  "name": "netlist-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "方案B：IR→网表仿真(优先)→netlistsvg自动布局；课本三栏检阅",
+  "type": "module",
+  "scripts": {
+    "run-batch": "node scripts/run_batch.mjs",
+    "build-gallery": "node scripts/build_gallery.mjs",
+    "all": "node scripts/run_batch.mjs && node scripts/build_gallery.mjs"
+  },
+  "dependencies": {
+    "netlistsvg": "^1.0.2",
+    "sharp": "^0.35.4"
+  }
+}

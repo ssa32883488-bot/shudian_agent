@@ -1,0 +1,7 @@
+logic "nor_latch" style: iec
+input VI1, VI2
+output VO1, VO2
+G1 = NOR(VI1, G2)
+G2 = NOR(VI2, G1)
+VO1 <- G1
+VO2 <- G2

@@ -1,0 +1,46 @@
+# --- secrets & local env ---
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.slim
+docker/.env
+backend/.env
+
+# --- python ---
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/*.egg-info/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# --- node ---
+**/node_modules/
+frontend/dist/
+**/.vite/
+
+# --- runtime data / DB / vectors ---
+backend/data/chroma/
+backend/data/artifacts/
+**/*.db
+**/*.sqlite3
+reports/
+*.log
+
+# --- Digital jar（许可证/体积；部署方自备，见 vendor/README）---
+backend/app/tools/draw/digital_dig/vendor/*.jar
+!backend/app/tools/draw/digital_dig/vendor/README.md
+!backend/app/tools/draw/digital_dig/vendor/.gitkeep
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- pack leftovers ---
+_shudian_pack_staging/

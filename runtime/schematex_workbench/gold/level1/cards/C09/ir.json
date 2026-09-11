@@ -1,0 +1,73 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "iec",
+  "title": "decoder_74hc42_approx",
+  "inputs": [
+    "A0",
+    "A1",
+    "A2",
+    "A3"
+  ],
+  "gates": {
+    "D": {
+      "type": "DECODER",
+      "inputs": [
+        "A0",
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    "nA0": {
+      "type": "NOT",
+      "inputs": [
+        "A0"
+      ]
+    },
+    "nA1": {
+      "type": "NOT",
+      "inputs": [
+        "A1"
+      ]
+    },
+    "nA2": {
+      "type": "NOT",
+      "inputs": [
+        "A2"
+      ]
+    },
+    "nA3": {
+      "type": "NOT",
+      "inputs": [
+        "A3"
+      ]
+    },
+    "y0a": {
+      "type": "AND",
+      "inputs": [
+        "nA0",
+        "nA1"
+      ]
+    },
+    "y0b": {
+      "type": "AND",
+      "inputs": [
+        "nA2",
+        "nA3"
+      ]
+    },
+    "Y0n": {
+      "type": "NAND",
+      "inputs": [
+        "y0a",
+        "y0b"
+      ]
+    }
+  },
+  "outputs": {
+    "D": "D",
+    "Y0n": "Y0n"
+  },
+  "notes": "BCD 译码器总线图 → C/B"
+}

@@ -1,0 +1,12 @@
+logic "encoder_3bit" style: iec
+input I1, I2, I3, I4, I5, I6, I7
+output Y2, Y1, Y0
+y2a = OR(I4, I5)
+y2b = OR(I6, I7)
+Y2 = OR(y2a, y2b)
+y1a = OR(I2, I3)
+y1b = OR(I6, I7)
+Y1 = OR(y1a, y1b)
+y0a = OR(I1, I3)
+y0b = OR(I5, I7)
+Y0 = OR(y0a, y0b)

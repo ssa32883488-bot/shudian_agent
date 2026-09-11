@@ -1,0 +1,18 @@
+{
+  "id": "C03",
+  "bucket": "combinational",
+  "fig_id": "4.3.6",
+  "caption": "例4.3.1逻辑图之三",
+  "image": "../../textbook_figures/logic_dag/fig_4_3_6.jpg",
+  "image_exists": true,
+  "tier_guess": "B",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_tbx_v1",
+  "reviewed_at": "2026-09-02T04:30:20.657Z",
+  "notes": "主路径 netlistsvg；gold.tbx 已弃用"
+}

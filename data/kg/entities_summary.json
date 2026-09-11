@@ -1,0 +1,22 @@
+{
+  "chapters": 8,
+  "problems": 425,
+  "problems_by_kind": {
+    "example": 82,
+    "review": 116,
+    "chapter_exercise": 227
+  },
+  "concepts": 295,
+  "concepts_by_confidence": {
+    "low": 179,
+    "high": 109,
+    "medium": 7
+  },
+  "drill_note": "未检出小练实体；辅导册需另确认是否有独立练习块",
+  "outputs": {
+    "chapters": "F:\\code\\揭榜挂帅-单学科教育智能体\\shudian_agent\\data\\kg\\entities_chapters.json",
+    "problems": "F:\\code\\揭榜挂帅-单学科教育智能体\\shudian_agent\\data\\kg\\entities_problems.jsonl",
+    "concepts": "F:\\code\\揭榜挂帅-单学科教育智能体\\shudian_agent\\data\\kg\\entities_concepts.json",
+    "review_md": "F:\\code\\揭榜挂帅-单学科教育智能体\\shudian_agent\\data\\kg\\entities_review.md"
+  }
+}

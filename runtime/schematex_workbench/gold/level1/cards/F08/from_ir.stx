@@ -1,0 +1,7 @@
+logic "shift_reg_4" style: iec
+input DI, CLK
+output Q0, Q1, Q2, Q3
+Q0 = DFF(DI, CLK)
+Q1 = DFF(Q0, CLK)
+Q2 = DFF(Q1, CLK)
+Q3 = DFF(Q2, CLK)

@@ -1,0 +1,38 @@
+{
+  "problems": 425,
+  "concepts": 214,
+  "tests": 1439,
+  "belongs_to": 639,
+  "coverage": {
+    "problems": "425/425",
+    "rate": 1.0,
+    "by_kind": {
+      "example": {
+        "covered": 82,
+        "total": 82
+      },
+      "review": {
+        "covered": 116,
+        "total": 116
+      },
+      "chapter_exercise": {
+        "covered": 227,
+        "total": 227
+      }
+    }
+  },
+  "uncovered_count": 0,
+  "uncovered_ids": [],
+  "tests_by_confidence": {
+    "high": 959,
+    "medium": 450,
+    "low": 30
+  },
+  "evidence_has_figure": 513,
+  "evidence_has_alias": 810,
+  "evidence_has_section": 605,
+  "issues": [],
+  "pass": true,
+  "pass_soft": true,
+  "similar_to": 2000
+}

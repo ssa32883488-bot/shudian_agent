@@ -1,0 +1,8 @@
+logic "xor_nor" style: iec
+input A, B
+output Y
+G1 = NOR(A, B)
+nA = NOT(A)
+nB = NOT(B)
+G2 = NOR(nA, nB)
+Y = NOR(G1, G2)

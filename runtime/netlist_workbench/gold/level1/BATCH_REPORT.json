@@ -1,0 +1,2744 @@
+[
+  {
+    "id": "C01",
+    "fig_id": "4.3.3",
+    "caption": "例4.3.1逻辑图之一",
+    "image": "../../textbook_figures/logic_dag/fig_4_3_3.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "R": 0,
+          "A": 0,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 0,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 1,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 1,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 0,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 0,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 1,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 1,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=2"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=8 ir_gates=8"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=7845"
+      },
+      {
+        "id": "PEER_EQ",
+        "ok": true,
+        "detail": "eq_C02 rows=8"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 2,
+    "fallback_splits": 0,
+    "notes": "课本：t4 三输入与、Z 四输入或；Z=RA+AG+RG+R'A'G'"
+  },
+  {
+    "id": "C02",
+    "fig_id": "4.3.4",
+    "caption": "例4.3.1逻辑图之二（与非）",
+    "image": "../../textbook_figures/logic_dag/fig_4_3_4.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "R": 0,
+          "A": 0,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 0,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 1,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 1,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 0,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 0,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 1,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 1,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=2"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=8 ir_gates=8"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=8169"
+      },
+      {
+        "id": "PEER_EQ",
+        "ok": true,
+        "detail": "eq_C01 rows=8"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 2,
+    "fallback_splits": 0,
+    "notes": "课本：n4 三输入与非、Z 四输入与非；与 C01 同函数"
+  },
+  {
+    "id": "C03",
+    "fig_id": "4.3.6",
+    "caption": "例4.3.1逻辑图之三",
+    "image": "../../textbook_figures/logic_dag/fig_4_3_6.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "R": 0,
+          "A": 0,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 0,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 1,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 0,
+          "A": 1,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 0,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 0
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 0,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 1,
+          "G": 0
+        },
+        "outputs": {
+          "Z": 1
+        }
+      },
+      {
+        "inputs": {
+          "R": 1,
+          "A": 1,
+          "G": 1
+        },
+        "outputs": {
+          "Z": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=4"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=7 ir_gates=7"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=7024"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 4,
+    "fallback_splits": 0,
+    "notes": "课本：三输入与 + 三输入或非；Z=!(exactly-one)"
+  },
+  {
+    "id": "C04",
+    "fig_id": "4.4.2",
+    "caption": "3位二进制编码器",
+    "image": "../../textbook_figures/logic_dag/fig_4_4_2.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 128,
+    "sim_samples": [
+      {
+        "inputs": {
+          "I1": 0,
+          "I2": 0,
+          "I3": 0,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 0,
+          "Y0": 0
+        }
+      },
+      {
+        "inputs": {
+          "I1": 0,
+          "I2": 0,
+          "I3": 1,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 1,
+          "Y0": 1
+        }
+      },
+      {
+        "inputs": {
+          "I1": 0,
+          "I2": 1,
+          "I3": 0,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 1,
+          "Y0": 0
+        }
+      },
+      {
+        "inputs": {
+          "I1": 0,
+          "I2": 1,
+          "I3": 1,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 1,
+          "Y0": 1
+        }
+      },
+      {
+        "inputs": {
+          "I1": 1,
+          "I2": 0,
+          "I3": 0,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 0,
+          "Y0": 1
+        }
+      },
+      {
+        "inputs": {
+          "I1": 1,
+          "I2": 0,
+          "I3": 1,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 1,
+          "Y0": 1
+        }
+      },
+      {
+        "inputs": {
+          "I1": 1,
+          "I2": 1,
+          "I3": 0,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 1,
+          "Y0": 1
+        }
+      },
+      {
+        "inputs": {
+          "I1": 1,
+          "I2": 1,
+          "I3": 1,
+          "I4": 0,
+          "I5": 0,
+          "I6": 0,
+          "I7": 0
+        },
+        "outputs": {
+          "Y2": 0,
+          "Y1": 1,
+          "Y0": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=128"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=9 ir_gates=9"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=10372"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "总线型编码器；版式难"
+  },
+  {
+    "id": "C05",
+    "fig_id": "4.4.19",
+    "caption": "二选一数据选择器",
+    "image": "../../textbook_figures/logic_dag/fig_4_4_19.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "SEL": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "SEL": 0,
+          "B": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "SEL": 1,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "SEL": 1,
+          "B": 1
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "SEL": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "SEL": 0,
+          "B": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "SEL": 1,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "SEL": 1,
+          "B": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=4 ir_gates=4"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=4401"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": ""
+  },
+  {
+    "id": "C06",
+    "fig_id": "4.4.21",
+    "caption": "半加器",
+    "image": "../../textbook_figures/logic_dag/fig_4_4_21.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 4,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0
+        },
+        "outputs": {
+          "S": 0,
+          "CO": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1
+        },
+        "outputs": {
+          "S": 1,
+          "CO": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0
+        },
+        "outputs": {
+          "S": 1,
+          "CO": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1
+        },
+        "outputs": {
+          "S": 0,
+          "CO": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=4"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=2 ir_gates=2"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=3355"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": ""
+  },
+  {
+    "id": "C07",
+    "fig_id": "4.7.4",
+    "caption": "1位全加器电路",
+    "image": "../../textbook_figures/logic_dag/fig_4_7_4.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "CI": 0,
+          "A": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Sum": 0,
+          "Cout": 0
+        }
+      },
+      {
+        "inputs": {
+          "CI": 0,
+          "A": 0,
+          "B": 1
+        },
+        "outputs": {
+          "Sum": 1,
+          "Cout": 0
+        }
+      },
+      {
+        "inputs": {
+          "CI": 0,
+          "A": 1,
+          "B": 0
+        },
+        "outputs": {
+          "Sum": 1,
+          "Cout": 0
+        }
+      },
+      {
+        "inputs": {
+          "CI": 0,
+          "A": 1,
+          "B": 1
+        },
+        "outputs": {
+          "Sum": 0,
+          "Cout": 1
+        }
+      },
+      {
+        "inputs": {
+          "CI": 1,
+          "A": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Sum": 1,
+          "Cout": 0
+        }
+      },
+      {
+        "inputs": {
+          "CI": 1,
+          "A": 0,
+          "B": 1
+        },
+        "outputs": {
+          "Sum": 0,
+          "Cout": 1
+        }
+      },
+      {
+        "inputs": {
+          "CI": 1,
+          "A": 1,
+          "B": 0
+        },
+        "outputs": {
+          "Sum": 0,
+          "Cout": 1
+        }
+      },
+      {
+        "inputs": {
+          "CI": 1,
+          "A": 1,
+          "B": 1
+        },
+        "outputs": {
+          "Sum": 1,
+          "Cout": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=7 ir_gates=7"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=7509"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": ""
+  },
+  {
+    "id": "C08",
+    "fig_id": "4.4.7",
+    "caption": "3线-8线译码器74HC138",
+    "image": "../../textbook_figures/logic_dag/fig_4_4_7.jpg",
+    "combinational": false,
+    "sim_ok": false,
+    "sim_reason": "msi_unsupported",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "msi_unsupported"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": false,
+        "detail": "fallback=none high=D"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=12 ir_gates=13"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=10966"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "138 门级过密；IR 示意 enable+两端译码，完整 8 路建议 C"
+  },
+  {
+    "id": "C09",
+    "fig_id": "4.4.9",
+    "caption": "二-十进制译码器74HC42",
+    "image": "../../textbook_figures/logic_dag/fig_4_4_9.jpg",
+    "combinational": false,
+    "sim_ok": false,
+    "sim_reason": "msi_unsupported",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "msi_unsupported"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": false,
+        "detail": "fallback=none high=D"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=7 ir_gates=8"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=6125"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "BCD 译码器总线图 → C/B"
+  },
+  {
+    "id": "C10",
+    "fig_id": "4.4.20",
+    "caption": "双4选1数据选择器74HC153",
+    "image": "../../textbook_figures/logic_dag/fig_4_4_20.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 128,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A0": 0,
+          "A1": 0,
+          "D0": 0,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A0": 0,
+          "A1": 0,
+          "D0": 1,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A0": 0,
+          "A1": 1,
+          "D0": 0,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A0": 0,
+          "A1": 1,
+          "D0": 1,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A0": 1,
+          "A1": 0,
+          "D0": 0,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A0": 1,
+          "A1": 0,
+          "D0": 1,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A0": 1,
+          "A1": 1,
+          "D0": 0,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A0": 1,
+          "A1": 1,
+          "D0": 1,
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "Sn": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=128"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=15 ir_gates=15"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=12788"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "单路 4 选 1（课本双路）；TG 树简化为 AND-OR"
+  },
+  {
+    "id": "F01",
+    "fig_id": "5.2.1",
+    "caption": "或非门组成的锁存器",
+    "image": "../../textbook_figures/logic_dag/fig_5_2_1.jpg",
+    "combinational": true,
+    "sim_ok": false,
+    "sim_reason": "cyclic_combinational",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "cyclic_combinational"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=2 ir_gates=2"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=3880"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "交叉耦合 NOR；版式镜像"
+  },
+  {
+    "id": "F02",
+    "fig_id": "5.2.2",
+    "caption": "与非门组成的SR锁存器",
+    "image": "../../textbook_figures/logic_dag/fig_5_2_2.jpg",
+    "combinational": true,
+    "sim_ok": false,
+    "sim_reason": "cyclic_combinational",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "cyclic_combinational"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=2 ir_gates=2"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=3744"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": ""
+  },
+  {
+    "id": "F03",
+    "fig_id": "5.3.1",
+    "caption": "电平触发SR触发器",
+    "image": "../../textbook_figures/logic_dag/fig_5_3_1.jpg",
+    "combinational": true,
+    "sim_ok": false,
+    "sim_reason": "cyclic_combinational",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "cyclic_combinational"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=4 ir_gates=4"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=5515"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": ""
+  },
+  {
+    "id": "F04",
+    "fig_id": "5.3.4",
+    "caption": "电平触发D触发器",
+    "image": "../../textbook_figures/logic_dag/fig_5_3_4.jpg",
+    "combinational": true,
+    "sim_ok": false,
+    "sim_reason": "cyclic_combinational",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "cyclic_combinational"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=5 ir_gates=5"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=5793"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": ""
+  },
+  {
+    "id": "F05",
+    "fatal": "no yosys mapping for gate FF1 type LATCH_D"
+  },
+  {
+    "id": "F06",
+    "fatal": "no yosys mapping for gate FF1 type JKFF"
+  },
+  {
+    "id": "F07",
+    "fig_id": "6.2.3",
+    "caption": "例6.2.3时序逻辑电路",
+    "image": "../../textbook_figures/logic_dag/fig_6_2_3.jpg",
+    "combinational": false,
+    "sim_ok": false,
+    "sim_reason": "sequential_unsupported",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "sequential_unsupported"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=2"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=10 ir_gates=10"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=10395"
+      }
+    ],
+    "multi_gates": 2,
+    "fallback_splits": 0,
+    "notes": "式(6.2.4)(6.2.6)：输出为三与非形式"
+  },
+  {
+    "id": "F08",
+    "fig_id": "6.3.1",
+    "caption": "D触发器移位寄存器",
+    "image": "../../textbook_figures/logic_dag/fig_6_3_1.jpg",
+    "combinational": false,
+    "sim_ok": false,
+    "sim_reason": "sequential_unsupported",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "sequential_unsupported"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=4 ir_gates=4"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=6804"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "图6.3.1：串行入 D_I、串行出 D_O；各级有 Q' 端"
+  },
+  {
+    "id": "F09",
+    "fatal": "no yosys mapping for gate FF0 type JKFF"
+  },
+  {
+    "id": "F10",
+    "fig_id": "6.4.17",
+    "caption": "例6.4.3的逻辑图",
+    "image": "../../textbook_figures/logic_dag/fig_6_4_17.jpg",
+    "combinational": false,
+    "sim_ok": false,
+    "sim_reason": "sequential_unsupported",
+    "sim_rows": 0,
+    "sim_samples": [],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": false,
+    "self_grade": "SELF_FAIL",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": false,
+        "detail": "sequential_unsupported"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=6"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=18 ir_gates=18"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=17829"
+      }
+    ],
+    "multi_gates": 6,
+    "fallback_splits": 0,
+    "notes": "式(6.4.11)(6.4.12)；含异步 R_D'；PLA 与或主结构（积项+或面+两DFF）"
+  },
+  {
+    "id": "L01",
+    "fig_id": "2.5.2",
+    "caption": "举重裁判逻辑图 Y=A·(B+C)",
+    "image": "../../textbook_figures/logic_dag/fig_2_5_2.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=2 ir_gates=2"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=3157"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "Y=A*(B+C)"
+  },
+  {
+    "id": "L02",
+    "fig_id": "2.5.4",
+    "caption": "例2.5.3的逻辑图",
+    "image": "../../textbook_figures/logic_dag/fig_2_5_4.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=2"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=7 ir_gates=7"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=6744"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 2,
+    "fallback_splits": 0,
+    "notes": "图2.5.4：Y=(A+B'C)'+A'BC'+C"
+  },
+  {
+    "id": "L03",
+    "fig_id": "2.5.5",
+    "caption": "例2.5.4的逻辑图",
+    "image": "../../textbook_figures/logic_dag/fig_2_5_5.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 4,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1
+        },
+        "outputs": {
+          "Y": 0
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=4"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=5 ir_gates=5"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=5035"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "图2.5.5：Y=((A+B)'+(A'+B')')'=A⊕B"
+  },
+  {
+    "id": "L04",
+    "fig_id": "2.8.2",
+    "caption": "根据式(2.8.2)得到的逻辑电路图",
+    "image": "../../textbook_figures/logic_dag/fig_2_8_2.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 16,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 0,
+          "Y2": 0,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 0,
+          "Y2": 0,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 0,
+          "Y2": 0,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 0,
+          "Y3": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=16"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=4"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=13 ir_gates=13"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=12483"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 4,
+    "fallback_splits": 0,
+    "notes": "式(2.8.2)：Y1=B+AC+A'C'D；Y2=A'D+BD'；Y3=A'CD+AB'C。图2.8.2 PLA总线布局"
+  },
+  {
+    "id": "L05",
+    "fig_id": "2.8.4",
+    "caption": "根据式(2.8.3)得到的逻辑电路图",
+    "image": "../../textbook_figures/logic_dag/fig_2_8_4.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 16,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 0,
+          "Y2": 0,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 0,
+          "Y2": 0,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 0,
+          "Y2": 0,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 0,
+          "Y3": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 0
+        },
+        "outputs": {
+          "Y1": 1,
+          "Y2": 1,
+          "Y3": 0
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=16"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=5"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=11 ir_gates=11"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=11259"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 5,
+    "fallback_splits": 0,
+    "notes": "式(2.8.3)：Y1=B+AB'C+A'C'D；Y2=A'C'D+A'CD+BD'；Y3=A'CD+AB'C；积项独立竖轨"
+  },
+  {
+    "id": "L06",
+    "fig_id": "2.9.2",
+    "caption": "按式(2.9.2)接成的逻辑电路",
+    "image": "../../textbook_figures/logic_dag/fig_2_9_2.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 32,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B'": 0,
+          "C'": 0,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B'": 0,
+          "C'": 1,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B'": 1,
+          "C'": 0,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B'": 1,
+          "C'": 1,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B'": 0,
+          "C'": 0,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B'": 0,
+          "C'": 1,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B'": 1,
+          "C'": 0,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B'": 1,
+          "C'": 1,
+          "A'": 0,
+          "B": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=32"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=7 ir_gates=7"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=7641"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "图2.9.2：七与非门；B'/C'/A' 为初级输入；G3/G4 双端短接作非"
+  },
+  {
+    "id": "L07",
+    "fig_id": "2.9.3",
+    "caption": "按式(2.9.3)接成的逻辑电路",
+    "image": "../../textbook_figures/logic_dag/fig_2_9_3.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "C'": 1
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "C'": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "C'": 1
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "C'": 1
+        },
+        "outputs": {
+          "Y": 0
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=2 ir_gates=2"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=3191"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "图2.9.3；输入 C' 不用 Cn"
+  },
+  {
+    "id": "L08",
+    "fig_id": "2.9.4",
+    "caption": "按式(2.9.5)接成的逻辑电路",
+    "image": "../../textbook_figures/logic_dag/fig_2_9_4.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 16,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "C": 0,
+          "B": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "C": 0,
+          "B": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "C": 1,
+          "B": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "C": 1,
+          "B": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "C": 0,
+          "B": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "C": 0,
+          "B": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "C": 1,
+          "B": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "C": 1,
+          "B": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=16"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=3 ir_gates=3"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=4306"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "图2.9.4 Y=((A·C)'·(B·C')')'"
+  },
+  {
+    "id": "L09",
+    "fig_id": "2.9.5",
+    "caption": "按式(2.9.6)接成的逻辑电路",
+    "image": "../../textbook_figures/logic_dag/fig_2_9_5.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 16,
+    "sim_samples": [
+      {
+        "inputs": {
+          "B": 0,
+          "C": 0,
+          "A": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "B": 0,
+          "C": 0,
+          "A": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "B": 0,
+          "C": 1,
+          "A": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "B": 0,
+          "C": 1,
+          "A": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "B": 1,
+          "C": 0,
+          "A": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "B": 1,
+          "C": 0,
+          "A": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      },
+      {
+        "inputs": {
+          "B": 1,
+          "C": 1,
+          "A": 0,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 0
+        }
+      },
+      {
+        "inputs": {
+          "B": 1,
+          "C": 1,
+          "A": 1,
+          "C'": 0
+        },
+        "outputs": {
+          "Y": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=16"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=3 ir_gates=3"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=4492"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": "图2.9.5；C' 不用 Cn"
+  },
+  {
+    "id": "L10",
+    "fig_id": "4.1.1",
+    "caption": "组合逻辑电路实例",
+    "image": "../../textbook_figures/logic_dag/fig_4_1_1.jpg",
+    "combinational": true,
+    "sim_ok": true,
+    "sim_reason": "ok",
+    "sim_rows": 8,
+    "sim_samples": [
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "CI": 0
+        },
+        "outputs": {
+          "S": 0,
+          "CO": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 0,
+          "CI": 1
+        },
+        "outputs": {
+          "S": 1,
+          "CO": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "CI": 0
+        },
+        "outputs": {
+          "S": 1,
+          "CO": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 0,
+          "B": 1,
+          "CI": 1
+        },
+        "outputs": {
+          "S": 0,
+          "CO": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "CI": 0
+        },
+        "outputs": {
+          "S": 1,
+          "CO": 0
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 0,
+          "CI": 1
+        },
+        "outputs": {
+          "S": 0,
+          "CO": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "CI": 0
+        },
+        "outputs": {
+          "S": 0,
+          "CO": 1
+        }
+      },
+      {
+        "inputs": {
+          "A": 1,
+          "B": 1,
+          "CI": 1
+        },
+        "outputs": {
+          "S": 1,
+          "CO": 1
+        }
+      }
+    ],
+    "render_ok": true,
+    "render_error": null,
+    "self_ok": true,
+    "self_grade": "SELF_OK",
+    "self_checks": [
+      {
+        "id": "SIM",
+        "ok": true,
+        "detail": "rows=8"
+      },
+      {
+        "id": "SYMBOL_MULTI",
+        "ok": true,
+        "detail": "multi_gates=0"
+      },
+      {
+        "id": "CELL_COUNT",
+        "ok": true,
+        "detail": "cells=6 ir_gates=6"
+      },
+      {
+        "id": "RENDER_SVG",
+        "ok": true,
+        "detail": "bytes=6566"
+      },
+      {
+        "id": "EVAL_SMOKE",
+        "ok": true,
+        "detail": "ok"
+      }
+    ],
+    "multi_gates": 0,
+    "fallback_splits": 0,
+    "notes": ""
+  }
+]

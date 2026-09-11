@@ -1,0 +1,12 @@
+{
+  "图4.9.1(e)|images/7faf5abbffecefb6cad26b0f6365f87fe394adec4c2fb17214eba7810f00942d.jpg": "输出Y波形：在水平低电平基线上出现一个极窄正向尖峰脉冲，示意竞争冒险产生的正向毛刺。",
+  "图4.9.1(f)|images/710fb39fac1db1382fc9bb971653490c958ba21dc22f5ab34479b25fd1827b8f.jpg": "输出Y波形：在水平高电平线上出现一个极窄负向凹谷脉冲，示意竞争冒险产生的负向毛刺。",
+  "图4.9.2(a)|images/14b1da62cbf40d9b3379df5dabfb836e672b5a85e1465506b65b95edd3fe54a3.jpg": "2线-4线译码器：A、B经G4、G5得A'、B'；四与门G3–G0分别输出Y3=AB、Y2=A'B、Y1=AB'、Y0=A'B'。",
+  "图4.9.2(b)|images/9e82d1e13a1bf5273ebf120be226e28ffe75a9b78dfdcd08999f3469496424b8.jpg": "时序图：A下降与B上升同时翻转，A'/B'滞后；Y0(A'B')与Y3(AB)在过渡重叠处各出现窄尖峰；低电平处标VIL(max)。",
+  "图4.9.3(a)|images/6f2bf05621595542fd3147cf27e3e6d31894f3c8834cf340aebe00ad175fbfdb.jpg": "A分两路：上路经2m个非门仍为A，下路经2n+1个非门得A'，再经或门得Y=A+A'。",
+  "图4.9.3(b)|images/4f00407aef234a62627cbcd3d768d28744a69ac276b2cfb6d02181cacd164003.jpg": "A分两路：上路经2m个非门仍为A，下路经2n+1个非门得A'，再经与门得Y=A·A'。",
+  "图4.9.4(a)|images/4dde9a2f3e0c695ef1e2375bfd6bf4cf7a657f1a35ee290fac413a3ee08f76c4.jpg": "例电路：G1与门(AB)、G2非门(A得A')、G3与门(A'C)、G4或门合成Y=AB+A'C。",
+  "图4.9.4(b)|images/660def8afe40971e65d3f94c615fad386cde1a22d64c21b2130f2e9b6b0b16ac.jpg": "例电路：G1或门(A+B)、G2非门得B'、G3或门(B'+C)、G4与门得Y=(A+B)(B'+C)。",
+  "图4.9.5(a)|images/d52128b398843b84f3c9864b1007369b284f222c9c97bd3f7deb20e31a16a683.jpg": "带选通P的2–4译码：四路三输入与门输出Y3–Y0，各输出并联滤波电容Cf到地以抑制毛刺。",
+  "图4.9.5(b)|images/9f1081b426fa44f97dff47af931ae4449ad42f550a1af8cfcc3b13fc1b6b292b.jpg": "波形：A下降与B上升同时变，A'/B'滞后；选通P仅在延迟窗口内给出窄正脉冲，避开过渡竞争区。"
+}

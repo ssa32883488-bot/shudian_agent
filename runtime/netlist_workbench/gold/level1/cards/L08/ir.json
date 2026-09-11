@@ -1,0 +1,39 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "nand_aoi_2_9_4",
+  "inputs": [
+    "A",
+    "C",
+    "B",
+    "C'"
+  ],
+  "gates": {
+    "G1": {
+      "type": "NAND",
+      "inputs": [
+        "A",
+        "C"
+      ]
+    },
+    "G2": {
+      "type": "NAND",
+      "inputs": [
+        "B",
+        "C'"
+      ]
+    },
+    "Y": {
+      "type": "NAND",
+      "inputs": [
+        "G1",
+        "G2"
+      ]
+    }
+  },
+  "outputs": {
+    "Y": "Y"
+  },
+  "notes": "图2.9.4 Y=((A·C)'·(B·C')')'"
+}

@@ -1,0 +1,14 @@
+logic "ex_4_3_1_nand" style: iec
+input R, A, G
+output Z
+nR = NOT(R)
+nA = NOT(A)
+nG = NOT(G)
+n1 = NAND(R, A)
+n2 = NAND(A, G)
+n3 = NAND(R, G)
+n4a = NAND(nR, nA)
+n4 = NAND(n4a, nG)
+m1 = NAND(n1, n2)
+m2 = NAND(n3, n4)
+Z = NAND(m1, m2)

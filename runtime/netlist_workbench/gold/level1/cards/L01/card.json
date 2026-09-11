@@ -1,0 +1,19 @@
+{
+  "id": "L01",
+  "bucket": "basic_gates",
+  "fig_id": "2.5.2",
+  "caption": "举重裁判逻辑图 Y=A·(B+C)",
+  "image": "../../textbook_figures/logic_dag/fig_2_5_2.jpg",
+  "image_exists": true,
+  "tier_guess": "A",
+  "ir_schema": "logic_ir_v1",
+  "ir": "ir.json",
+  "dsl": null,
+  "render_engine": "netlistsvg",
+  "grade": "TEXTBOOK_OK",
+  "fail_reasons": [],
+  "reviewer": "hand_tbx_v1",
+  "reviewed_at": "2026-09-02T04:29:24.293Z",
+  "notes": "logic_ir_v1 → 仿真 → yosys JSON → netlistsvg 自动布线（主路径）",
+  "engine": "netlist_workbench_v2"
+}

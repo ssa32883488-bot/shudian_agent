@@ -1,0 +1,18 @@
+{
+  "图6.5.1|images/29036c4f8a025c32711aa28d0cfca343a491f2f785680ead98bdace9ac098c5e.jpg": "时序逻辑型PLA结构图：左侧可编程与阵列接A–D及CLK缓冲，右侧固定或阵列驱动六个JK触发器Q1–Q6及三态输出Y1–Y6；PR/OE'与控制位M经门控统一复位/使能。",
+  "图6.5.2|images/979279a687d7f1f72f644cedf948715f04ca9eec092ce72729b05267903e0013.jpg": "三状态Mealy型状态转换图：S0、S1、S2互连，边标AB/YZ；各态在00时自环输出00，S2在01、10时分别输出10、11并回S0。",
+  "图6.6.1|images/d39262de87544d7c3eda4247868baf3522681728fb3a75f3b33c2dca5ec1bf1b.jpg": "异步三位JK电路：FF1、FF2的J=K=1，CLK1驱动FF1，Q1'作FF2时钟、Q2作FF3时钟；Q1经两级反相器反馈至FF3的J端，用于说明竞争-冒险。",
+  "图6.6.2|images/c8f01a4903253743c916660983754e0636602f9b475ee1f65b3de68496cdd471.jpg": "图6.6.1状态转换图：主环000→110→011→101→001→111→010→100→000；虚线示101→000等竞争路径形成次级环。",
+  "图6.6.3(a)|images/65daf91fa22dc3cee03889428e54d4d9bbc4e866376300d7e935e3a8fc7da7f4.jpg": "长移位寄存器：D触发器FF1–FF24级联；主时钟CLK'经G1、G2分路得CLK1、CLK2分别驱动前后段，示意时钟树偏移。",
+  "图6.6.3(b)|images/f14a7dc34e9fe1d29ffff09abcd259eea92e6609f8808c5c172c12d904cca01b.jpg": "时钟偏移波形：CLK'下降沿后CLK1上升滞后tpd1，CLK2再相对CLK1滞后tpd2，反映级联缓冲延迟累积。",
+  "图6.6.4(a)|images/166616688cfdc623802b2ee2ccd62da99490cede524ba78aa6adcd6ddd87ac22.jpg": "防错移方法(a)：FF12的Q12'经反相器送FF13的D端；两触发器分受CLK1、CLK2，用反相延时抑制错移。",
+  "图6.6.4(b)|images/ccfc0363c122386959051c026f18635dfa426d327711397e74952fcff0fa3d6b.jpg": "防错移方法(b)：Q12直接接FF13的D，节点对地接电容C；分时钟CLK1/CLK2，用负载延时缓解偏移错移。",
+  "图P6.1_0|images/7c86340b1de2ccacf03df68a6aab7a31793009e606085fa1ef9aaebdd8fd471a.jpg": "习题P6.1电路：两只下降沿JK触发器共CLK；J1=Q2'、K1=1，J2=Q1、K2=1，输出Y取自Q2。",
+  "图P6.1_1|images/2a0978c34b05de3a0a361c7a8c14aa9ffda6bebdfd63c704fb15b9b689249c90.jpg": "教材「习题」栏目标题装饰条：浅灰阴影水平带内居中宋体「习题」二字，非电路图。",
+  "图P6.2|images/2a4b7940f08b615170632a8e884239e6d5675040fdca836f613f03a6ed3c4a87.jpg": "三只下降沿D触发器同步电路：Q1→D2，Q1Q2与门→D3，Q3反馈D1；Y由Q3与Q1'经与非门得到。",
+  "图P6.3|images/b087cbdf530f0217d4408734d025fb83e93e5b9e551a562a4cb7ee4231da8b74.jpg": "三只下降沿JK同步电路共CLK：级间反馈与与门驱动FF3的J；输出Y取自Q3。",
+  "图P6.4|images/e0dafdd0918cb3e31efd8fc3704add0d94811b3d7c758ca4f1e748e238cebd0b.jpg": "三只同步D触发器：D0由Q0–Q2经或非/异或组合逻辑产生；Y=Q0·Q1'·Q2'（三输入与门）。",
+  "图P6.5|images/5a7112eb20a61376ea9cdaa2ed8a4c2c3c39c93e5a4b39022edfefd0ed5bdbd7.jpg": "两只下降沿D触发器同步电路：输入A与CLK，Q/Q'经与门、与非门反馈至D端，输出Y。",
+  "图P6.6|images/9752f87c2bc463ca1e48d5486de06145ddcdc8fbd1a593b270184c28095a65a4.jpg": "两只下降沿JK同步电路：FF1的J=K=1，FF2的J、K由A⊕Q1控制；Y由A与Q1、Q2经与非网络组合输出。",
+  "图P6.7|images/d214c6201e840ced7867df7265e11d807bdf9503d581966106f91f40c0d28f4f.jpg": "四只下降沿JK同步计数结构：FF0的J=K=1，后级J/K受前级Q'及与/与非反馈；Y为四路Q'译码与门输出。"
+}

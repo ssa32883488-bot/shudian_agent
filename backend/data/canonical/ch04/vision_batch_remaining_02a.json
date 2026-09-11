@@ -1,0 +1,10 @@
+{
+  "图4.9.6_0|images/1ebf37dbf28bc6f0c171ae27a6e37a93ef84a7004fbd39242441d82ce8d113ba.jpg": "增加冗余项电路：G1=AB、G2非得A'、G3=A'C、虚线G5=BC，三路经G4或门得Y=AB+A'C+BC。",
+  "图4.9.6_1|images/82acfeeb191c923c7df368b779f16ee3f8ef99883414b0ffc563e74f431e4261.jpg": "图4.9.6配套残片：低对比度灰色横条与底部细线，画面模糊，无清晰门电路符号可读。",
+  "图P4.1_0|images/4ad6d532432392be3aa646846573bef9c0c9d5ab033fb924ccd718f58dbedf6b.jpg": "全与非门组合网：A、B先与非再反馈生成中间项，与C进入三输入与非，再经两级与非合成输出Y。",
+  "图P4.1_1|images/e598df5703c2e7a8c5291f992e324ccf8d77a23848b8aa9ad346c4c5552138d2.jpg": "章节装饰条：居中宋体「习题」二字，上下细弧线框，两端深灰晕染渐变。",
+  "图P4.2|images/04b29f093ed75058bb91b519793f5fdd7b8f524bfd8abee7f098dce01971082c.jpg": "四只OC与非门线与：输入A/B/A'/B'与S0–S3，输出并接经RL上拉至VCC得Y。",
+  "图P4.3|images/0b7338a70243d975b722a2d6f24d21bc75c709529a7eb4cd382c5a9d93175aac.jpg": "三输入双输出：Y2=AB+AC+BC（多数）；Y1由ABC与(A+B+C)·Y2'经或门合成。",
+  "图P4.4|images/cd897101a740bd97243d03c2cbd94ef10749b78562e3c33e98f596ec77be09c1.jpg": "CMOS传输门阵列TG1–TG8：A1–A4、COMP、Z控制，右侧四路与非加反相输出Y1–Y4。",
+  "图P4.6|images/5df1c650d98f1be8f52bae5ce0c5dc584bbf99a12e88571001b956108060b5ee.jpg": "液位水箱：侧壁传感器A/B/C自下而上；左右电机Ms、ML经管道向箱内注水。"
+}

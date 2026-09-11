@@ -1,0 +1,7 @@
+logic "nand_sr_latch" style: iec
+input SDn, RDn
+output Q, Qn
+G1 = NAND(SDn, G2)
+G2 = NAND(RDn, G1)
+Q <- G1
+Qn <- G2

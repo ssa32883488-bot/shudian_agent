@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Schematex 对照台</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">教材复原对照台</div>
+    <div class="hint">左脚本 → 中生成 · 右课本 · tbx=手控走线 · logic=Schematex</div>
+    <div class="actions">
+      <select id="card-pick" title="Level-1 卡片">
+        <option value="">选卡…</option>
+      </select>
+      <button type="button" id="btn-render">立即渲染</button>
+      <button type="button" id="btn-clear" class="ghost">清空</button>
+      <label class="live"><input type="checkbox" id="live" checked /> 实时</label>
+      <label class="live"><input type="checkbox" id="show-book" checked /> 课本对照</label>
+    </div>
+  </header>
+
+  <main class="split three" id="split">
+    <section class="pane left">
+      <div class="pane-hd">
+        <span>DSL / tbx 脚本</span>
+        <select id="snippet">
+          <option value="">插入示例…</option>
+          <option value="tbx_l01">tbx L01 裁判</option>
+          <option value="logic">logic 全加器</option>
+          <option value="timing">timing 波形</option>
+          <option value="state">state 状态图</option>
+        </select>
+      </div>
+      <textarea id="dsl" spellcheck="false" placeholder="tbx 或 Schematex DSL"></textarea>
+      <div id="status" class="status">就绪</div>
+    </section>
+
+    <section class="pane mid">
+      <div class="pane-hd"><span>生成预览</span><span id="meta" class="meta"></span></div>
+      <div id="preview" class="preview"></div>
+    </section>
+
+    <section class="pane right book" id="book-pane">
+      <div class="pane-hd"><span>课本原图</span><span id="book-meta" class="meta"></span></div>
+      <div id="book" class="preview book-view"><p class="placeholder">选卡或手动加载课本图</p></div>
+    </section>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<title>七段管 · 特性曲线 对照验收</title>
+<style>
+  :root {
+    --bg:#f3efe8; --card:#fffcf7; --ink:#1a1814; --muted:#6a645c;
+    --line:#d9d2c8; --ok:#1f6b3a; --fail:#9b2c2c;
+  }
+  body { margin:0; font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg); color:var(--ink); }
+  header.top { position:sticky; top:0; z-index:2; background:rgba(243,239,232,.96);
+    border-bottom:1px solid var(--line); padding:14px 18px; }
+  header.top h1 { margin:0; font-size:1.15rem; }
+  .sub { margin:4px 0 0; color:var(--muted); font-size:.9rem; }
+  .nav { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .nav a { font-size:.82rem; text-decoration:none; color:inherit; border:1px solid var(--line);
+    background:#fff; padding:2px 8px; border-radius:6px; }
+  main { max-width:1100px; margin:16px auto 48px; padding:0 12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px;
+    margin:14px 0; overflow:hidden; }
+  .card > header { padding:12px 16px; border-bottom:1px solid var(--line); }
+  .card h2 { margin:6px 0 4px; font-size:1rem; }
+  .meta { margin:0; font-size:.85rem; color:var(--muted); }
+  .note { margin:6px 0 0; font-size:.85rem; color:#0e7490; }
+  .badge { display:inline-block; font-size:.72rem; font-weight:700; padding:2px 8px;
+    border-radius:999px; color:#fff; }
+  .badge.ok { background:var(--ok); }
+  .badge.fail { background:var(--fail); }
+  .cols { display:grid; grid-template-columns:1fr 1fr; }
+  figure { margin:0; padding:12px; min-height:160px; }
+  figure:first-child { border-right:1px solid var(--line); }
+  figcaption { font-size:.75rem; color:var(--muted); text-transform:uppercase;
+    letter-spacing:.05em; margin-bottom:8px; }
+  img { max-width:100%; height:auto; display:block; background:#fff;
+    border:1px solid #eee; }
+  .na,.err { color:var(--muted); font-size:.9rem; padding:20px 8px; }
+  .err { color:var(--fail); }
+  @media (max-width:800px) { .cols { grid-template-columns:1fr; }
+    figure:first-child { border-right:0; border-bottom:1px solid var(--line); } }
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>七段数码管 · 特性曲线：课本 ↔ 工具生成</h1>
+  <p class="sub">成功 5/5 · 2026-09-02 13:37
+    · 七段：白底教材风 · 曲线：Matplotlib</p>
+  <div class="nav"><a href="#SG01">SG01</a><a href="#SG02">SG02</a><a href="#SG03">SG03</a><a href="#CV01">CV01</a><a href="#CV02">CV02</a></div>
+</header>
+<main>
+
+<article class="card" id="SG01">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>SG01 · 七段管外形 vs 数字5点亮</h2>
+    <p class="meta">课本：图 4.4.10 · BS201A 外形 · 工具：draw_seven_seg · Tier B / svg_seven_seg</p>
+    <p class='note'>左：段名/引脚外形图；右：共阴点亮示意（不同子类，对照用途）</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><img src="refs/d328a944f5f893136e96b63bf79d06848808ec6c9198d328faa312920ffc5524.jpg" alt="textbook"/></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/SG01.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="SG02">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>SG02 · 显示数字 0</h2>
+    <p class="meta">课本：（无单独扫描图） · 工具：draw_seven_seg · Tier B / svg_seven_seg</p>
+    <p class='note'>段 a~f 亮，g 灭</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><div class="na">（无课本扫描图）</div></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/SG02.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="SG03">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>SG03 · 显示数字 8</h2>
+    <p class="meta">课本：（全段亮） · 工具：draw_seven_seg · Tier B / svg_seven_seg</p>
+    <p class='note'>段 a~g 全亮</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><div class="na">（无课本扫描图）</div></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/SG03.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="CV01">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>CV01 · TTL 电压传输特性 VTC</h2>
+    <p class="meta">课本：图 3.4.10 · 工具：draw_char_curve · Tier B / matplotlib_vtc</p>
+    <p class='note'>Matplotlib 参数示意 · 非实测</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><img src="refs/6ad7b29a337ec116e907a871e90c3a276006cf8f4ae10d5d795cb070cfb219ca.jpg" alt="textbook"/></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/CV01.svg" alt="gen"/></figure>
+  </div>
+</article>
+<article class="card" id="CV02">
+  <header>
+    <span class="badge ok">OK</span>
+    <h2>CV02 · CMOS 反相器 VTC</h2>
+    <p class="meta">课本：图 7.4.7 · 工作点示意 · 工具：draw_char_curve · Tier B / matplotlib_vtc</p>
+    <p class='note'>Matplotlib 对称陡降模型</p>
+  </header>
+  <div class="cols">
+    <figure><figcaption>课本</figcaption><img src="refs/6ac86c2e734cc2a4bbfd2523f54456805cab19945fea4c3857a88fdde41bf6aa.jpg" alt="textbook"/></figure>
+    <figure><figcaption>工具生成</figcaption><img src="gen/CV02.svg" alt="gen"/></figure>
+  </div>
+</article>
+</main>
+</body>
+</html>

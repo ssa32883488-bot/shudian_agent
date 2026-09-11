@@ -1,0 +1,444 @@
+{
+  "creator": "netlist_workbench logic_ir_to_yosys",
+  "modules": {
+    "C10": {
+      "ports": {
+        "A0": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "A1": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "D0": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "D1": {
+          "direction": "input",
+          "bits": [
+            5
+          ]
+        },
+        "D2": {
+          "direction": "input",
+          "bits": [
+            6
+          ]
+        },
+        "D3": {
+          "direction": "input",
+          "bits": [
+            7
+          ]
+        },
+        "Sn": {
+          "direction": "input",
+          "bits": [
+            8
+          ]
+        },
+        "Y": {
+          "direction": "output",
+          "bits": [
+            23
+          ]
+        }
+      },
+      "cells": {
+        "c0": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "Y": [
+              9
+            ]
+          }
+        },
+        "c1": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "Y": [
+              10
+            ]
+          }
+        },
+        "c2": {
+          "type": "$_NOT_",
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              8
+            ],
+            "Y": [
+              11
+            ]
+          }
+        },
+        "c3": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "B": [
+              9
+            ],
+            "Y": [
+              12
+            ]
+          }
+        },
+        "c4": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              12
+            ],
+            "B": [
+              10
+            ],
+            "Y": [
+              13
+            ]
+          }
+        },
+        "c5": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              5
+            ],
+            "B": [
+              2
+            ],
+            "Y": [
+              14
+            ]
+          }
+        },
+        "c6": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              14
+            ],
+            "B": [
+              10
+            ],
+            "Y": [
+              15
+            ]
+          }
+        },
+        "c7": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              9
+            ],
+            "Y": [
+              16
+            ]
+          }
+        },
+        "c8": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              16
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              17
+            ]
+          }
+        },
+        "c9": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              7
+            ],
+            "B": [
+              2
+            ],
+            "Y": [
+              18
+            ]
+          }
+        },
+        "c10": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              18
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              19
+            ]
+          }
+        },
+        "c11": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              13
+            ],
+            "B": [
+              15
+            ],
+            "Y": [
+              20
+            ]
+          }
+        },
+        "c12": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              17
+            ],
+            "B": [
+              19
+            ],
+            "Y": [
+              21
+            ]
+          }
+        },
+        "c13": {
+          "type": "$_OR_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              20
+            ],
+            "B": [
+              21
+            ],
+            "Y": [
+              22
+            ]
+          }
+        },
+        "c14": {
+          "type": "$_AND_",
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              22
+            ],
+            "B": [
+              11
+            ],
+            "Y": [
+              23
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A0": {
+          "bits": [
+            2
+          ]
+        },
+        "A1": {
+          "bits": [
+            3
+          ]
+        },
+        "D0": {
+          "bits": [
+            4
+          ]
+        },
+        "D1": {
+          "bits": [
+            5
+          ]
+        },
+        "D2": {
+          "bits": [
+            6
+          ]
+        },
+        "D3": {
+          "bits": [
+            7
+          ]
+        },
+        "Sn": {
+          "bits": [
+            8
+          ]
+        },
+        "nA0": {
+          "bits": [
+            9
+          ]
+        },
+        "nA1": {
+          "bits": [
+            10
+          ]
+        },
+        "nSn": {
+          "bits": [
+            11
+          ]
+        },
+        "m0a": {
+          "bits": [
+            12
+          ]
+        },
+        "m0": {
+          "bits": [
+            13
+          ]
+        },
+        "m1a": {
+          "bits": [
+            14
+          ]
+        },
+        "m1": {
+          "bits": [
+            15
+          ]
+        },
+        "m2a": {
+          "bits": [
+            16
+          ]
+        },
+        "m2": {
+          "bits": [
+            17
+          ]
+        },
+        "m3a": {
+          "bits": [
+            18
+          ]
+        },
+        "m3": {
+          "bits": [
+            19
+          ]
+        },
+        "s01": {
+          "bits": [
+            20
+          ]
+        },
+        "s23": {
+          "bits": [
+            21
+          ]
+        },
+        "sum": {
+          "bits": [
+            22
+          ]
+        },
+        "Y": {
+          "bits": [
+            23
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": "第03章 门电路",
+  "sections": 105,
+  "blocks": 138,
+  "figures_textbook": 180,
+  "figures_keypoints": 45,
+  "exercises_merged": {
+    "matched": 27,
+    "missing_answer": [],
+    "extra_solutions": [],
+    "appendix_fallback": []
+  },
+  "chunks_total": 206,
+  "vision_updated": 232,
+  "orphan_figures": 0,
+  "orphan_figure_ids": [],
+  "chunks_by_type": {
+    "theory": 148,
+    "review": 24,
+    "example": 7,
+    "exercise_merged": 27
+  }
+}

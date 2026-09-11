@@ -1,0 +1,18 @@
+{
+  "schema_version": "logic_ir_v1",
+  "diagram_type": "logic",
+  "style": "ansi",
+  "title": "ex_2_5_3",
+  "inputs": ["A", "B", "C"],
+  "gates": {
+    "nA": { "type": "NOT", "inputs": ["A"] },
+    "nB": { "type": "NOT", "inputs": ["B"] },
+    "nC": { "type": "NOT", "inputs": ["C"] },
+    "and_abc": { "type": "AND", "inputs": ["B", "nA", "nC"] },
+    "and_bc": { "type": "AND", "inputs": ["C", "nB"] },
+    "nor1": { "type": "NOR", "inputs": ["A", "and_bc"] },
+    "or3": { "type": "OR", "inputs": ["and_abc", "nor1", "C"] }
+  },
+  "outputs": { "Y": "or3" },
+  "notes": "图2.5.4：Y=(A+B'C)'+A'BC'+C"
+}

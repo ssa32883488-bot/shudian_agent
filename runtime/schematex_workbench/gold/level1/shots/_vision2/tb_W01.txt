@@ -1,0 +1,21 @@
+﻿Based on the provided image, here are the signal names from top to bottom along with their approximate bit patterns:
+
+1.  **Signal A:**
+    *   **Pattern:** `0 0 0 0 1 1 1 1`
+    *   **Description:** This signal is LOW for the first four clock cycles and then HIGH for the next four.
+
+2.  **Signal B:**
+    *   **Pattern:** `0 0 1 1 0 0 1 1`
+    *   **Description:** This signal toggles every two clock cycles (00, 11, 00, 11).
+
+3.  **Signal C:**
+    *   **Pattern:** `0 1 0 1 0 1 0 1`
+    *   **Description:** This signal alternates between LOW and HIGH every single clock cycle.
+
+4.  **Signal Y:**
+    *   **Pattern:** `0 0 0 0 0 1 1 1`
+    *   **Description:** This signal is LOW for the first five clock cycles and then transitions to HIGH for the last three cycles.
+
+**Axes Note:**
+*   **Vertical Axis:** Represents the logical state (0 or 1, Low or High).
+*   **Horizontal Axis (t):** Represents time, divided into discrete intervals by the vertical dashed lines.

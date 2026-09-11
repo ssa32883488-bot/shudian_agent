@@ -1,0 +1,122 @@
+[
+  {
+    "key": "图6.3.25|images/693b32bb900c9f6324ec2b55ec10b080856dc6266fe725cbf74baace4989965d.jpg",
+    "figure_id": "图6.3.25",
+    "caption": "下降沿动作的异步二进制减法计数器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\693b32bb900c9f6324ec2b55ec10b080856dc6266fe725cbf74baace4989965d.jpg"
+  },
+  {
+    "key": "图6.3.26|images/2eb1f2f6b171059d0cdfc4b1a5609e8532f597656442fe7c4340bc8c2f3d13af.jpg",
+    "figure_id": "图6.3.26",
+    "caption": "图6.3.25电路的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\2eb1f2f6b171059d0cdfc4b1a5609e8532f597656442fe7c4340bc8c2f3d13af.jpg"
+  },
+  {
+    "key": "图6.3.27|images/6620cb99a68da7f1e41fdf77be86663b5a5ecb0326688b4eea3b67b42afb246f.jpg",
+    "figure_id": "图6.3.27",
+    "caption": "异步十进制加法计数器的典型电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\6620cb99a68da7f1e41fdf77be86663b5a5ecb0326688b4eea3b67b42afb246f.jpg"
+  },
+  {
+    "key": "图6.3.28|images/135b69d3c548b2c04ad5b3710c038a61d898a11316d8c88fb598b2237cedf376.jpg",
+    "figure_id": "图6.3.28",
+    "caption": "图 6.3.27 电路的时序图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\135b69d3c548b2c04ad5b3710c038a61d898a11316d8c88fb598b2237cedf376.jpg"
+  },
+  {
+    "key": "图6.3.29|images/4646b40117cac9ced193c8ad8692e1b65ac0af7e551277289bd89443b1a05556.jpg",
+    "figure_id": "图6.3.29",
+    "caption": "二-五-十进制异步计数器 74LS290",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\4646b40117cac9ced193c8ad8692e1b65ac0af7e551277289bd89443b1a05556.jpg"
+  },
+  {
+    "key": "图6.3.30(a)|images/7158009e7839e2be3f6d6f1108e633e7c1ea52a9d35e4a9104af6ce95d59bccc.jpg",
+    "figure_id": "图6.3.30(a)",
+    "caption": "获得任意进制计数器的两种方法（a）置零法 （b）置数法 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7158009e7839e2be3f6d6f1108e633e7c1ea52a9d35e4a9104af6ce95d59bccc.jpg"
+  },
+  {
+    "key": "图6.3.30(b)|images/dce5c2ce5092353128581ed4b247bd7d23349c0cab48c9d3e705e5fc242e3e77.jpg",
+    "figure_id": "图6.3.30(b)",
+    "caption": "获得任意进制计数器的两种方法（a）置零法 （b）置数法 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\dce5c2ce5092353128581ed4b247bd7d23349c0cab48c9d3e705e5fc242e3e77.jpg"
+  },
+  {
+    "key": "图6.3.31|images/a8399a58e2b22482dfccd3bd7b9842effa6790ad7ffe04c57998efa4e4f55e16.jpg",
+    "figure_id": "图6.3.31",
+    "caption": "用置零法将 74160 接成六进制计数器",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\a8399a58e2b22482dfccd3bd7b9842effa6790ad7ffe04c57998efa4e4f55e16.jpg"
+  },
+  {
+    "key": "图6.3.32|images/b4cf377d3bd80e620c420858f80480a6f4bee45ee611dea28210d15c1ec63ecb.jpg",
+    "figure_id": "图6.3.32",
+    "caption": "图 6.3.31 电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b4cf377d3bd80e620c420858f80480a6f4bee45ee611dea28210d15c1ec63ecb.jpg"
+  },
+  {
+    "key": "图6.3.33|images/7d4d57b84b890e3475aec831e9735f09d9f623bb59823cf1f2b0439e7b27ef1b.jpg",
+    "figure_id": "图6.3.33",
+    "caption": "图 6.3.31 电路的改进",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\7d4d57b84b890e3475aec831e9735f09d9f623bb59823cf1f2b0439e7b27ef1b.jpg"
+  },
+  {
+    "key": "图6.3.34(a)|images/8475defa2a014205f764931ac75919ada1b73f82eb9d94267ce7fe392c6afffe.jpg",
+    "figure_id": "图6.3.34(a)",
+    "caption": "用置数法将74160接成六进制计数器（a）置入0000（b）置入1001 子图(a)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\8475defa2a014205f764931ac75919ada1b73f82eb9d94267ce7fe392c6afffe.jpg"
+  },
+  {
+    "key": "图6.3.34(b)|images/0eb1997cbe0dbc2075f7037e9ad1cd08c28379ebc9851bf75cf2c081010fded4.jpg",
+    "figure_id": "图6.3.34(b)",
+    "caption": "用置数法将74160接成六进制计数器（a）置入0000（b）置入1001 子图(b)",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\0eb1997cbe0dbc2075f7037e9ad1cd08c28379ebc9851bf75cf2c081010fded4.jpg"
+  },
+  {
+    "key": "图6.3.35|images/db919e08e74219b962c6401a8e198dde1452c800a924aef2ed748fd966ed7c5a.jpg",
+    "figure_id": "图6.3.35",
+    "caption": "图6.3.34电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\db919e08e74219b962c6401a8e198dde1452c800a924aef2ed748fd966ed7c5a.jpg"
+  },
+  {
+    "key": "图6.3.36|images/1edf32209191346c36ccb29a17bd7639ef52a189bdce5f8d242d091e933838ed.jpg",
+    "figure_id": "图6.3.36",
+    "caption": "例6.3.3电路的并行进位方式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\1edf32209191346c36ccb29a17bd7639ef52a189bdce5f8d242d091e933838ed.jpg"
+  },
+  {
+    "key": "图6.3.37|images/5574b832216f04b764ac156b77b7fd387fd1d503803cfb85a16537e77cf0d70c.jpg",
+    "figure_id": "图6.3.37",
+    "caption": "例 6.3.3 电路的串行进位方式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\5574b832216f04b764ac156b77b7fd387fd1d503803cfb85a16537e77cf0d70c.jpg"
+  },
+  {
+    "key": "图6.3.38|images/3cc56049762dfddb81cadcb71ac36e13d5cd111dbd5639655cf5a5b9030cbd9f.jpg",
+    "figure_id": "图6.3.38",
+    "caption": "例6.3.4电路的整体置零方式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\3cc56049762dfddb81cadcb71ac36e13d5cd111dbd5639655cf5a5b9030cbd9f.jpg"
+  },
+  {
+    "key": "图6.3.39|images/539c3d367d5a34a7480f5ab6e00be4fe4fdc6e1b6cadb9674f20995d193761aa.jpg",
+    "figure_id": "图6.3.39",
+    "caption": "例6.3.4电路的整体置数方式",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\539c3d367d5a34a7480f5ab6e00be4fe4fdc6e1b6cadb9674f20995d193761aa.jpg"
+  },
+  {
+    "key": "图6.3.40|images/c77e32b6f593343f94aad5984da01e6182bff0f49129debeae4c64bd6073e223.jpg",
+    "figure_id": "图6.3.40",
+    "caption": "环形计数器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c77e32b6f593343f94aad5984da01e6182bff0f49129debeae4c64bd6073e223.jpg"
+  },
+  {
+    "key": "图6.3.41|images/c42bb8abc889b16b59cddfaa2ab86d8c31c6dcb17f0b0006eef9463a31e4e140.jpg",
+    "figure_id": "图6.3.41",
+    "caption": "图6.3.40电路的状态转换图",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\c42bb8abc889b16b59cddfaa2ab86d8c31c6dcb17f0b0006eef9463a31e4e140.jpg"
+  },
+  {
+    "key": "图6.3.42|images/b833261e187a6efdf6d27308f1e86bc20e4aba36610e0f2da9ee66489932f84d.jpg",
+    "figure_id": "图6.3.42",
+    "caption": "能自启动的环形计数器电路",
+    "path": "F:\\code\\揭榜挂帅-单学科教育智能体\\课本\\课本加习题册\\markdown_云端解析\\按章节拆分\\images\\b833261e187a6efdf6d27308f1e86bc20e4aba36610e0f2da9ee66489932f84d.jpg"
+  }
+]
