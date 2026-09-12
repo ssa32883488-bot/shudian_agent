@@ -74,5 +74,5 @@ fi
 
 echo ""
 echo "演示账号（seed 后）：管理员 13900000001 / 123456"
-echo "设计电路 MSI：可选挂载 Digital.jar，见 README.md"
+echo "设计电路 MSI：仓库已含 Digital.jar（vendor/）；自检 python -m scripts.check_draw_runtime"
 echo "绘图自检：docker compose -f docker-compose.slim.yml exec backend python -m scripts.check_draw_runtime"

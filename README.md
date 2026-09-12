@@ -27,7 +27,7 @@ chmod +x bootstrap_slim.sh && ./bootstrap_slim.sh
 ## 栈说明
 
 默认 slim 含：Nginx + FastAPI + **Postgres + Redis + MinIO**（不含 Neo4j）。  
-绘图：8 种图类；MSI 设计电路需自备 `Digital.jar`（见 `backend/app/tools/draw/digital_dig/vendor/README.md`）。
+绘图：8 种图类；MSI 设计电路默认使用仓库内 `backend/app/tools/draw/digital_dig/vendor/Digital.jar`（GPL-3.0，见该目录 README）。
 
 ## 文档
 

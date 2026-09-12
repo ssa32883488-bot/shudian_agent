@@ -1,7 +1,7 @@
 # 纯净上线范围（slim）
 
 > 目标：服务器只跑 `shudian_agent` 精简栈；本机研发杂项不进发布包。  
-> **绘图运行时**：与 `docs/定稿-绘图子系统.md` 对齐——`runtime/*_workbench` + Node/JRE 进镜像；`Digital.jar` 由部署方挂载或放入 `vendor/`（不强制打进 Git）。
+> **绘图运行时**：与 `docs/定稿-绘图子系统.md` 对齐——`runtime/*_workbench` + Node/JRE 进镜像；`Digital.jar` 默认在 `app/tools/draw/digital_dig/vendor/`（GPL-3.0 上游），亦可被 `DIGITAL_JAR` 覆盖。
 
 ## 保留（产品本体）
 
@@ -14,7 +14,7 @@ shudian_agent/
   backend/data/canonical/                   # 教材 canonical
   runtime/netlist_workbench/                # logic_dag（无 node_modules）
   runtime/schematex_workbench/              # wave / state（无 node_modules）
-  # Digital.jar → app/tools/draw/digital_dig/vendor/ 或 DIGITAL_JAR 挂载
+  # Digital.jar → 默认 vendor/Digital.jar（随仓）；可 DIGITAL_JAR 覆盖
   data/kg/path_graph.json（及 kg 目录）
   frontend/src/ + package.json …            # 镜像内 npm build，不必预置 dist
   docker/docker-compose.slim.yml
@@ -37,9 +37,9 @@ shudian_agent/
 | `backend/.venv/`、`frontend/node_modules/`、`runtime/**/node_modules/` | 本机/构建时安装 |
 | `docker-compose.yml` 全量栈 | 2G 机勿用；本机演示可留源码 |
 
-> 冒烟脚本 `smoke_all_draw_kinds.py` **可进镜像**（体积小），用于部署后验收；不必在启动 CMD 里强制全绿（缺 `Digital.jar` 时 MSI 会 FAIL）。
+> 冒烟脚本 `smoke_all_draw_kinds.py` **可进镜像**，用于部署后验收；仓库已含 `Digital.jar` 时 MSI 应可绿。
 
 ## 服务器形态
 
 Nginx:80 + FastAPI + SQLite；无 Postgres/Redis/Neo4j/MinIO。  
-出图：容器内 Node + OpenJDK17 + `runtime/` workbench；MSI 另挂 `Digital.jar`。
+出图：容器内 Node + OpenJDK17 + `runtime/` workbench；MSI 使用镜像内 `vendor/Digital.jar`。

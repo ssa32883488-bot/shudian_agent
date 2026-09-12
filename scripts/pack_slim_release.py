@@ -10,7 +10,10 @@ ROOT = Path(r"f:\code\揭榜挂帅-单学科教育智能体")
 SRC = ROOT / "shudian_agent"
 STAGING = Path(r"f:\code\_shudian_pack_staging")
 OUT = Path(os.environ.get("DEPLOY_TAR", r"f:\code\shudian_latest.tar.gz"))
-JAR_SRC = Path(r"f:\code\digital-circuit-poc\digital\Digital.jar")
+JAR_CANDIDATES = [
+    SRC / "backend" / "app" / "tools" / "draw" / "digital_dig" / "vendor" / "Digital.jar",
+    Path(r"f:\code\digital-circuit-poc\digital\Digital.jar"),
+]
 
 SKIP_DIR_NAMES = {
     ".venv",
@@ -76,10 +79,10 @@ def write_docker_env(dst_docker: Path, be: dict[str, str]) -> None:
         raise SystemExit("backend/.env 缺少 DEEPSEEK_KEY，无法部署")
     lines = [
         f"DEEPSEEK_KEY={key}",
-        f"MIMO_API_BASE={be.get('MIMO_API_BASE', 'https://api.deepseek.com/v1')}",
-        f"MIMO_MODEL={be.get('MIMO_MODEL', 'deepseek-chat')}",
-        f"MIMO_OCR_MODEL={be.get('MIMO_OCR_MODEL', be.get('MIMO_MODEL', 'deepseek-chat'))}",
-        "MIMO_MOCK=false",
+        f"DEEPSEEK_API_BASE={be.get('DEEPSEEK_API_BASE') or be.get('MIMO_API_BASE') or 'https://api.deepseek.com/v1'}",
+        f"DEEPSEEK_MODEL={be.get('DEEPSEEK_MODEL') or be.get('MIMO_MODEL') or 'deepseek-flash'}",
+        f"DEEPSEEK_OCR_MODEL={be.get('DEEPSEEK_OCR_MODEL') or be.get('MIMO_OCR_MODEL') or be.get('DEEPSEEK_MODEL') or be.get('MIMO_MODEL') or 'deepseek-flash'}",
+        "DEEPSEEK_MOCK=false",
         "MEDIA_BASE_URL=http://39.105.20.113/media",
         "AUTH_DISABLED=false",
         "AUTH_SALT=shudian-agent-slim-prod-salt",
@@ -128,11 +131,17 @@ def main() -> int:
 
     vendor = dst / "backend" / "app" / "tools" / "draw" / "digital_dig" / "vendor"
     vendor.mkdir(parents=True, exist_ok=True)
-    if JAR_SRC.is_file():
-        shutil.copy2(JAR_SRC, vendor / "Digital.jar")
-        print(f"bundled Digital.jar ({JAR_SRC.stat().st_size/1e6:.1f} MB)")
+    jar_dst = vendor / "Digital.jar"
+    if not jar_dst.is_file():
+        for cand in JAR_CANDIDATES:
+            if cand.is_file():
+                shutil.copy2(cand, jar_dst)
+                print(f"bundled Digital.jar from {cand} ({cand.stat().st_size/1e6:.1f} MB)")
+                break
+        else:
+            print("WARN: Digital.jar not found; MSI draw may fail")
     else:
-        print("WARN: Digital.jar not found; MSI draw may fail")
+        print(f"vendor Digital.jar already in pack ({jar_dst.stat().st_size/1e6:.1f} MB)")
 
     # enable jar volume in compose for clarity (jar already in image via COPY app)
     # no change needed — jar is inside app tree

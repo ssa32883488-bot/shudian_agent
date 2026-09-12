@@ -66,4 +66,4 @@ if ($ok) {
 
 Write-Host ""
 Write-Host "演示账号（seed 后）：管理员 13900000001 / 123456"
-Write-Host "设计电路 MSI：可选挂载 Digital.jar，见 README.md"
+Write-Host "设计电路 MSI：仓库已含 Digital.jar（vendor/）；自检 python -m scripts.check_draw_runtime"

@@ -30,10 +30,9 @@ backend/data/artifacts/
 reports/
 *.log
 
-# --- Digital jar（许可证/体积；部署方自备，见 vendor/README）---
-backend/app/tools/draw/digital_dig/vendor/*.jar
-!backend/app/tools/draw/digital_dig/vendor/README.md
-!backend/app/tools/draw/digital_dig/vendor/.gitkeep
+# --- Digital jar：默认随仓库提供（GPL-3.0 上游 hneemann/Digital）---
+# 若只需文档占位、不要二进制：可本地忽略，但勿改回全局忽略以免破坏一键部署
+# backend/app/tools/draw/digital_dig/vendor/*.jar
 
 # --- OS / IDE ---
 .DS_Store
