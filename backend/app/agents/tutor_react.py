@@ -478,6 +478,8 @@ def _answer_has_kind_image(answer: str, kind: str) -> bool:
         "truth": ("truth", "真值表"),
         "state": ("state", "状态"),
         "curve": ("char_curve", "curve", "vtc", "特性"),
+        "logic": ("logic", "gate", "xor", "wf_"),
+        "gate": ("logic", "gate", "xor", "wf_"),
     }.get(kind, (kind,))
     # 有工具图且 URL/alt 命中该种，或至少已有任意工具图且题面专指该种时由 ensure 负责
     return any(k.lower() in blob for k in keys)
@@ -661,6 +663,156 @@ def _ensure_char_curve_image(answer: str, question: str) -> tuple[str, Optional[
         return answer, None
 
 
+def _wants_logic_dag(question: str, answer: str = "") -> bool:
+    blob = f"{question or ''}\n{answer or ''}"
+    keys = (
+        "逻辑图",
+        "逻辑符号",
+        "符号图",
+        "门电路",
+        "门符号",
+        "与门",
+        "或门",
+        "与非",
+        "或非",
+        "异或门",
+        "非门",
+        "logic_dag",
+        'kind="logic',
+        "DRAW kind=\"logic",
+        "<<<DRAW",
+    )
+    # 「逻辑符号图」不含连续「逻辑图」子串，需单独覆盖
+    return any(k in blob for k in keys)
+
+
+def _ensure_logic_dag_image(answer: str, question: str) -> tuple[str, Optional[str]]:
+    """题面/解答需要门级逻辑图但未嵌入时，强制 draw_with_workflow(logic_dag)。"""
+    if _answer_has_kind_image(answer, "logic") or _answer_has_kind_image(answer, "gate"):
+        return answer, None
+    try:
+        from app.tools.draw_workflow import draw_with_workflow
+
+        brief = (
+            "根据题面与解答画出教材风格门级逻辑符号图（logic_ir_v1）。\n"
+            "优先识别文中『A、B经与门得Y1…』类步骤，生成对应门网表。\n\n"
+            f"【题面】\n{(question or '')[:1200]}\n\n"
+            f"【解答摘要】\n{(answer or '')[:1200]}"
+        )
+        res = draw_with_workflow(
+            diagram_kind="logic_dag",
+            brief=brief,
+            max_retries=3,
+        )
+        url = getattr(res, "artifact_url", None)
+        if not url and isinstance(getattr(res, "meta", None), dict):
+            url = res.meta.get("artifact_url") or res.meta.get("url")
+        if not url:
+            logger.warning(
+                "强制 logic_dag 未出图 ok=%s err=%s",
+                getattr(res, "ok", None),
+                getattr(res, "error", None),
+            )
+            return answer, None
+        return _insert_draw_slot_then_bind(
+            answer, kind="logic", alt="本题逻辑电路图", url=url
+        ), url
+    except Exception as exc:
+        logger.warning("强制 logic_dag 失败: %s", exc)
+        return answer, None
+
+
+_MARKER_KIND_TO_WORKFLOW: dict[str, str] = {
+    "logic": "logic_dag",
+    "gate": "logic_dag",
+    "circuit": "msi_design",
+    "kmap": "kmap",
+    "timing": "timing_wave",
+    "truth": "truth_table",
+    "state": "state_machine",
+    "seven": "seven_seg",
+    "curve": "char_curve",
+}
+
+
+def _fill_unfilled_draw_markers(
+    answer: str,
+    question: str,
+    generated: list[tuple[str, str]],
+    tool_trace: list[str],
+) -> tuple[str, list[tuple[str, str]], list[str]]:
+    """对仍未回填的 <<<DRAW>>> 按 kind 强制调工作流出图，再回填。
+
+    解决：模型写了占位却未成功调工具 / 工具失败后留下『配图未生成』。
+    """
+    from app.services.draw_blocks import list_draw_markers
+    from app.tools.draw_workflow import draw_with_workflow
+
+    text = answer or ""
+    gen = list(generated)
+    trace = list(tool_trace)
+    markers = list_draw_markers(text)
+    if not markers:
+        return text, gen, trace
+
+    for m in markers:
+        kind = m.get("kind") or "auto"
+        desc = (m.get("desc") or "本题配图").strip() or "本题配图"
+        raw = m.get("raw") or ""
+        if not raw or raw not in text:
+            continue
+        diagram_kind = _MARKER_KIND_TO_WORKFLOW.get(kind)
+        if not diagram_kind and kind == "auto":
+            # 从 desc 猜
+            dlow = desc.lower()
+            if any(x in desc for x in ("逻辑", "与门", "或门", "门电路", "符号图")):
+                diagram_kind = "logic_dag"
+            elif "卡诺" in desc or "kmap" in dlow:
+                diagram_kind = "kmap"
+            elif "波形" in desc or "时序" in desc:
+                diagram_kind = "timing_wave"
+            elif "真值" in desc:
+                diagram_kind = "truth_table"
+            elif "状态" in desc:
+                diagram_kind = "state_machine"
+            elif "七段" in desc:
+                diagram_kind = "seven_seg"
+            elif "特性" in desc or "VTC" in desc:
+                diagram_kind = "char_curve"
+            else:
+                diagram_kind = "logic_dag"
+        if not diagram_kind:
+            continue
+        try:
+            brief = (
+                f"{desc}\n\n【题面】\n{(question or '')[:800]}\n\n"
+                f"【上下文】\n{text[:900]}"
+            )
+            res = draw_with_workflow(
+                diagram_kind=diagram_kind,
+                brief=brief,
+                max_retries=3,
+            )
+            url = getattr(res, "artifact_url", None)
+            if not url and isinstance(getattr(res, "meta", None), dict):
+                url = res.meta.get("artifact_url") or res.meta.get("url")
+            if not url:
+                logger.warning(
+                    "占位回填失败 kind=%s ok=%s err=%s",
+                    diagram_kind,
+                    getattr(res, "ok", None),
+                    getattr(res, "error", None),
+                )
+                continue
+            md = f"![{desc}]({url})"
+            text = text.replace(raw, md, 1)
+            gen.append((desc, url))
+            trace.append(f"force_fill:{diagram_kind}")
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("占位回填异常 kind=%s: %s", diagram_kind, exc)
+    return text, gen, trace
+
+
 def _force_missing_drawings(
     answer: str, question: str, generated: list[tuple[str, str]], tool_trace: list[str]
 ) -> tuple[str, list[tuple[str, str]], list[str]]:
@@ -711,6 +863,13 @@ def _force_missing_drawings(
             _ensure_char_curve_image,
             "本题特性曲线",
             "force:char_curve",
+        ),
+        (
+            lambda q: _wants_logic_dag(q, text),
+            _has_img("logic", "gate", "wf_", "xor"),
+            _ensure_logic_dag_image,
+            "本题逻辑电路图",
+            "force:logic_dag",
         ),
     )
     for want_fn, already, ensure_fn, alt, tag in checks:
@@ -914,7 +1073,12 @@ def _finalize_from_messages(
         final_text, question, generated, tool_trace
     )
 
-    # 3) 再次绑定；未填占位改为缺图提示；改插错位 markdown
+    # 3) 仍有未填 DRAW 占位：按 kind 强制出图回填（彻底消灭「配图未生成」空壳）
+    final_text, generated, tool_trace = _fill_unfilled_draw_markers(
+        final_text, question, generated, tool_trace
+    )
+
+    # 4) 再次绑定；仍失败才改为缺图提示；改插错位 markdown
     final_text = _bind_draw_images(final_text, generated)
     final_text = strip_unfilled_draw_markers(final_text)
     final_text = _relocate_inline_draw_images(final_text)
@@ -1192,6 +1356,9 @@ async def stream_tutor_react(
     gen_pairs = re.findall(r"!\[([^\]]*)\]\(([^)]+)\)", ans0)
     ans0, gen_pairs, tr = _force_missing_drawings(
         ans0, question, [(a, u) for a, u in gen_pairs], list(result.get("tool_trace") or [])
+    )
+    ans0, gen_pairs, tr = _fill_unfilled_draw_markers(
+        ans0, question, gen_pairs, tr
     )
     result["tool_trace"] = tr
     ans = _collapse_repetitive_text(ans0)

@@ -135,8 +135,25 @@ def main() -> int:
     ):
         wb = _find_workbench(name)
         if wb:
-            _ok(f"{name} → {wb}  ({kinds})")
-            report["kinds"][kinds] = str(wb)
+            # 必须有 npm 依赖，否则 logic_dag / wave 渲染会挂
+            dep_ok = True
+            if name == "netlist_workbench":
+                dep = wb / "node_modules" / "netlistsvg" / "package.json"
+                if not dep.is_file():
+                    _fail(f"{name} 缺少 node_modules/netlistsvg（请在该目录执行 npm ci）")
+                    missing.append(f"{name}:npm")
+                    dep_ok = False
+            elif name == "schematex_workbench":
+                # schematex 至少应有 node_modules
+                if not (wb / "node_modules").is_dir():
+                    _fail(f"{name} 缺少 node_modules（请在该目录执行 npm ci）")
+                    missing.append(f"{name}:npm")
+                    dep_ok = False
+            if dep_ok:
+                _ok(f"{name} → {wb}  ({kinds})")
+                report["kinds"][kinds] = str(wb)
+            else:
+                report["kinds"][kinds] = "missing_npm"
         else:
             _fail(f"未找到 {name}（runtime/ 或 DRAW_RUNTIME_ROOT 或 _archive/）")
             missing.append(name)

@@ -65,13 +65,14 @@ _KIND_ALIASES: dict[str, str] = {
 
 DRAW_SYSTEM_RULES = """
 工具配图嵌入规则（必须遵守）：
-1. 绘图只用 draw_with_workflow；先出图再写解答。
+1. 绘图只用 draw_with_workflow；必须先成功调工具拿到图，再写解答。
 2. 在图应出现的正文位置写单行占位（勿堆文末、勿编造 URL）：
    <<<DRAW kind="logic_dag" desc="本题逻辑图">>>
 3. kind 与 diagram_kind 一致，八选一：logic_dag / timing_wave / state_machine /
    truth_table / kmap / seven_seg / char_curve / msi_design。
 4. 一张图一个 DRAW；多图多个占位，放在对应讲解步骤里。
-5. 系统会把 DRAW 换成真实图片；你只需定位置与 kind。
+5. 禁止在未调用 draw_with_workflow（或调用失败）时写入 DRAW 占位。
+6. 系统会把 DRAW 换成真实图片；你只需定位置与 kind。
 """.strip()
 
 _DRAW_HINTS = (
@@ -88,6 +89,9 @@ _DRAW_HINTS = (
     "状态图",
     "状态转换",
     "逻辑图",
+    "逻辑符号",
+    "逻辑符号图",
+    "符号图",
     "电路图",
     "卡诺图",
     "卡诺",
@@ -99,6 +103,11 @@ _DRAW_HINTS = (
     "传输特性",
     "VTC",
     "门符号",
+    "与门",
+    "或门",
+    "与非",
+    "或非",
+    "门电路",
 )
 
 

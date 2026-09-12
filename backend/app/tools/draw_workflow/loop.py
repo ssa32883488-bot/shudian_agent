@@ -13,6 +13,7 @@ from app.tools.draw_workflow.runners import dispatch_runner
 from app.tools.draw_workflow.verify import parse_script, verify_structure
 from app.tools.draw_workflow.truth_fallback import fallback_truth_table_script
 from app.tools.draw_workflow.wave_fallback import fallback_timing_wave_script
+from app.tools.draw_workflow.logic_fallback import fallback_logic_dag_script
 from app.tools.gateway import ToolResult, wrap_err
 
 logger = logging.getLogger(__name__)
@@ -23,6 +24,8 @@ def _deterministic_fallback(kind: str, brief: str, slots: dict[str, Any]) -> Opt
         return fallback_timing_wave_script(brief=brief, slots=slots)
     if kind == "truth_table":
         return fallback_truth_table_script(brief=brief, slots=slots)
+    if kind == "logic_dag":
+        return fallback_logic_dag_script(brief=brief, slots=slots)
     return None
 
 
