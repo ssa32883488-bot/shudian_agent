@@ -5,13 +5,14 @@
  * - 任务约定请求：{ text, image, student_id }
  * - 当前后端 Schema：{ text, image_base64, student_id }
  * - 任务约定响应：{ source: answer_bank|ai_solve, answer, images, note }
- * - 当前后端响应：{ trust_level: authoritative|ai_reference, trust_label, answer, analysis, hit, ... }
+ * - 当前后端响应：{ trust_level: authoritative|ai_reference, trust_label, answer, analysis, hit, provenance, ... }
  *
  * 本文件把「发请求 / 收响应」都归一到前端类型，后端字段变更时优先改这里。
  */
 
 import type {
   NormalizedSolveResult,
+  ProvenanceInfo,
   SolveRequestPayload,
   TrustSource,
 } from '@/types/solve'
@@ -92,6 +93,8 @@ export function normalizeSolveResponse(raw: unknown): NormalizedSolveResult {
       ? (kgRaw as NormalizedSolveResult['kgContext'])
       : null
 
+  const provenance = coerceProvenance(data.provenance)
+
   return {
     source,
     answer: appendProvenanceMarkdown(buildAnswerMarkdown(data, source), {
@@ -99,14 +102,22 @@ export function normalizeSolveResponse(raw: unknown): NormalizedSolveResult {
       hit,
       kg: kgContext,
       hitQuestionId: data.hit_question_id,
+      hitScore: data.hit_score,
+      provenance,
     }),
     images,
     note,
     trustLabel,
     hit,
     kgContext,
+    provenance,
     raw,
   }
+}
+
+function coerceProvenance(raw: unknown): ProvenanceInfo | null {
+  if (!raw || typeof raw !== 'object') return null
+  return raw as ProvenanceInfo
 }
 
 function resolveTrustSource(data: Record<string, unknown>): TrustSource {
@@ -186,10 +197,12 @@ type ProvenanceInput = {
   hit: boolean
   kg: NormalizedSolveResult['kgContext'] | null | undefined
   hitQuestionId?: unknown
+  hitScore?: unknown
+  provenance?: ProvenanceInfo | null
 }
 
 /**
- * 气泡底部只挂「溯源」，不展示学习/思考逻辑链。
+ * 气泡底部只挂「溯源」，把结论怎么来的写清楚。
  */
 function appendProvenanceMarkdown(answer: string, info: ProvenanceInput): string {
   // 寒暄/能力介绍不挂溯源
@@ -198,33 +211,77 @@ function appendProvenanceMarkdown(answer: string, info: ProvenanceInput): string
     return answer
   }
 
+  const p = info.provenance
   const lines: string[] = ['### 溯源']
-  if (info.source === 'answer_bank' || info.hit) {
+
+  // 1) 结论来源（总述）
+  if (p?.summary) {
+    lines.push(`- **结论来源**：${p.summary}`)
+  } else if (info.source === 'answer_bank' || info.hit) {
     const qid =
       typeof info.hitQuestionId === 'number' || typeof info.hitQuestionId === 'string'
-        ? `（题库 #${info.hitQuestionId}）`
+        ? `#${info.hitQuestionId}`
         : ''
-    lines.push(`- **来源**：正式题库${qid}`)
+    const score =
+      typeof info.hitScore === 'number' ? `，相似度 ${info.hitScore.toFixed(3)}` : ''
+    lines.push(`- **结论来源**：正式题库命中原题${qid}${score}`)
   } else {
-    lines.push('- **来源**：AI 现解（仅供参考）')
+    lines.push('- **结论来源**：AI 现解（仅供参考，未作为权威答案）')
   }
 
-  const kg = info.kg
-  const keywords = kg?.keywords || []
-  const problems = (kg?.related_problems || [])
-    .map((p) => p.problem_id)
-    .filter(Boolean)
+  // 2) 题库
+  if (p?.bank) {
+    const b = p.bank
+    const score =
+      typeof b.score === 'number' ? `，相似度 ${b.score.toFixed(3)}` : ''
+    const reason = b.reason ? `；${b.reason}` : ''
+    lines.push(`- **题库**：命中原题 #${b.id ?? '?'}${score}${reason}`)
+    if (Array.isArray(b.tags) && b.tags.length) {
+      lines.push(`- **题库标签**：${b.tags.slice(0, 6).join('、')}`)
+    }
+  } else if (p?.bank_checked) {
+    lines.push('- **题库**：已检索，未命中原题（未采用题库答案）')
+  } else if (info.source === 'ai_solve' && !info.hit) {
+    lines.push('- **题库**：本题未走题库命中路径（或非解题意图）')
+  }
 
-  if (keywords.length) {
-    lines.push(`- **知识点**：${keywords.slice(0, 8).join('、')}`)
+  // 3) 知识图谱
+  const kg = p?.knowledge_graph
+  const keywords = kg?.keywords?.length ? kg.keywords : info.kg?.keywords || []
+  const chapters =
+    kg?.chapters?.length
+      ? kg.chapters
+      : (info.kg?.chapters || []).filter(Boolean)
+  const problems = kg?.related_problems?.length
+    ? kg.related_problems
+    : (info.kg?.related_problems || []).map((x) => x.problem_id).filter(Boolean)
+
+  if (keywords.length || chapters.length) {
+    const bits: string[] = []
+    if (keywords.length) bits.push(`考点 ${keywords.slice(0, 8).join('、')}`)
+    if (chapters.length) bits.push(`章节 ${chapters.slice(0, 6).join('、')}`)
+    lines.push(`- **知识图谱**：已锚定（${bits.join('；')}）`)
   }
   if (problems.length) {
-    lines.push(`- **相关题**：${problems.slice(0, 8).join('、')}`)
+    lines.push(`- **相关习题**：${problems.slice(0, 8).join('、')}`)
   }
 
-  // 只有「来源」且无其它线索时，寒暄类已 return；解题类仍展示来源
-  if (lines.length <= 2 && !keywords.length && !problems.length && info.source === 'ai_solve') {
-    // AI 现解且无图谱线索：仍保留一行来源溯源
+  // 4) 教材知识库
+  if (p?.textbook) {
+    const ch = (p.textbook.chapters || []).filter(Boolean)
+    if (ch.length) {
+      lines.push(`- **教材知识库**：已检索，参考 ${ch.slice(0, 6).join('、')}`)
+    } else if ((p.textbook.hit_count || 0) > 0 || (p.tools || []).includes('教材知识库检索')) {
+      lines.push('- **教材知识库**：已检索并参考摘录')
+    } else {
+      lines.push('- **教材知识库**：已调用检索')
+    }
+  }
+
+  // 5) 本轮调用的工具
+  const allTools = p?.tools || []
+  if (allTools.length) {
+    lines.push(`- **本轮调用**：${allTools.join('、')}`)
   }
 
   return `${answer}\n\n${lines.join('\n')}`

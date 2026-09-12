@@ -80,6 +80,19 @@ if grep -q '^AUTH_DISABLED=' .env; then
 else
   echo 'AUTH_DISABLED=false' >> .env
 fi
+# 强制 DeepSeek 模型配置
+upsert_env() {
+  local k="$1" v="$2"
+  if grep -q "^${k}=" .env; then
+    sed -i "s|^${k}=.*|${k}=${v}|" .env
+  else
+    echo "${k}=${v}" >> .env
+  fi
+}
+upsert_env DEEPSEEK_API_BASE 'https://api.deepseek.com/v1'
+upsert_env DEEPSEEK_MODEL 'deepseek-flash'
+upsert_env DEEPSEEK_OCR_MODEL 'deepseek-flash'
+upsert_env DEEPSEEK_MOCK 'false'
 
 echo "== compose up =="
 export DOCKER_BUILDKIT=1

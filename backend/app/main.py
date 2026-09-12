@@ -67,7 +67,7 @@ async def lifespan(_app: FastAPI):
         ri = redis_info()
         mi = minio_info()
         logger.info(
-            "服务就绪: embedding=%s rerank=%s mimo_mock=%s checkpointer=%s "
+            "服务就绪: embedding=%s rerank=%s deepseek_mock=%s checkpointer=%s "
             "auth_disabled=%s redis=%s minio=%s",
             emb.mode,
             rerank.mode,
@@ -116,7 +116,8 @@ def create_app() -> FastAPI:
         return {
             "ok": True,
             "version": __version__,
-            "mimo_mock": s.mimo_mock,
+            "deepseek_mock": s.deepseek_mock,
+            "deepseek_model": s.deepseek_model,
             "reflow_mode": s.reflow_mode,
             "database": db_kind,
             "redis": redis_info(),

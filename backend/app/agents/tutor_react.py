@@ -826,6 +826,7 @@ def _finalize_from_messages(
     generated: list[tuple[str, str]] = []
     related: list[str] = []
     tool_trace: list[str] = []
+    textbook_hits: list[dict[str, Any]] = []
     seen_gen: set[str] = set()
     seen_rel: set[str] = set()
 
@@ -852,9 +853,20 @@ def _finalize_from_messages(
                     if p:
                         _add_related(p)
                 for u in data.get("hits") or []:
+                    if not isinstance(u, dict):
+                        continue
                     for mu in u.get("media_urls") or []:
                         if mu:
                             _add_related(mu)
+                    if tname == "retrieve_multi_rerank" or u.get("chapter"):
+                        textbook_hits.append(
+                            {
+                                "chapter": u.get("chapter"),
+                                "score": u.get("score"),
+                                "source": u.get("source"),
+                                "preview": str(u.get("text") or "")[:120],
+                            }
+                        )
             except Exception:
                 pass
 
@@ -928,6 +940,7 @@ def _finalize_from_messages(
         "analysis": analysis,
         "images": gallery,
         "tool_trace": tool_trace,
+        "textbook_hits": textbook_hits[:8],
         "mode": mode,
     }
 
@@ -936,12 +949,12 @@ def _build_agent(*, db: Optional[Session], user_id: Optional[int] = None):
     settings = get_settings()
     set_tool_db(db, user_id=user_id)
     tools = build_tutor_tools()
-    use_mock = bool(settings.mimo_mock or not settings.mimo_api_key)
+    use_mock = bool(settings.deepseek_mock or not settings.deepseek_key)
     llm = build_chat_model(
         mock=use_mock,
-        api_key=settings.mimo_api_key or "mock",
-        base_url=settings.mimo_api_base,
-        model=settings.mimo_model,
+        api_key=settings.deepseek_key or "mock",
+        base_url=settings.deepseek_api_base,
+        model=settings.deepseek_model,
     )
     if hasattr(llm, "bind_tools") and use_mock:
         llm = llm.bind_tools(tools)
@@ -1019,7 +1032,7 @@ async def stream_tutor_react(
     logger.info(
         "tutor_react stream start mock=%s model=%s recursion_limit=%s",
         use_mock,
-        settings.mimo_model,
+        settings.deepseek_model,
         recursion_limit,
     )
     yield {"type": "status", "message": "正在分析题目（ReAct）…"}

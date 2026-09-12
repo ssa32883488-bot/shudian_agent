@@ -24,6 +24,8 @@ router = APIRouter(prefix="/api/student", tags=["学生·解题"])
 
 
 def _state_to_response(state: dict[str, Any]) -> SolveResponse:
+    from app.services.provenance import build_solve_provenance
+
     return SolveResponse(
         trust_level=state.get("trust_level") or "ai_reference",
         trust_label=state.get("trust_label")
@@ -42,6 +44,7 @@ def _state_to_response(state: dict[str, Any]) -> SolveResponse:
         trace=list(state.get("trace") or []),
         kg_context=state.get("kg_context"),
         images=list(state.get("images") or []),
+        provenance=build_solve_provenance(state),
     )
 
 

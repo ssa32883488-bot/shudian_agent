@@ -64,7 +64,7 @@ function clearKey() {
       </label>
       <label>
         Model
-        <input v-model="model" type="text" placeholder="deepseek-chat" />
+        <input v-model="model" type="text" placeholder="deepseek-flash" />
       </label>
       <label class="row">
         <input v-model="persist" type="checkbox" />

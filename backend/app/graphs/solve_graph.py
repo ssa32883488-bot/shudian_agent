@@ -53,6 +53,7 @@ class SolveState(TypedDict, total=False):
     reflowed: bool
     reflow_id: Optional[int]
     tool_trace: list[str]
+    textbook_hits: list[dict[str, Any]]
     bank_prefetch_note: str
     trace: list[str]
 
@@ -270,6 +271,10 @@ async def node_ai_solve(state: SolveState) -> dict[str, Any]:
     images = list(result.get("images") or [])
     tool_trace = list(state.get("tool_trace") or [])
     tool_trace.extend(str(t) for t in (result.get("tool_trace") or []))
+    textbook_hits = list(state.get("textbook_hits") or [])
+    textbook_hits.extend(
+        h for h in (result.get("textbook_hits") or []) if isinstance(h, dict)
+    )
     return {
         "trust_level": "ai_reference",
         "trust_label": "AI解答，仅供参考·不一定准确",
@@ -279,6 +284,7 @@ async def node_ai_solve(state: SolveState) -> dict[str, Any]:
         "analysis": analysis.strip(),
         "images": images,
         "tool_trace": tool_trace,
+        "textbook_hits": textbook_hits[:8],
         "trace": _trace(state, f"ReAct 完成 tools={len(tool_trace)}"),
     }
 
@@ -596,6 +602,10 @@ async def run_solve_stream(
         answer = scope_notice + answer
     tool_trace = list(state.get("tool_trace") or [])
     tool_trace.extend(str(t) for t in (react_result.get("tool_trace") or []))
+    textbook_hits = list(state.get("textbook_hits") or [])
+    textbook_hits.extend(
+        h for h in (react_result.get("textbook_hits") or []) if isinstance(h, dict)
+    )
     state.update(
         {
             "trust_level": "ai_reference",
@@ -606,6 +616,7 @@ async def run_solve_stream(
             "analysis": analysis.strip(),
             "images": list(react_result.get("images") or []),
             "tool_trace": tool_trace,
+            "textbook_hits": textbook_hits[:8],
             "trace": _trace(state, "ReAct 完成"),
         }
     )

@@ -222,8 +222,10 @@ cp .env.slim .env   # 若尚未有 .env
 | 变量 | 精简部署建议 |
 |------|----------------|
 | `DATABASE_URL` | `sqlite:///./data/shudian_agent.db` |
-| `MIMO_MOCK` | `false` |
+| `DEEPSEEK_MOCK` | `false` |
 | `DEEPSEEK_KEY` | 真实 Key |
+| `DEEPSEEK_MODEL` | `deepseek-flash` |
+| `DEEPSEEK_OCR_MODEL` | `deepseek-flash` |
 | `BGE_USE_REAL_MODEL` | `false`（省内存） |
 | `NEO4J_ENABLED` | `false` |
 | `AUTH_DISABLED` | `false`（强制登录） |

@@ -40,10 +40,40 @@ export interface NormalizedSolveResult {
   kgContext?: {
     keywords?: string[]
     learning_chain?: string[]
-    related_problems?: Array<{ problem_id: string }>
+    chapters?: string[]
+    related_problems?: Array<{ problem_id: string; chapter_id?: string }>
   } | null
+  /** 后端溯源结构（题库/图谱/教材/工具） */
+  provenance?: ProvenanceInfo | null
   /** 原始响应用于调试 */
   raw?: unknown
+}
+
+/** 结论从哪来（与后端 provenance 对齐） */
+export interface ProvenanceInfo {
+  origin?: 'question_bank' | 'ai_solve' | 'system' | string
+  summary?: string
+  intent?: string | null
+  bank_checked?: boolean
+  bank?: {
+    id?: number | string | null
+    score?: number | null
+    reason?: string
+    label?: string
+    tags?: string[]
+  } | null
+  knowledge_graph?: {
+    keywords?: string[]
+    chapters?: string[]
+    related_problems?: string[]
+    learning_chain?: string[]
+    source?: string
+  } | null
+  textbook?: {
+    chapters?: string[]
+    hit_count?: number
+  } | null
+  tools?: string[]
 }
 
 /** 对话消息 */

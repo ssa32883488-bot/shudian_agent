@@ -668,6 +668,55 @@ def knowledge_network(
                 chain.append(n)
 
     prompt_block = _format_kg_prompt(keywords, chain, related_problems)
+
+    # 考点对应章节（供溯源展示）
+    concept_meta = {
+        str(c.get("name") or ""): c
+        for c in ((_load_full_graph().get("nodes") or {}).get("Concept") or [])
+        if c.get("name")
+    }
+    chapters: list[str] = []
+    seen_ch: set[str] = set()
+
+    def _fmt_chapter(meta: dict[str, Any]) -> str:
+        ch = str(meta.get("chapter") or "").strip()
+        if ch:
+            return ch
+        num = meta.get("primary_chapter_num")
+        if num:
+            try:
+                return f"第{int(num)}章"
+            except (TypeError, ValueError):
+                pass
+        for raw in meta.get("chapter_ids") or []:
+            s = str(raw).strip()
+            if not s:
+                continue
+            if s.isdigit():
+                return f"第{s}章"
+            m = re.match(r"^ch0*(\d+)$", s, re.I)
+            if m:
+                return f"第{int(m.group(1))}章"
+            return s
+        return ""
+
+    for name in keywords:
+        ch = _fmt_chapter(concept_meta.get(name) or {})
+        if ch and ch not in seen_ch:
+            seen_ch.add(ch)
+            chapters.append(ch)
+    for p in related_problems:
+        ch = str(p.get("chapter_id") or "").strip()
+        if ch:
+            m = re.match(r"^ch0*(\d+)$", ch, re.I)
+            if m:
+                ch = f"第{int(m.group(1))}章"
+            elif ch.isdigit():
+                ch = f"第{ch}章"
+        if ch and ch not in seen_ch:
+            seen_ch.add(ch)
+            chapters.append(ch)
+
     return {
         "keywords": keywords,
         "matched": matched,
@@ -675,6 +724,7 @@ def knowledge_network(
         "learning_chain": chain,
         "related_problems": related_problems[:15],
         "similar_problems": similar,
+        "chapters": chapters[:8],
         "prompt_block": prompt_block,
         "source": _load_full_graph().get("_source"),
     }

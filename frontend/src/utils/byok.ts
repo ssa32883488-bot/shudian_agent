@@ -41,7 +41,7 @@ export function setByokBaseUrl(url: string) {
 }
 
 export function getByokModel(): string {
-  return localStorage.getItem(MODEL_STORAGE) || 'deepseek-chat'
+  return localStorage.getItem(MODEL_STORAGE) || 'deepseek-flash'
 }
 
 export function setByokModel(model: string) {

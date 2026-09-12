@@ -98,12 +98,17 @@ services:
       HF_ENDPOINT: https://hf-mirror.com
       PIP_INDEX_URL: https://mirrors.aliyun.com/pypi/simple/
       PIP_TRUSTED_HOST: mirrors.aliyun.com
-      MIMO_API_BASE: ${MIMO_API_BASE:-https://api.deepseek.com/v1}
+      DEEPSEEK_API_BASE: ${DEEPSEEK_API_BASE:-https://api.deepseek.com/v1}
       DEEPSEEK_KEY: ${DEEPSEEK_KEY:?请在 docker/.env 填写自备的 DEEPSEEK_KEY（DeepSeek Key）}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-flash}
+      DEEPSEEK_OCR_MODEL: ${DEEPSEEK_OCR_MODEL:-deepseek-flash}
+      DEEPSEEK_MOCK: ${DEEPSEEK_MOCK:-false}
+      # 兼容旧封装读取
+      MIMO_API_BASE: ${DEEPSEEK_API_BASE:-https://api.deepseek.com/v1}
       MIMO_API_KEY: ${DEEPSEEK_KEY}
-      MIMO_MODEL: ${MIMO_MODEL:-deepseek-chat}
-      MIMO_OCR_MODEL: ${MIMO_OCR_MODEL:-deepseek-chat}
-      MIMO_MOCK: ${MIMO_MOCK:-false}
+      MIMO_MODEL: ${DEEPSEEK_MODEL:-deepseek-flash}
+      MIMO_OCR_MODEL: ${DEEPSEEK_OCR_MODEL:-deepseek-flash}
+      MIMO_MOCK: ${DEEPSEEK_MOCK:-false}
       BGE_USE_REAL_MODEL: ${BGE_USE_REAL_MODEL:-false}
       NEO4J_ENABLED: "false"
       AUTH_DISABLED: ${AUTH_DISABLED:-false}

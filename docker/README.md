@@ -69,6 +69,9 @@ docker compose -f docker-compose.slim.yml exec backend python -m scripts.check_d
 | 变量 | 说明 |
 |------|------|
 | `DEEPSEEK_KEY` | **必填** |
+| `DEEPSEEK_API_BASE` | 默认 `https://api.deepseek.com/v1` |
+| `DEEPSEEK_MODEL` / `OCR` | 默认 `deepseek-flash` |
+| `DEEPSEEK_MOCK` | 生产填 `false` |
 | `MEDIA_BASE_URL` | 默认 `/media` |
 | `POSTGRES_PASSWORD` | 默认 `postgres` |
 | `MINIO_ACCESS_KEY` / `SECRET` | 默认 minioadmin |

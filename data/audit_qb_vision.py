@@ -79,11 +79,21 @@ def strip_md_images(text: str) -> str:
 
 
 def build_client() -> tuple[OpenAI, str]:
-    base = os.getenv("MIMO_API_BASE", "https://api.deepseek.com/v1").rstrip("/")
-    key = os.getenv("DEEPSEEK_KEY", "")
-    model = os.getenv("MIMO_OCR_MODEL") or os.getenv("MIMO_MODEL") or "deepseek-v4-flash-vision-exp"
+    base = (
+        os.getenv("DEEPSEEK_API_BASE")
+        or os.getenv("MIMO_API_BASE")
+        or "https://api.deepseek.com/v1"
+    ).rstrip("/")
+    key = os.getenv("DEEPSEEK_KEY") or os.getenv("MIMO_API_KEY") or ""
+    model = (
+        os.getenv("DEEPSEEK_OCR_MODEL")
+        or os.getenv("DEEPSEEK_MODEL")
+        or os.getenv("MIMO_OCR_MODEL")
+        or os.getenv("MIMO_MODEL")
+        or "deepseek-flash"
+    )
     if not key:
-        raise SystemExit("DEEPSEEK_KEY 鏈厤缃?)
+        raise SystemExit("DEEPSEEK_KEY 未配置")
     return OpenAI(base_url=base, api_key=key), model
 
 

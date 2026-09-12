@@ -1,6 +1,6 @@
-"""MiMo 云端 API 封装（LLM 生成 + OCR 识图）。
+"""DeepSeek 云端 API 封装（LLM 生成 + OCR 识图）。
 
-P1 支持 mock 模式：无 API Key 或 MIMO_MOCK=true 时返回占位结果，便于本地跑通闭环。
+无 Key 或 DEEPSEEK_MOCK=true 时返回占位结果，便于本地跑通闭环。
 """
 
 from __future__ import annotations
@@ -22,9 +22,9 @@ class MiMoClient:
 
     def __init__(self, settings: Optional[Settings] = None) -> None:
         self.settings = settings or get_settings()
-        self.base = self.settings.mimo_api_base.rstrip("/")
-        self.api_key = self.settings.mimo_api_key
-        self.mock = self.settings.mimo_mock or not self.api_key
+        self.base = self.settings.deepseek_api_base.rstrip("/")
+        self.api_key = self.settings.deepseek_key
+        self.mock = self.settings.deepseek_mock or not self.api_key
 
     def _headers(self) -> dict[str, str]:
         return {
@@ -43,7 +43,7 @@ class MiMoClient:
             return self._mock_chat(messages)
 
         payload = {
-            "model": model or self.settings.mimo_model,
+            "model": model or self.settings.deepseek_model,
             "messages": messages,
             "temperature": temperature,
         }
@@ -91,7 +91,7 @@ class MiMoClient:
                 ],
             }
         ]
-        return await self.chat(messages, model=self.settings.mimo_ocr_model)
+        return await self.chat(messages, model=self.settings.deepseek_ocr_model)
 
     async def solve_problem(
         self, question: str, *, kg_context: str | None = None
@@ -322,7 +322,7 @@ class MiMoClient:
                 },
                 {"role": "user", "content": parts},
             ],
-            model=self.settings.mimo_ocr_model if images else None,
+            model=self.settings.deepseek_ocr_model if images else None,
             temperature=0.0,
         )
         return self._parse_grade_json(content)

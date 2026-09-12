@@ -307,11 +307,20 @@ def tool_retrieve_multi_rerank(question: str, top_k: int = 4) -> dict[str, Any]:
     seen_fig: set[str] = set()
     for h in raw[:top_k]:
         chunk = h.get("text") or h.get("content") or ""
+        meta = h.get("metadata") if isinstance(h.get("metadata"), dict) else {}
+        chapter = (
+            meta.get("chapter")
+            or meta.get("chapter_id")
+            or meta.get("section")
+            or ""
+        )
         hits.append(
             {
                 "text": chunk[:800],
                 "score": h.get("score"),
-                "source": h.get("source"),
+                "source": h.get("source") or meta.get("source"),
+                "chapter": str(chapter).strip() if chapter else None,
+                "metadata": meta,
             }
         )
         for fig in extract_figures_from_chunk(chunk, media_base=media_base):

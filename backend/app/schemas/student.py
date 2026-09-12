@@ -58,6 +58,10 @@ class SolveResponse(BaseModel):
         default_factory=list,
         description="工具产物图片 URL（如卡诺图 SVG）",
     )
+    provenance: Optional[dict[str, Any]] = Field(
+        None,
+        description="溯源：题库/知识图谱/教材/工具等结论来源说明",
+    )
 
 
 class SearchResponse(BaseModel):

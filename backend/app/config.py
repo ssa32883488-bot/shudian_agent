@@ -30,13 +30,18 @@ class Settings(BaseSettings):
     chroma_persist_dir: str = str(BACKEND_ROOT / "data" / "chroma")
     chroma_collection_questions: str = "question_bank"
 
-    # LLM（OpenAI 兼容；对外环境变量优先 DEEPSEEK_KEY，仍兼容旧名 MIMO_API_KEY）
-    mimo_api_base: str = "https://api.deepseek.com/v1"
+    # DeepSeek（OpenAI 兼容）。环境变量：DEEPSEEK_*；仍可读旧名 MIMO_*
+    deepseek_api_base: str = "https://api.deepseek.com/v1"
     deepseek_key: str = ""
-    mimo_api_key: str = ""  # 兼容旧环境变量；与 deepseek_key 合并
-    mimo_model: str = "deepseek-v4-flash-vision-exp"
-    mimo_ocr_model: str = "deepseek-v4-flash-vision-exp"
-    mimo_mock: bool = True
+    deepseek_model: str = "deepseek-flash"
+    deepseek_ocr_model: str = "deepseek-flash"
+    deepseek_mock: bool = True
+    # 旧名兼容（勿再写入 .env）
+    mimo_api_base: str = ""
+    mimo_api_key: str = ""
+    mimo_model: str = ""
+    mimo_ocr_model: str = ""
+    mimo_mock: bool | None = None
 
     # BGE（默认轻量；大内存可换 bge-m3 并把 bge_rerank_via_embed=False）
     bge_embedding_model: str = "BAAI/bge-small-zh-v1.5"
@@ -114,10 +119,33 @@ class Settings(BaseSettings):
     media_base_url: str = "http://127.0.0.1:9000/shudian-textbook"
 
     @model_validator(mode="after")
-    def _coalesce_deepseek_key(self) -> Self:
+    def _coalesce_deepseek_settings(self) -> Self:
+        import os
+
+        base = (self.deepseek_api_base or self.mimo_api_base or "https://api.deepseek.com/v1").strip().rstrip("/")
+        if base.endswith("api.deepseek.com"):
+            base = f"{base}/v1"
         key = (self.deepseek_key or self.mimo_api_key or "").strip()
+        model = (self.deepseek_model or self.mimo_model or "deepseek-flash").strip() or "deepseek-flash"
+        ocr = (self.deepseek_ocr_model or self.mimo_ocr_model or model).strip() or model
+        if "DEEPSEEK_MOCK" in os.environ:
+            mock = bool(self.deepseek_mock)
+        elif "MIMO_MOCK" in os.environ and self.mimo_mock is not None:
+            mock = bool(self.mimo_mock)
+        else:
+            mock = bool(self.deepseek_mock)
+
+        self.deepseek_api_base = base
         self.deepseek_key = key
+        self.deepseek_model = model
+        self.deepseek_ocr_model = ocr
+        self.deepseek_mock = mock
+        # 同步旧字段，避免遗漏引用
+        self.mimo_api_base = base
         self.mimo_api_key = key
+        self.mimo_model = model
+        self.mimo_ocr_model = ocr
+        self.mimo_mock = mock
         return self
 
 
